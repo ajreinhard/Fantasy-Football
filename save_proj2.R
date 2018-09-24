@@ -421,7 +421,10 @@ apply(full_proj[,z:(z+9)],1,sum)
 wins <- sapply(1:nrow(sched), function(y) {
 ifelse(proj_totals[,sched$Tm_Inx[y]] > proj_totals[,sched$Opp_Inx[y]],1,0)
 })
+
 sched$win_prob <- apply(wins,2,mean)
+sched$PF <- apply(proj_totals,2,mean)[sched$Tm_Inx]
+sched$PA <- apply(proj_totals,2,mean)[sched$Opp_Inx]
 
 point_totals <- sapply(seq(1,nrow(sched),13), function(z) {
 apply(proj_totals[,sched$Tm_Inx[z:(z+12)]],1,sum)
@@ -430,11 +433,6 @@ apply(proj_totals[,sched$Tm_Inx[z:(z+12)]],1,sum)
 win_totals <- sapply(seq(1,130,13), function(z) {
 apply(wins[,z:(z+12)],1,sum)
 })
-
-#apply(win_totals,2,mean)
-#table(win_totals[,6])
-#table(apply(win_totals, 1, sum))
-#apply(point_totals,2,mean)/13
 
 #playoffs
 dp_tm <- c(1,4,6,8,10)
@@ -478,6 +476,33 @@ semi_win <- table(factor(c(top_semi,low_semi),c(1:10)))
 champ_prob <- table(factor(champ,c(1:10)))
 po_proj <- cbind(playoff,semi_win,champ_prob)/sim_cnt
 
+po_1_avg <- apply(playoffs_1,2,mean)
+po_2_avg <- apply(playoffs_1,2,mean)
+
+win_proj <- round(apply(win_totals,2,mean),0)
+avg_pf <- apply(point_totals,2,mean)
+q_standings <- win_proj+avg_pf/10000
+
+hk_top <- hk_tm[order(q_standings[hk_tm])[5]]
+dp_top <- dp_tm[order(q_standings[dp_tm])[5]]
+
+q_wc_standings <- q_standings
+q_wc_standings[hk_top] <- NA
+q_wc_standings[dp_top] <- NA
+
+wc_1 <- order(-q_wc_standings)[1]
+wc_2 <- order(-q_wc_standings)[2]
+
+div_1 <- ifelse(q_standings[hk_top] > q_standings[dp_top], hk_top, dp_top)
+div_2 <- ifelse(q_standings[hk_top] > q_standings[dp_top], dp_top, hk_top)
+
+proj_WL <- paste0(win_proj,'-',13-win_proj)
+proj_PF <- round(sapply(1:length(owners), function(o) sum(sched$PF[which(sched$team==o)]))/13,1)
+proj_PA <- round(sapply(1:length(owners), function(o) sum(sched$PA[which(sched$team==o)]))/13,1)
+
+hk_order <- hk_tm[order(q_standings[hk_tm])]
+dp_order <- dp_tm[order(q_standings[dp_tm])]
+
 
 #dev.new(width=900, height=1600)
 png('my sample.png',width=900, height=1600)
@@ -488,10 +513,56 @@ layout(pic_mx)
 for (i in 1:10) {
 barplot(rev(c(sched$win_prob[which(sched$team==i)],po_proj[i,])),horiz=T,names.arg=rev(c(owners[sched$opp[which(sched$team==i)]],'playoffs','semi','champ')),las=1,xlim=c(0,1),main=owners[i],axes=F,border=NA,col='lightGreen',cex.main=2,cex.names=1.3)
 for (j in 16:1) text(.1,seq(18.7,0,-1.2)[j],paste0(round(c(sched$win_prob[which(sched$team==i)],po_proj[i,])[j]*100,1),'%'),cex=1.5)
+for (j in 13:1) text(.45,seq(18.7,0,-1.2)[j],paste0(round(c(sched$PF[which(sched$team==i)])[j],1)),cex=1.5,,adj = c(1,.5))
+for (j in 13:1) text(.5,seq(18.7,0,-1.2)[j],paste0(round(c(sched$PA[which(sched$team==i)])[j],1)),cex=1.5,adj = c(0,.5))
+for (j in 13:1) text(.48,seq(18.7,0,-1.2)[j],'-',cex=1.5,adj = c(.6,.4))
 arrows(0,0,1,0,len=0)
 arrows(0,3.7,1,3.7,len=0)
 }
+
+plot(0,type='n',axes=FALSE,ann=FALSE,xlim=c(0,20),ylim=c(0,13))
+text(c(rep(1,5),rep(2.5,5),rep(4,5),rep(6.5,5)),rep(1:5,4),c(owners[hk_order],proj_WL[hk_order],proj_PF[hk_order],proj_PA[hk_order]),cex=2)
+text(c(rep(1,5),rep(2.5,5),rep(4,5),rep(6.5,5)),rep(7:11,4),c(owners[dp_order],proj_WL[dp_order],proj_PF[dp_order],proj_PA[dp_order]),cex=2)
+
+arrows(10,10,15,10,len=0)
+arrows(10,7,15,7,len=0)
+arrows(10,4,15,4,len=0)
+arrows(10,1,15,1,len=0)
+arrows(15,8,20,8,len=0)
+arrows(15,3,20,3,len=0)
+arrows(14,5,20,5,len=0)
+
+arrows(15,10,15,7,len=0)
+arrows(15,4,15,1,len=0)
+arrows(20,8,20,3,len=0)
+
+text(11,11,owners[div_1])
+text(11,8,owners[wc_2])
+text(11,5,owners[wc_1])
+text(11,2,owners[div_2])
+
+q_top <- ifelse(po_1_avg[div_1] > po_1_avg[wc_2],div_1,wc_2)
+q_low <- ifelse(po_1_avg[div_2] > po_1_avg[wc_1],div_2,wc_1)
+q_champ <- ifelse(po_2_avg[q_top] > po_2_avg[q_low],q_top,q_low)
+
+text(16,9,owners[q_top])
+text(16,4,owners[q_low])
+text(15,6,owners[q_champ])
+
 dev.off()
+
+
+
+
+
+#apply(win_totals,2,mean)
+#table(win_totals[,6])
+#table(apply(win_totals, 1, sum))
+#apply(point_totals,2,mean)
+
+
+
+
 
 
 
