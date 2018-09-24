@@ -1,8 +1,10 @@
+library(png)
 library(XML)
 
 owners <- c('scott','cory','aj','devon','comp','chad','lucas','perry','matty','seth')
+setwd('C:/Users/Owner/Documents/GitHub/Fantasy-Football')
 ############## Get teams
-team_tree <- htmlTreeParse('C:/Users/A097092/Desktop/Extra/Fantasy FB research/Teams.txt', useInternal=T)
+team_tree <- htmlTreeParse('Teams.txt', useInternal=T)
 
 roster_page <- data.frame(matrix(c(rep(1,3),rep(2,3),rep(3,3),4,1:3,1:3,1:3,1),10,2))
 rownames(roster_page) <- owners
@@ -16,9 +18,7 @@ roster_list <- data.frame(do.call(rbind,rosters),stringsAsFactors=F)
 names(roster_list) <- c('Owner','Player')
 
 #######Get all postions
-setwd('C:/Users/A097092/Desktop/Extra/Fantasy FB research/Players/')
-
-all_files <- dir()
+all_files <- dir('Players',full=T)
 length(all_files)
 
 empty_chk <- sapply(all_files, function(x) {
@@ -79,9 +79,8 @@ rnk <- sapply(rnk, function(x) xmlValue(x, trim=T))
 
 wk <- xpathSApply(the_tree,'//div[1]/table[1]/tbody/tr/td[2]')
 wk <- sapply(wk, function(x) xmlValue(x, trim=T))
-#wk <- wk[-c(length(wk))]
 
-cbind(wk, substr(x,1,nchar(x)-4), range, pts_all, sacks, INT, fum, SAF, TD, rnk)
+cbind(wk, gsub('Players/','',substr(x,1,nchar(x)-4)), range, pts_all, sacks, INT, fum, SAF, TD, rnk)
 })
 
 DEF_All <- data.frame(do.call(rbind, DEF_Proj),stringsAsFactors=F)
@@ -149,9 +148,8 @@ rnk <- sapply(rnk, function(x) xmlValue(x, trim=T))
 
 wk <- xpathSApply(the_tree,'//div[1]/table[1]/tbody/tr/td[2]')
 wk <- sapply(wk, function(x) xmlValue(x, trim=T))
-#wk <- wk[-c(length(wk))]
 
-cbind(wk, substr(x,1,nchar(x)-4), range, FGM, FGA, XPM, XPA, proj, rnk)
+cbind(wk, gsub('Players/','',substr(x,1,nchar(x)-4)), range, FGM, FGA, XPM, XPA, proj, rnk)
 })
 
 KCK_All <- data.frame(do.call(rbind, KCK_Proj),stringsAsFactors=F)
@@ -192,9 +190,8 @@ pos <- substr(xmlValue(xpathSApply(the_tree, '//span[@class="player-info--basic_
 
 wk <- xpathSApply(the_tree,'//div[1]/table[1]/tbody/tr/td[2]')
 wk <- sapply(wk, function(x) xmlValue(x, trim=T))
-#wk <- wk[-c(length(wk))]
 
-cbind(wk, substr(x,1,nchar(x)-4), range, proj, rnk, pos)
+cbind(wk, gsub('Players/','',substr(x,1,nchar(x)-4)), range, proj, rnk, pos)
 })
 
 
@@ -216,14 +213,16 @@ MIA <- names(which(is.na(sapply(MIA, function(x) match(x,DEF_Final$Player)))))
 MIA <- names(which(is.na(sapply(MIA, function(x) match(x,KCK_Final$Player)))))
 MIA
 
-
 #######Get current scores
-setwd('C:/Users/A097092/Desktop/Extra/Fantasy FB research/Teams')
 pos_order <- c('QB-1','RB-1','RB-2','WR/RB','WR-1','WR-2','WR-3','TE-1','D/ST','K')
 options(warn=-1)
-done_scores <- lapply(dir(), function(x) {
+done_scores <- lapply(dir('Teams',full=T), function(x) {
 
+#x <- dir('Teams',full=T)[16]
 the_tree <- htmlTreeParse(x, useInternal=T)
+
+xpathSApply(the_tree,'//table[1]/tr/td[5]/text()')
+
 
 scores <- xpathSApply(the_tree,'//table[1]/tr/td[5]/span/text()')
 if (is.null(scores)) {
@@ -235,7 +234,7 @@ players <- xpathSApply(the_tree, '//table[1]/tr/td[@class="playertablePlayerName
 scores <- sapply(scores, function(x) xmlValue(x, trim=T))
 players <- sapply(players, function(x) xmlValue(x, trim=T))
 
-cbind(substr(x,1,nchar(x)-4), pos_order, players[1:10], as.numeric(scores[1:10]))
+cbind(gsub('Teams/','',substr(x,1,nchar(x)-4)), pos_order, players[1:10], as.numeric(scores[1:10]))
 })
 options(warn=0)
 #############replace invalid starters
@@ -253,9 +252,9 @@ repl_slot <- function(inx, player, slot, bye) {
 	repl_item
 }
 
-#done_scores[[find_OwWk('scott-6')]][,4] <- c(done_scores[[find_OwWk('scott-6')]][1:5,4],9,done_scores[[find_OwWk('scott-6')]][6:9,4])
-#done_scores[[find_OwWk('matty-11')]] <- repl_slot(find_OwWk('matty-11'),NA,7,TRUE)
-#done_scores[[find_OwWk('aj-8')]]
+done_scores[[find_OwWk('perry-2')]] <- repl_slot(find_OwWk('perry-2'),NA,9,FALSE)
+done_scores[[find_OwWk('perry-2')]][10,4] <- -1
+done_scores[[find_OwWk('perry-2')]][9,4] <- 0
 #############
 
 results <- data.frame(do.call(rbind, done_scores),stringsAsFactors=F)
@@ -293,61 +292,242 @@ as.numeric(rm_bye[order(as.numeric(names(rm_bye)))])
 KCK_Proj2 <- lapply(unique(KCK_Final$Player), function(x) KCK_Final[KCK_Final$Player==x,c('Week','Player','range','Full_Proj')])
 DEF_Proj2 <- lapply(unique(DEF_Final$Player), function(x) DEF_Final[DEF_Final$Player==x,c('Week','Player','range','Full_Proj')])
 
-#ALL_Proj[[78]]<-NULL
-#pl_pos<-pl_pos[-c(78)]
-#pl_names<-pl_names[-c(78)]
-
 options(warn=-1)
 proj_by_wk_f <- sapply(ALL_Proj, proj_sq)
 proj_by_wk_k <- sapply(KCK_Proj2, proj_sq)
 proj_by_wk_d <- sapply(DEF_Proj2, proj_sq)
 options(warn=0)
 
-#which(sapply(proj_by_wk_f,length)==18)
-#ALL_Proj[[128]]
-
-pl_names <- c(substr(FLEX,1,nchar(FLEX)-4),unique(KCK_Final$Player),unique(DEF_Final$Player))
+pl_names <- c(gsub('Players/','',substr(FLEX,1,nchar(FLEX)-4)),unique(KCK_Final$Player),unique(DEF_Final$Player))
 pl_pos <- c(all_pos[which(all_pos!='K,' & all_pos!='D,')],rev(sort(ifelse(all_pos[which(all_pos=='K,' | all_pos=='D,')]=='K,','K','D'))))
 proj_by_wk <- cbind(proj_by_wk_f, proj_by_wk_k, proj_by_wk_d)
 
 proj_by_wk <- data.frame(Player=pl_names,Pos=pl_pos,t(proj_by_wk),stringsAsFactors=F)
-#current_wk <- max(as.numeric(results_Final$Week))
-
-#proj_by_wk$Full_avg <- apply(proj_by_wk[,3:19], 1, mean, na.rm=T)
-#proj_by_wk$RORS_avg <- apply(proj_by_wk[,(3+current_wk):15], 1, mean, na.rm=T)
-#proj_by_wk$Playoff_avg <- apply(proj_by_wk[,16:19], 1, mean, na.rm=T)
-
-#pos_order <- c('QB','RB','WR','TE','D','K')
-#pos_avg_st <- c(5, 13, 18, 5, 5, 5)
-#proj_by_wk$PRnk_RORS <- NA
-
-#re_rank <- function(x) which(proj_by_wk$Pos==x)[order(-proj_by_wk$RORS_avg[which(proj_by_wk$Pos==x)])]
-#for (x in pos_order) {proj_by_wk$PRnk_RORS[re_rank(x)] <- 1:length(re_rank(x))}
-
-#RORS_P_avg <- sapply(1:6, function(x) proj_by_wk$RORS_avg[which(proj_by_wk$Pos==pos_order[x] & proj_by_wk$PRnk_RORS==pos_avg_st[x])])
-#proj_by_wk$RORS_P_avg <- RORS_P_avg[match(proj_by_wk$Pos,pos_order)]
-
-#row.names(proj_by_wk) <- NULL
-
-#str(proj_by_wk)
-
 
 DEF_Final <- DEF_Final[which(DEF_Final$Week!='BYE'),]
 KCK_Final <- KCK_Final[which(KCK_Final$Week!='BYE'),]
 FLEX_Final <- FLEX_Final[which(FLEX_Final$Week!='BYE'),]
 
+
 #save historical
-setwd('C:/Users/A097092/Desktop/Extra/Fantasy FB research/Players')
-time <- gsub(':','_',file.info(dir())$mtime[1])
-write.table(DEF_Final, paste0('C:/Users/A097092/Desktop/Extra/Fantasy FB research/Historical Proj/D_proj_',time,'.txt'),row.names=F)
-write.table(KCK_Final, paste0('C:/Users/A097092/Desktop/Extra/Fantasy FB research/Historical Proj/K_proj_',time,'.txt'),row.names=F)
-write.table(FLEX_Final, paste0('C:/Users/A097092/Desktop/Extra/Fantasy FB research/Historical Proj/FLEX_proj_',time,'.txt'),row.names=F)
-write.table(proj_by_wk, paste0('C:/Users/A097092/Desktop/Extra/Fantasy FB research/Historical Proj/Grid_proj_',time,'.txt'),row.names=F)
+time <- gsub(':','_',file.info(dir('Players',full=T))$mtime[1])
+write.table(DEF_Final, paste0('Historical Proj/D_proj_',time,'.txt'),row.names=F)
+write.table(KCK_Final, paste0('Historical Proj/K_proj_',time,'.txt'),row.names=F)
+write.table(FLEX_Final, paste0('Historical Proj/FLEX_proj_',time,'.txt'),row.names=F)
+write.table(proj_by_wk, paste0('Historical Proj/Grid_proj_',time,'.txt'),row.names=F)
 
 #write for linked files
-write.table(DEF_Final, 'C:/Users/A097092/Desktop/Extra/Fantasy FB research/D_proj.txt',row.names=F)
-write.table(KCK_Final, 'C:/Users/A097092/Desktop/Extra/Fantasy FB research/K_proj.txt',row.names=F)
-write.table(FLEX_Final, 'C:/Users/A097092/Desktop/Extra/Fantasy FB research/FLEX_proj.txt',row.names=F)
-write.table(results_Final, 'C:/Users/A097092/Desktop/Extra/Fantasy FB research/results.txt',row.names=F)
-write.table(roster_list, 'C:/Users/A097092/Desktop/Extra/Fantasy FB research/current_rosters.txt',row.names=F)
-write.table(proj_by_wk, 'C:/Users/A097092/Desktop/Extra/Fantasy FB research/Grid_proj.txt',row.names=F)
+write.table(DEF_Final, 'D_proj.txt',row.names=F)
+write.table(KCK_Final, 'K_proj.txt',row.names=F)
+write.table(FLEX_Final, 'FLEX_proj.txt',row.names=F)
+write.table(results_Final, 'results.txt',row.names=F)
+write.table(roster_list, 'current_rosters.txt',row.names=F)
+write.table(proj_by_wk, 'Grid_proj.txt',row.names=F)
+
+
+###sim output
+FLEX_Final$Owner <- roster_list$Owner[match(FLEX_Final$Player,roster_list$Player)]
+KCK_Final$Owner <- roster_list$Owner[match(KCK_Final$Player,roster_list$Player)]
+DEF_Final$Owner <- roster_list$Owner[match(DEF_Final$Player,roster_list$Player)]
+
+#one replacement
+#FA_qb <- t(sapply(1:17, function(w) c('Pos'=paste0('QB-',w),FLEX_Final[which(FLEX_Final$pos=='QB' & FLEX_Final$Week==w)[14],c('Player','proj','Var')])))
+#FA_rb <- t(sapply(1:17, function(w) c('Pos'=paste0('RB-',w),FLEX_Final[which(FLEX_Final$pos=='RB' & FLEX_Final$Week==w)[35],c('Player','proj','Var')])))
+#FA_wr <- t(sapply(1:17, function(w) c('Pos'=paste0('WR-',w),FLEX_Final[which(FLEX_Final$pos=='WR' & FLEX_Final$Week==w)[45],c('Player','proj','Var')])))
+#FA_te <- t(sapply(1:17, function(w) c('Pos'=paste0('TE-',w),FLEX_Final[which(FLEX_Final$pos=='TE' & FLEX_Final$Week==w)[14],c('Player','proj','Var')])))
+#FA_d <- t(sapply(1:17, function(w) c('Pos'=paste0('D-',w),DEF_Final[which(DEF_Final$Week==w)[13],c('Player','Full_Proj','Var')])))
+#FA_k <- t(sapply(1:17, function(w) c('Pos'=paste0('K-',w),KCK_Final[which(KCK_Final$Week==w)[11],c('Player','Full_Proj','Var')])))
+
+#mix replacement
+FA_qb <- t(sapply(1:17, function(w) c('Pos'=paste0('QB-',w),mean(FLEX_Final$proj[which(FLEX_Final$pos=='QB' & FLEX_Final$Week==w)[12:17]]),mean(FLEX_Final$Var[which(FLEX_Final$pos=='QB' & FLEX_Final$Week==w)[12:17]]))))
+FA_rb <- t(sapply(1:17, function(w) c('Pos'=paste0('RB-',w),mean(FLEX_Final$proj[which(FLEX_Final$pos=='RB' & FLEX_Final$Week==w)[30:40]]),mean(FLEX_Final$Var[which(FLEX_Final$pos=='RB' & FLEX_Final$Week==w)[30:40]]))))
+FA_wr <- t(sapply(1:17, function(w) c('Pos'=paste0('WR-',w),mean(FLEX_Final$proj[which(FLEX_Final$pos=='WR' & FLEX_Final$Week==w)[40:50]]),mean(FLEX_Final$Var[which(FLEX_Final$pos=='WR' & FLEX_Final$Week==w)[40:50]]))))
+FA_te <- t(sapply(1:17, function(w) c('Pos'=paste0('TE-',w),mean(FLEX_Final$proj[which(FLEX_Final$pos=='TE' & FLEX_Final$Week==w)[13:18]]),mean(FLEX_Final$Var[which(FLEX_Final$pos=='TE' & FLEX_Final$Week==w)[13:18]]))))
+FA_d <- t(sapply(1:17, function(w) c('Pos'=paste0('D-',w),mean(DEF_Final$Full_Proj[which(DEF_Final$Week==w)[12:17]]),mean(DEF_Final$Var[which(DEF_Final$Week==w)[12:17]]))))
+FA_k <- t(sapply(1:17, function(w) c('Pos'=paste0('K-',w),mean(KCK_Final$Full_Proj[which(KCK_Final$Week==w)[10:15]]),mean(KCK_Final$Var[which(KCK_Final$Week==w)[10:15]]))))
+
+FA_df <- rbind(FA_qb,FA_rb,FA_wr,FA_te,FA_d,FA_k)
+FA_df <- data.frame(matrix(unlist(FA_df),17*6,3),stringsAsFactors=F)
+names(FA_df) <- c('WkPos','proj','Var')
+FA_df$proj <- as.numeric(FA_df$proj)
+FA_df$Var <- as.numeric(FA_df$Var)
+
+
+full_lineup <- lapply(owners, function(o) {
+start_k <- t(sapply(1:17, function(w) c('Pos'='K','Week'=w,'Owner'=o,KCK_Final[which(KCK_Final$Owner==o & KCK_Final$Week==w)[1],c('Player','Full_Proj','Var')])))
+start_d <- t(sapply(1:17, function(w) c('Pos'='D','Week'=w,'Owner'=o,DEF_Final[which(DEF_Final$Owner==o & DEF_Final$Week==w)[1],c('Player','Full_Proj','Var')])))
+
+start_qb <- t(sapply(1:17, function(w) c('Pos'='QB','Week'=w,'Owner'=o,FLEX_Final[which(FLEX_Final$Owner==o & FLEX_Final$pos=='QB' & FLEX_Final$Week==w)[1],c('Player','proj','Var')])))
+start_te <- t(sapply(1:17, function(w) c('Pos'='TE','Week'=w,'Owner'=o,FLEX_Final[which(FLEX_Final$Owner==o & FLEX_Final$pos=='TE' & FLEX_Final$Week==w)[1],c('Player','proj','Var')])))
+start_rb <- do.call(rbind,lapply(1:17, function(w) cbind('Pos'='RB','Week'=w,'Owner'=o,FLEX_Final[which(FLEX_Final$Owner==o & FLEX_Final$pos=='RB' & FLEX_Final$Week==w)[1:2],c('Player','proj','Var')])))
+start_wr <- do.call(rbind,lapply(1:17, function(w) cbind('Pos'='WR','Week'=w,'Owner'=o,FLEX_Final[which(FLEX_Final$Owner==o & FLEX_Final$pos=='WR' & FLEX_Final$Week==w)[1:3],c('Player','proj','Var')])))
+
+flex_rb <- t(sapply(1:17, function(w) c('Pos'='RB','Week'=w,'Owner'=o,FLEX_Final[which(FLEX_Final$Owner==o & FLEX_Final$pos=='RB' & FLEX_Final$Week==w)[3],c('Player','proj','Var')])))
+flex_wr <- t(sapply(1:17, function(w) c('Pos'='RB','Week'=w,'Owner'=o,FLEX_Final[which(FLEX_Final$Owner==o & FLEX_Final$pos=='WR' & FLEX_Final$Week==w)[4],c('Player','proj','Var')])))
+
+fl_rb_proj <- ifelse(is.na(unlist(flex_rb[,'proj'])),0,unlist(flex_rb[,'proj']))
+fl_wr_proj <- ifelse(is.na(unlist(flex_wr[,'proj'])),0,unlist(flex_wr[,'proj']))
+
+flex_pick <- ifelse(fl_rb_proj >= fl_wr_proj, 'RB', 'WR')
+start_fl <- rbind(flex_rb[which(flex_pick=='RB'),],flex_wr[which(flex_pick=='WR'),])
+
+colnames(start_d)[5] <- 'proj'
+colnames(start_k)[5] <- 'proj'
+
+all_df <- rbind(start_qb,start_rb,start_fl,start_wr,start_te,start_d,start_k)
+all_df  <- data.frame(apply(all_df,2,unlist),stringsAsFactors=F)
+all_df$proj <- as.numeric(all_df$proj)
+all_df$Var <- as.numeric(all_df$Var)
+all_df$Week <- as.numeric(all_df$Week)
+
+pos_week <- paste0(all_df$Pos,'-',all_df$Week)
+free_agents <- pos_week[which(all_df$proj<FA_df$proj[match(pos_week,FA_df$WkPos)] | is.na(all_df$proj))]
+all_df$Player[which(all_df$proj<FA_df$proj[match(pos_week,FA_df$WkPos)] | is.na(all_df$proj))] <- 'Free Agent'
+
+all_df[which(all_df$proj<FA_df$proj[match(pos_week,FA_df$WkPos)] | is.na(all_df$proj)),c('proj','Var')] <- FA_df[match(free_agents,FA_df$WkPos),c('proj','Var')]
+all_df
+})
+
+full_lineup <- do.call(rbind,full_lineup)
+full_lineup$Owner <- match(full_lineup$Owner,owners)
+full_lineup <- full_lineup[order(full_lineup$Week),]
+full_lineup <- full_lineup[order(full_lineup$Owner),]
+
+results_Final$Owner <- match(sapply(strsplit(results_Final$OwnerWeek,'-'),function(j) j[1]),owners)
+for (o in 1:length(owners)) {for (w in 1:max(results_Final$Week)) full_lineup[which(full_lineup$Owner==o & full_lineup$Week==w),c('Player','proj','Var')] <- results_Final[which(results_Final$Owner==o & results_Final$Week==w),c('Player','proj','Var')]}
+full_lineup$proj <- as.numeric(full_lineup$proj)
+
+#all_scores <- aggregate(cbind(proj,Var)~Owner+Week,full_lineup,sum)
+#all_scores[match(sched$tm_wk, paste0(all_scores$Owner,'-',all_scores$Week)),c('proj','Var')]
+
+sched <- read.table('sched.txt',stringsAsFactors=F,sep=';',head=T)
+sched$Tm_Inx <- (sched$team-1) * 17 + sched$wk
+sched$Opp_Inx <- (sched$opp-1) * 17 + sched$wk
+#sched$tm_wk <- paste0(owners[sched$team],'-',sched$wk)
+
+sim_cnt <- 1000
+
+full_proj <- sapply(1:nrow(full_lineup), function(x) {
+pts <- rnorm(sim_cnt ,full_lineup$proj[x],sqrt(full_lineup$Var[x]))
+gap <- mean(ifelse(pts<0,0,pts)) - full_lineup$proj[x]
+final_pts <- ifelse(pts - gap<0,0,pts - gap)
+final_pts
+})
+
+proj_totals <- sapply(seq(1,1700,10), function(z) {
+apply(full_proj[,z:(z+9)],1,sum)
+})
+
+wins <- sapply(1:nrow(sched), function(y) {
+ifelse(proj_totals[,sched$Tm_Inx[y]] > proj_totals[,sched$Opp_Inx[y]],1,0)
+})
+sched$win_prob <- apply(wins,2,mean)
+
+point_totals <- sapply(seq(1,nrow(sched),13), function(z) {
+apply(proj_totals[,sched$Tm_Inx[z:(z+12)]],1,sum)
+})
+
+win_totals <- sapply(seq(1,130,13), function(z) {
+apply(wins[,z:(z+12)],1,sum)
+})
+
+#apply(win_totals,2,mean)
+#table(win_totals[,6])
+#table(apply(win_totals, 1, sum))
+#apply(point_totals,2,mean)/13
+
+#playoffs
+dp_tm <- c(1,4,6,8,10)
+hk_tm <- c(2,3,5,7,9)
+
+div_dp_stnd <- win_totals[,dp_tm] + point_totals[,dp_tm]/10000
+div_hk_stnd <- win_totals[,hk_tm] + point_totals[,hk_tm]/10000
+
+div_dp_winner <- apply(apply(div_dp_stnd,1,rank),2,function(x) which(x==5))
+div_hk_winner <- apply(apply(div_hk_stnd,1,rank),2,function(x) which(x==5))
+
+div_dp_score <- apply(div_dp_stnd,1,max)
+div_hk_score <- apply(div_hk_stnd,1,max)
+
+seed_1 <- ifelse(div_dp_score>div_hk_score,dp_tm[div_dp_winner],hk_tm[div_hk_winner])
+seed_2 <- ifelse(div_dp_score>div_hk_score,hk_tm[div_hk_winner],dp_tm[div_dp_winner])
+
+wc_seeding <- win_totals+point_totals/10000
+for (x in 1:sim_cnt) {
+wc_seeding[x,seed_1[x]] <- NA
+wc_seeding[x,seed_2[x]] <- NA
+}
+
+seed_3 <- apply(apply(wc_seeding,1,rank),2,function(x) which(x==8))
+seed_4 <- apply(apply(wc_seeding,1,rank),2,function(x) which(x==7))
+
+playoffs_1 <- sapply(seq(14,170,17), function(z) {
+apply(proj_totals[,c(z,z+1)],1,sum)
+})
+
+playoffs_2 <- sapply(seq(16,170,17), function(z) {
+apply(proj_totals[,c(z,z+1)],1,sum)
+})
+
+top_semi <- sapply(1:sim_cnt, function(y) ifelse(playoffs_1[y,seed_1[y]] > playoffs_1[y,seed_4[y]], seed_1[y], seed_4[y]))
+low_semi <- sapply(1:sim_cnt, function(y) ifelse(playoffs_1[y,seed_2[y]] > playoffs_1[y,seed_3[y]], seed_2[y], seed_3[y]))
+champ <- sapply(1:sim_cnt, function(y) ifelse(playoffs_2[y,top_semi[y]] > playoffs_2[y,low_semi[y]], top_semi[y], low_semi[y]))
+
+playoff <- table(factor(c(seed_1,seed_2,seed_3,seed_4),c(1:10)))
+semi_win <- table(factor(c(top_semi,low_semi),c(1:10)))
+champ_prob <- table(factor(champ,c(1:10)))
+po_proj <- cbind(playoff,semi_win,champ_prob)/sim_cnt
+
+
+#dev.new(width=900, height=1600)
+png('my sample.png',width=900, height=1600)
+par(mar=c(1,5,1,1))
+pic_mx <- matrix(c(1,2,3,4,5,6,7,8,9,10,11,11), 4, 3, byrow = TRUE)
+layout(pic_mx)
+
+for (i in 1:10) {
+barplot(rev(c(sched$win_prob[which(sched$team==i)],po_proj[i,])),horiz=T,names.arg=rev(c(owners[sched$opp[which(sched$team==i)]],'playoffs','semi','champ')),las=1,xlim=c(0,1),main=owners[i],axes=F,border=NA,col='lightGreen',cex.main=2,cex.names=1.3)
+for (j in 16:1) text(.1,seq(18.7,0,-1.2)[j],paste0(round(c(sched$win_prob[which(sched$team==i)],po_proj[i,])[j]*100,1),'%'),cex=1.5)
+arrows(0,0,1,0,len=0)
+arrows(0,3.7,1,3.7,len=0)
+}
+dev.off()
+
+
+
+
+
+table(div_hk_winner)
+
+
+head(
+head(sched)
+
+head(proj_totals)
+
+
+head(full_lineup,40)
+
+
+all_df[which(all_df$Week==11),]
+
+
+
+str(all_scores)
+str(all_else_df)
+
+
+str(full_lineup)
+
+str(start_fl)
+
+
+
+head(FLEX_Final)
+
+head(roster_list)
+head(FLEX_Final)
+
+
+
+

@@ -1,5 +1,7 @@
 Set fso = CreateObject("Scripting.FileSystemObject")
-Set fl = fso.OpenTextFile("C:\Users\A097092\Desktop\Extra\Fantasy FB research\AC__Number Fire Master List.txt")
+file_path = "C:\Users\Owner\Documents\GitHub\Fantasy-Football\"
+
+Set fl = fso.OpenTextFile(file_path & "AC__Number Fire Master List.txt")
 
 dim xHttp: Set xHttp = createobject("Microsoft.XMLHTTP")
 dim bStrm: Set bStrm = createobject("Adodb.Stream")
@@ -16,8 +18,7 @@ owners(9) = "matty"
 owners(10) = "seth"
 
 
-'''current_week = DatePart("ww",CDate(Date+i),3)-36
-current_week = 2
+current_week = DatePart("ww",CDate(Date+i),3)-36
 for week = current_week-1 to current_week
 '''for week = 1 to current_week
 for team = 1 to 10
@@ -30,7 +31,7 @@ with bStrm
     .type = 1
     .open
     .write xHttp.responseBody
-    .savetofile "C:\Users\A097092\Desktop\Extra\Fantasy FB research\Teams\" & owners(team) & "-" & week & ".txt", 2
+    .savetofile file_path & "\Teams\" & owners(team) & "-" & week & ".txt", 2
     .close
 end with
 
@@ -48,7 +49,7 @@ with bStrm
     .type = 1
     .open
     .write xHttp.responseBody
-    .savetofile "C:\Users\A097092\Desktop\Extra\Fantasy FB research\Players\" & fl.readline & ".txt", 2
+    .savetofile file_path & "\Players\" & fl.readline & ".txt", 2
     .close
 end with
 
@@ -63,7 +64,7 @@ with bStrm
     .type = 1
     .open
     .write xHttp.responseBody
-    .savetofile "C:\Users\A097092\Desktop\Extra\Fantasy FB research\Teams.txt", 2
+    .savetofile file_path & "Teams.txt", 2
     .close
 end with
 
