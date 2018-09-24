@@ -477,7 +477,7 @@ champ_prob <- table(factor(champ,c(1:10)))
 po_proj <- cbind(playoff,semi_win,champ_prob)/sim_cnt
 
 po_1_avg <- apply(playoffs_1,2,mean)
-po_2_avg <- apply(playoffs_1,2,mean)
+po_2_avg <- apply(playoffs_2,2,mean)
 
 win_proj <- round(apply(win_totals,2,mean),0)
 avg_pf <- apply(point_totals,2,mean)
@@ -505,8 +505,8 @@ dp_order <- dp_tm[order(q_standings[dp_tm])]
 
 
 #dev.new(width=900, height=1600)
-png('my sample.png',width=900, height=1600)
-par(mar=c(1,5,1,1))
+png('projection.png',width=900, height=1600)
+par(mar=c(2,5,0,1))
 pic_mx <- matrix(c(1,2,3,4,5,6,7,8,9,10,11,11), 4, 3, byrow = TRUE)
 layout(pic_mx)
 
@@ -516,13 +516,17 @@ for (j in 16:1) text(.1,seq(18.7,0,-1.2)[j],paste0(round(c(sched$win_prob[which(
 for (j in 13:1) text(.45,seq(18.7,0,-1.2)[j],paste0(round(c(sched$PF[which(sched$team==i)])[j],1)),cex=1.5,,adj = c(1,.5))
 for (j in 13:1) text(.5,seq(18.7,0,-1.2)[j],paste0(round(c(sched$PA[which(sched$team==i)])[j],1)),cex=1.5,adj = c(0,.5))
 for (j in 13:1) text(.48,seq(18.7,0,-1.2)[j],'-',cex=1.5,adj = c(.6,.4))
+text(.48,1.6,round(po_1_avg[i],1),cex=1.5)
+text(.48,.6,round(po_2_avg[i],1),cex=1.5)
 arrows(0,0,1,0,len=0)
 arrows(0,3.7,1,3.7,len=0)
 }
 
 plot(0,type='n',axes=FALSE,ann=FALSE,xlim=c(0,20),ylim=c(0,13))
-text(c(rep(1,5),rep(2.5,5),rep(4,5),rep(6.5,5)),rep(1:5,4),c(owners[hk_order],proj_WL[hk_order],proj_PF[hk_order],proj_PA[hk_order]),cex=2)
-text(c(rep(1,5),rep(2.5,5),rep(4,5),rep(6.5,5)),rep(7:11,4),c(owners[dp_order],proj_WL[dp_order],proj_PF[dp_order],proj_PA[dp_order]),cex=2)
+text(c(rep(1,5),rep(2.5,5),rep(4.5,5),rep(7,5)),rep(1:5,4),c(owners[hk_order],proj_WL[hk_order],proj_PF[hk_order],proj_PA[hk_order]),cex=2)
+text(c(rep(1,5),rep(2.5,5),rep(4.5,5),rep(7,5)),rep(7:11,4),c(owners[dp_order],proj_WL[dp_order],proj_PF[dp_order],proj_PA[dp_order]),cex=2)
+text(c(2.5,4.5,7),rep(11.7,3),c('W-L','PF','PA'),cex=1.2)
+text(c(2.5,4.5,7),rep(5.7,3),c('W-L','PF','PA'),cex=1.2)
 
 arrows(10,10,15,10,len=0)
 arrows(10,7,15,7,len=0)
@@ -536,18 +540,18 @@ arrows(15,10,15,7,len=0)
 arrows(15,4,15,1,len=0)
 arrows(20,8,20,3,len=0)
 
-text(11,11,owners[div_1])
-text(11,8,owners[wc_2])
-text(11,5,owners[wc_1])
-text(11,2,owners[div_2])
+text(11,11,owners[div_1],cex=2)
+text(11,8,owners[wc_2],cex=2)
+text(11,5,owners[wc_1],cex=2)
+text(11,2,owners[div_2],cex=2)
 
 q_top <- ifelse(po_1_avg[div_1] > po_1_avg[wc_2],div_1,wc_2)
 q_low <- ifelse(po_1_avg[div_2] > po_1_avg[wc_1],div_2,wc_1)
 q_champ <- ifelse(po_2_avg[q_top] > po_2_avg[q_low],q_top,q_low)
 
-text(16,9,owners[q_top])
-text(16,4,owners[q_low])
-text(15,6,owners[q_champ])
+text(16,9,owners[q_top],cex=2)
+text(16,4,owners[q_low],cex=2)
+text(17,6,owners[q_champ],cex=2.5)
 
 dev.off()
 
