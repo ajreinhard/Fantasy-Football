@@ -373,22 +373,22 @@
                         <a href="/nfl/fantasy/fantasy-football-projections">Projections <i class="nf-icon icon-arrow-right"></i></a>
                         <ul class="sub-nav-tier-two">
                             <li>
-                                <a href="/nfl/fantasy/fantasy-football-projections">Week 3 Fantasy Projections</a>
+                                <a href="/nfl/fantasy/fantasy-football-projections">Week 4 Fantasy Projections</a>
                             </li>
                             <li>
-                                <a href="/nfl/fantasy/fantasy-football-ppr-projections">Week 3 Fantasy PPR Projections</a>
+                                <a href="/nfl/fantasy/fantasy-football-ppr-projections">Week 4 Fantasy PPR Projections</a>
                             </li>
                             <li>
-                                <a href="/nfl/daily-fantasy/daily-football-projections">Week 3 Daily Football Projections</a>
+                                <a href="/nfl/daily-fantasy/daily-football-projections">Week 4 Daily Football Projections</a>
                             </li>
                             <li>
-                                <a href="/nfl/games">Week 3 Game Projections</a>
+                                <a href="/nfl/games">Week 4 Game Projections</a>
                             </li>
                             <li>
-                                <a href="/nfl/survivor-pool">Week 3 Survivor Pool Analysis</a>
+                                <a href="/nfl/survivor-pool">Week 4 Survivor Pool Analysis</a>
                             </li>
                             <li>
-                                <a href="/nfl/survivor-pool-matrix">Week 3 Survivor Pool Matrix</a>
+                                <a href="/nfl/survivor-pool-matrix">Week 4 Survivor Pool Matrix</a>
                             </li>
                             <li>
                                 <a href="/nfl/daily-fantasy/who-do-i-start">Who Do I Start? Tool</a>
@@ -430,7 +430,7 @@
                     <li class="has-sub-nav"><a href="/nfl/teams/power-rankings">Rankings <i class="nf-icon icon-arrow-right"></i></a>
                         <ul class="sub-nav-tier-two">
                             <li>
-                               <a href="/nfl/fantasy/fantasy-football-rankings">Week 3 Fantasy Football Rankings</a>
+                               <a href="/nfl/fantasy/fantasy-football-rankings">Week 4 Fantasy Football Rankings</a>
                             </li>
                             <li>
                                <a href="/nfl/teams/power-rankings">Team Power Rankings</a>
@@ -1489,22 +1489,22 @@
            <ul class="secondary-nav" data-sub-nav-value="projections">
                <li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>
                <li>
-                   <a href="/nfl/fantasy/fantasy-football-projections">Week 3 Fantasy Projections</a>
+                   <a href="/nfl/fantasy/fantasy-football-projections">Week 4 Fantasy Projections</a>
                </li>
                <li>
-                   <a href="/nfl/fantasy/fantasy-football-ppr-projections">Week 3 Fantasy PPR Projections</a>
+                   <a href="/nfl/fantasy/fantasy-football-ppr-projections">Week 4 Fantasy PPR Projections</a>
                </li>
                <li>
-                   <a href="/nfl/daily-fantasy/daily-football-projections">Week 3 Daily Football Projections</a>
+                   <a href="/nfl/daily-fantasy/daily-football-projections">Week 4 Daily Football Projections</a>
                </li>
                <li>
-                   <a href="/nfl/games">Week 3 Game Projections</a>
+                   <a href="/nfl/games">Week 4 Game Projections</a>
                </li>
                <li>
-                   <a href="/nfl/survivor-pool">Week 3 Survivor Pool Analysis</a>
+                   <a href="/nfl/survivor-pool">Week 4 Survivor Pool Analysis</a>
                </li>
                <li>
-                   <a href="/nfl/survivor-pool-matrix">Week 3 Survivor Pool Matrix</a>
+                   <a href="/nfl/survivor-pool-matrix">Week 4 Survivor Pool Matrix</a>
                </li>
                <li>
                    <a href="/nfl/daily-fantasy/who-do-i-start">Who Do I Start? Tool</a>
@@ -1546,7 +1546,7 @@
            <ul class="secondary-nav" data-sub-nav-value="rankings">
                <li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>
                <li>
-                   <a href="/nfl/fantasy/fantasy-football-rankings">Week 3 Fantasy Football Rankings</a>
+                   <a href="/nfl/fantasy/fantasy-football-rankings">Week 4 Fantasy Football Rankings</a>
                 </li>
                 <li>
                    <a href="/nfl/teams/power-rankings">Team Power Rankings</a>
@@ -2180,7 +2180,6 @@
                                                     <option  value="/nfl/players/projections/lance-kendricks">Lance Kendricks</option>
                                                     <option  value="/nfl/players/projections/randall-cobb">Randall Cobb</option>
                                                     <option  value="/nfl/players/projections/clay-matthews">Clay Matthews</option>
-                                                    <option  value="/nfl/players/projections/muhammad-wilkerson">Muhammad Wilkerson</option>
                                                     <option  value="/nfl/players/projections/tramon-williams">Tramon Williams</option>
                                                     <option  value="/nfl/players/projections/nick-perry">Nick Perry</option>
                                                     <option  value="/nfl/players/projections/mike-daniels">Mike Daniels</option>
@@ -2209,7 +2208,6 @@
                                                     <option  value="/nfl/players/projections/joshua-jackson">Joshua Jackson</option>
                                                     <option  value="/nfl/players/projections/j-mon-moore">J'Mon Moore</option>
                                                     <option  value="/nfl/players/projections/j-k-scott">J.K. Scott</option>
-                                                    <option  value="/nfl/players/projections/deante-burton">Deante Burton</option>
                                                     <option  value="/nfl/players/projections/marquez-valdes-scantling">Marquez Valdes-Scantling</option>
                                                     <option  value="/nfl/players/projections/oren-burks">Oren Burks</option>
                                             </select>
@@ -2234,8 +2232,6 @@
                                 R. Cobb                            </option>
                                                     <option  value="/nfl/players/projections/clay-matthews">
                                 C. Matthews                            </option>
-                                                    <option  value="/nfl/players/projections/muhammad-wilkerson">
-                                M. Wilkerson                            </option>
                                                     <option  value="/nfl/players/projections/tramon-williams">
                                 T. Williams                            </option>
                                                     <option  value="/nfl/players/projections/nick-perry">
@@ -2292,8 +2288,6 @@
                                 J. Moore                            </option>
                                                     <option  value="/nfl/players/projections/j-k-scott">
                                 J. Scott                            </option>
-                                                    <option  value="/nfl/players/projections/deante-burton">
-                                D. Burton                            </option>
                                                     <option  value="/nfl/players/projections/marquez-valdes-scantling">
                                 M. Valdes-Scantling                            </option>
                                                     <option  value="/nfl/players/projections/oren-burks">
@@ -2479,6 +2473,136 @@
 	</div>
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
+		<a href="/nfl/news/22318/the-20-best-offensive-players-from-week-3">
+			<picture>
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22318_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22318_a3.jpg">
+			</picture>
+		</a>
+			</div>
+	<div class="listing__info">
+		<div class="listing__hed">
+						<h4>
+				<a href="/nfl/news/22318/the-20-best-offensive-players-from-week-3">
+					The 20 Best Offensive Players From Week 3				</a>
+			</h4>
+		</div>
+
+		<div class="listing__byline">
+			<a href="/author/brandon-gdula" class="listing__byline--author">
+				Brandon Gdula			</a>
+			<span>&mdash; <span class="timeago" title="1537817043"></span></span>
+		</div>
+	</div>
+
+</article>
+
+			<article class="listing  w-thumb-left  ">
+	<div class="listing__thumb  ">
+		<a href="/nfl/lists/22311/fantasy-football-4-things-we-learned-in-week-3">
+			<picture>
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22311_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22311_a3.jpg">
+			</picture>
+		</a>
+			</div>
+	<div class="listing__info">
+		<div class="listing__hed">
+						<h4>
+				<a href="/nfl/lists/22311/fantasy-football-4-things-we-learned-in-week-3">
+					Fantasy Football: 4 Things We Learned in Week 3				</a>
+			</h4>
+		</div>
+
+		<div class="listing__byline">
+			<a href="/author/aidan-mcgrath" class="listing__byline--author">
+				Aidan Mcgrath			</a>
+			<span>&mdash; <span class="timeago" title="1537804867"></span></span>
+		</div>
+	</div>
+
+</article>
+
+			<article class="listing  w-thumb-left  ">
+	<div class="listing__thumb  ">
+		<a href="/nfl/news/22315/nfl-week-3-fanduel-ownership-percentages-latavius-murray-disappoints">
+			<picture>
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22315_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22315_a3.jpg">
+			</picture>
+		</a>
+			</div>
+	<div class="listing__info">
+		<div class="listing__hed">
+			<span class="listing--premium"><i class="nf-icon icon-premium"></i>premium</span>			<h4>
+				<a href="/nfl/news/22315/nfl-week-3-fanduel-ownership-percentages-latavius-murray-disappoints">
+					NFL Week 3 FanDuel Ownership Percentages: Latavius Murray Disappoints				</a>
+			</h4>
+		</div>
+
+		<div class="listing__byline">
+			<a href="/author/brandon-gdula" class="listing__byline--author">
+				Brandon Gdula			</a>
+			<span>&mdash; <span class="timeago" title="1537804126"></span></span>
+		</div>
+	</div>
+
+</article>
+
+			<article class="listing  w-thumb-left  ">
+	<div class="listing__thumb  ">
+		<a href="/nfl/news/22314/week-3-s-perfect-nfl-dfs-lineups">
+			<picture>
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22314_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22314_a3.jpg">
+			</picture>
+		</a>
+			</div>
+	<div class="listing__info">
+		<div class="listing__hed">
+						<h4>
+				<a href="/nfl/news/22314/week-3-s-perfect-nfl-dfs-lineups">
+					Week 3's Perfect NFL DFS Lineups				</a>
+			</h4>
+		</div>
+
+		<div class="listing__byline">
+			<a href="/author/jim-sannes" class="listing__byline--author">
+				Jim Sannes			</a>
+			<span>&mdash; <span class="timeago" title="1537803015"></span></span>
+		</div>
+	</div>
+
+</article>
+
+			<article class="listing  w-thumb-left  ">
+	<div class="listing__thumb  ">
+		<a href="/nfl/news/22309/daily-fantasy-football-podcast-the-heat-check-week-3-recap">
+			<picture>
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22309_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22309_a3.jpg">
+			</picture>
+		</a>
+			</div>
+	<div class="listing__info">
+		<div class="listing__hed">
+						<h4>
+				<a href="/nfl/news/22309/daily-fantasy-football-podcast-the-heat-check-week-3-recap">
+					Daily Fantasy Football Podcast: The Heat Check, Week 3 Recap				</a>
+			</h4>
+		</div>
+
+		<div class="listing__byline">
+			<a href="/author/jim-sannes" class="listing__byline--author">
+				Jim Sannes			</a>
+			<span>&mdash; <span class="timeago" title="1537802243"></span></span>
+		</div>
+	</div>
+
+</article>
+
+			<article class="listing  w-thumb-left  ">
+	<div class="listing__thumb  ">
 		<a href="/nfl/news/22291/monday-night-preview-can-the-steelers-knock-off-the-red-hot-ryan-fitzpatrick-and-the-buccaneers">
 			<picture>
 				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22291_a13.jpg"
@@ -2498,136 +2622,6 @@
 			<a href="/author/matthew-gajewski" class="listing__byline--author">
 				Matthew Gajewski			</a>
 			<span>&mdash; <span class="timeago" title="1537796286"></span></span>
-		</div>
-	</div>
-
-</article>
-
-			<article class="listing  w-thumb-left  ">
-	<div class="listing__thumb  ">
-		<a href="/nfl/lists/22294/10-fantasy-football-waiver-wire-targets-heading-into-week-4">
-			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22294_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22294_a3.jpg">
-			</picture>
-		</a>
-			</div>
-	<div class="listing__info">
-		<div class="listing__hed">
-						<h4>
-				<a href="/nfl/lists/22294/10-fantasy-football-waiver-wire-targets-heading-into-week-4">
-					10 Fantasy Football Waiver Wire Targets Heading Into Week 4				</a>
-			</h4>
-		</div>
-
-		<div class="listing__byline">
-			<a href="/author/matt-kupferle-1" class="listing__byline--author">
-				Matt Kupferle			</a>
-			<span>&mdash; <span class="timeago" title="1537796209"></span></span>
-		</div>
-	</div>
-
-</article>
-
-			<article class="listing  w-thumb-left  ">
-	<div class="listing__thumb  ">
-		<a href="/nfl/news/22284/3-nfl-prop-bets-to-target-in-week-3">
-			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22284_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22284_a3.jpg">
-			</picture>
-		</a>
-			</div>
-	<div class="listing__info">
-		<div class="listing__hed">
-						<h4>
-				<a href="/nfl/news/22284/3-nfl-prop-bets-to-target-in-week-3">
-					3 NFL Prop Bets to Target in Week 3				</a>
-			</h4>
-		</div>
-
-		<div class="listing__byline">
-			<a href="/author/matthew-gajewski" class="listing__byline--author">
-				Matthew Gajewski			</a>
-			<span>&mdash; <span class="timeago" title="1537624196"></span></span>
-		</div>
-	</div>
-
-</article>
-
-			<article class="listing  w-thumb-left  ">
-	<div class="listing__thumb  video-article">
-		<a href="/nfl/lists/22275/4-nfl-fanduel-tournament-pivots-for-week-3">
-			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22275_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22275_a3.jpg">
-			</picture>
-		</a>
-			</div>
-	<div class="listing__info">
-		<div class="listing__hed">
-						<h4>
-				<a href="/nfl/lists/22275/4-nfl-fanduel-tournament-pivots-for-week-3">
-					4 NFL FanDuel Tournament Pivots for Week 3				</a>
-			</h4>
-		</div>
-
-		<div class="listing__byline">
-			<a href="/author/ian-goldsmith" class="listing__byline--author">
-				Ian Goldsmith			</a>
-			<span>&mdash; <span class="timeago" title="1537618864"></span></span>
-		</div>
-	</div>
-
-</article>
-
-			<article class="listing  w-thumb-left  ">
-	<div class="listing__thumb  ">
-		<a href="/nfl/news/22264/fantasy-football-week-3-injury-report">
-			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22264_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22264_a3.jpg">
-			</picture>
-		</a>
-			</div>
-	<div class="listing__info">
-		<div class="listing__hed">
-						<h4>
-				<a href="/nfl/news/22264/fantasy-football-week-3-injury-report">
-					Fantasy Football: Week 3 Injury Report				</a>
-			</h4>
-		</div>
-
-		<div class="listing__byline">
-			<a href="/author/gabriel-garrido" class="listing__byline--author">
-				Gabe Garrido			</a>
-			<span>&mdash; <span class="timeago" title="1537564445"></span></span>
-		</div>
-	</div>
-
-</article>
-
-			<article class="listing  w-thumb-left  ">
-	<div class="listing__thumb  ">
-		<a href="/nfl/news/22282/6-wide-receivers-with-great-cornerback-matchups-in-week-3">
-			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22282_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22282_a3.jpg">
-			</picture>
-		</a>
-			</div>
-	<div class="listing__info">
-		<div class="listing__hed">
-						<h4>
-				<a href="/nfl/news/22282/6-wide-receivers-with-great-cornerback-matchups-in-week-3">
-					6 Wide Receivers with Great Cornerback Matchups in Week 3				</a>
-			</h4>
-		</div>
-
-		<div class="listing__byline">
-			<a href="/author/joseph-redemann" class="listing__byline--author">
-				Joe Redemann			</a>
-			<span>&mdash; <span class="timeago" title="1537563068"></span></span>
 		</div>
 	</div>
 
@@ -2775,5 +2769,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":42,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":44,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

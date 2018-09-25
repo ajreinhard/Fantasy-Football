@@ -553,13 +553,12 @@ text(16,9,owners[q_top],cex=2)
 text(16,4,owners[q_low],cex=2)
 text(17,6,owners[q_champ],cex=2.5)
 
-text(15,12,paste0('As of ',format(Sys.time(), "%a %b %d %R %p")),cex=2)
+text(15,12,paste0('As of ',format(Sys.time(), "%a %b %d %r")),cex=2)
 
 dev.off()
 
 library(twitteR)
 setup_twitter_oauth('3OFet2Lrb7SM3P5xRIS4mYcYT', 'lUY751Alq4eneCod71LwCG3L4PT4L20PMET8sGqKgovrZOfbdg', access_token='981969608277135360-7w95AsxJKN6gbCBogRcLiawZ2znXoIs', access_secret='JEmeS2Gs2TavP5DEwwJgJWGH0ryzjHZBpGqpZG6jk9ZIK')
-1
 updateStatus('New Simulation Complete! @reinhurdler @CompTwinB',mediaPath='projection.png')
 
 
