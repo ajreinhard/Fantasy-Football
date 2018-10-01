@@ -2132,38 +2132,59 @@
             <div class="player-header__info__stats player-info">
 	            <div class="player-info--basic">
 		            <h2>
-		            	Alshon Jeffery								            	<span class="player-status player-status--gtd">GTD</span>
-								            </h2>
+		            	Alshon Jeffery								            </h2>
 		            <div class="player-info--basic__wrap">
 													<span class="player-info--basic__team">
 								WR, <a href="/nfl/teams/philadelphia-eagles" class="team-name">Philadelphia Eagles</a><a href="/nfl/teams/philadelphia-eagles" class="team-abbrev">PHI</a>
 							</span>
 															        </div>
 								        <div class="player-info--basic__status">
-			        	<a href="/nfl/player-news/100352/alshon-jeffery-out-at-eagles-practice-thursday-due-to-illness">Alshon Jeffery out at Eagles' practice Thursday due to illness</a>
-						<span class="timestamp timeago recent-timestamp"
-							  title="1538079263">&nbsp;</span>
+			        	<a href="/nfl/player-news/100738/eagles-alshon-jeffery-shoulder-expected-to-play-in-week-4">Eagles' Alshon Jeffery (shoulder) expected to play in Week 4</a>
+						<span class="timestamp timeago older-timestamp"
+							  title="1538316711">&nbsp;</span>
 			        </div>
 								        <div class="player-info--basic__dfp">
-																		FanDuel Salary: <span class="amt">$6,500</span>					</div>
+						FPPG: <span class="amt">20.5</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$6,500</span>					</div>
 	            </div>
             </div>
 
 	        <div class="player-header__info__stats player-header__info__stats--mobile">
 		        <div class="player-info--basic">
 											<div class="player-info--basic__status">
-							<a href="/nfl/player-news/100352/alshon-jeffery-out-at-eagles-practice-thursday-due-to-illness">Alshon Jeffery out at Eagles' practice Thursday due to illness</a>
-							<span class="timestamp timeago recent-timestamp"
-								  title="1538079263">&nbsp;</span>
+							<a href="/nfl/player-news/100738/eagles-alshon-jeffery-shoulder-expected-to-play-in-week-4">Eagles' Alshon Jeffery (shoulder) expected to play in Week 4</a>
+							<span class="timestamp timeago older-timestamp"
+								  title="1538316711">&nbsp;</span>
 						</div>
 					
 			        <div class="player-info--basic__dfp">
-																		FanDuel Salary: <span class="amt">$6,500</span>			        </div>
+						FPPG: <span class="amt">20.5</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$6,500</span>			        </div>
 		     	</div>
 	     	</div>
         </div>
 
-		            </div>
+		        		<div class="player-header__chart">
+        	<div class="player-header__chart__head">
+        		<span class="player-header__chart__head--title">
+        			FanDuel Fantasy Points Per Game
+        		</span>
+        		<span class="player-header__chart__head--more">
+        			<a href="/nfl/players/daily-fantasy/alshon-jeffery">
+        				More DFS
+        			</a>
+        		</span>
+        	</div>
+	        <div class="player-header__chart--wrap">
+	        	<canvas
+					id="dfs-chart"
+					class="dfs-chart"
+					data-dfs-chart
+					data-dfs-chart-data="[{&quot;cost&quot;:&quot;6500.00&quot;,&quot;fp&quot;:20.5,&quot;opp&quot;:&quot;TEN&quot;,&quot;round&quot;:&quot;Week 4&quot;,&quot;roundAbbrev&quot;:&quot;Wk4&quot;,&quot;value&quot;:3.15}]"
+					height="135"
+					width="499">
+				</canvas>
+	        </div>
+        </div>
+		    </div>
 </div>
 
 <div class="grid--1-1 team-player-sub-nav" data-team-player-sub-nav>
@@ -2195,7 +2216,6 @@
                                                     <option  value="/nfl/players/projections/fletcher-cox">Fletcher Cox</option>
                                                     <option  value="/nfl/players/projections/nigel-bradham">Nigel Bradham</option>
                                                     <option  value="/nfl/players/projections/zach-ertz-1">Zach Ertz</option>
-                                                    <option  value="/nfl/players/projections/rodney-mcleod">Rodney McLeod</option>
                                                     <option  value="/nfl/players/projections/laroy-reynolds">LaRoy Reynolds</option>
                                                     <option  value="/nfl/players/projections/jordan-matthews">Jordan Matthews</option>
                                                     <option  value="/nfl/players/projections/richard-rodgers">Richard Rodgers</option>
@@ -2221,6 +2241,7 @@
                                                     <option  value="/nfl/players/projections/sidney-jones">Sidney Jones</option>
                                                     <option  value="/nfl/players/projections/dallas-goedert">Dallas Goedert</option>
                                                     <option  value="/nfl/players/projections/cameron-johnston">Cameron Johnston</option>
+                                                    <option  value="/nfl/players/projections/deandre-carter">DeAndre Carter</option>
                                                     <option  value="/nfl/players/projections/avonte-maddox">Avonte Maddox</option>
                                                     <option  value="/nfl/players/projections/josh-adams">Josh Adams</option>
                                             </select>
@@ -2253,8 +2274,6 @@
                                 N. Bradham                            </option>
                                                     <option  value="/nfl/players/projections/zach-ertz-1">
                                 Z. Ertz                            </option>
-                                                    <option  value="/nfl/players/projections/rodney-mcleod">
-                                R. McLeod                            </option>
                                                     <option  value="/nfl/players/projections/laroy-reynolds">
                                 L. Reynolds                            </option>
                                                     <option  value="/nfl/players/projections/jordan-matthews">
@@ -2305,6 +2324,8 @@
                                 D. Goedert                            </option>
                                                     <option  value="/nfl/players/projections/cameron-johnston">
                                 C. Johnston                            </option>
+                                                    <option  value="/nfl/players/projections/deandre-carter">
+                                D. Carter                            </option>
                                                     <option  value="/nfl/players/projections/avonte-maddox">
                                 A. Maddox                            </option>
                                                     <option  value="/nfl/players/projections/josh-adams">
@@ -2396,7 +2417,7 @@
 						win probability
 					</h4>
 					<span class="next-game--live__percentage">
-					56.5<span class="symbol">%</span>
+					54.8<span class="symbol">%</span>
 				</span>
 					<span class="next-game--live__winning-team">
 					PHI				</span>
@@ -2464,6 +2485,66 @@
 				</div>
 			</div>
 		
+				<div class="player-schedule__indiv-projections__table-wrap player-projection-table">
+						<span class="player-projection-table__title">
+				Last Game against Tennessee 			</span>
+			
+												<table class="projection-table grid--1-1 no-fix-height" cellspacing="0" cellpadding="0">
+						<thead class="projection-table__head">
+							<tr>
+								<th title = "Date" class="left-aligned">
+									Date
+								</th>
+								<th title = "Week">
+									Wk
+								</th>
+								<th title = "Receptions">
+									Rec
+								</th>
+								<th title = "Receiving Yards">
+									Rec Yd
+								</th>
+								<th title = "Receiving Touchdowns">
+									Rec TD
+								</th>
+								<th title = "Targets">
+									Trgt
+								</th>
+								<th title="FanDuel Cost">
+									Cost
+								</th>
+								<th title = "FanDuel Fantasy Points">
+									FP
+								</th>
+								<th title = "FanDuel Value" class="value">
+									Value
+								</th>
+							</tr>
+						</thead>
+						<tbody class="projection-table__body">
+													<tr>
+								<td class="left-aligned">
+									9/30/18								</td>
+								<td>
+									4								</td>
+								<td>
+									8								</td>
+								<td>
+									105								</td>
+								<td>
+									1								</td>
+								<td>
+									9								</td>
+								<td>
+									$6,500								</td>
+								<td>
+									20.5								</td>
+								<td class="value">
+									3.15								</td>
+							</tr>
+												</tbody>
+					</table>
+									</div>
 			</div>
 	
 	
@@ -3162,26 +3243,26 @@
 			NFL News		</h2>
 	</div>
 			<article class="listing  w-thumb-left  ">
-	<div class="listing__thumb  video-article">
-		<a href="/nfl/lists/22369/7-fanduel-nfl-value-plays-for-week-4">
+	<div class="listing__thumb  ">
+		<a href="/nfl/lists/22423/10-fantasy-football-waiver-wire-targets-heading-into-week-5">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22369_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22369_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22423_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22423_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 						<h4>
-				<a href="/nfl/lists/22369/7-fanduel-nfl-value-plays-for-week-4">
-					7 FanDuel NFL Value Plays for Week 4				</a>
+				<a href="/nfl/lists/22423/10-fantasy-football-waiver-wire-targets-heading-into-week-5">
+					10 Fantasy Football Waiver Wire Targets Heading Into Week 5				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
-			<a href="/author/jason-schandl" class="listing__byline--author">
-				Jason Schandl			</a>
-			<span>&mdash; <span class="timeago" title="1538082632"></span></span>
+			<a href="/author/kenyatta-storin" class="listing__byline--author">
+				Kenyatta Storin			</a>
+			<span>&mdash; <span class="timeago" title="1538400672"></span></span>
 		</div>
 	</div>
 
@@ -3189,77 +3270,51 @@
 
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
-		<a href="/nfl/lists/22379/5-draftkings-bargains-for-week-4">
+		<a href="/nfl/news/22428/monday-night-preview-can-the-red-hot-chiefs-continue-their-winning-streak-against-the-broncos">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22379_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22379_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22428_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22428_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
-						<h4>
-				<a href="/nfl/lists/22379/5-draftkings-bargains-for-week-4">
-					5 DraftKings Bargains for Week 4				</a>
-			</h4>
-		</div>
-
-		<div class="listing__byline">
-			<a href="/author/ian-goldsmith" class="listing__byline--author">
-				Ian Goldsmith			</a>
-			<span>&mdash; <span class="timeago" title="1538076720"></span></span>
-		</div>
-	</div>
-
-</article>
-
-			<article class="listing  w-thumb-left  ">
-	<div class="listing__thumb  video-article">
-		<a href="/nfl/lists/22368/8-fantasy-football-sleepers-for-week-4">
-			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22368_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22368_a3.jpg">
-			</picture>
-		</a>
-			</div>
-	<div class="listing__info">
-		<div class="listing__hed">
-						<h4>
-				<a href="/nfl/lists/22368/8-fantasy-football-sleepers-for-week-4">
-					8 Fantasy Football Sleepers for Week 4				</a>
-			</h4>
-		</div>
-
-		<div class="listing__byline">
-			<a href="/author/jason-schandl" class="listing__byline--author">
-				Jason Schandl			</a>
-			<span>&mdash; <span class="timeago" title="1538070915"></span></span>
-		</div>
-	</div>
-
-</article>
-
-			<article class="listing  w-thumb-left  ">
-	<div class="listing__thumb  ">
-		<a href="/nfl/news/22373/draft-daily-fantasy-football-helper-week-4">
-			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22373_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22373_a3.jpg">
-			</picture>
-		</a>
-			</div>
-	<div class="listing__info">
-		<div class="listing__hed">
-						<h4>
-				<a href="/nfl/news/22373/draft-daily-fantasy-football-helper-week-4">
-					DRAFT Daily Fantasy Football Helper: Week 4				</a>
+			<span class="listing--premium"><i class="nf-icon icon-premium"></i>premium</span>			<h4>
+				<a href="/nfl/news/22428/monday-night-preview-can-the-red-hot-chiefs-continue-their-winning-streak-against-the-broncos">
+					Monday Night Preview: Can the Red-Hot Chiefs Continue Their Winning Streak Against the Broncos?				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
 			<a href="/author/matthew-gajewski" class="listing__byline--author">
 				Matthew Gajewski			</a>
-			<span>&mdash; <span class="timeago" title="1538069841"></span></span>
+			<span>&mdash; <span class="timeago" title="1538400224"></span></span>
+		</div>
+	</div>
+
+</article>
+
+			<article class="listing  w-thumb-left  ">
+	<div class="listing__thumb  video-article">
+		<a href="/nfl/news/22424/4-nfl-fanduel-stacks-for-week-4">
+			<picture>
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22424_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22424_a3.jpg">
+			</picture>
+		</a>
+			</div>
+	<div class="listing__info">
+		<div class="listing__hed">
+						<h4>
+				<a href="/nfl/news/22424/4-nfl-fanduel-stacks-for-week-4">
+					4 NFL FanDuel Stacks for Week 4				</a>
+			</h4>
+		</div>
+
+		<div class="listing__byline">
+			<a href="/author/ben-hossler" class="listing__byline--author">
+				Ben Hossler			</a>
+			<span>&mdash; <span class="timeago" title="1538238302"></span></span>
 		</div>
 	</div>
 
@@ -3267,51 +3322,77 @@
 
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
-		<a href="/nfl/news/22386/daily-fantasy-football-podcast-the-heat-check-week-4-preview">
+		<a href="/nfl/news/22425/3-prop-bets-to-target-in-week-4">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22386_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22386_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22425_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22425_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 						<h4>
-				<a href="/nfl/news/22386/daily-fantasy-football-podcast-the-heat-check-week-4-preview">
-					Daily Fantasy Football Podcast: The Heat Check, Week 4 Preview				</a>
+				<a href="/nfl/news/22425/3-prop-bets-to-target-in-week-4">
+					3 Prop Bets to Target in Week 4 				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
-			<a href="/author/jim-sannes" class="listing__byline--author">
-				Jim Sannes			</a>
-			<span>&mdash; <span class="timeago" title="1538064061"></span></span>
+			<a href="/author/matthew-gajewski" class="listing__byline--author">
+				Matthew Gajewski			</a>
+			<span>&mdash; <span class="timeago" title="1538223236"></span></span>
 		</div>
 	</div>
 
 </article>
 
 			<article class="listing  w-thumb-left  ">
-	<div class="listing__thumb  ">
-		<a href="/nfl/news/22384/fantasy-football-identifying-running-backs-to-unload">
+	<div class="listing__thumb  video-article">
+		<a href="/nfl/news/22419/fantasy-football-week-4-injury-report">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22384_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22384_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22419_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22419_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 						<h4>
-				<a href="/nfl/news/22384/fantasy-football-identifying-running-backs-to-unload">
-					Fantasy Football: Identifying Running Backs to Unload				</a>
+				<a href="/nfl/news/22419/fantasy-football-week-4-injury-report">
+					Fantasy Football: Week 4 Injury Report				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
-			<a href="/author/joseph-redemann" class="listing__byline--author">
-				Joe Redemann			</a>
-			<span>&mdash; <span class="timeago" title="1538059953"></span></span>
+			<a href="/author/gabriel-garrido" class="listing__byline--author">
+				Gabe Garrido			</a>
+			<span>&mdash; <span class="timeago" title="1538170535"></span></span>
+		</div>
+	</div>
+
+</article>
+
+			<article class="listing  w-thumb-left  ">
+	<div class="listing__thumb  video-article">
+		<a href="/nfl/lists/22403/4-nfl-fanduel-tournament-pivots-for-week-4">
+			<picture>
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22403_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22403_a3.jpg">
+			</picture>
+		</a>
+			</div>
+	<div class="listing__info">
+		<div class="listing__hed">
+						<h4>
+				<a href="/nfl/lists/22403/4-nfl-fanduel-tournament-pivots-for-week-4">
+					4 NFL FanDuel Tournament Pivots for Week 4				</a>
+			</h4>
+		</div>
+
+		<div class="listing__byline">
+			<a href="/author/ian-goldsmith" class="listing__byline--author">
+				Ian Goldsmith			</a>
+			<span>&mdash; <span class="timeago" title="1538169855"></span></span>
 		</div>
 	</div>
 
@@ -3532,5 +3613,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":70,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":79,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

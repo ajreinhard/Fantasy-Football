@@ -258,8 +258,8 @@ done_scores[[find_OwWk('perry-2')]] <- repl_slot(find_OwWk('perry-2'),NA,9,FALSE
 done_scores[[find_OwWk('perry-2')]][10,4] <- -1
 done_scores[[find_OwWk('perry-2')]][9,4] <- 0
 
-done_scores[[find_OwWk('lucas-4')]] <- repl_slot(find_OwWk('lucas-4'),'Bears D/ST',9,FALSE)
-done_scores[[find_OwWk('aj-4')]] <- repl_slot(find_OwWk('aj-4'),'Ryan Succop',10,TRUE)
+#done_scores[[find_OwWk('lucas-4')]] <- repl_slot(find_OwWk('lucas-4'),'Bears D/ST',9,FALSE)
+#done_scores[[find_OwWk('aj-4')]] <- repl_slot(find_OwWk('aj-4'),'Ryan Succop',10,TRUE)
 #############
 
 results <- data.frame(do.call(rbind, done_scores),stringsAsFactors=F)
