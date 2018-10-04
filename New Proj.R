@@ -650,13 +650,16 @@ adj_down_full <- c()
 players_out_full <- c()
 players_excluded_full <- c()
 
-if (length(which(!is.na(adj_up_owner))) > 0) adj_up_full <- paste0('\u2B06 ',adj_up,' (',adj_up_owner,')')[which(!is.na(adj_up_owner))]
-if (length(which(!is.na(adj_down_owner))) > 0) adj_down_full <- paste0('\u2B07 ',adj_down,' (',adj_down_owner,')')[which(!is.na(adj_down_owner))]
-if (length(which(!is.na(players_out_owner))) > 0) players_out_full <- paste0('\u274c ',players_out,' (',players_out_owner,') \u25B6 Wk ',players_return)[which(!is.na(players_out_owner))]
-if (length(which(!is.na(players_excluded_owner))) > 0) players_excluded_full <- paste0('\u26A0 ',player_excluded,' (',players_excluded_owner,') has no projection')[which(!is.na(players_excluded_owner))]
+if (length(which(!is.na(adj_up_owner))) > 0) adj_up_full <- paste0(adj_up,' (',adj_up_owner,')')[which(!is.na(adj_up_owner))]
+if (length(which(!is.na(adj_down_owner))) > 0) adj_down_full <- paste0(adj_down,' (',adj_down_owner,')')[which(!is.na(adj_down_owner))]
+if (length(which(!is.na(players_out_owner))) > 0) players_out_full <- paste0(players_out,' (',players_out_owner,') \u25B6 Wk ',players_return)[which(!is.na(players_out_owner))]
+if (length(which(!is.na(players_excluded_owner))) > 0) players_excluded_full <- paste0(player_excluded,' (',players_excluded_owner,') has no projection')[which(!is.na(players_excluded_owner))]
+
+all_playr_symb <- c(rep('\u2B06',length(adj_up_full)),rep('\u2B07',length(adj_down_full)),rep('\u274c',length(players_out_full)),rep('\u26A0',length(players_excluded_full)))
 
 all_plyr_adj <- c(adj_up_full,adj_down_full,players_out_full,players_excluded_full)
 all_plyr_adj <- substr(all_plyr_adj,regexpr(' ',all_plyr_adj)+1,nchar(all_plyr_adj))
+all_plyr_adj <- paste0(all_playr_symb,' ',all_plyr_adj)
 tweet_grp <- as.numeric(cut(1:length(all_plyr_adj),c(seq(1,length(all_plyr_adj),8),Inf),include.lowest=T,right=F))
 
 last_twt <- updateStatus(paste(c('Weekly Player Adjustments:',all_plyr_adj[which(tweet_grp==1)]),collapse='\r'),bypassCharLimit=T,inReplyTo=last_twt$id)
