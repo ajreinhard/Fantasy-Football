@@ -1,8 +1,13 @@
 library(png)
 library(XML)
+library(twitteR)
+setup_twitter_oauth('3OFet2Lrb7SM3P5xRIS4mYcYT', 'lUY751Alq4eneCod71LwCG3L4PT4L20PMET8sGqKgovrZOfbdg', access_token='981969608277135360-7w95AsxJKN6gbCBogRcLiawZ2znXoIs', access_secret='JEmeS2Gs2TavP5DEwwJgJWGH0ryzjHZBpGqpZG6jk9ZIK')
 
 owners <- c('scott','cory','aj','devon','comp','chad','lucas','perry','matty','seth')
 setwd('C:/Users/Owner/Documents/GitHub/Fantasy-Football')
+this_week <- max(sapply(dir('Teams',full=T), function(x) as.numeric(substr(strsplit(x,'-')[[1]][2],1,nchar(strsplit(x,'-')[[1]][2])-4))))
+#before thurs = 0
+thurs_check <- ifelse(as.numeric(format(Sys.time(),'%u')) >= 4 |  as.numeric(format(Sys.time(),'%u')) == 1,0,1)
 ############## Get teams
 team_tree <- htmlTreeParse('Teams.txt', useInternal=T)
 
@@ -19,6 +24,11 @@ names(roster_list) <- c('Owner','Player')
 
 trades <- read.table('AE__pending trade.txt',stringsAsFactors=F,head=T)
 for (j in 1:nrow(trades)) roster_list$Owner[which(roster_list$Player==trades$Player[j])] <- trades$Owner[j]
+trades
+
+#remove dropped players, re-order list
+roster_list <- roster_list[which(roster_list$Owner!='none'),]
+roster_list <- roster_list[order(match(roster_list$Owner,owners)),]
 
 #######Get all postions
 all_files <- dir('Players',full=T)
@@ -218,66 +228,67 @@ MIA
 
 #######Get current scores
 pos_order <- c('QB-1','RB-1','RB-2','WR/RB','WR-1','WR-2','WR-3','TE-1','D/ST','K')
-options(warn=-1)
-done_scores <- lapply(dir('Teams',full=T), function(x) {
 
+#Show me who all could have spots missing
+slots <- lapply(dir('Teams',full=T), function(x) {
+#x <- dir('Teams',full=T)[30]
 the_tree <- htmlTreeParse(x, useInternal=T)
+x_week <- as.numeric(substr(strsplit(x,'-')[[1]][2],1,nchar(strsplit(x,'-')[[1]][2])-4))
+slot_window <- ifelse(thurs_check==0 & x_week==this_week,3,1)
+slot_open <- sapply(xpathSApply(the_tree,'//table[1]/tr/td[4]'), function(x) ifelse(xmlValue(x, trim=T)=='--','BYE',ifelse(xmlValue(x, trim=T)=='','OPEN','')))[slot_window+(1:10)]
+players <- sapply(xpathSApply(the_tree, '//table[1]/tr/td[@class="playertablePlayerName"]/a/text()')[1:10],function(x) xmlValue(x, trim=T))
+scores <- sapply(xpathSApply(the_tree, '//table[1]/tr/td[5]')[2:11],function(x) xmlValue(x, trim=T))
 
-#x <- dir('Teams',full=T)[8]
-#xpathSApply(the_tree,'//table[1]/tr/td[5]/text()')
-
-scores <- xpathSApply(the_tree,'//table[1]/tr/td[5]/span/text()')
-if (is.null(scores)) {
-scores<-xpathSApply(the_tree,'//table[1]/tr/td[5]/text()')
-scores[[1]]<-NULL
+if(slot_open[1]=='BYE') scores <- c('--',scores[1:9])
+if(slot_open[1]=='OPEN') players <- c('OPEN SLOT',players[1:9])
+for (j in 2:9) {
+if(slot_open[j]=='BYE') scores <- c(scores[1:(j-1)],'--',scores[j:9])
+if(slot_open[j]=='OPEN') players <- c(players[1:(j-1)],'OPEN SLOT',players[j:9])
 }
-players <- xpathSApply(the_tree, '//table[1]/tr/td[@class="playertablePlayerName"]/a/text()')
+if(slot_open[10]=='BYE') scores[10] <- '--'
+if(slot_open[10]=='OPEN') players[10] <- 'OPEN SLOT'
 
-scores <- sapply(scores, function(x) xmlValue(x, trim=T))
-players <- sapply(players, function(x) xmlValue(x, trim=T))
-
-cbind(gsub('Teams/','',substr(x,1,nchar(x)-4)), pos_order, players[1:10], as.numeric(scores[1:10]))
+data.frame('OwnerWeek'=gsub('Teams/','',substr(x,1,nchar(x)-4)),'Pos'=pos_order,'Player'=players,'Final'=scores,'Slot'=slot_open,stringsAsFactors=F)
 })
-options(warn=0)
-#############replace invalid starters
-owner_wk_order <- sapply(done_scores, function(x) x[1,1])
 
-find_OwWk <- function(x) which(owner_wk_order==x)
-repl_slot <- function(inx, player, slot, bye) {
-	repl_item <- done_scores[[inx]]
-	if (bye==TRUE) {
-		repl_item[slot,3] <- player
-		repl_item[slot,4] <- NA}
-	else {
-		repl_item[slot:10,3] <- c(player,done_scores[[inx]][slot:9,3])
-		repl_item[slot:10,4] <- c(NA,done_scores[[inx]][slot:9,4])}
-	repl_item
-}
+results <- data.frame(do.call(rbind, slots),stringsAsFactors=F)
+#######################################################
+######FILL IN MISSING STARTER SPOTS ON THURSDAY########
+#######################################################
+#results$Player[which(results$OwnerWeek=='matty-5' & results$Pos=='TE-1' & results$Player=='Tyler Eifert')] <- 'Jordan Reed'
+results$Player[which(results$OwnerWeek=='scott-5' & results$Pos=='TE-1' & results$Slot=='OPEN')] <- 'George Kittle'
+#results$Player[which(results$OwnerWeek=='lucas-5' & results$Pos=='D/ST' & results$Slot=='BYE')] <- 'Ravens D/ST'
+#results$Player[which(results$OwnerWeek=='lucas-5' & results$Pos=='WR-1' & results$Slot=='BYE')] <- 'Jamison Crowder'
+results$Player[which(results$OwnerWeek=='comp-5' & results$Pos=='TE-1' & results$Slot=='BYE')] <- 'Austin Hooper'
+#######################################################
+results[which(results$Slot!=''),]
+#open_spots <- open_spots[which(sapply(open_spots$OwnerWeek, function(x) as.numeric(strsplit(x,'-')[[1]][2]))==this_week),]
+#######################################################
 
-done_scores[[find_OwWk('perry-2')]] <- repl_slot(find_OwWk('perry-2'),NA,9,FALSE)
-done_scores[[find_OwWk('perry-2')]][10,4] <- -1
-done_scores[[find_OwWk('perry-2')]][9,4] <- 0
+#for (k in 1:nrow(open_spots)) {
+#new_plyr <- readline(prompt=paste0(open_spots$OwnerWeek[k],' has ',open_spots$Slot[k],' at ',open_spots$Pos[k],': '))
+#results$Player[which(results$OwnerWeek==open_spots$OwnerWeek[k] & results$Pos==open_spots$Pos[k])] <- new_plyr
+#}
 
-#done_scores[[find_OwWk('lucas-4')]] <- repl_slot(find_OwWk('lucas-4'),'Bears D/ST',9,FALSE)
-#done_scores[[find_OwWk('aj-4')]] <- repl_slot(find_OwWk('aj-4'),'Ryan Succop',10,TRUE)
-#############
-
-results <- data.frame(do.call(rbind, done_scores),stringsAsFactors=F)
-names(results) <- c('OwnerWeek', 'Pos', 'Player', 'Final')
 split <- sapply(gregexpr('-',results$OwnerWeek),function(x) tail(x,1))
 results$Week <- substr(results$OwnerWeek, split+1, nchar(results$OwnerWeek))
 
 resultsF <- merge(results[which(results$Pos!='K' & results$Pos!='D/ST'),], FLEX_Final[,c('Player','Week','proj','std','Var')], by=cbind('Player','Week'), all.x=T)
 resultsK <- merge(results[which(results$Pos=='K'),], KCK_Final[,c('Player','Week','proj','std','Var')], by=cbind('Player','Week'), all.x=T)
 resultsD <- merge(results[which(results$Pos=='D/ST'),], DEF_Final[,c('Player','Week','Full_Proj','std','Var')], by.x=cbind('Player','Week'), all.x=T)
-names(resultsD)[6] <- 'proj'
+names(resultsD)[7] <- 'proj'
 results_Final <- rbind(resultsF,resultsK,resultsD)
 
-done <- which(!is.na(results_Final$Final))
+done <- which(!is.na(as.numeric(results_Final$Final)))
 results_Final$proj[done] <- results_Final$Final[done]
 results_Final$std[done] <- 0
 results_Final$Var[done] <- 0
 results_Final$OwnerWeekPos <- paste0(results_Final$OwnerWeek,results_Final$Pos)
+
+#######################################################
+######SPOTS LEFT EMPTY#################################
+#######################################################
+results_Final[which(results_Final$OwnerWeekPos=='perry-2D/ST'),c('Final','proj','std','Var')] <- 0
 
 
 ######create proj by week
@@ -397,11 +408,14 @@ full_lineup <- do.call(rbind,full_lineup)
 full_lineup$Owner <- match(full_lineup$Owner,owners)
 full_lineup <- full_lineup[order(full_lineup$Week),]
 full_lineup <- full_lineup[order(full_lineup$Owner),]
+full_lineup$Neg_Ind <- 0
+full_lineup$Neg_Ind[which(full_lineup$Pos=='D')] <- 1
 
 results_Final$Owner <- match(sapply(strsplit(results_Final$OwnerWeek,'-'),function(j) j[1]),owners)
-thurs_check <- ifelse(as.numeric(format(Sys.time(),'%u')) >= 4 |  as.numeric(format(Sys.time(),'%u')) == 1,0,1)
-for (o in 1:length(owners)) {for (w in 1:max(results_Final$Week)-thurs_check) full_lineup[which(full_lineup$Owner==o & full_lineup$Week==w),c('Player','proj','Var')] <- results_Final[which(results_Final$Owner==o & results_Final$Week==w),c('Player','proj','Var')]}
+results_Final$Neg_Ind <- 1
+for (o in 1:length(owners)) {for (w in 1:max(results_Final$Week)-thurs_check) full_lineup[which(full_lineup$Owner==o & full_lineup$Week==w),c('Player','proj','Var','Neg_Ind')] <- results_Final[which(results_Final$Owner==o & results_Final$Week==w),c('Player','proj','Var','Neg_Ind')]}
 full_lineup$proj <- as.numeric(full_lineup$proj)
+
 
 #all_scores <- aggregate(cbind(proj,Var)~Owner+Week,full_lineup,sum)
 #all_scores[match(sched$tm_wk, paste0(all_scores$Owner,'-',all_scores$Week)),c('proj','Var')]
@@ -414,8 +428,12 @@ sim_cnt <- 50000
 
 full_proj <- sapply(1:nrow(full_lineup), function(x) {
 pts <- rnorm(sim_cnt ,full_lineup$proj[x],sqrt(full_lineup$Var[x]))
+if (full_lineup$Neg_Ind[x]==0) {
 gap <- mean(ifelse(pts<0,0,pts)) - full_lineup$proj[x]
 final_pts <- ifelse(pts - gap<0,0,pts - gap)
+} else {
+final_pts <- pts
+}
 final_pts
 })
 
@@ -480,9 +498,9 @@ playoff <- table(factor(c(seed_1,seed_2,seed_3,seed_4),c(1:10)))
 semi_win <- table(factor(c(top_semi,low_semi),c(1:10)))
 champ_prob <- table(factor(champ,c(1:10)))
 po_proj <- cbind(playoff,semi_win,champ_prob)/sim_cnt
-
 po_1_avg <- apply(playoffs_1,2,mean)
 po_2_avg <- apply(playoffs_2,2,mean)
+
 
 win_proj <- round(apply(win_totals,2,mean),0)
 avg_pf <- apply(point_totals,2,mean)
@@ -507,6 +525,16 @@ proj_PA <- round(sapply(1:length(owners), function(o) sum(sched$PA[which(sched$t
 
 hk_order <- hk_tm[order(q_standings[hk_tm])]
 dp_order <- dp_tm[order(q_standings[dp_tm])]
+
+
+####save the most recent results
+all_hist <- read.csv('prior runs.csv',stringsAsFactors=F)
+last_run_df <- all_hist[1:10,]
+this_run_df <- data.frame(owners,time=file.info('Teams.txt')$mtime,matrix(sched$win_prob,10,byrow=T),po_proj)
+write.csv(rbind(this_run_df,all_hist),'prior runs.csv',row.names=F)
+
+#remove last run
+#write.csv(all_hist[-c(1:10),],'prior runs.csv',row.names=F)
 
 
 #dev.new(width=900, height=1600)
@@ -558,16 +586,82 @@ text(16,9,owners[q_top],cex=2)
 text(16,4,owners[q_low],cex=2)
 text(17,6,owners[q_champ],cex=2.5)
 
-text(15,12,paste0('As of ',format(file.info('Teams.txt')$mtime, "%a %b %d %r")),cex=2)
+text(15,12,paste0('As of ',format(file.info('Teams.txt')$mtime, "%a %m/%d %I:%M %P")),cex=2)
 
 
 dev.off()
 
-library(twitteR)
-setup_twitter_oauth('3OFet2Lrb7SM3P5xRIS4mYcYT', 'lUY751Alq4eneCod71LwCG3L4PT4L20PMET8sGqKgovrZOfbdg', access_token='981969608277135360-7w95AsxJKN6gbCBogRcLiawZ2znXoIs', access_secret='JEmeS2Gs2TavP5DEwwJgJWGH0ryzjHZBpGqpZG6jk9ZIK')
+
+#begin tweeting
+time_diff <- as.POSIXct(this_run_df$time[1]) - as.POSIXct(last_run_df$time[1])
+timing_text <- paste0('Simulation has been updated from last run about ',round(as.numeric(time_diff),0),' ',units(time_diff),' ago.')
+
+last_twt <- updateStatus(paste0(timing_text,' @reinhurdler @CompTwinB @CUsher44'),mediaPath='projection.png')
+
+needed <- 6 - nchar(owners) + c(2,1,5,-1,-1,1,2,1,0,0)
+spaced <- paste0(owners,unlist(sapply(needed, function(x) paste(rep(' ',x),collapse=''))))
+
+##games this week
+weekly_games <- sched[which(sched$wk==this_week & sched$win_prob>=.5),]
+weekly_games <- weekly_games[order(weekly_games$win_prob),]
+weekly_games$last_run <- last_run_df[weekly_games$team,paste0('X',this_week)]
+weekly_games$change <- weekly_games$win_prob - weekly_games$last_run
+weekly_games$change_txt <- ifelse(abs(weekly_games$change)<=.001,'',ifelse(weekly_games$change>0,paste0(', \u2795',abs(round(weekly_games$change*100,1)),'%'),paste0(', \u2796',abs(round(weekly_games$change*100,1)),'%')))
+
+this_wk_scores <- paste0('Week ',this_week,' @numberFire projections:\r',paste(paste0(spaced[weekly_games$team],' ', round(weekly_games$PF,1),' (',round(weekly_games$win_prob*100,1),'%',weekly_games$change_txt,')\r',spaced[weekly_games$opp],' ', round(weekly_games$PA,1)),collapse='\r\r'))
+last_twt <- updateStatus(this_wk_scores,bypassCharLimit=T,inReplyTo=last_twt$id)
 
 
-last_twt <- updateStatus('New Simulation Complete! @reinhurdler @CompTwinB',mediaPath='projection.png')
+
+keycap_count <- paste0('\u003',c(1:9,0),'\u20E3')
+##playoffs
+po_tm_order <- order(-this_run_df$playoff)
+po_change <- this_run_df$playoff - last_run_df$playoff
+
+po_change_txt <- ifelse(abs(po_change[po_tm_order])<=.001,'',ifelse(po_change[po_tm_order]>0,paste0(', \u2795',abs(round(po_change[po_tm_order]*100,1)),'%'),paste0(', \u2796',abs(round(po_change[po_tm_order]*100,1)),'%')))
+po_odds <- paste0('Playoff Odds:\r',paste(paste0(keycap_count,'',spaced[po_tm_order],' ',round(this_run_df$playoff[po_tm_order]*100,1),'%',po_change_txt),collapse='\r'))
+last_twt <- updateStatus(po_odds,bypassCharLimit=T,inReplyTo=last_twt$id)
+
+##champion
+chmp_tm_order <- order(-this_run_df$champ_prob)
+chmp_change <- this_run_df$champ_prob - last_run_df$champ_prob
+
+chmp_change_txt <- ifelse(abs(chmp_change[chmp_tm_order])<=.001,'',ifelse(chmp_change[chmp_tm_order]>0,paste0(', \u2795',abs(round(chmp_change[chmp_tm_order]*100,1)),'%'),paste0(', \u2796',abs(round(chmp_change[chmp_tm_order]*100,1)),'%')))
+chmp_odds <- paste0('Championshp Odds:\r',paste(paste0(keycap_count,spaced[chmp_tm_order],' ',round(this_run_df$champ_prob[chmp_tm_order]*100,1),'%',chmp_change_txt),collapse='\r'))
+last_twt <- updateStatus(chmp_odds,bypassCharLimit=T,inReplyTo=last_twt$id)
+
+row.names(proj_by_wk) <- NULL
+szn_avg <- apply(proj_by_wk[,(this_week+3):19],1,mean,na.rm=T)
+week_plyr_ratio <- proj_by_wk[,(this_week+2)]/szn_avg
+adj_up <- proj_by_wk$Player[which(week_plyr_ratio>=1.8)]
+adj_down <- proj_by_wk$Player[which(week_plyr_ratio<=.6 & week_plyr_ratio!=0)]
+return_week <- 19-apply(proj_by_wk[,19:(this_week+2)],1,function(x) match(0,x))
+players_out <- proj_by_wk$Player[which(!is.na(return_week))]
+players_return <- return_week[which(!is.na(return_week))]
+player_excluded <- roster_list$Player[which(is.na(match(roster_list$Player,proj_by_wk$Player)))]
+
+adj_up_owner <- roster_list$Owner[match(adj_up,roster_list$Player)]
+adj_down_owner <- roster_list$Owner[match(adj_down,roster_list$Player)]
+players_out_owner <- roster_list$Owner[match(players_out,roster_list$Player)]
+players_excluded_owner <- roster_list$Owner[match(player_excluded,roster_list$Player)]
+
+adj_up_full <- c()
+adj_down_full <- c()
+players_out_full <- c()
+players_excluded_full <- c()
+
+if (length(which(!is.na(adj_up_owner))) > 0) adj_up_full <- paste0('\u2B06 ',adj_up,' (',adj_up_owner,')')[which(!is.na(adj_up_owner))]
+if (length(which(!is.na(adj_down_owner))) > 0) adj_down_full <- paste0('\u2B07 ',adj_down,' (',adj_down_owner,')')[which(!is.na(adj_down_owner))]
+if (length(which(!is.na(players_out_owner))) > 0) players_out_full <- paste0('\u274c ',players_out,' (',players_out_owner,') \u25B6 Wk ',players_return)[which(!is.na(players_out_owner))]
+if (length(which(!is.na(players_excluded_owner))) > 0) players_excluded_full <- paste0('\u26A0 ',player_excluded,' (',players_excluded_owner,') has no projection')[which(!is.na(players_excluded_owner))]
+
+all_plyr_adj <- c(adj_up_full,adj_down_full,players_out_full,players_excluded_full)
+all_plyr_adj <- substr(all_plyr_adj,regexpr(' ',all_plyr_adj)+1,nchar(all_plyr_adj))
+tweet_grp <- as.numeric(cut(1:length(all_plyr_adj),c(seq(1,length(all_plyr_adj),8),Inf),include.lowest=T,right=F))
+
+last_twt <- updateStatus(paste(c('Weekly Player Adjustments:',all_plyr_adj[which(tweet_grp==1)]),collapse='\r'),bypassCharLimit=T,inReplyTo=last_twt$id)
+if (max(tweet_grp)>1) for (j in 2:max(tweet_grp)) last_twt <- updateStatus(paste(c('Weekly Player Adj (cont.):',all_plyr_adj[which(tweet_grp==j)]),collapse='\r'),bypassCharLimit=T,inReplyTo=last_twt$id)
+
 
 
 #apply(win_totals,2,mean)

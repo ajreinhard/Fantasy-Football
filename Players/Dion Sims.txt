@@ -8,7 +8,7 @@
 
     <meta name="apple-itunes-app" content="app-id=907642513">
 
-    <link rel="stylesheet" type="text/css" href="/css/main.min.css?v=321">
+    <link rel="stylesheet" type="text/css" href="/css/main.min.css?v=322">
 
     
     <script src="//use.typekit.net/hvg3qyl.js"></script>
@@ -373,22 +373,22 @@
                         <a href="/nfl/fantasy/fantasy-football-projections">Projections <i class="nf-icon icon-arrow-right"></i></a>
                         <ul class="sub-nav-tier-two">
                             <li>
-                                <a href="/nfl/fantasy/fantasy-football-projections">Week 4 Fantasy Projections</a>
+                                <a href="/nfl/fantasy/fantasy-football-projections">Week 5 Fantasy Projections</a>
                             </li>
                             <li>
-                                <a href="/nfl/fantasy/fantasy-football-ppr-projections">Week 4 Fantasy PPR Projections</a>
+                                <a href="/nfl/fantasy/fantasy-football-ppr-projections">Week 5 Fantasy PPR Projections</a>
                             </li>
                             <li>
-                                <a href="/nfl/daily-fantasy/daily-football-projections">Week 4 Daily Football Projections</a>
+                                <a href="/nfl/daily-fantasy/daily-football-projections">Week 5 Daily Football Projections</a>
                             </li>
                             <li>
-                                <a href="/nfl/games">Week 4 Game Projections</a>
+                                <a href="/nfl/games">Week 5 Game Projections</a>
                             </li>
                             <li>
-                                <a href="/nfl/survivor-pool">Week 4 Survivor Pool Analysis</a>
+                                <a href="/nfl/survivor-pool">Week 5 Survivor Pool Analysis</a>
                             </li>
                             <li>
-                                <a href="/nfl/survivor-pool-matrix">Week 4 Survivor Pool Matrix</a>
+                                <a href="/nfl/survivor-pool-matrix">Week 5 Survivor Pool Matrix</a>
                             </li>
                             <li>
                                 <a href="/nfl/daily-fantasy/who-do-i-start">Who Do I Start? Tool</a>
@@ -430,7 +430,7 @@
                     <li class="has-sub-nav"><a href="/nfl/teams/power-rankings">Rankings <i class="nf-icon icon-arrow-right"></i></a>
                         <ul class="sub-nav-tier-two">
                             <li>
-                               <a href="/nfl/fantasy/fantasy-football-rankings">Week 4 Fantasy Football Rankings</a>
+                               <a href="/nfl/fantasy/fantasy-football-rankings">Week 5 Fantasy Football Rankings</a>
                             </li>
                             <li>
                                <a href="/nfl/teams/power-rankings">Team Power Rankings</a>
@@ -1489,22 +1489,22 @@
            <ul class="secondary-nav" data-sub-nav-value="projections">
                <li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>
                <li>
-                   <a href="/nfl/fantasy/fantasy-football-projections">Week 4 Fantasy Projections</a>
+                   <a href="/nfl/fantasy/fantasy-football-projections">Week 5 Fantasy Projections</a>
                </li>
                <li>
-                   <a href="/nfl/fantasy/fantasy-football-ppr-projections">Week 4 Fantasy PPR Projections</a>
+                   <a href="/nfl/fantasy/fantasy-football-ppr-projections">Week 5 Fantasy PPR Projections</a>
                </li>
                <li>
-                   <a href="/nfl/daily-fantasy/daily-football-projections">Week 4 Daily Football Projections</a>
+                   <a href="/nfl/daily-fantasy/daily-football-projections">Week 5 Daily Football Projections</a>
                </li>
                <li>
-                   <a href="/nfl/games">Week 4 Game Projections</a>
+                   <a href="/nfl/games">Week 5 Game Projections</a>
                </li>
                <li>
-                   <a href="/nfl/survivor-pool">Week 4 Survivor Pool Analysis</a>
+                   <a href="/nfl/survivor-pool">Week 5 Survivor Pool Analysis</a>
                </li>
                <li>
-                   <a href="/nfl/survivor-pool-matrix">Week 4 Survivor Pool Matrix</a>
+                   <a href="/nfl/survivor-pool-matrix">Week 5 Survivor Pool Matrix</a>
                </li>
                <li>
                    <a href="/nfl/daily-fantasy/who-do-i-start">Who Do I Start? Tool</a>
@@ -1546,7 +1546,7 @@
            <ul class="secondary-nav" data-sub-nav-value="rankings">
                <li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>
                <li>
-                   <a href="/nfl/fantasy/fantasy-football-rankings">Week 4 Fantasy Football Rankings</a>
+                   <a href="/nfl/fantasy/fantasy-football-rankings">Week 5 Fantasy Football Rankings</a>
                 </li>
                 <li>
                    <a href="/nfl/teams/power-rankings">Team Power Rankings</a>
@@ -2206,7 +2206,6 @@
                                                                             <option  value="/nfl/players/projections/chase-daniel">Chase Daniel</option>
                                                     <option  value="/nfl/players/projections/chicago-dst">Chicago D/ST</option>
                                                     <option  value="/nfl/players/projections/prince-amukamara">Prince Amukamara</option>
-                                                    <option  value="/nfl/players/projections/sam-acho">Sam Acho</option>
                                                     <option  value="/nfl/players/projections/sherrick-mcmanis">Sherrick McManis</option>
                                                     <option  value="/nfl/players/projections/danny-trevathan">Danny Trevathan</option>
                                                     <option  value="/nfl/players/projections/akiem-hicks">Akiem Hicks</option>
@@ -2257,8 +2256,6 @@
                                 C. D/ST                            </option>
                                                     <option  value="/nfl/players/projections/prince-amukamara">
                                 P. Amukamara                            </option>
-                                                    <option  value="/nfl/players/projections/sam-acho">
-                                S. Acho                            </option>
                                                     <option  value="/nfl/players/projections/sherrick-mcmanis">
                                 S. McManis                            </option>
                                                     <option  value="/nfl/players/projections/danny-trevathan">
@@ -2406,44 +2403,36 @@
 			<!-- Player Specific Schedule -->
 <div class=" grid--1-1 player-schedule--interior player-schedule">
 	<div class="player-schedule__hed">
-		Next Game -
+		Last Game -
 			<strong>
-			Sun, 9/30/18, 1:00 PM ET			</strong>
+			Sun, 9/9/18, 8:20 PM ET			</strong>
 	</div>
 
 	<div class="player-schedule__next__probability">
 		<div class="next-game next-game--left">
 			<div class="next-game--left--logo-wrap">
-				<img class="next-game__logo next-game--left__logo" src="https://d1tjohjvimcqgl.cloudfront.net/teams/logos/nfl/TB.png">
-				<a class="next-game__team" href="/nfl/teams/tampa-bay-buccaneers">
-					TB				</a>
+				<img class="next-game__logo next-game--left__logo" src="https://d1tjohjvimcqgl.cloudfront.net/teams/logos/nfl/CHI.png">
+				<a class="next-game__team" href="/nfl/teams/chicago-bears">
+					CHI				</a>
 			</div>
-							<span class="next-game__rank">
-					#20				</span>
+							<span class="next-game__final-score">23</span>
 					</div>
-								<div class="next-game next-game--live odds-right team-nfl-CHI">
-									<h4>
-						win probability
-					</h4>
+								<div class="next-game next-game--live odds-right team-nfl-GB final">
+				<!-- TODO - Tom look at class/structure -->
 					<span class="next-game--live__percentage">
-					56.9<span class="symbol">%</span>
-				</span>
-					<span class="next-game--live__winning-team">
-					CHI				</span>
-								<span class="next-game--live__arrow team-nfl-CHI-border"></span>
+						Final
+					</span>
+				<span class="next-game--live__arrow team-nfl-GB-border"></span>
 			</div>
 				<div class="next-game next-game--right">
-						<span class="next-game__rank small-hide">
-				#13			</span>
+							<span class="next-game__final-score">24</span>
 						<div class="next-game--right--logo-wrap">
-				<a class="next-game__team small-hide" href="/nfl/teams/chicago-bears">
-					CHI				</a>
-				<img class="next-game__logo next-game--right__logo" src="https://d1tjohjvimcqgl.cloudfront.net/teams/logos/nfl/CHI.png">
-				<a class="next-game__team small-show" href="/nfl/teams/chicago-bears">
-					CHI				</a>
+				<a class="next-game__team small-hide" href="/nfl/teams/green-bay-packers">
+					GB				</a>
+				<img class="next-game__logo next-game--right__logo" src="https://d1tjohjvimcqgl.cloudfront.net/teams/logos/nfl/GB.png">
+				<a class="next-game__team small-show" href="/nfl/teams/green-bay-packers">
+					GB				</a>
 			</div>
-						<span class="next-game__rank small-show">
-				#13			</span>
 					</div>
 	</div>
 
@@ -2451,11 +2440,11 @@
 
 					<div class="player-schedule__indiv-projections__stats">
 				<h4>
-					projections for Dion Sims				</h4>
+					stats for Dion Sims				</h4>
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 					<span class="stat">
-													1.1											</span>
+													2											</span>
 					<span title="Receptions" class="cat">
 						Rec
 					</span>
@@ -2463,7 +2452,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 					<span class="stat">
-													11.3											</span>
+													9											</span>
 					<span title="Receiving Yards" class="cat">
 						Rec Yd
 					</span>
@@ -2471,7 +2460,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 					<span class="stat">
-													0.2											</span>
+													0											</span>
 					<span title="Receiving Touchdowns" class="cat">
 						Rec TD
 					</span>
@@ -2479,7 +2468,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv  medium-down-hide">
 					<span class="stat">
-													0.0											</span>
+													0											</span>
 					<span title="Fumbles" class="cat">
 						Fum
 					</span>
@@ -2487,7 +2476,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 				<span class="stat">
-											2.6									</span>
+											1.9									</span>
 				<span title = "FanDuel Fantasy Points" class="cat">
 					FP
 				</span>
@@ -2718,7 +2707,7 @@
 					<tbody class="projection-table__body">
 																<tr data-row-index="1">
 							<td class="">
-								#25							</td>
+								#21							</td>
 							<td>
 								2.23							</td>
 							<td>
@@ -2741,8 +2730,8 @@
 								0.66							</td>
 						</tr>
 											<tr data-row-index="2">
-							<td class="negative">
-								#9							</td>
+							<td class="">
+								#8							</td>
 							<td>
 								2.29							</td>
 							<td>
@@ -2766,7 +2755,7 @@
 						</tr>
 											<tr data-row-index="3">
 							<td class="">
-								#24							</td>
+								#13							</td>
 							<td>
 								1.81							</td>
 							<td>
@@ -2789,8 +2778,8 @@
 								0.37							</td>
 						</tr>
 											<tr data-row-index="4">
-							<td class="">
-								#26							</td>
+							<td class="positive">
+								#31							</td>
 							<td>
 								1.79							</td>
 							<td>
@@ -2837,166 +2826,118 @@
 								N/A							</td>
 						</tr>
 											<tr data-row-index="6">
-							<td class="negative">
-								#4							</td>
+							<td class="">
+								#24							</td>
 							<td>
-								2.15							</td>
+								1.71							</td>
 							<td>
-								1.13							</td>
+								1.01							</td>
 							<td>
-								10.53							</td>
+								10.42							</td>
 							<td>
-								0.06							</td>
+								0.11							</td>
 							<td class="border-right">
 								0.00							</td>
 							<td>
-								-0.17-2.99							</td>
+								-0.10-3.46							</td>
 							<td class="border-right">
-								1.41							</td>
+								1.68							</td>
 							<td class="cost">
 								N/A							</td>
 							<td>
-								1.98							</td>
+								2.21							</td>
 							<td>
 								N/A							</td>
 						</tr>
 											<tr data-row-index="7">
 							<td class="">
-								#20							</td>
+								#17							</td>
 							<td>
-								1.81							</td>
+								1.80							</td>
 							<td>
-								1.07							</td>
+								1.13							</td>
 							<td>
-								10.57							</td>
+								11.27							</td>
 							<td>
-								0.13							</td>
+								0.11							</td>
 							<td class="border-right">
-								0.01							</td>
+								0.00							</td>
 							<td>
-								0.11-3.61							</td>
+								0.07-3.45							</td>
 							<td class="border-right">
-								1.86							</td>
+								1.76							</td>
 							<td class="cost">
 								N/A							</td>
 							<td>
-								2.37							</td>
+								2.35							</td>
 							<td>
 								N/A							</td>
 						</tr>
 											<tr data-row-index="8">
 							<td class="negative">
-								#3							</td>
+								#4							</td>
 							<td>
-								2.14							</td>
+								2.04							</td>
 							<td>
-								1.17							</td>
+								1.14							</td>
 							<td>
-								10.76							</td>
-							<td>
-								0.05							</td>
-							<td class="border-right">
-								0.01							</td>
-							<td>
-								-0.20-2.88							</td>
-							<td class="border-right">
-								1.34							</td>
-							<td class="cost">
-								N/A							</td>
-							<td>
-								1.94							</td>
-							<td>
-								N/A							</td>
-						</tr>
-											<tr data-row-index="9">
-							<td class="">
-								#16							</td>
-							<td>
-								2.16							</td>
-							<td>
-								1.27							</td>
-							<td>
-								12.02							</td>
-							<td>
-								0.08							</td>
-							<td class="border-right">
-								0.00							</td>
-							<td>
-								0.04-3.28							</td>
-							<td class="border-right">
-								1.66							</td>
-							<td class="cost">
-								N/A							</td>
-							<td>
-								2.32							</td>
-							<td>
-								N/A							</td>
-						</tr>
-											<tr data-row-index="10">
-							<td class="">
-								#18							</td>
-							<td>
-								2.09							</td>
-							<td>
-								1.23							</td>
-							<td>
-								11.39							</td>
+								10.41							</td>
 							<td>
 								0.07							</td>
 							<td class="border-right">
 								0.00							</td>
 							<td>
-								0.14-2.98							</td>
+								-0.06-3.00							</td>
 							<td class="border-right">
-								1.56							</td>
+								1.47							</td>
 							<td class="cost">
 								N/A							</td>
 							<td>
-								2.17							</td>
+								2.03							</td>
 							<td>
 								N/A							</td>
 						</tr>
-											<tr data-row-index="11">
-							<td class="negative">
-								#10							</td>
-							<td>
-								2.54							</td>
-							<td>
-								1.38							</td>
-							<td>
-								11.45							</td>
-							<td>
-								0.02							</td>
-							<td class="border-right">
-								0.01							</td>
-							<td>
-								0.14-2.28							</td>
-							<td class="border-right">
-								1.21							</td>
-							<td class="cost">
-								N/A							</td>
-							<td>
-								1.94							</td>
-							<td>
-								N/A							</td>
-						</tr>
-											<tr data-row-index="12">
+											<tr data-row-index="9">
 							<td class="">
-								#18							</td>
+								#11							</td>
 							<td>
-								2.09							</td>
+								1.96							</td>
 							<td>
-								1.23							</td>
+								1.21							</td>
 							<td>
-								11.39							</td>
+								12.06							</td>
 							<td>
-								0.06							</td>
+								0.12							</td>
 							<td class="border-right">
 								0.00							</td>
 							<td>
-								0.09-2.93							</td>
+								0.05-3.87							</td>
 							<td class="border-right">
-								1.51							</td>
+								1.96							</td>
+							<td class="cost">
+								N/A							</td>
+							<td>
+								2.55							</td>
+							<td>
+								N/A							</td>
+						</tr>
+											<tr data-row-index="10">
+							<td class="">
+								#28							</td>
+							<td>
+								1.57							</td>
+							<td>
+								0.98							</td>
+							<td>
+								9.80							</td>
+							<td>
+								0.11							</td>
+							<td class="border-right">
+								0.01							</td>
+							<td>
+								-0.12-3.32							</td>
+							<td class="border-right">
+								1.60							</td>
 							<td class="cost">
 								N/A							</td>
 							<td>
@@ -3004,123 +2945,171 @@
 							<td>
 								N/A							</td>
 						</tr>
-											<tr data-row-index="13">
+											<tr data-row-index="11">
 							<td class="">
-								#15							</td>
+								#26							</td>
 							<td>
-								1.91							</td>
+								1.82							</td>
 							<td>
-								1.14							</td>
+								0.98							</td>
 							<td>
-								10.92							</td>
+								8.85							</td>
 							<td>
 								0.09							</td>
 							<td class="border-right">
-								0.01							</td>
+								0.00							</td>
 							<td>
-								0.08-3.20							</td>
+								-0.18-3.02							</td>
 							<td class="border-right">
-								1.64							</td>
+								1.42							</td>
 							<td class="cost">
 								N/A							</td>
 							<td>
-								2.2							</td>
+								1.92							</td>
+							<td>
+								N/A							</td>
+						</tr>
+											<tr data-row-index="12">
+							<td class="">
+								#28							</td>
+							<td>
+								1.57							</td>
+							<td>
+								0.98							</td>
+							<td>
+								9.80							</td>
+							<td>
+								0.10							</td>
+							<td class="border-right">
+								0.01							</td>
+							<td>
+								-0.19-3.25							</td>
+							<td class="border-right">
+								1.53							</td>
+							<td class="cost">
+								N/A							</td>
+							<td>
+								2.05							</td>
+							<td>
+								N/A							</td>
+						</tr>
+											<tr data-row-index="13">
+							<td class="">
+								#22							</td>
+							<td>
+								1.79							</td>
+							<td>
+								1.06							</td>
+							<td>
+								10.56							</td>
+							<td>
+								0.11							</td>
+							<td class="border-right">
+								0.01							</td>
+							<td>
+								-0.10-3.48							</td>
+							<td class="border-right">
+								1.69							</td>
+							<td class="cost">
+								N/A							</td>
+							<td>
+								2.25							</td>
 							<td>
 								N/A							</td>
 						</tr>
 											<tr data-row-index="14">
-							<td class="negative">
-								#6							</td>
+							<td class="">
+								#10							</td>
 							<td>
-								2.66							</td>
+								2.29							</td>
 							<td>
-								1.63							</td>
+								1.38							</td>
 							<td>
-								16.44							</td>
+								15.62							</td>
 							<td>
-								0.07							</td>
+								0.15							</td>
 							<td class="border-right">
-								0.04							</td>
+								0.01							</td>
 							<td>
-								0.33-3.75							</td>
+								0.38-4.66							</td>
 							<td class="border-right">
-								2.04							</td>
+								2.52							</td>
 							<td class="cost">
 								N/A							</td>
 							<td>
-								2.86							</td>
+								3.21							</td>
 							<td>
 								N/A							</td>
 						</tr>
 											<tr data-row-index="15">
 							<td class="">
-								#25							</td>
+								#21							</td>
 							<td>
-								1.81							</td>
+								1.70							</td>
 							<td>
 								1.01							</td>
 							<td>
-								10.56							</td>
+								10.64							</td>
 							<td>
-								0.15							</td>
+								0.12							</td>
 							<td class="border-right">
 								0.00							</td>
 							<td>
-								-0.06-4.02							</td>
+								-0.01-3.61							</td>
 							<td class="border-right">
-								1.98							</td>
+								1.80							</td>
 							<td class="cost">
 								N/A							</td>
 							<td>
-								2.46							</td>
+								2.29							</td>
 							<td>
 								N/A							</td>
 						</tr>
 											<tr data-row-index="16">
 							<td class="">
-								#28							</td>
+								#18							</td>
 							<td>
-								1.74							</td>
+								1.72							</td>
 							<td>
-								1.01							</td>
+								1.03							</td>
 							<td>
-								11.10							</td>
+								11.27							</td>
 							<td>
-								0.14							</td>
+								0.12							</td>
 							<td class="border-right">
 								0.00							</td>
 							<td>
-								-0.16-4.02							</td>
+								0.00-3.72							</td>
 							<td class="border-right">
-								1.93							</td>
+								1.86							</td>
 							<td class="cost">
 								N/A							</td>
 							<td>
-								2.46							</td>
+								2.36							</td>
 							<td>
 								N/A							</td>
 						</tr>
 											<tr data-row-index="17">
-							<td class="negative">
-								#10							</td>
+							<td class="">
+								#26							</td>
 							<td>
-								2.54							</td>
+								1.82							</td>
 							<td>
-								1.38							</td>
+								0.98							</td>
 							<td>
-								11.45							</td>
+								8.85							</td>
 							<td>
-								0.01							</td>
+								0.08							</td>
 							<td class="border-right">
-								0.01							</td>
+								0.00							</td>
 							<td>
-								0.13-2.27							</td>
+								-0.24-2.96							</td>
 							<td class="border-right">
-								1.20							</td>
+								1.36							</td>
 							<td class="cost">
 								N/A							</td>
 							<td>
-								1.88							</td>
+								1.86							</td>
 							<td>
 								N/A							</td>
 						</tr>
@@ -3145,21 +3134,21 @@
 					<tbody class="projection-table__body">
 											<tr>
 							<td>
-								27.43							</td>
+								21.79							</td>
 							<td>
-								15.70							</td>
+								12.89							</td>
 							<td>
-								149.86							</td>
+								129.55							</td>
 							<td>
-								1.08							</td>
+								1.29							</td>
 							<td class="border-right">
-								0.09							</td>
+								0.04							</td>
 							<td>
-								15.48-27.32							</td>
+								14.52-26.78							</td>
 							<td class="border-right">
-								21.40							</td>
+								20.65							</td>
 							<td>
-								29.24							</td>
+								27.18							</td>
 						</tr>
 										</tbody>
 				</table>
@@ -3193,51 +3182,51 @@
 	</div>
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
-		<a href="/nfl/lists/22423/10-fantasy-football-waiver-wire-targets-heading-into-week-5">
+		<a href="/nfl/news/22481/draft-daily-fantasy-football-helper-week-5">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22423_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22423_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22481_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22481_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 						<h4>
-				<a href="/nfl/lists/22423/10-fantasy-football-waiver-wire-targets-heading-into-week-5">
-					10 Fantasy Football Waiver Wire Targets Heading Into Week 5				</a>
+				<a href="/nfl/news/22481/draft-daily-fantasy-football-helper-week-5">
+					DRAFT Daily Fantasy Football Helper: Week 5				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
-			<a href="/author/kenyatta-storin" class="listing__byline--author">
-				Kenyatta Storin			</a>
-			<span>&mdash; <span class="timeago" title="1538400672"></span></span>
+			<a href="/author/matthew-gajewski" class="listing__byline--author">
+				Matthew Gajewski			</a>
+			<span>&mdash; <span class="timeago" title="1538675386"></span></span>
 		</div>
 	</div>
 
 </article>
 
 			<article class="listing  w-thumb-left  ">
-	<div class="listing__thumb  ">
-		<a href="/nfl/news/22428/monday-night-preview-can-the-red-hot-chiefs-continue-their-winning-streak-against-the-broncos">
+	<div class="listing__thumb  video-article">
+		<a href="/nfl/news/22493/thursday-night-football-are-the-patriots-getting-back-on-track">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22428_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22428_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22493_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22493_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 			<span class="listing--premium"><i class="nf-icon icon-premium"></i>premium</span>			<h4>
-				<a href="/nfl/news/22428/monday-night-preview-can-the-red-hot-chiefs-continue-their-winning-streak-against-the-broncos">
-					Monday Night Preview: Can the Red-Hot Chiefs Continue Their Winning Streak Against the Broncos?				</a>
+				<a href="/nfl/news/22493/thursday-night-football-are-the-patriots-getting-back-on-track">
+					Thursday Night Football: Are the Patriots Getting Back on Track?				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
-			<a href="/author/matthew-gajewski" class="listing__byline--author">
-				Matthew Gajewski			</a>
-			<span>&mdash; <span class="timeago" title="1538400224"></span></span>
+			<a href="/author/matt-kupferle-1" class="listing__byline--author">
+				Matt Kupferle			</a>
+			<span>&mdash; <span class="timeago" title="1538675125"></span></span>
 		</div>
 	</div>
 
@@ -3245,25 +3234,25 @@
 
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  video-article">
-		<a href="/nfl/news/22424/4-nfl-fanduel-stacks-for-week-4">
+		<a href="/nfl/lists/22469/5-historical-vegas-trends-you-should-know-for-week-5">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22424_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22424_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22469_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22469_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 						<h4>
-				<a href="/nfl/news/22424/4-nfl-fanduel-stacks-for-week-4">
-					4 NFL FanDuel Stacks for Week 4				</a>
+				<a href="/nfl/lists/22469/5-historical-vegas-trends-you-should-know-for-week-5">
+					5 Historical Vegas Trends You Should Know for Week 5				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
-			<a href="/author/ben-hossler" class="listing__byline--author">
-				Ben Hossler			</a>
-			<span>&mdash; <span class="timeago" title="1538238302"></span></span>
+			<a href="/author/kyle-dvorchak" class="listing__byline--author">
+				Kyle Dvorchak			</a>
+			<span>&mdash; <span class="timeago" title="1538672352"></span></span>
 		</div>
 	</div>
 
@@ -3271,25 +3260,51 @@
 
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
-		<a href="/nfl/news/22425/3-prop-bets-to-target-in-week-4">
+		<a href="/nfl/lists/22477/fantasy-football-5-bold-predictions-for-week-5">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22425_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22425_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22477_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22477_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 						<h4>
-				<a href="/nfl/news/22425/3-prop-bets-to-target-in-week-4">
-					3 Prop Bets to Target in Week 4 				</a>
+				<a href="/nfl/lists/22477/fantasy-football-5-bold-predictions-for-week-5">
+					Fantasy Football: 5 Bold Predictions for Week 5				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
-			<a href="/author/matthew-gajewski" class="listing__byline--author">
-				Matthew Gajewski			</a>
-			<span>&mdash; <span class="timeago" title="1538223236"></span></span>
+			<a href="/author/aidan-mcgrath" class="listing__byline--author">
+				Aidan Mcgrath			</a>
+			<span>&mdash; <span class="timeago" title="1538669293"></span></span>
+		</div>
+	</div>
+
+</article>
+
+			<article class="listing  w-thumb-left  ">
+	<div class="listing__thumb  ">
+		<a href="/nfl/news/22489/daily-fantasy-football-podcast-the-heat-check-week-5-preview">
+			<picture>
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22489_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22489_a3.jpg">
+			</picture>
+		</a>
+			</div>
+	<div class="listing__info">
+		<div class="listing__hed">
+						<h4>
+				<a href="/nfl/news/22489/daily-fantasy-football-podcast-the-heat-check-week-5-preview">
+					Daily Fantasy Football Podcast: The Heat Check, Week 5 Preview				</a>
+			</h4>
+		</div>
+
+		<div class="listing__byline">
+			<a href="/author/jim-sannes" class="listing__byline--author">
+				Jim Sannes			</a>
+			<span>&mdash; <span class="timeago" title="1538668213"></span></span>
 		</div>
 	</div>
 
@@ -3297,51 +3312,25 @@
 
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  video-article">
-		<a href="/nfl/news/22419/fantasy-football-week-4-injury-report">
+		<a href="/nfl/lists/22476/8-fantasy-football-sleepers-for-week-5">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22419_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22419_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22476_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22476_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 						<h4>
-				<a href="/nfl/news/22419/fantasy-football-week-4-injury-report">
-					Fantasy Football: Week 4 Injury Report				</a>
+				<a href="/nfl/lists/22476/8-fantasy-football-sleepers-for-week-5">
+					8 Fantasy Football Sleepers for Week 5				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
-			<a href="/author/gabriel-garrido" class="listing__byline--author">
-				Gabe Garrido			</a>
-			<span>&mdash; <span class="timeago" title="1538170535"></span></span>
-		</div>
-	</div>
-
-</article>
-
-			<article class="listing  w-thumb-left  ">
-	<div class="listing__thumb  video-article">
-		<a href="/nfl/lists/22403/4-nfl-fanduel-tournament-pivots-for-week-4">
-			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22403_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22403_a3.jpg">
-			</picture>
-		</a>
-			</div>
-	<div class="listing__info">
-		<div class="listing__hed">
-						<h4>
-				<a href="/nfl/lists/22403/4-nfl-fanduel-tournament-pivots-for-week-4">
-					4 NFL FanDuel Tournament Pivots for Week 4				</a>
-			</h4>
-		</div>
-
-		<div class="listing__byline">
-			<a href="/author/ian-goldsmith" class="listing__byline--author">
-				Ian Goldsmith			</a>
-			<span>&mdash; <span class="timeago" title="1538169855"></span></span>
+			<a href="/author/jason-schandl" class="listing__byline--author">
+				Jason Schandl			</a>
+			<span>&mdash; <span class="timeago" title="1538662672"></span></span>
 		</div>
 	</div>
 
@@ -3368,58 +3357,6 @@
 	</div>
 
 						<div class="sidebar__comparable-seasons__wrap compare-indiv">
-				<img src="https://d1tjohjvimcqgl.cloudfront.net/category/41231_n.jpg" class="player-image compare-indiv__logo">
-				<div class="compare-indiv__name">
-					<a href="/nfl/players/george-wrighster">
-						George Wrighster					</a>
-					<span>
-						2005-06 Season
-					</span>
-				</div>
-				<div class="compare-indiv__percentage">
-					<span>96.56%</span> match
-				</div>
-			</div>
-								<div class="sidebar__comparable-seasons__wrap compare-indiv">
-				<img src="https://d1tjohjvimcqgl.cloudfront.net/category/41232_n.jpg" class="player-image compare-indiv__logo">
-				<div class="compare-indiv__name">
-					<a href="/nfl/players/bubba-franks">
-						Bubba Franks					</a>
-					<span>
-						2007-08 Season
-					</span>
-				</div>
-				<div class="compare-indiv__percentage">
-					<span>95.42%</span> match
-				</div>
-			</div>
-								<div class="sidebar__comparable-seasons__wrap compare-indiv">
-				<img src="https://d1tjohjvimcqgl.cloudfront.net/category/2303_n.jpg" class="player-image compare-indiv__logo">
-				<div class="compare-indiv__name">
-					<a href="/nfl/players/dennis-pitta">
-						Dennis Pitta					</a>
-					<span>
-						2013-14 Season
-					</span>
-				</div>
-				<div class="compare-indiv__percentage">
-					<span>94.69%</span> match
-				</div>
-			</div>
-								<div class="sidebar__comparable-seasons__wrap compare-indiv">
-				<img src="https://d1tjohjvimcqgl.cloudfront.net/category/41239_n.jpg" class="player-image compare-indiv__logo">
-				<div class="compare-indiv__name">
-					<a href="/nfl/players/kris-mangum">
-						Kris Mangum					</a>
-					<span>
-						2004-05 Season
-					</span>
-				</div>
-				<div class="compare-indiv__percentage">
-					<span>93.97%</span> match
-				</div>
-			</div>
-								<div class="sidebar__comparable-seasons__wrap compare-indiv">
 				<img src="https://d1tjohjvimcqgl.cloudfront.net/category/4021_n.jpg" class="player-image compare-indiv__logo">
 				<div class="compare-indiv__name">
 					<a href="/nfl/players/will-heller">
@@ -3429,7 +3366,59 @@
 					</span>
 				</div>
 				<div class="compare-indiv__percentage">
-					<span>93.89%</span> match
+					<span>96.44%</span> match
+				</div>
+			</div>
+								<div class="sidebar__comparable-seasons__wrap compare-indiv">
+				<img src="https://d1tjohjvimcqgl.cloudfront.net/category/157_n.jpg" class="player-image compare-indiv__logo">
+				<div class="compare-indiv__name">
+					<a href="/nfl/players/donald-lee">
+						Donald Lee					</a>
+					<span>
+						2005-06 Season
+					</span>
+				</div>
+				<div class="compare-indiv__percentage">
+					<span>95.64%</span> match
+				</div>
+			</div>
+								<div class="sidebar__comparable-seasons__wrap compare-indiv">
+				<img src="https://d1tjohjvimcqgl.cloudfront.net/category/41341_n.jpg" class="player-image compare-indiv__logo">
+				<div class="compare-indiv__name">
+					<a href="/nfl/players/todd-yoder">
+						Todd Yoder					</a>
+					<span>
+						2001-02 Season
+					</span>
+				</div>
+				<div class="compare-indiv__percentage">
+					<span>95.58%</span> match
+				</div>
+			</div>
+								<div class="sidebar__comparable-seasons__wrap compare-indiv">
+				<img src="https://d1tjohjvimcqgl.cloudfront.net/category/41238_n.jpg" class="player-image compare-indiv__logo">
+				<div class="compare-indiv__name">
+					<a href="/nfl/players/stephen-alexander">
+						Stephen Alexander					</a>
+					<span>
+						2005-06 Season
+					</span>
+				</div>
+				<div class="compare-indiv__percentage">
+					<span>94.70%</span> match
+				</div>
+			</div>
+								<div class="sidebar__comparable-seasons__wrap compare-indiv">
+				<img src="https://d1tjohjvimcqgl.cloudfront.net/category/41242_n.jpg" class="player-image compare-indiv__logo">
+				<div class="compare-indiv__name">
+					<a href="/nfl/players/erron-kinney">
+						Erron Kinney					</a>
+					<span>
+						2000-01 Season
+					</span>
+				</div>
+				<div class="compare-indiv__percentage">
+					<span>94.60%</span> match
 				</div>
 			</div>
 			</div>
@@ -3496,9 +3485,9 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsrender/0.9.84/jsrender.min.js"></script>
 
             <script type="text/javascript" src="/js/config/prod.js"></script>
-        <script type="text/javascript" src="/js/nF.js?v=458"></script>
-    <script type="text/javascript" src="/dist/fd-login.js?v=458"></script>
-    <script type="text/javascript" src="/dist/scoreboard.js?v=458"></script>
+        <script type="text/javascript" src="/js/nF.js?v=459"></script>
+    <script type="text/javascript" src="/dist/fd-login.js?v=459"></script>
+    <script type="text/javascript" src="/dist/scoreboard.js?v=459"></script>
 
         
     	<script>
@@ -3562,5 +3551,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":73,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":130,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>
