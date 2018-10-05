@@ -256,10 +256,12 @@ results <- data.frame(do.call(rbind, slots),stringsAsFactors=F)
 ######FILL IN MISSING STARTER SPOTS ON THURSDAY########
 #######################################################
 #results$Player[which(results$OwnerWeek=='matty-5' & results$Pos=='TE-1' & results$Player=='Tyler Eifert')] <- 'Jordan Reed'
-results$Player[which(results$OwnerWeek=='scott-5' & results$Pos=='TE-1' & results$Slot=='OPEN')] <- 'George Kittle'
+#results$Player[which(results$OwnerWeek=='scott-5' & results$Pos=='TE-1' & results$Slot=='OPEN')] <- 'George Kittle'
 #results$Player[which(results$OwnerWeek=='lucas-5' & results$Pos=='D/ST' & results$Slot=='BYE')] <- 'Ravens D/ST'
 #results$Player[which(results$OwnerWeek=='lucas-5' & results$Pos=='WR-1' & results$Slot=='BYE')] <- 'Jamison Crowder'
-results$Player[which(results$OwnerWeek=='comp-5' & results$Pos=='TE-1' & results$Slot=='BYE')] <- 'Austin Hooper'
+#results$Player[which(results$OwnerWeek=='comp-5' & results$Pos=='TE-1' & results$Slot=='BYE')] <- 'Austin Hooper'
+results$Player[which(results$OwnerWeek=='devon-5' & results$Player=='Demaryius Thomas')] <- 'Devonta Freeman'
+results$Player[which(results$OwnerWeek=='aj-5' & results$Pos=='QB-1' & results$Slot=='OPEN')] <- 'Matt Ryan'
 #######################################################
 results[which(results$Slot!=''),]
 #open_spots <- open_spots[which(sapply(open_spots$OwnerWeek, function(x) as.numeric(strsplit(x,'-')[[1]][2]))==this_week),]
@@ -598,7 +600,7 @@ timing_text <- paste0('Simulation has been updated from last run about ',round(a
 
 last_twt <- updateStatus(paste0(timing_text,' @reinhurdler @CompTwinB @CUsher44'),mediaPath='projection.png')
 
-needed <- 6 - nchar(owners) + c(2,1,5,-1,-1,1,2,1,0,0)
+needed <- 6 - nchar(owners) + c(2,1,5,-1,-1,1,2,1,0,1)
 spaced <- paste0(owners,unlist(sapply(needed, function(x) paste(rep(' ',x),collapse=''))))
 
 ##games this week
