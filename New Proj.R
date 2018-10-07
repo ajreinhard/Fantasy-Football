@@ -260,8 +260,8 @@ results <- data.frame(do.call(rbind, slots),stringsAsFactors=F)
 #results$Player[which(results$OwnerWeek=='lucas-5' & results$Pos=='D/ST' & results$Slot=='BYE')] <- 'Ravens D/ST'
 #results$Player[which(results$OwnerWeek=='lucas-5' & results$Pos=='WR-1' & results$Slot=='BYE')] <- 'Jamison Crowder'
 #results$Player[which(results$OwnerWeek=='comp-5' & results$Pos=='TE-1' & results$Slot=='BYE')] <- 'Austin Hooper'
-results$Player[which(results$OwnerWeek=='devon-5' & results$Player=='Demaryius Thomas')] <- 'Devonta Freeman'
-results$Player[which(results$OwnerWeek=='aj-5' & results$Pos=='QB-1' & results$Slot=='OPEN')] <- 'Matt Ryan'
+#results$Player[which(results$OwnerWeek=='devon-5' & results$Player=='Demaryius Thomas')] <- 'Devonta Freeman'
+#results$Player[which(results$OwnerWeek=='aj-5' & results$Pos=='QB-1' & results$Slot=='OPEN')] <- 'Matt Ryan'
 #######################################################
 results[which(results$Slot!=''),]
 #open_spots <- open_spots[which(sapply(open_spots$OwnerWeek, function(x) as.numeric(strsplit(x,'-')[[1]][2]))==this_week),]
