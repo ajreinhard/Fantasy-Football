@@ -2213,6 +2213,8 @@
                                                     <option  value="/nfl/players/projections/corn-elder">Corn Elder</option>
                                                     <option  value="/nfl/players/projections/efe-obada">Efe Obada</option>
                                                     <option  value="/nfl/players/projections/marquis-haynes">Marquis Haynes</option>
+                                                    <option  value="/nfl/players/projections/jermaine-carter">Jermaine Carter</option>
+                                                    <option  value="/nfl/players/projections/andre-smith-1">Andre Smith</option>
                                             </select>
                 </form>
                 <form class="team-player-sub-nav__list__drop team-player-sub-nav__list__drop--abbr" action="">
@@ -2301,6 +2303,10 @@
                                 E. Obada                            </option>
                                                     <option  value="/nfl/players/projections/marquis-haynes">
                                 M. Haynes                            </option>
+                                                    <option  value="/nfl/players/projections/jermaine-carter">
+                                J. Carter                            </option>
+                                                    <option  value="/nfl/players/projections/andre-smith-1">
+                                A. Smith                            </option>
                                             </select>
                 </form>
                             <ul class="team-player-sub-nav__list__links">
@@ -2388,7 +2394,7 @@
 						win probability
 					</h4>
 					<span class="next-game--live__percentage">
-					77.9<span class="symbol">%</span>
+					78.2<span class="symbol">%</span>
 				</span>
 					<span class="next-game--live__winning-team">
 					CAR				</span>
@@ -3583,5 +3589,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":72,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":75,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

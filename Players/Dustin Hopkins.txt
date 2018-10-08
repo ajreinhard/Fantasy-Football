@@ -2404,7 +2404,7 @@
 						win probability
 					</h4>
 					<span class="next-game--live__percentage">
-					73.7<span class="symbol">%</span>
+					74.1<span class="symbol">%</span>
 				</span>
 					<span class="next-game--live__winning-team">
 					NO				</span>
@@ -2465,7 +2465,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 				<span class="stat">
-											7.3									</span>
+											7.4									</span>
 				<span title = "FanDuel Fantasy Points" class="cat">
 					FP
 				</span>
@@ -2785,7 +2785,7 @@
 							<td class="positive">
 								#30							</td>
 							<td>
-								1.53							</td>
+								1.54							</td>
 							<td>
 								1.83							</td>
 							<td>
@@ -2793,13 +2793,13 @@
 							<td class="border-right">
 								2.26							</td>
 							<td>
-								3.74-10.92							</td>
+								3.76-10.96							</td>
 							<td class="border-right">
-								7.33							</td>
+								7.36							</td>
 							<td class="cost">
 								N/A							</td>
 							<td>
-								7.34							</td>
+								7.37							</td>
 							<td>
 								N/A							</td>
 						</tr>
@@ -3087,19 +3087,19 @@
 					<tbody class="projection-table__body">
 											<tr>
 							<td>
-								21.42							</td>
+								21.43							</td>
 							<td>
-								26.29							</td>
+								26.30							</td>
 							<td>
-								30.18							</td>
+								30.19							</td>
 							<td class="border-right">
-								31.07							</td>
+								31.08							</td>
 							<td>
-								88.43-117.77							</td>
+								88.49-117.81							</td>
 							<td class="border-right">
-								103.10							</td>
-							<td>
 								103.15							</td>
+							<td>
+								103.22							</td>
 						</tr>
 										</tbody>
 				</table>
@@ -3502,5 +3502,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":102,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":69,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

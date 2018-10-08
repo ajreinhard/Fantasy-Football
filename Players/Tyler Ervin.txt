@@ -2144,7 +2144,7 @@
 							  title="1529356695">&nbsp;</span>
 			        </div>
 								        <div class="player-info--basic__dfp">
-						FPPG: <span class="amt">1.7</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$4,500</span>					</div>
+						FPPG: <span class="amt">0.9</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$4,500</span>					</div>
 	            </div>
             </div>
 
@@ -2157,7 +2157,7 @@
 						</div>
 					
 			        <div class="player-info--basic__dfp">
-						FPPG: <span class="amt">1.7</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$4,500</span>			        </div>
+						FPPG: <span class="amt">0.9</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$4,500</span>			        </div>
 		     	</div>
 	     	</div>
         </div>
@@ -2178,7 +2178,7 @@
 					id="dfs-chart"
 					class="dfs-chart"
 					data-dfs-chart
-					data-dfs-chart-data="[{&quot;cost&quot;:&quot;4500.00&quot;,&quot;fp&quot;:1.7,&quot;opp&quot;:&quot;NE&quot;,&quot;round&quot;:&quot;Week 1&quot;,&quot;roundAbbrev&quot;:&quot;Wk1&quot;,&quot;value&quot;:0.38}]"
+					data-dfs-chart-data="[{&quot;cost&quot;:&quot;4500.00&quot;,&quot;fp&quot;:1.7,&quot;opp&quot;:&quot;NE&quot;,&quot;round&quot;:&quot;Week 1&quot;,&quot;roundAbbrev&quot;:&quot;Wk1&quot;,&quot;value&quot;:0.38},{&quot;cost&quot;:&quot;4500.00&quot;,&quot;fp&quot;:0,&quot;opp&quot;:&quot;DAL&quot;,&quot;round&quot;:&quot;Week 5&quot;,&quot;roundAbbrev&quot;:&quot;Wk5&quot;,&quot;value&quot;:0}]"
 					height="135"
 					width="499">
 				</canvas>
@@ -2455,7 +2455,7 @@
 
 			<div class="player-schedule__indiv-projections__stats--indiv">
 				<span class="stat">
-											14.0									</span>
+											24.3									</span>
 				<span title="Rushing Yards" class="cat">
 					Rush Yd
 				</span>
@@ -2471,7 +2471,7 @@
 
 			<div class="player-schedule__indiv-projections__stats--indiv">
 				<span class="stat">
-											7.3									</span>
+											18.0									</span>
 				<span title="Receiving Yards" class="cat">
 					Rec Yd
 				</span>
@@ -2487,13 +2487,68 @@
 
 			<div class="player-schedule__indiv-projections__stats--indiv">
 				<span class="stat">
-											3.0									</span>
+											6.1									</span>
 				<span title = "FanDuel Fantasy Points" class="cat">
 					FP
 				</span>
 			</div>
 		</div>
 		
+				<div class="player-schedule__indiv-projections__table-wrap player-projection-table">
+						<span class="player-projection-table__title">
+				Last Game against Dallas 			</span>
+			
+												<table class="projection-table grid--1-1 no-fix-height" cellspacing="0" cellpadding="0">
+						<thead class="projection-table__head">
+							<tr>
+								<th title = "Date" class="left-aligned">
+									Date
+								</th>
+								<th title = "Week">
+									Wk
+								</th>
+								<th title = "Rushing Yards">
+									Rush Yd
+								</th>
+								<th title = "Rushing Touchdowns">
+									Rush TD
+								</th>
+								<th title = "Receiving Yards">
+									Rec Yd
+								</th>
+								<th title="FanDuel Cost">
+									Cost
+								</th>
+								<th title = "FanDuel Fantasy Points">
+									FP
+								</th>
+								<th title = "FanDuel Value" class="value">
+									Value
+								</th>
+							</tr>
+						</thead>
+						<tbody class="projection-table__body">
+													<tr>
+								<td class="left-aligned">
+									10/7/18								</td>
+								<td>
+									5								</td>
+								<td>
+									0								</td>
+								<td>
+									0								</td>
+								<td>
+									0								</td>
+								<td>
+									$4,500								</td>
+								<td>
+									0								</td>
+								<td class="value">
+									0								</td>
+							</tr>
+												</tbody>
+					</table>
+									</div>
 			</div>
 	
 	
@@ -2834,29 +2889,29 @@
 							<td class="">
 								#23							</td>
 							<td>
-								3.55							</td>
+								6.16							</td>
 							<td>
-								14.00							</td>
+								24.28							</td>
 							<td>
-								0.05							</td>
-							<td>
-								1.00							</td>
-							<td>
-								7.25							</td>
-							<td>
-								0.02							</td>
-							<td class="border-right">
 								0.09							</td>
 							<td>
-								-0.65-5.53							</td>
+								2.49							</td>
+							<td>
+								17.99							</td>
+							<td>
+								0.04							</td>
 							<td class="border-right">
-								2.44							</td>
+								0.16							</td>
+							<td>
+								-0.50-10.22							</td>
+							<td class="border-right">
+								4.86							</td>
 							<td class="cost">
 								$4,500							</td>
 							<td>
-								2.95							</td>
+								6.07							</td>
 							<td>
-								0.66							</td>
+								1.35							</td>
 						</tr>
 											<tr data-row-index="6">
 							<td class="">
@@ -3217,25 +3272,25 @@
 					<tbody class="projection-table__body">
 											<tr>
 							<td>
-								17.02							</td>
+								18.55							</td>
 							<td>
-								66.27							</td>
+								72.29							</td>
 							<td>
-								0.17							</td>
+								0.20							</td>
 							<td>
-								5.09							</td>
+								6.14							</td>
 							<td>
-								35.04							</td>
+								42.62							</td>
 							<td>
-								0.26							</td>
+								0.28							</td>
 							<td class="border-right">
-								0.35							</td>
+								0.39							</td>
 							<td>
-								7.46-16.72							</td>
+								8.12-19.32							</td>
 							<td class="border-right">
-								12.09							</td>
+								13.72							</td>
 							<td>
-								14.88							</td>
+								17							</td>
 						</tr>
 										</tbody>
 				</table>
@@ -3638,5 +3693,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":93,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":112,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

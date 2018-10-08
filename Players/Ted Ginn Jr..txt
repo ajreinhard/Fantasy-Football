@@ -2141,11 +2141,11 @@
 															        </div>
 								        <div class="player-info--basic__status">
 			        	<a href="/nfl/player-news/101221/saints-ted-ginn-knee-ruled-out-for-week-5">Saints' Ted Ginn (knee) ruled out for Week 5</a>
-						<span class="timestamp timeago recent-timestamp"
+						<span class="timestamp timeago older-timestamp"
 							  title="1538856630">&nbsp;</span>
 			        </div>
 								        <div class="player-info--basic__dfp">
-						FPPG: <span class="amt">8.5</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$6,400</span>					</div>
+						FPPG: <span class="amt">8.5</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$6,600</span>					</div>
 	            </div>
             </div>
 
@@ -2153,12 +2153,12 @@
 		        <div class="player-info--basic">
 											<div class="player-info--basic__status">
 							<a href="/nfl/player-news/101221/saints-ted-ginn-knee-ruled-out-for-week-5">Saints' Ted Ginn (knee) ruled out for Week 5</a>
-							<span class="timestamp timeago recent-timestamp"
+							<span class="timestamp timeago older-timestamp"
 								  title="1538856630">&nbsp;</span>
 						</div>
 					
 			        <div class="player-info--basic__dfp">
-						FPPG: <span class="amt">8.5</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$6,400</span>			        </div>
+						FPPG: <span class="amt">8.5</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$6,600</span>			        </div>
 		     	</div>
 	     	</div>
         </div>
@@ -2219,7 +2219,6 @@
                                                     <option  value="/nfl/players/projections/manti-te-o-1">Manti Te'o</option>
                                                     <option  value="/nfl/players/projections/alex-okafor">Alex Okafor</option>
                                                     <option  value="/nfl/players/projections/a-j-klein">A.J. Klein</option>
-                                                    <option  value="/nfl/players/projections/mike-gillislee">Mike Gillislee</option>
                                                     <option  value="/nfl/players/projections/chris-banjo">Chris Banjo</option>
                                                     <option  value="/nfl/players/projections/zach-line">Zach Line</option>
                                                     <option  value="/nfl/players/projections/josh-hill">Josh Hill</option>
@@ -2282,8 +2281,6 @@
                                 A. Okafor                            </option>
                                                     <option  value="/nfl/players/projections/a-j-klein">
                                 A. Klein                            </option>
-                                                    <option  value="/nfl/players/projections/mike-gillislee">
-                                M. Gillislee                            </option>
                                                     <option  value="/nfl/players/projections/chris-banjo">
                                 C. Banjo                            </option>
                                                     <option  value="/nfl/players/projections/zach-line">
@@ -2427,7 +2424,7 @@
 						win probability
 					</h4>
 					<span class="next-game--live__percentage">
-					73.7<span class="symbol">%</span>
+					74.1<span class="symbol">%</span>
 				</span>
 					<span class="next-game--live__winning-team">
 					NO				</span>
@@ -2831,7 +2828,7 @@
 							<td class="border-right">
 								0.00							</td>
 							<td class="cost">
-								$6,400							</td>
+								$6,600							</td>
 							<td>
 								0							</td>
 							<td>
@@ -3563,5 +3560,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":94,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":76,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

@@ -2140,30 +2140,52 @@
 							</span>
 															        </div>
 								        <div class="player-info--basic__status">
-			        	<a href="/nfl/player-news/101116/will-fuller-hamstring-expects-to-play-for-texans-week-5">Will Fuller (hamstring) expects to play for Texans Week 5</a>
-						<span class="timestamp timeago older-timestamp"
-							  title="1538682427">&nbsp;</span>
+			        	<a href="/nfl/player-news/101234/keke-coutee-hamstring-to-be-a-game-time-decision-in-week-5-for-houston">Keke Coutee (hamstring) to be a game-time decision in Week 5 for Houston</a>
+						<span class="timestamp timeago recent-timestamp"
+							  title="1538919360">&nbsp;</span>
 			        </div>
 								        <div class="player-info--basic__dfp">
-						FPPG: <span class="amt">16.2</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$5,400</span>					</div>
+						FPPG: <span class="amt">15.3</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$5,500</span>					</div>
 	            </div>
             </div>
 
 	        <div class="player-header__info__stats player-header__info__stats--mobile">
 		        <div class="player-info--basic">
 											<div class="player-info--basic__status">
-							<a href="/nfl/player-news/101116/will-fuller-hamstring-expects-to-play-for-texans-week-5">Will Fuller (hamstring) expects to play for Texans Week 5</a>
-							<span class="timestamp timeago older-timestamp"
-								  title="1538682427">&nbsp;</span>
+							<a href="/nfl/player-news/101234/keke-coutee-hamstring-to-be-a-game-time-decision-in-week-5-for-houston">Keke Coutee (hamstring) to be a game-time decision in Week 5 for Houston</a>
+							<span class="timestamp timeago recent-timestamp"
+								  title="1538919360">&nbsp;</span>
 						</div>
 					
 			        <div class="player-info--basic__dfp">
-						FPPG: <span class="amt">16.2</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$5,400</span>			        </div>
+						FPPG: <span class="amt">15.3</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$5,500</span>			        </div>
 		     	</div>
 	     	</div>
         </div>
 
-		            </div>
+		        		<div class="player-header__chart">
+        	<div class="player-header__chart__head">
+        		<span class="player-header__chart__head--title">
+        			FanDuel Fantasy Points Per Game
+        		</span>
+        		<span class="player-header__chart__head--more">
+        			<a href="/nfl/players/daily-fantasy/keke-coutee">
+        				More DFS
+        			</a>
+        		</span>
+        	</div>
+	        <div class="player-header__chart--wrap">
+	        	<canvas
+					id="dfs-chart"
+					class="dfs-chart"
+					data-dfs-chart
+					data-dfs-chart-data="[{&quot;cost&quot;:&quot;5500.00&quot;,&quot;fp&quot;:14.3,&quot;opp&quot;:&quot;DAL&quot;,&quot;round&quot;:&quot;Week 5&quot;,&quot;roundAbbrev&quot;:&quot;Wk5&quot;,&quot;value&quot;:2.6}]"
+					height="135"
+					width="499">
+				</canvas>
+	        </div>
+        </div>
+		    </div>
 </div>
 
 <div class="grid--1-1 team-player-sub-nav" data-team-player-sub-nav>
@@ -2473,6 +2495,66 @@
 				</div>
 			</div>
 		
+				<div class="player-schedule__indiv-projections__table-wrap player-projection-table">
+						<span class="player-projection-table__title">
+				Last Game against Dallas 			</span>
+			
+												<table class="projection-table grid--1-1 no-fix-height" cellspacing="0" cellpadding="0">
+						<thead class="projection-table__head">
+							<tr>
+								<th title = "Date" class="left-aligned">
+									Date
+								</th>
+								<th title = "Week">
+									Wk
+								</th>
+								<th title = "Receptions">
+									Rec
+								</th>
+								<th title = "Receiving Yards">
+									Rec Yd
+								</th>
+								<th title = "Receiving Touchdowns">
+									Rec TD
+								</th>
+								<th title = "Targets">
+									Trgt
+								</th>
+								<th title="FanDuel Cost">
+									Cost
+								</th>
+								<th title = "FanDuel Fantasy Points">
+									FP
+								</th>
+								<th title = "FanDuel Value" class="value">
+									Value
+								</th>
+							</tr>
+						</thead>
+						<tbody class="projection-table__body">
+													<tr>
+								<td class="left-aligned">
+									10/7/18								</td>
+								<td>
+									5								</td>
+								<td>
+									6								</td>
+								<td>
+									51								</td>
+								<td>
+									1								</td>
+								<td>
+									7								</td>
+								<td>
+									$5,500								</td>
+								<td>
+									14.3								</td>
+								<td class="value">
+									2.6								</td>
+							</tr>
+												</tbody>
+					</table>
+									</div>
 			</div>
 	
 	
@@ -2707,11 +2789,11 @@
 							<td class="border-right">
 								3.56							</td>
 							<td class="cost">
-								$5,400							</td>
+								$5,500							</td>
 							<td>
 								4.6							</td>
 							<td>
-								0.85							</td>
+								0.84							</td>
 						</tr>
 											<tr data-row-index="3">
 							<td class="">
@@ -3439,5 +3521,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":74,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":88,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

@@ -2417,7 +2417,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 					<span class="stat">
-													0.8											</span>
+													0.0											</span>
 					<span title="Receptions" class="cat">
 						Rec
 					</span>
@@ -2425,7 +2425,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 					<span class="stat">
-													10.1											</span>
+													0.0											</span>
 					<span title="Receiving Yards" class="cat">
 						Rec Yd
 					</span>
@@ -2449,7 +2449,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 				<span class="stat">
-											1.8									</span>
+											0.0									</span>
 				<span title = "FanDuel Fantasy Points" class="cat">
 					FP
 				</span>
@@ -2710,25 +2710,25 @@
 							<td class="">
 								#8							</td>
 							<td>
-								1.73							</td>
+								0.00							</td>
 							<td>
-								0.79							</td>
+								0.00							</td>
 							<td>
-								10.08							</td>
+								0.00							</td>
 							<td>
-								0.03							</td>
+								0.00							</td>
 							<td class="border-right">
 								0.00							</td>
 							<td>
-								-0.22-2.62							</td>
+								0.00-0.00							</td>
 							<td class="border-right">
-								1.20							</td>
+								0.00							</td>
 							<td class="cost">
 								$4,500							</td>
 							<td>
-								1.82							</td>
+								0							</td>
 							<td>
-								0.4							</td>
+								0							</td>
 						</tr>
 											<tr data-row-index="4">
 							<td class="">
@@ -3039,21 +3039,21 @@
 					<tbody class="projection-table__body">
 											<tr>
 							<td>
-								13.01							</td>
+								11.28							</td>
 							<td>
-								6.46							</td>
+								5.67							</td>
 							<td>
-								80.72							</td>
+								70.64							</td>
 							<td>
-								0.63							</td>
+								0.60							</td>
 							<td class="border-right">
 								0.12							</td>
 							<td>
-								6.79-16.95							</td>
+								5.79-15.55							</td>
 							<td class="border-right">
-								11.87							</td>
+								10.67							</td>
 							<td>
-								15.11							</td>
+								13.52							</td>
 						</tr>
 										</tbody>
 				</table>
@@ -3456,5 +3456,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":73,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":92,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

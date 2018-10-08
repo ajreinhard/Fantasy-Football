@@ -2243,6 +2243,7 @@
                                                     <option  value="/nfl/players/projections/deadrin-senat">Deadrin Senat</option>
                                                     <option  value="/nfl/players/projections/ito-smith">Ito Smith</option>
                                                     <option  value="/nfl/players/projections/isaiah-oliver">Isaiah Oliver</option>
+                                                    <option  value="/nfl/players/projections/ricky-ortiz">Ricky Ortiz</option>
                                             </select>
                 </form>
                 <form class="team-player-sub-nav__list__drop team-player-sub-nav__list__drop--abbr" action="">
@@ -2327,6 +2328,8 @@
                                 I. Smith                            </option>
                                                     <option  value="/nfl/players/projections/isaiah-oliver">
                                 I. Oliver                            </option>
+                                                    <option  value="/nfl/players/projections/ricky-ortiz">
+                                R. Ortiz                            </option>
                                             </select>
                 </form>
                             <ul class="team-player-sub-nav__list__links">
@@ -2414,7 +2417,7 @@
 						win probability
 					</h4>
 					<span class="next-game--live__percentage">
-					58.2<span class="symbol">%</span>
+					60.6<span class="symbol">%</span>
 				</span>
 					<span class="next-game--live__winning-team">
 					PIT				</span>
@@ -3550,5 +3553,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":99,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":111,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

@@ -2224,6 +2224,7 @@
                                                     <option  value="/nfl/players/projections/james-washington">James Washington</option>
                                                     <option  value="/nfl/players/projections/terrell-edmunds">Terrell Edmunds</option>
                                                     <option  value="/nfl/players/projections/matthew-thomas">Matthew Thomas</option>
+                                                    <option  value="/nfl/players/projections/joshua-dobbs">Joshua Dobbs</option>
                                             </select>
                 </form>
                 <form class="team-player-sub-nav__list__drop team-player-sub-nav__list__drop--abbr" action="">
@@ -2312,6 +2313,8 @@
                                 T. Edmunds                            </option>
                                                     <option  value="/nfl/players/projections/matthew-thomas">
                                 M. Thomas                            </option>
+                                                    <option  value="/nfl/players/projections/joshua-dobbs">
+                                J. Dobbs                            </option>
                                             </select>
                 </form>
                             <ul class="team-player-sub-nav__list__links">
@@ -2399,7 +2402,7 @@
 						win probability
 					</h4>
 					<span class="next-game--live__percentage">
-					58.2<span class="symbol">%</span>
+					60.6<span class="symbol">%</span>
 				</span>
 					<span class="next-game--live__winning-team">
 					PIT				</span>
@@ -2428,7 +2431,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 					<span class="stat">
-													0.2											</span>
+													0.0											</span>
 					<span title="Receptions" class="cat">
 						Rec
 					</span>
@@ -2436,7 +2439,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 					<span class="stat">
-													2.8											</span>
+													0.0											</span>
 					<span title="Receiving Yards" class="cat">
 						Rec Yd
 					</span>
@@ -2460,7 +2463,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 				<span class="stat">
-											0.6									</span>
+											0.0									</span>
 				<span title = "FanDuel Fantasy Points" class="cat">
 					FP
 				</span>
@@ -2789,25 +2792,25 @@
 							<td class="">
 								#29							</td>
 							<td>
-								0.35							</td>
+								0.00							</td>
 							<td>
-								0.23							</td>
+								0.00							</td>
 							<td>
-								2.79							</td>
+								0.00							</td>
 							<td>
-								0.03							</td>
+								0.00							</td>
 							<td class="border-right">
-								0.01							</td>
+								0.00							</td>
 							<td>
-								-0.24-1.10							</td>
+								0.00-0.00							</td>
 							<td class="border-right">
-								0.43							</td>
+								0.00							</td>
 							<td class="cost">
 								$4,500							</td>
 							<td>
-								0.58							</td>
+								0							</td>
 							<td>
-								0.13							</td>
+								0							</td>
 						</tr>
 											<tr data-row-index="6">
 							<td class="">
@@ -3118,21 +3121,21 @@
 					<tbody class="projection-table__body">
 											<tr>
 							<td>
-								6.48							</td>
+								6.13							</td>
 							<td>
-								4.17							</td>
+								3.94							</td>
 							<td>
-								56.10							</td>
+								53.31							</td>
 							<td>
-								0.45							</td>
+								0.42							</td>
 							<td class="border-right">
-								0.18							</td>
+								0.17							</td>
 							<td>
-								5.58-10.80							</td>
+								5.23-10.29							</td>
 							<td class="border-right">
-								8.19							</td>
+								7.76							</td>
 							<td>
-								10.33							</td>
+								9.75							</td>
 						</tr>
 										</tbody>
 				</table>
@@ -3535,5 +3538,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":98,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":99,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

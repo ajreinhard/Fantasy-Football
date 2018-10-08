@@ -2196,7 +2196,6 @@
                                                     <option  value="/nfl/players/projections/manti-te-o-1">Manti Te'o</option>
                                                     <option  value="/nfl/players/projections/alex-okafor">Alex Okafor</option>
                                                     <option  value="/nfl/players/projections/a-j-klein">A.J. Klein</option>
-                                                    <option  value="/nfl/players/projections/mike-gillislee">Mike Gillislee</option>
                                                     <option  value="/nfl/players/projections/chris-banjo">Chris Banjo</option>
                                                     <option  value="/nfl/players/projections/zach-line">Zach Line</option>
                                                     <option  value="/nfl/players/projections/josh-hill">Josh Hill</option>
@@ -2259,8 +2258,6 @@
                                 A. Okafor                            </option>
                                                     <option  value="/nfl/players/projections/a-j-klein">
                                 A. Klein                            </option>
-                                                    <option  value="/nfl/players/projections/mike-gillislee">
-                                M. Gillislee                            </option>
                                                     <option  value="/nfl/players/projections/chris-banjo">
                                 C. Banjo                            </option>
                                                     <option  value="/nfl/players/projections/zach-line">
@@ -2404,7 +2401,7 @@
 						win probability
 					</h4>
 					<span class="next-game--live__percentage">
-					73.7<span class="symbol">%</span>
+					74.1<span class="symbol">%</span>
 				</span>
 					<span class="next-game--live__winning-team">
 					NO				</span>
@@ -3502,5 +3499,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":71,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":94,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

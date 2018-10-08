@@ -2140,9 +2140,9 @@
 							</span>
 															        </div>
 								        <div class="player-info--basic__status">
-			        	<a href="/nfl/player-news/101166/packers-hope-geronimo-allison-concussion-will-be-cleared-versus-lions">Packers 'hope' Geronimo Allison (concussion) will be cleared versus Lions</a>
-						<span class="timestamp timeago older-timestamp"
-							  title="1538757351">&nbsp;</span>
+			        	<a href="/nfl/player-news/101243/geronimo-allison-concussion-hamstring-reportedly-not-expected-to-play-for-packers-versus-lions">Geronimo Allison (concussion, hamstring) reportedly not expected to play for Packers versus Lions</a>
+						<span class="timestamp timeago recent-timestamp"
+							  title="1538926124">&nbsp;</span>
 			        </div>
 								        <div class="player-info--basic__dfp">
 						FPPG: <span class="amt">12.6</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$5,700</span>					</div>
@@ -2152,9 +2152,9 @@
 	        <div class="player-header__info__stats player-header__info__stats--mobile">
 		        <div class="player-info--basic">
 											<div class="player-info--basic__status">
-							<a href="/nfl/player-news/101166/packers-hope-geronimo-allison-concussion-will-be-cleared-versus-lions">Packers 'hope' Geronimo Allison (concussion) will be cleared versus Lions</a>
-							<span class="timestamp timeago older-timestamp"
-								  title="1538757351">&nbsp;</span>
+							<a href="/nfl/player-news/101243/geronimo-allison-concussion-hamstring-reportedly-not-expected-to-play-for-packers-versus-lions">Geronimo Allison (concussion, hamstring) reportedly not expected to play for Packers versus Lions</a>
+							<span class="timestamp timeago recent-timestamp"
+								  title="1538926124">&nbsp;</span>
 						</div>
 					
 			        <div class="player-info--basic__dfp">
@@ -2242,6 +2242,8 @@
                                                     <option  value="/nfl/players/projections/marquez-valdes-scantling">Marquez Valdes-Scantling</option>
                                                     <option  value="/nfl/players/projections/oren-burks">Oren Burks</option>
                                                     <option  value="/nfl/players/projections/james-crawford">James Crawford</option>
+                                                    <option  value="/nfl/players/projections/equanimeous-st-brown">Equanimeous St. Brown</option>
+                                                    <option  value="/nfl/players/projections/tony-brown-1">Tony Brown</option>
                                             </select>
                 </form>
                 <form class="team-player-sub-nav__list__drop team-player-sub-nav__list__drop--abbr" action="">
@@ -2322,6 +2324,10 @@
                                 O. Burks                            </option>
                                                     <option  value="/nfl/players/projections/james-crawford">
                                 J. Crawford                            </option>
+                                                    <option  value="/nfl/players/projections/equanimeous-st-brown">
+                                E. St. Brown                            </option>
+                                                    <option  value="/nfl/players/projections/tony-brown-1">
+                                T. Brown                            </option>
                                             </select>
                 </form>
                             <ul class="team-player-sub-nav__list__links">
@@ -2438,7 +2444,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 					<span class="stat">
-													2.2											</span>
+													0.0											</span>
 					<span title="Receptions" class="cat">
 						Rec
 					</span>
@@ -2446,7 +2452,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 					<span class="stat">
-													28.8											</span>
+													0.0											</span>
 					<span title="Receiving Yards" class="cat">
 						Rec Yd
 					</span>
@@ -2454,7 +2460,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 					<span class="stat">
-													0.1											</span>
+													0.0											</span>
 					<span title="Receiving Touchdowns" class="cat">
 						Rec TD
 					</span>
@@ -2470,7 +2476,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 				<span class="stat">
-											4.8									</span>
+											0.0									</span>
 				<span title = "FanDuel Fantasy Points" class="cat">
 					FP
 				</span>
@@ -2799,25 +2805,25 @@
 							<td class="">
 								#28							</td>
 							<td>
-								3.71							</td>
+								0.00							</td>
 							<td>
-								2.22							</td>
+								0.00							</td>
 							<td>
-								28.84							</td>
+								0.00							</td>
 							<td>
-								0.13							</td>
+								0.00							</td>
 							<td class="border-right">
-								0.02							</td>
+								0.00							</td>
 							<td>
-								-0.82-8.12							</td>
+								0.00-0.00							</td>
 							<td class="border-right">
-								3.65							</td>
+								0.00							</td>
 							<td class="cost">
 								$5,700							</td>
 							<td>
-								4.75							</td>
+								0							</td>
 							<td>
-								0.83							</td>
+								0							</td>
 						</tr>
 											<tr data-row-index="6">
 							<td class="">
@@ -3128,21 +3134,21 @@
 					<tbody class="projection-table__body">
 											<tr>
 							<td>
-								87.08							</td>
+								83.37							</td>
 							<td>
-								48.59							</td>
+								46.37							</td>
 							<td>
-								620.41							</td>
+								591.57							</td>
 							<td>
-								3.72							</td>
+								3.59							</td>
 							<td class="border-right">
-								0.66							</td>
+								0.64							</td>
 							<td>
-								63.19-103.91							</td>
+								60.04-99.76							</td>
 							<td class="border-right">
-								83.55							</td>
+								79.90							</td>
 							<td>
-								107.96							</td>
+								103.2							</td>
 						</tr>
 										</tbody>
 				</table>
@@ -3545,5 +3551,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":114,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":102,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

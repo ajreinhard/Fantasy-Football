@@ -2132,32 +2132,33 @@
             <div class="player-header__info__stats player-info">
 	            <div class="player-info--basic">
 		            <h2>
-		            	Matt Breida								            </h2>
+		            	Matt Breida								            	<span class="player-status player-status--gtd">GTD</span>
+								            </h2>
 		            <div class="player-info--basic__wrap">
 													<span class="player-info--basic__team">
 								RB, <a href="/nfl/teams/san-francisco-49ers" class="team-name">San Francisco 49ers</a><a href="/nfl/teams/san-francisco-49ers" class="team-abbrev">SF</a>
 							</span>
 															        </div>
 								        <div class="player-info--basic__status">
-			        	<a href="/nfl/player-news/100892/alfred-morris-knee-playing-for-49ers-versus-chargers">Alfred Morris (knee) playing for 49ers versus Chargers</a>
-						<span class="timestamp timeago older-timestamp"
-							  title="1538336618">&nbsp;</span>
+			        	<a href="/nfl/player-news/101233/matt-breida-knee-expected-to-play-in-week-5-for-san-francisco">Matt Breida (knee) expected to play in Week 5 for San Francisco</a>
+						<span class="timestamp timeago recent-timestamp"
+							  title="1538918650">&nbsp;</span>
 			        </div>
 								        <div class="player-info--basic__dfp">
-						FPPG: <span class="amt">12.2</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$6,200</span>					</div>
+						FPPG: <span class="amt">12.3</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$6,200</span>					</div>
 	            </div>
             </div>
 
 	        <div class="player-header__info__stats player-header__info__stats--mobile">
 		        <div class="player-info--basic">
 											<div class="player-info--basic__status">
-							<a href="/nfl/player-news/100892/alfred-morris-knee-playing-for-49ers-versus-chargers">Alfred Morris (knee) playing for 49ers versus Chargers</a>
-							<span class="timestamp timeago older-timestamp"
-								  title="1538336618">&nbsp;</span>
+							<a href="/nfl/player-news/101233/matt-breida-knee-expected-to-play-in-week-5-for-san-francisco">Matt Breida (knee) expected to play in Week 5 for San Francisco</a>
+							<span class="timestamp timeago recent-timestamp"
+								  title="1538918650">&nbsp;</span>
 						</div>
 					
 			        <div class="player-info--basic__dfp">
-						FPPG: <span class="amt">12.2</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$6,200</span>			        </div>
+						FPPG: <span class="amt">12.3</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$6,200</span>			        </div>
 		     	</div>
 	     	</div>
         </div>
@@ -2178,7 +2179,7 @@
 					id="dfs-chart"
 					class="dfs-chart"
 					data-dfs-chart
-					data-dfs-chart-data="[{&quot;cost&quot;:&quot;5000.00&quot;,&quot;fp&quot;:5.6,&quot;opp&quot;:&quot;MIN&quot;,&quot;round&quot;:&quot;Week 1&quot;,&quot;roundAbbrev&quot;:&quot;Wk1&quot;,&quot;value&quot;:1.12},{&quot;cost&quot;:&quot;6100.00&quot;,&quot;fp&quot;:23.4,&quot;opp&quot;:&quot;DET&quot;,&quot;round&quot;:&quot;Week 2&quot;,&quot;roundAbbrev&quot;:&quot;Wk2&quot;,&quot;value&quot;:3.84},{&quot;cost&quot;:&quot;6200.00&quot;,&quot;fp&quot;:11.1,&quot;opp&quot;:&quot;KC&quot;,&quot;round&quot;:&quot;Week 3&quot;,&quot;roundAbbrev&quot;:&quot;Wk3&quot;,&quot;value&quot;:1.79},{&quot;cost&quot;:&quot;6400.00&quot;,&quot;fp&quot;:8.6,&quot;opp&quot;:&quot;LAC&quot;,&quot;round&quot;:&quot;Week 4&quot;,&quot;roundAbbrev&quot;:&quot;Wk4&quot;,&quot;value&quot;:1.34}]"
+					data-dfs-chart-data="[{&quot;cost&quot;:&quot;5000.00&quot;,&quot;fp&quot;:5.6,&quot;opp&quot;:&quot;MIN&quot;,&quot;round&quot;:&quot;Week 1&quot;,&quot;roundAbbrev&quot;:&quot;Wk1&quot;,&quot;value&quot;:1.12},{&quot;cost&quot;:&quot;6100.00&quot;,&quot;fp&quot;:23.4,&quot;opp&quot;:&quot;DET&quot;,&quot;round&quot;:&quot;Week 2&quot;,&quot;roundAbbrev&quot;:&quot;Wk2&quot;,&quot;value&quot;:3.84},{&quot;cost&quot;:&quot;6200.00&quot;,&quot;fp&quot;:11.1,&quot;opp&quot;:&quot;KC&quot;,&quot;round&quot;:&quot;Week 3&quot;,&quot;roundAbbrev&quot;:&quot;Wk3&quot;,&quot;value&quot;:1.79},{&quot;cost&quot;:&quot;6400.00&quot;,&quot;fp&quot;:8.6,&quot;opp&quot;:&quot;LAC&quot;,&quot;round&quot;:&quot;Week 4&quot;,&quot;roundAbbrev&quot;:&quot;Wk4&quot;,&quot;value&quot;:1.34},{&quot;cost&quot;:&quot;6200.00&quot;,&quot;fp&quot;:12.6,&quot;opp&quot;:&quot;ARI&quot;,&quot;round&quot;:&quot;Week 5&quot;,&quot;roundAbbrev&quot;:&quot;Wk5&quot;,&quot;value&quot;:2.03}]"
 					height="135"
 					width="499">
 				</canvas>
@@ -2221,9 +2222,9 @@
                                                     <option  value="/nfl/players/projections/jaquiski-tartt">Jaquiski Tartt</option>
                                                     <option  value="/nfl/players/projections/raheem-mostert">Raheem Mostert</option>
                                                     <option  value="/nfl/players/projections/arik-armstead">Arik Armstead</option>
+                                                    <option  value="/nfl/players/projections/ryan-delaire">Ryan Delaire</option>
                                                     <option  value="/nfl/players/projections/deforest-buckner">DeForest Buckner</option>
                                                     <option  value="/nfl/players/projections/cole-wick">Cole Wick</option>
-                                                    <option  value="/nfl/players/projections/tyvis-powell">Tyvis Powell</option>
                                                     <option  value="/nfl/players/projections/sheldon-day">Sheldon Day</option>
                                                     <option  value="/nfl/players/projections/ronald-blair">Ronald Blair</option>
                                                     <option  value="/nfl/players/projections/mark-nzeocha">Mark Nzeocha</option>
@@ -2244,6 +2245,7 @@
                                                     <option  value="/nfl/players/projections/fred-warner">Fred Warner</option>
                                                     <option  value="/nfl/players/projections/d-j-reed">D.J. Reed</option>
                                                     <option  value="/nfl/players/projections/tarvarius-moore">Tarvarius Moore</option>
+                                                    <option  value="/nfl/players/projections/richie-james">Richie James</option>
                                             </select>
                 </form>
                 <form class="team-player-sub-nav__list__drop team-player-sub-nav__list__drop--abbr" action="">
@@ -2284,12 +2286,12 @@
                                 R. Mostert                            </option>
                                                     <option  value="/nfl/players/projections/arik-armstead">
                                 A. Armstead                            </option>
+                                                    <option  value="/nfl/players/projections/ryan-delaire">
+                                R. Delaire                            </option>
                                                     <option  value="/nfl/players/projections/deforest-buckner">
                                 D. Buckner                            </option>
                                                     <option  value="/nfl/players/projections/cole-wick">
                                 C. Wick                            </option>
-                                                    <option  value="/nfl/players/projections/tyvis-powell">
-                                T. Powell                            </option>
                                                     <option  value="/nfl/players/projections/sheldon-day">
                                 S. Day                            </option>
                                                     <option  value="/nfl/players/projections/ronald-blair">
@@ -2330,6 +2332,8 @@
                                 D. Reed                            </option>
                                                     <option  value="/nfl/players/projections/tarvarius-moore">
                                 T. Moore                            </option>
+                                                    <option  value="/nfl/players/projections/richie-james">
+                                R. James                            </option>
                                             </select>
                 </form>
                             <ul class="team-player-sub-nav__list__links">
@@ -2446,7 +2450,7 @@
 
 			<div class="player-schedule__indiv-projections__stats--indiv">
 				<span class="stat">
-											35.6									</span>
+											40.7									</span>
 				<span title="Rushing Yards" class="cat">
 					Rush Yd
 				</span>
@@ -2462,7 +2466,7 @@
 
 			<div class="player-schedule__indiv-projections__stats--indiv">
 				<span class="stat">
-											24.1									</span>
+											18.4									</span>
 				<span title="Receiving Yards" class="cat">
 					Rec Yd
 				</span>
@@ -2478,13 +2482,68 @@
 
 			<div class="player-schedule__indiv-projections__stats--indiv">
 				<span class="stat">
-											9.6									</span>
+											9.3									</span>
 				<span title = "FanDuel Fantasy Points" class="cat">
 					FP
 				</span>
 			</div>
 		</div>
 		
+				<div class="player-schedule__indiv-projections__table-wrap player-projection-table">
+						<span class="player-projection-table__title">
+				Last Game against Arizona 			</span>
+			
+												<table class="projection-table grid--1-1 no-fix-height" cellspacing="0" cellpadding="0">
+						<thead class="projection-table__head">
+							<tr>
+								<th title = "Date" class="left-aligned">
+									Date
+								</th>
+								<th title = "Week">
+									Wk
+								</th>
+								<th title = "Rushing Yards">
+									Rush Yd
+								</th>
+								<th title = "Rushing Touchdowns">
+									Rush TD
+								</th>
+								<th title = "Receiving Yards">
+									Rec Yd
+								</th>
+								<th title="FanDuel Cost">
+									Cost
+								</th>
+								<th title = "FanDuel Fantasy Points">
+									FP
+								</th>
+								<th title = "FanDuel Value" class="value">
+									Value
+								</th>
+							</tr>
+						</thead>
+						<tbody class="projection-table__body">
+													<tr>
+								<td class="left-aligned">
+									10/7/18								</td>
+								<td>
+									5								</td>
+								<td>
+									56								</td>
+								<td>
+									0								</td>
+								<td>
+									5								</td>
+								<td>
+									$6,200								</td>
+								<td>
+									12.6								</td>
+								<td class="value">
+									2.03								</td>
+							</tr>
+												</tbody>
+					</table>
+									</div>
 			</div>
 	
 	
@@ -2825,29 +2884,29 @@
 							<td class="">
 								#13							</td>
 							<td>
-								7.34							</td>
+								8.41							</td>
 							<td>
-								35.56							</td>
+								40.74							</td>
 							<td>
-								0.35							</td>
+								0.40							</td>
 							<td>
-								3.00							</td>
+								2.29							</td>
 							<td>
-								24.12							</td>
+								18.42							</td>
 							<td>
-								0.03							</td>
+								0.02							</td>
 							<td class="border-right">
-								0.14							</td>
+								0.15							</td>
 							<td>
-								2.05-14.05							</td>
+								1.30-15.04							</td>
 							<td class="border-right">
-								8.05							</td>
+								8.17							</td>
 							<td class="cost">
 								$6,200							</td>
 							<td>
-								9.55							</td>
+								9.34							</td>
 							<td>
-								1.54							</td>
+								1.51							</td>
 						</tr>
 											<tr data-row-index="6">
 							<td class="">
@@ -3208,25 +3267,25 @@
 					<tbody class="projection-table__body">
 											<tr>
 							<td>
-								88.86							</td>
+								89.93							</td>
 							<td>
-								431.99							</td>
+								437.17							</td>
 							<td>
-								3.89							</td>
+								3.94							</td>
 							<td>
-								40.03							</td>
+								39.32							</td>
 							<td>
-								353.21							</td>
+								347.51							</td>
 							<td>
-								0.52							</td>
+								0.51							</td>
 							<td class="border-right">
-								1.77							</td>
+								1.78							</td>
 							<td>
-								83.47-122.43							</td>
+								83.31-122.83							</td>
 							<td class="border-right">
-								102.95							</td>
+								103.07							</td>
 							<td>
-								123.1							</td>
+								122.89							</td>
 						</tr>
 										</tbody>
 				</table>
@@ -3629,5 +3688,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":78,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":99,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

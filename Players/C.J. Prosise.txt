@@ -2132,8 +2132,7 @@
             <div class="player-header__info__stats player-info">
 	            <div class="player-info--basic">
 		            <h2>
-		            	C.J. Prosise								            	<span class="player-status player-status--gtd">GTD</span>
-								            </h2>
+		            	C.J. Prosise								            </h2>
 		            <div class="player-info--basic__wrap">
 													<span class="player-info--basic__team">
 								RB, <a href="/nfl/teams/seattle-seahawks" class="team-name">Seattle Seahawks</a><a href="/nfl/teams/seattle-seahawks" class="team-abbrev">SEA</a>
@@ -2450,7 +2449,7 @@
 
 			<div class="player-schedule__indiv-projections__stats--indiv">
 				<span class="stat">
-											2.4									</span>
+											0.0									</span>
 				<span title="Rushing Yards" class="cat">
 					Rush Yd
 				</span>
@@ -2466,7 +2465,7 @@
 
 			<div class="player-schedule__indiv-projections__stats--indiv">
 				<span class="stat">
-											2.2									</span>
+											0.0									</span>
 				<span title="Receiving Yards" class="cat">
 					Rec Yd
 				</span>
@@ -2482,7 +2481,7 @@
 
 			<div class="player-schedule__indiv-projections__stats--indiv">
 				<span class="stat">
-											0.7									</span>
+											0.0									</span>
 				<span title = "FanDuel Fantasy Points" class="cat">
 					FP
 				</span>
@@ -2829,29 +2828,29 @@
 							<td class="">
 								#10							</td>
 							<td>
-								0.69							</td>
+								0.00							</td>
 							<td>
-								2.35							</td>
+								0.00							</td>
 							<td>
-								0.02							</td>
+								0.00							</td>
 							<td>
-								0.22							</td>
+								0.00							</td>
 							<td>
-								2.21							</td>
+								0.00							</td>
 							<td>
 								0.00							</td>
 							<td class="border-right">
-								0.01							</td>
+								0.00							</td>
 							<td>
-								-0.02-1.12							</td>
+								0.00-0.00							</td>
 							<td class="border-right">
-								0.55							</td>
+								0.00							</td>
 							<td class="cost">
 								$4,600							</td>
 							<td>
-								0.67							</td>
+								0							</td>
 							<td>
-								0.15							</td>
+								0							</td>
 						</tr>
 											<tr data-row-index="6">
 							<td class="">
@@ -3212,25 +3211,25 @@
 					<tbody class="projection-table__body">
 											<tr>
 							<td>
-								9.21							</td>
+								8.52							</td>
 							<td>
-								32.22							</td>
+								29.87							</td>
 							<td>
-								0.18							</td>
+								0.16							</td>
 							<td>
-								2.90							</td>
+								2.68							</td>
 							<td>
-								28.96							</td>
+								26.75							</td>
 							<td>
 								0.06							</td>
 							<td class="border-right">
-								0.13							</td>
+								0.12							</td>
 							<td>
-								5.02-9.64							</td>
+								4.54-9.02							</td>
 							<td class="border-right">
-								7.33							</td>
+								6.78							</td>
 							<td>
-								8.77							</td>
+								8.1							</td>
 						</tr>
 										</tbody>
 				</table>
@@ -3633,5 +3632,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":73,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":100,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

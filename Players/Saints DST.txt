@@ -2144,7 +2144,7 @@
 							  title="1521057559">&nbsp;</span>
 			        </div>
 								        <div class="player-info--basic__dfp">
-						FPPG: <span class="amt">2.8</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$3,700</span>					</div>
+						FPPG: <span class="amt">2.8</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$4,000</span>					</div>
 	            </div>
             </div>
 
@@ -2157,7 +2157,7 @@
 						</div>
 					
 			        <div class="player-info--basic__dfp">
-						FPPG: <span class="amt">2.8</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$3,700</span>			        </div>
+						FPPG: <span class="amt">2.8</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$4,000</span>			        </div>
 		     	</div>
 	     	</div>
         </div>
@@ -2218,7 +2218,6 @@
                                                     <option  value="/nfl/players/projections/manti-te-o-1">Manti Te'o</option>
                                                     <option  value="/nfl/players/projections/alex-okafor">Alex Okafor</option>
                                                     <option  value="/nfl/players/projections/a-j-klein">A.J. Klein</option>
-                                                    <option  value="/nfl/players/projections/mike-gillislee">Mike Gillislee</option>
                                                     <option  value="/nfl/players/projections/chris-banjo">Chris Banjo</option>
                                                     <option  value="/nfl/players/projections/zach-line">Zach Line</option>
                                                     <option  value="/nfl/players/projections/josh-hill">Josh Hill</option>
@@ -2281,8 +2280,6 @@
                                 A. Okafor                            </option>
                                                     <option  value="/nfl/players/projections/a-j-klein">
                                 A. Klein                            </option>
-                                                    <option  value="/nfl/players/projections/mike-gillislee">
-                                M. Gillislee                            </option>
                                                     <option  value="/nfl/players/projections/chris-banjo">
                                 C. Banjo                            </option>
                                                     <option  value="/nfl/players/projections/zach-line">
@@ -2426,7 +2423,7 @@
 						win probability
 					</h4>
 					<span class="next-game--live__percentage">
-					73.7<span class="symbol">%</span>
+					74.1<span class="symbol">%</span>
 				</span>
 					<span class="next-game--live__winning-team">
 					NO				</span>
@@ -2487,7 +2484,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 					<span class="stat">
-													8.0											</span>
+													7.9											</span>
 					<span title = "FanDuel Fantasy Points" class="cat">
 						FP
 					</span>
@@ -2827,25 +2824,25 @@
 							<td>
 								25.09							</td>
 							<td>
-								3.23							</td>
+								3.22							</td>
 							<td>
 								0.03							</td>
 							<td>
-								0.83							</td>
+								0.82							</td>
 							<td>
-								0.83							</td>
+								0.82							</td>
 							<td class="border-right">
-								0.22							</td>
+								0.21							</td>
 							<td>
-								1.24-14.66							</td>
+								1.24-14.60							</td>
 							<td class="border-right">
-								7.95							</td>
+								7.92							</td>
 							<td class="cost">
-								$3,700							</td>
+								$4,000							</td>
 							<td>
-								7.9653							</td>
+								7.8553							</td>
 							<td>
-								2.15							</td>
+								1.96							</td>
 						</tr>
 											<tr data-row-index="6">
 							<td class="">
@@ -3183,21 +3180,21 @@
 							<td>
 								317.60							</td>
 							<td>
-								26.37							</td>
+								26.34							</td>
 							<td>
 								0.43							</td>
 							<td>
-								9.73							</td>
+								9.72							</td>
 							<td>
-								7.15							</td>
+								7.14							</td>
 							<td class="border-right">
-								2.50							</td>
+								2.49							</td>
 							<td>
-								51.25-89.15							</td>
+								51.21-89.07							</td>
 							<td class="border-right">
-								70.20							</td>
+								70.14							</td>
 							<td>
-								70.0859							</td>
+								69.9559							</td>
 						</tr>
 										</tbody>
 				</table>
@@ -3600,5 +3597,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":93,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":102,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

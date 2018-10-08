@@ -2233,6 +2233,8 @@
                                                     <option  selected="selected"  value="/nfl/players/projections/tyler-conklin">Tyler Conklin</option>
                                                     <option  value="/nfl/players/projections/mike-boone">Mike Boone</option>
                                                     <option  value="/nfl/players/projections/roc-thomas">Roc Thomas</option>
+                                                    <option  value="/nfl/players/projections/brandon-zylstra">Brandon Zylstra</option>
+                                                    <option  value="/nfl/players/projections/jalyn-holmes">Jalyn Holmes</option>
                                             </select>
                 </form>
                 <form class="team-player-sub-nav__list__drop team-player-sub-nav__list__drop--abbr" action="">
@@ -2317,6 +2319,10 @@
                                 M. Boone                            </option>
                                                     <option  value="/nfl/players/projections/roc-thomas">
                                 R. Thomas                            </option>
+                                                    <option  value="/nfl/players/projections/brandon-zylstra">
+                                B. Zylstra                            </option>
+                                                    <option  value="/nfl/players/projections/jalyn-holmes">
+                                J. Holmes                            </option>
                                             </select>
                 </form>
                             <ul class="team-player-sub-nav__list__links">

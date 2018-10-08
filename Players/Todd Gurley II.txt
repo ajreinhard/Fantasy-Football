@@ -2139,25 +2139,25 @@
 							</span>
 															        </div>
 								        <div class="player-info--basic__status">
-			        	<a href="/nfl/player-news/101077/rams-todd-gurley-projected-to-be-the-top-fantasy-running-back-in-week-5">Rams' Todd Gurley projected to be the top fantasy running back in Week 5</a>
-						<span class="timestamp timeago older-timestamp"
-							  title="1538594464">&nbsp;</span>
+			        	<a href="/nfl/player-news/101271/todd-gurley-drives-the-rams-offense-with-3-scores-on-sunday">Todd Gurley drives the Rams' offense with 3 scores on Sunday</a>
+						<span class="timestamp timeago recent-timestamp"
+							  title="1538968991">&nbsp;</span>
 			        </div>
 								        <div class="player-info--basic__dfp">
-						FPPG: <span class="amt">24.7</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$9,100</span>					</div>
+						FPPG: <span class="amt">26.0</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$9,100</span>					</div>
 	            </div>
             </div>
 
 	        <div class="player-header__info__stats player-header__info__stats--mobile">
 		        <div class="player-info--basic">
 											<div class="player-info--basic__status">
-							<a href="/nfl/player-news/101077/rams-todd-gurley-projected-to-be-the-top-fantasy-running-back-in-week-5">Rams' Todd Gurley projected to be the top fantasy running back in Week 5</a>
-							<span class="timestamp timeago older-timestamp"
-								  title="1538594464">&nbsp;</span>
+							<a href="/nfl/player-news/101271/todd-gurley-drives-the-rams-offense-with-3-scores-on-sunday">Todd Gurley drives the Rams' offense with 3 scores on Sunday</a>
+							<span class="timestamp timeago recent-timestamp"
+								  title="1538968991">&nbsp;</span>
 						</div>
 					
 			        <div class="player-info--basic__dfp">
-						FPPG: <span class="amt">24.7</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$9,100</span>			        </div>
+						FPPG: <span class="amt">26.0</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$9,100</span>			        </div>
 		     	</div>
 	     	</div>
         </div>
@@ -2178,7 +2178,7 @@
 					id="dfs-chart"
 					class="dfs-chart"
 					data-dfs-chart
-					data-dfs-chart-data="[{&quot;cost&quot;:&quot;9200.00&quot;,&quot;fp&quot;:22.2,&quot;opp&quot;:&quot;OAK&quot;,&quot;round&quot;:&quot;Week 1&quot;,&quot;roundAbbrev&quot;:&quot;Wk1&quot;,&quot;value&quot;:2.41},{&quot;cost&quot;:&quot;8900.00&quot;,&quot;fp&quot;:30.8,&quot;opp&quot;:&quot;ARI&quot;,&quot;round&quot;:&quot;Week 2&quot;,&quot;roundAbbrev&quot;:&quot;Wk2&quot;,&quot;value&quot;:3.46},{&quot;cost&quot;:&quot;9300.00&quot;,&quot;fp&quot;:22.1,&quot;opp&quot;:&quot;LAC&quot;,&quot;round&quot;:&quot;Week 3&quot;,&quot;roundAbbrev&quot;:&quot;Wk3&quot;,&quot;value&quot;:2.38},{&quot;cost&quot;:&quot;9100.00&quot;,&quot;fp&quot;:23.6,&quot;opp&quot;:&quot;MIN&quot;,&quot;round&quot;:&quot;Week 4&quot;,&quot;roundAbbrev&quot;:&quot;Wk4&quot;,&quot;value&quot;:2.59}]"
+					data-dfs-chart-data="[{&quot;cost&quot;:&quot;9200.00&quot;,&quot;fp&quot;:22.2,&quot;opp&quot;:&quot;OAK&quot;,&quot;round&quot;:&quot;Week 1&quot;,&quot;roundAbbrev&quot;:&quot;Wk1&quot;,&quot;value&quot;:2.41},{&quot;cost&quot;:&quot;8900.00&quot;,&quot;fp&quot;:30.8,&quot;opp&quot;:&quot;ARI&quot;,&quot;round&quot;:&quot;Week 2&quot;,&quot;roundAbbrev&quot;:&quot;Wk2&quot;,&quot;value&quot;:3.46},{&quot;cost&quot;:&quot;9300.00&quot;,&quot;fp&quot;:22.1,&quot;opp&quot;:&quot;LAC&quot;,&quot;round&quot;:&quot;Week 3&quot;,&quot;roundAbbrev&quot;:&quot;Wk3&quot;,&quot;value&quot;:2.38},{&quot;cost&quot;:&quot;9100.00&quot;,&quot;fp&quot;:23.6,&quot;opp&quot;:&quot;MIN&quot;,&quot;round&quot;:&quot;Week 4&quot;,&quot;roundAbbrev&quot;:&quot;Wk4&quot;,&quot;value&quot;:2.59},{&quot;cost&quot;:&quot;9100.00&quot;,&quot;fp&quot;:31.3,&quot;opp&quot;:&quot;SEA&quot;,&quot;round&quot;:&quot;Week 5&quot;,&quot;roundAbbrev&quot;:&quot;Wk5&quot;,&quot;value&quot;:3.44}]"
 					height="135"
 					width="499">
 				</canvas>
@@ -2488,6 +2488,61 @@
 			</div>
 		</div>
 		
+				<div class="player-schedule__indiv-projections__table-wrap player-projection-table">
+						<span class="player-projection-table__title">
+				Last Game against Seattle 			</span>
+			
+												<table class="projection-table grid--1-1 no-fix-height" cellspacing="0" cellpadding="0">
+						<thead class="projection-table__head">
+							<tr>
+								<th title = "Date" class="left-aligned">
+									Date
+								</th>
+								<th title = "Week">
+									Wk
+								</th>
+								<th title = "Rushing Yards">
+									Rush Yd
+								</th>
+								<th title = "Rushing Touchdowns">
+									Rush TD
+								</th>
+								<th title = "Receiving Yards">
+									Rec Yd
+								</th>
+								<th title="FanDuel Cost">
+									Cost
+								</th>
+								<th title = "FanDuel Fantasy Points">
+									FP
+								</th>
+								<th title = "FanDuel Value" class="value">
+									Value
+								</th>
+							</tr>
+						</thead>
+						<tbody class="projection-table__body">
+													<tr>
+								<td class="left-aligned">
+									10/7/18								</td>
+								<td>
+									5								</td>
+								<td>
+									77								</td>
+								<td>
+									3								</td>
+								<td>
+									36								</td>
+								<td>
+									$9,100								</td>
+								<td>
+									31.3								</td>
+								<td class="value">
+									3.44								</td>
+							</tr>
+												</tbody>
+					</table>
+									</div>
 			</div>
 	
 	
@@ -3632,5 +3687,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":103,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":134,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

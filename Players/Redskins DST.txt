@@ -2426,7 +2426,7 @@
 						win probability
 					</h4>
 					<span class="next-game--live__percentage">
-					73.7<span class="symbol">%</span>
+					74.1<span class="symbol">%</span>
 				</span>
 					<span class="next-game--live__winning-team">
 					NO				</span>
@@ -2463,7 +2463,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 					<span class="stat">
-													2.1											</span>
+													2.2											</span>
 					<span title="Sacks" class="cat">
 						Sacks
 					</span>
@@ -2487,7 +2487,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 					<span class="stat">
-													5.9											</span>
+													6.0											</span>
 					<span title = "FanDuel Fantasy Points" class="cat">
 						FP
 					</span>
@@ -2827,25 +2827,25 @@
 							<td>
 								30.29							</td>
 							<td>
-								2.13							</td>
+								2.16							</td>
 							<td>
 								0.00							</td>
 							<td>
-								1.08							</td>
+								1.10							</td>
 							<td>
-								0.62							</td>
+								0.63							</td>
 							<td class="border-right">
 								0.26							</td>
 							<td>
-								0.59-11.19							</td>
+								0.62-11.36							</td>
 							<td class="border-right">
-								5.89							</td>
+								5.99							</td>
 							<td class="cost">
 								$3,000							</td>
 							<td>
-								5.8661							</td>
+								5.9561							</td>
 							<td>
-								1.96							</td>
+								1.99							</td>
 						</tr>
 											<tr data-row-index="6">
 							<td class="">
@@ -3183,21 +3183,21 @@
 							<td>
 								308.40							</td>
 							<td>
-								29.39							</td>
+								29.41							</td>
 							<td>
 								0.40							</td>
 							<td>
-								14.84							</td>
+								14.85							</td>
 							<td>
 								7.96							</td>
 							<td class="border-right">
 								3.22							</td>
 							<td>
-								76.04-117.14							</td>
+								76.10-117.22							</td>
 							<td class="border-right">
-								96.59							</td>
+								96.66							</td>
 							<td>
-								96.6179							</td>
+								96.6579							</td>
 						</tr>
 										</tbody>
 				</table>
@@ -3600,5 +3600,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":99,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":102,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

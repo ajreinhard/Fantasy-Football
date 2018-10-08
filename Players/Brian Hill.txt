@@ -2221,6 +2221,7 @@
                                                     <option  value="/nfl/players/projections/deadrin-senat">Deadrin Senat</option>
                                                     <option  value="/nfl/players/projections/ito-smith">Ito Smith</option>
                                                     <option  value="/nfl/players/projections/isaiah-oliver">Isaiah Oliver</option>
+                                                    <option  value="/nfl/players/projections/ricky-ortiz">Ricky Ortiz</option>
                                             </select>
                 </form>
                 <form class="team-player-sub-nav__list__drop team-player-sub-nav__list__drop--abbr" action="">
@@ -2305,6 +2306,8 @@
                                 I. Smith                            </option>
                                                     <option  value="/nfl/players/projections/isaiah-oliver">
                                 I. Oliver                            </option>
+                                                    <option  value="/nfl/players/projections/ricky-ortiz">
+                                R. Ortiz                            </option>
                                             </select>
                 </form>
                             <ul class="team-player-sub-nav__list__links">
@@ -2392,7 +2395,7 @@
 						win probability
 					</h4>
 					<span class="next-game--live__percentage">
-					58.2<span class="symbol">%</span>
+					60.6<span class="symbol">%</span>
 				</span>
 					<span class="next-game--live__winning-team">
 					PIT				</span>
@@ -2421,7 +2424,7 @@
 
 			<div class="player-schedule__indiv-projections__stats--indiv">
 				<span class="stat">
-											2.5									</span>
+											0.0									</span>
 				<span title="Rushing Yards" class="cat">
 					Rush Yd
 				</span>
@@ -2437,7 +2440,7 @@
 
 			<div class="player-schedule__indiv-projections__stats--indiv">
 				<span class="stat">
-											3.4									</span>
+											0.0									</span>
 				<span title="Receiving Yards" class="cat">
 					Rec Yd
 				</span>
@@ -2453,7 +2456,7 @@
 
 			<div class="player-schedule__indiv-projections__stats--indiv">
 				<span class="stat">
-											1.0									</span>
+											0.0									</span>
 				<span title = "FanDuel Fantasy Points" class="cat">
 					FP
 				</span>
@@ -2762,29 +2765,29 @@
 							<td class="">
 								#15							</td>
 							<td>
-								0.67							</td>
+								0.00							</td>
 							<td>
-								2.50							</td>
+								0.00							</td>
 							<td>
-								0.02							</td>
+								0.00							</td>
 							<td>
-								0.43							</td>
+								0.00							</td>
 							<td>
-								3.36							</td>
+								0.00							</td>
 							<td>
-								0.02							</td>
+								0.00							</td>
 							<td class="border-right">
-								0.02							</td>
+								0.00							</td>
 							<td>
-								-0.02-1.58							</td>
+								0.00-0.00							</td>
 							<td class="border-right">
-								0.78							</td>
+								0.00							</td>
 							<td class="cost">
 								$4,500							</td>
 							<td>
-								1.04							</td>
+								0							</td>
 							<td>
-								0.23							</td>
+								0							</td>
 						</tr>
 											<tr data-row-index="5">
 							<td class="positive">
@@ -3145,25 +3148,25 @@
 					<tbody class="projection-table__body">
 											<tr>
 							<td>
-								5.31							</td>
+								4.64							</td>
 							<td>
-								20.52							</td>
+								18.02							</td>
 							<td>
-								0.08							</td>
+								0.06							</td>
 							<td>
-								3.37							</td>
+								2.94							</td>
 							<td>
-								27.62							</td>
+								24.26							</td>
 							<td>
-								0.23							</td>
+								0.21							</td>
 							<td class="border-right">
-								0.09							</td>
+								0.07							</td>
 							<td>
-								4.68-8.54							</td>
+								4.07-7.59							</td>
 							<td class="border-right">
-								6.61							</td>
+								5.83							</td>
 							<td>
-								8.36							</td>
+								7.32							</td>
 						</tr>
 										</tbody>
 				</table>
@@ -3566,5 +3569,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":106,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":100,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

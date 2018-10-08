@@ -2455,7 +2455,7 @@
 
 			<div class="player-schedule__indiv-projections__stats--indiv">
 				<span class="stat">
-											5.8									</span>
+											0.0									</span>
 				<span title="Rushing Yards" class="cat">
 					Rush Yd
 				</span>
@@ -2471,7 +2471,7 @@
 
 			<div class="player-schedule__indiv-projections__stats--indiv">
 				<span class="stat">
-											4.5									</span>
+											0.0									</span>
 				<span title="Receiving Yards" class="cat">
 					Rec Yd
 				</span>
@@ -2487,7 +2487,7 @@
 
 			<div class="player-schedule__indiv-projections__stats--indiv">
 				<span class="stat">
-											1.8									</span>
+											0.0									</span>
 				<span title = "FanDuel Fantasy Points" class="cat">
 					FP
 				</span>
@@ -2834,29 +2834,29 @@
 							<td class="">
 								#14							</td>
 							<td>
-								1.43							</td>
+								0.00							</td>
 							<td>
-								5.76							</td>
+								0.00							</td>
 							<td>
-								0.04							</td>
+								0.00							</td>
 							<td>
-								0.67							</td>
+								0.00							</td>
 							<td>
-								4.48							</td>
+								0.00							</td>
 							<td>
-								0.02							</td>
+								0.00							</td>
 							<td class="border-right">
-								0.02							</td>
+								0.00							</td>
 							<td>
-								-0.35-2.99							</td>
+								0.00-0.00							</td>
 							<td class="border-right">
-								1.32							</td>
+								0.00							</td>
 							<td class="cost">
 								$4,500							</td>
 							<td>
-								1.82							</td>
+								0							</td>
 							<td>
-								0.4							</td>
+								0							</td>
 						</tr>
 											<tr data-row-index="6">
 							<td class="">
@@ -3217,25 +3217,25 @@
 					<tbody class="projection-table__body">
 											<tr>
 							<td>
-								19.37							</td>
+								17.94							</td>
 							<td>
-								80.26							</td>
+								74.50							</td>
 							<td>
-								0.35							</td>
+								0.31							</td>
 							<td>
-								8.59							</td>
+								7.92							</td>
 							<td>
-								62.16							</td>
+								57.68							</td>
 							<td>
-								0.21							</td>
+								0.19							</td>
 							<td class="border-right">
-								0.26							</td>
+								0.24							</td>
 							<td>
-								11.56-22.74							</td>
+								10.49-21.17							</td>
 							<td class="border-right">
-								17.15							</td>
+								15.83							</td>
 							<td>
-								21.66							</td>
+								19.96							</td>
 						</tr>
 										</tbody>
 				</table>
@@ -3638,5 +3638,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":107,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":84,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

@@ -2220,6 +2220,8 @@
                                                     <option  value="/nfl/players/projections/dennis-gardeck">Dennis Gardeck</option>
                                                     <option  value="/nfl/players/projections/ezekiel-turner">Ezekiel Turner</option>
                                                     <option  value="/nfl/players/projections/t-j-logan">T.J. Logan</option>
+                                                    <option  value="/nfl/players/projections/deatrick-nichols">Deatrick Nichols</option>
+                                                    <option  value="/nfl/players/projections/ifeadi-odenigbo">Ifeadi Odenigbo</option>
                                             </select>
                 </form>
                 <form class="team-player-sub-nav__list__drop team-player-sub-nav__list__drop--abbr" action="">
@@ -2302,6 +2304,10 @@
                                 E. Turner                            </option>
                                                     <option  value="/nfl/players/projections/t-j-logan">
                                 T. Logan                            </option>
+                                                    <option  value="/nfl/players/projections/deatrick-nichols">
+                                D. Nichols                            </option>
+                                                    <option  value="/nfl/players/projections/ifeadi-odenigbo">
+                                I. Odenigbo                            </option>
                                             </select>
                 </form>
                             <ul class="team-player-sub-nav__list__links">
@@ -3584,5 +3590,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":101,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":72,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

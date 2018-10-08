@@ -2132,16 +2132,17 @@
             <div class="player-header__info__stats player-info">
 	            <div class="player-info--basic">
 		            <h2>
-		            	Kerryon Johnson								            </h2>
+		            	Kerryon Johnson								            	<span class="player-status player-status--gtd">GTD</span>
+								            </h2>
 		            <div class="player-info--basic__wrap">
 													<span class="player-info--basic__team">
 								RB, <a href="/nfl/teams/detroit-lions" class="team-name">Detroit Lions</a><a href="/nfl/teams/detroit-lions" class="team-abbrev">DET</a>
 							</span>
 															        </div>
 								        <div class="player-info--basic__status">
-			        	<a href="/nfl/player-news/101096/lions-legarrette-blount-illness-misses-wednesday-s-practice">Lions' LeGarrette Blount (illness) misses Wednesday's practice</a>
-						<span class="timestamp timeago older-timestamp"
-							  title="1538607447">&nbsp;</span>
+			        	<a href="/nfl/player-news/101261/lions-kerryon-johnson-questionable-to-return-with-ankle-injury">Lions' Kerryon Johnson questionable to return with ankle injury</a>
+						<span class="timestamp timeago recent-timestamp"
+							  title="1538943234">&nbsp;</span>
 			        </div>
 								        <div class="player-info--basic__dfp">
 						FPPG: <span class="amt">9.6</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$6,100</span>					</div>
@@ -2151,9 +2152,9 @@
 	        <div class="player-header__info__stats player-header__info__stats--mobile">
 		        <div class="player-info--basic">
 											<div class="player-info--basic__status">
-							<a href="/nfl/player-news/101096/lions-legarrette-blount-illness-misses-wednesday-s-practice">Lions' LeGarrette Blount (illness) misses Wednesday's practice</a>
-							<span class="timestamp timeago older-timestamp"
-								  title="1538607447">&nbsp;</span>
+							<a href="/nfl/player-news/101261/lions-kerryon-johnson-questionable-to-return-with-ankle-injury">Lions' Kerryon Johnson questionable to return with ankle injury</a>
+							<span class="timestamp timeago recent-timestamp"
+								  title="1538943234">&nbsp;</span>
 						</div>
 					
 			        <div class="player-info--basic__dfp">
@@ -2178,7 +2179,7 @@
 					id="dfs-chart"
 					class="dfs-chart"
 					data-dfs-chart
-					data-dfs-chart-data="[{&quot;cost&quot;:&quot;6500.00&quot;,&quot;fp&quot;:5.2,&quot;opp&quot;:&quot;NYJ&quot;,&quot;round&quot;:&quot;Week 1&quot;,&quot;roundAbbrev&quot;:&quot;Wk1&quot;,&quot;value&quot;:0.8},{&quot;cost&quot;:&quot;6100.00&quot;,&quot;fp&quot;:9.1,&quot;opp&quot;:&quot;SF&quot;,&quot;round&quot;:&quot;Week 2&quot;,&quot;roundAbbrev&quot;:&quot;Wk2&quot;,&quot;value&quot;:1.49},{&quot;cost&quot;:&quot;5700.00&quot;,&quot;fp&quot;:12,&quot;opp&quot;:&quot;NE&quot;,&quot;round&quot;:&quot;Week 3&quot;,&quot;roundAbbrev&quot;:&quot;Wk3&quot;,&quot;value&quot;:2.11},{&quot;cost&quot;:&quot;5700.00&quot;,&quot;fp&quot;:12.1,&quot;opp&quot;:&quot;DAL&quot;,&quot;round&quot;:&quot;Week 4&quot;,&quot;roundAbbrev&quot;:&quot;Wk4&quot;,&quot;value&quot;:2.12}]"
+					data-dfs-chart-data="[{&quot;cost&quot;:&quot;6500.00&quot;,&quot;fp&quot;:5.2,&quot;opp&quot;:&quot;NYJ&quot;,&quot;round&quot;:&quot;Week 1&quot;,&quot;roundAbbrev&quot;:&quot;Wk1&quot;,&quot;value&quot;:0.8},{&quot;cost&quot;:&quot;6100.00&quot;,&quot;fp&quot;:9.1,&quot;opp&quot;:&quot;SF&quot;,&quot;round&quot;:&quot;Week 2&quot;,&quot;roundAbbrev&quot;:&quot;Wk2&quot;,&quot;value&quot;:1.49},{&quot;cost&quot;:&quot;5700.00&quot;,&quot;fp&quot;:12,&quot;opp&quot;:&quot;NE&quot;,&quot;round&quot;:&quot;Week 3&quot;,&quot;roundAbbrev&quot;:&quot;Wk3&quot;,&quot;value&quot;:2.11},{&quot;cost&quot;:&quot;5700.00&quot;,&quot;fp&quot;:12.1,&quot;opp&quot;:&quot;DAL&quot;,&quot;round&quot;:&quot;Week 4&quot;,&quot;roundAbbrev&quot;:&quot;Wk4&quot;,&quot;value&quot;:2.12},{&quot;cost&quot;:&quot;6100.00&quot;,&quot;fp&quot;:9.5,&quot;opp&quot;:&quot;GB&quot;,&quot;round&quot;:&quot;Week 5&quot;,&quot;roundAbbrev&quot;:&quot;Wk5&quot;,&quot;value&quot;:1.56}]"
 					height="135"
 					width="499">
 				</canvas>
@@ -2494,6 +2495,61 @@
 			</div>
 		</div>
 		
+				<div class="player-schedule__indiv-projections__table-wrap player-projection-table">
+						<span class="player-projection-table__title">
+				Last Game against Green Bay 			</span>
+			
+												<table class="projection-table grid--1-1 no-fix-height" cellspacing="0" cellpadding="0">
+						<thead class="projection-table__head">
+							<tr>
+								<th title = "Date" class="left-aligned">
+									Date
+								</th>
+								<th title = "Week">
+									Wk
+								</th>
+								<th title = "Rushing Yards">
+									Rush Yd
+								</th>
+								<th title = "Rushing Touchdowns">
+									Rush TD
+								</th>
+								<th title = "Receiving Yards">
+									Rec Yd
+								</th>
+								<th title="FanDuel Cost">
+									Cost
+								</th>
+								<th title = "FanDuel Fantasy Points">
+									FP
+								</th>
+								<th title = "FanDuel Value" class="value">
+									Value
+								</th>
+							</tr>
+						</thead>
+						<tbody class="projection-table__body">
+													<tr>
+								<td class="left-aligned">
+									10/7/18								</td>
+								<td>
+									5								</td>
+								<td>
+									70								</td>
+								<td>
+									0								</td>
+								<td>
+									15								</td>
+								<td>
+									$6,100								</td>
+								<td>
+									9.5								</td>
+								<td class="value">
+									1.56								</td>
+							</tr>
+												</tbody>
+					</table>
+									</div>
 			</div>
 	
 	
@@ -3638,5 +3694,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":98,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":74,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

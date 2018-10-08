@@ -2139,25 +2139,25 @@
 							</span>
 															        </div>
 								        <div class="player-info--basic__status">
-			        	<a href="/nfl/player-news/67796/packers-davon-house-shoulder-is-doubtful-to-face-browns-on-sunday">Packers' Davon House (shoulder) is doubtful to face Browns on Sunday</a>
-						<span class="timestamp timeago older-timestamp"
-							  title="1512860866">&nbsp;</span>
+			        	<a href="/nfl/player-news/101246/packers-corner-jaire-alexander-inactive-versus-matthew-stafford-lions">Packers' corner Jaire Alexander inactive versus Matthew Stafford, Lions</a>
+						<span class="timestamp timeago recent-timestamp"
+							  title="1538927837">&nbsp;</span>
 			        </div>
 								        <div class="player-info--basic__dfp">
-						FPPG: <span class="amt">10.3</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$4,000</span>					</div>
+						FPPG: <span class="amt">8.6</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$4,000</span>					</div>
 	            </div>
             </div>
 
 	        <div class="player-header__info__stats player-header__info__stats--mobile">
 		        <div class="player-info--basic">
 											<div class="player-info--basic__status">
-							<a href="/nfl/player-news/67796/packers-davon-house-shoulder-is-doubtful-to-face-browns-on-sunday">Packers' Davon House (shoulder) is doubtful to face Browns on Sunday</a>
-							<span class="timestamp timeago older-timestamp"
-								  title="1512860866">&nbsp;</span>
+							<a href="/nfl/player-news/101246/packers-corner-jaire-alexander-inactive-versus-matthew-stafford-lions">Packers' corner Jaire Alexander inactive versus Matthew Stafford, Lions</a>
+							<span class="timestamp timeago recent-timestamp"
+								  title="1538927837">&nbsp;</span>
 						</div>
 					
 			        <div class="player-info--basic__dfp">
-						FPPG: <span class="amt">10.3</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$4,000</span>			        </div>
+						FPPG: <span class="amt">8.6</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$4,000</span>			        </div>
 		     	</div>
 	     	</div>
         </div>
@@ -2178,7 +2178,7 @@
 					id="dfs-chart"
 					class="dfs-chart"
 					data-dfs-chart
-					data-dfs-chart-data="[{&quot;cost&quot;:&quot;4100.00&quot;,&quot;fp&quot;:6,&quot;opp&quot;:&quot;CHI&quot;,&quot;round&quot;:&quot;Week 1&quot;,&quot;roundAbbrev&quot;:&quot;Wk1&quot;,&quot;value&quot;:1.46},{&quot;cost&quot;:&quot;3900.00&quot;,&quot;fp&quot;:11,&quot;opp&quot;:&quot;MIN&quot;,&quot;round&quot;:&quot;Week 2&quot;,&quot;roundAbbrev&quot;:&quot;Wk2&quot;,&quot;value&quot;:2.82},{&quot;cost&quot;:&quot;4100.00&quot;,&quot;fp&quot;:1,&quot;opp&quot;:&quot;WSH&quot;,&quot;round&quot;:&quot;Week 3&quot;,&quot;roundAbbrev&quot;:&quot;Wk3&quot;,&quot;value&quot;:0.24},{&quot;cost&quot;:&quot;4300.00&quot;,&quot;fp&quot;:23,&quot;opp&quot;:&quot;BUF&quot;,&quot;round&quot;:&quot;Week 4&quot;,&quot;roundAbbrev&quot;:&quot;Wk4&quot;,&quot;value&quot;:5.35}]"
+					data-dfs-chart-data="[{&quot;cost&quot;:&quot;4100.00&quot;,&quot;fp&quot;:6,&quot;opp&quot;:&quot;CHI&quot;,&quot;round&quot;:&quot;Week 1&quot;,&quot;roundAbbrev&quot;:&quot;Wk1&quot;,&quot;value&quot;:1.46},{&quot;cost&quot;:&quot;3900.00&quot;,&quot;fp&quot;:11,&quot;opp&quot;:&quot;MIN&quot;,&quot;round&quot;:&quot;Week 2&quot;,&quot;roundAbbrev&quot;:&quot;Wk2&quot;,&quot;value&quot;:2.82},{&quot;cost&quot;:&quot;4100.00&quot;,&quot;fp&quot;:1,&quot;opp&quot;:&quot;WSH&quot;,&quot;round&quot;:&quot;Week 3&quot;,&quot;roundAbbrev&quot;:&quot;Wk3&quot;,&quot;value&quot;:0.24},{&quot;cost&quot;:&quot;4300.00&quot;,&quot;fp&quot;:23,&quot;opp&quot;:&quot;BUF&quot;,&quot;round&quot;:&quot;Week 4&quot;,&quot;roundAbbrev&quot;:&quot;Wk4&quot;,&quot;value&quot;:5.35},{&quot;cost&quot;:&quot;4000.00&quot;,&quot;fp&quot;:2,&quot;opp&quot;:&quot;DET&quot;,&quot;round&quot;:&quot;Week 5&quot;,&quot;roundAbbrev&quot;:&quot;Wk5&quot;,&quot;value&quot;:0.5}]"
 					height="135"
 					width="499">
 				</canvas>
@@ -2241,6 +2241,8 @@
                                                     <option  value="/nfl/players/projections/marquez-valdes-scantling">Marquez Valdes-Scantling</option>
                                                     <option  value="/nfl/players/projections/oren-burks">Oren Burks</option>
                                                     <option  value="/nfl/players/projections/james-crawford">James Crawford</option>
+                                                    <option  value="/nfl/players/projections/equanimeous-st-brown">Equanimeous St. Brown</option>
+                                                    <option  value="/nfl/players/projections/tony-brown-1">Tony Brown</option>
                                             </select>
                 </form>
                 <form class="team-player-sub-nav__list__drop team-player-sub-nav__list__drop--abbr" action="">
@@ -2321,6 +2323,10 @@
                                 O. Burks                            </option>
                                                     <option  value="/nfl/players/projections/james-crawford">
                                 J. Crawford                            </option>
+                                                    <option  value="/nfl/players/projections/equanimeous-st-brown">
+                                E. St. Brown                            </option>
+                                                    <option  value="/nfl/players/projections/tony-brown-1">
+                                T. Brown                            </option>
                                             </select>
                 </form>
                             <ul class="team-player-sub-nav__list__links">
@@ -2469,13 +2475,68 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 					<span class="stat">
-													6.9											</span>
+													7.0											</span>
 					<span title = "FanDuel Fantasy Points" class="cat">
 						FP
 					</span>
 				</div>
 			</div>
 		
+				<div class="player-schedule__indiv-projections__table-wrap player-projection-table">
+						<span class="player-projection-table__title">
+				Last Game against Detroit 			</span>
+			
+												<table class="projection-table grid--1-1 no-fix-height" cellspacing="0" cellpadding="0">
+						<thead class="projection-table__head">
+						<tr>
+							<th title = "Date" class="left-aligned">
+								Date
+							</th>
+							<th title = "Week">
+								Wk
+							</th>
+							<th title = "Points Allowed">
+								Pts Allowed
+							</th>
+							<th title = "Sacks">
+								Sacks
+							</th>
+							<th title = "Interceptions">
+								Int
+							</th>
+							<th title="FanDuel Cost">
+								Cost
+							</th>
+							<th title = "FanDuel Fantasy Points">
+								FP
+							</th>
+							<th title = "FanDuel Value" class="value">
+								Value
+							</th>
+						</tr>
+						</thead>
+						<tbody class="projection-table__body">
+													<tr>
+								<td class="left-aligned">
+									10/7/18								</td>
+								<td>
+									5								</td>
+								<td>
+									31								</td>
+								<td>
+									3								</td>
+								<td>
+									0								</td>
+								<td>
+									$4,000								</td>
+								<td>
+									2								</td>
+								<td class="value">
+									0.5								</td>
+							</tr>
+												</tbody>
+					</table>
+									</div>
 			</div>
 	
 	
@@ -2809,25 +2870,25 @@
 							<td>
 								27.08							</td>
 							<td>
-								2.10							</td>
+								2.12							</td>
 							<td>
 								0.00							</td>
 							<td>
-								1.21							</td>
+								1.22							</td>
 							<td>
-								0.73							</td>
+								0.74							</td>
 							<td class="border-right">
 								0.26							</td>
 							<td>
-								0.83-13.09							</td>
+								0.84-13.22							</td>
 							<td class="border-right">
-								6.96							</td>
+								7.03							</td>
 							<td class="cost">
 								$4,000							</td>
 							<td>
-								6.9423							</td>
+								7.0023							</td>
 							<td>
-								1.74							</td>
+								1.75							</td>
 						</tr>
 											<tr data-row-index="6">
 							<td class="positive">
@@ -3165,21 +3226,21 @@
 							<td>
 								305.20							</td>
 							<td>
-								25.10							</td>
+								25.05							</td>
 							<td>
 								0.34							</td>
 							<td>
-								10.35							</td>
+								10.32							</td>
 							<td>
-								8.26							</td>
+								8.24							</td>
 							<td class="border-right">
 								1.92							</td>
 							<td>
-								54.27-90.93							</td>
+								54.13-90.67							</td>
 							<td class="border-right">
-								72.60							</td>
+								72.40							</td>
 							<td>
-								72.4997							</td>
+								72.3497							</td>
 						</tr>
 										</tbody>
 				</table>
@@ -3582,5 +3643,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":78,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":87,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

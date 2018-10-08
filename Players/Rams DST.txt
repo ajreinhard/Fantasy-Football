@@ -2144,7 +2144,7 @@
 							  title="1538091593">&nbsp;</span>
 			        </div>
 								        <div class="player-info--basic__dfp">
-						FPPG: <span class="amt">12.3</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$4,700</span>					</div>
+						FPPG: <span class="amt">10.0</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$4,700</span>					</div>
 	            </div>
             </div>
 
@@ -2157,7 +2157,7 @@
 						</div>
 					
 			        <div class="player-info--basic__dfp">
-						FPPG: <span class="amt">12.3</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$4,700</span>			        </div>
+						FPPG: <span class="amt">10.0</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$4,700</span>			        </div>
 		     	</div>
 	     	</div>
         </div>
@@ -2178,7 +2178,7 @@
 					id="dfs-chart"
 					class="dfs-chart"
 					data-dfs-chart
-					data-dfs-chart-data="[{&quot;cost&quot;:&quot;5000.00&quot;,&quot;fp&quot;:17,&quot;opp&quot;:&quot;OAK&quot;,&quot;round&quot;:&quot;Week 1&quot;,&quot;roundAbbrev&quot;:&quot;Wk1&quot;,&quot;value&quot;:3.4},{&quot;cost&quot;:&quot;4800.00&quot;,&quot;fp&quot;:13,&quot;opp&quot;:&quot;ARI&quot;,&quot;round&quot;:&quot;Week 2&quot;,&quot;roundAbbrev&quot;:&quot;Wk2&quot;,&quot;value&quot;:2.71},{&quot;cost&quot;:&quot;4700.00&quot;,&quot;fp&quot;:14,&quot;opp&quot;:&quot;LAC&quot;,&quot;round&quot;:&quot;Week 3&quot;,&quot;roundAbbrev&quot;:&quot;Wk3&quot;,&quot;value&quot;:2.98},{&quot;cost&quot;:&quot;4700.00&quot;,&quot;fp&quot;:5,&quot;opp&quot;:&quot;MIN&quot;,&quot;round&quot;:&quot;Week 4&quot;,&quot;roundAbbrev&quot;:&quot;Wk4&quot;,&quot;value&quot;:1.06}]"
+					data-dfs-chart-data="[{&quot;cost&quot;:&quot;5000.00&quot;,&quot;fp&quot;:17,&quot;opp&quot;:&quot;OAK&quot;,&quot;round&quot;:&quot;Week 1&quot;,&quot;roundAbbrev&quot;:&quot;Wk1&quot;,&quot;value&quot;:3.4},{&quot;cost&quot;:&quot;4800.00&quot;,&quot;fp&quot;:13,&quot;opp&quot;:&quot;ARI&quot;,&quot;round&quot;:&quot;Week 2&quot;,&quot;roundAbbrev&quot;:&quot;Wk2&quot;,&quot;value&quot;:2.71},{&quot;cost&quot;:&quot;4700.00&quot;,&quot;fp&quot;:14,&quot;opp&quot;:&quot;LAC&quot;,&quot;round&quot;:&quot;Week 3&quot;,&quot;roundAbbrev&quot;:&quot;Wk3&quot;,&quot;value&quot;:2.98},{&quot;cost&quot;:&quot;4700.00&quot;,&quot;fp&quot;:5,&quot;opp&quot;:&quot;MIN&quot;,&quot;round&quot;:&quot;Week 4&quot;,&quot;roundAbbrev&quot;:&quot;Wk4&quot;,&quot;value&quot;:1.06},{&quot;cost&quot;:&quot;4700.00&quot;,&quot;fp&quot;:1,&quot;opp&quot;:&quot;SEA&quot;,&quot;round&quot;:&quot;Week 5&quot;,&quot;roundAbbrev&quot;:&quot;Wk5&quot;,&quot;value&quot;:0.21}]"
 					height="135"
 					width="499">
 				</canvas>
@@ -2457,7 +2457,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 					<span class="stat">
-													2.2											</span>
+													2.1											</span>
 					<span title="Sacks" class="cat">
 						Sacks
 					</span>
@@ -2481,13 +2481,68 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 					<span class="stat">
-													8.3											</span>
+													8.2											</span>
 					<span title = "FanDuel Fantasy Points" class="cat">
 						FP
 					</span>
 				</div>
 			</div>
 		
+				<div class="player-schedule__indiv-projections__table-wrap player-projection-table">
+						<span class="player-projection-table__title">
+				Last Game against Seattle 			</span>
+			
+												<table class="projection-table grid--1-1 no-fix-height" cellspacing="0" cellpadding="0">
+						<thead class="projection-table__head">
+						<tr>
+							<th title = "Date" class="left-aligned">
+								Date
+							</th>
+							<th title = "Week">
+								Wk
+							</th>
+							<th title = "Points Allowed">
+								Pts Allowed
+							</th>
+							<th title = "Sacks">
+								Sacks
+							</th>
+							<th title = "Interceptions">
+								Int
+							</th>
+							<th title="FanDuel Cost">
+								Cost
+							</th>
+							<th title = "FanDuel Fantasy Points">
+								FP
+							</th>
+							<th title = "FanDuel Value" class="value">
+								Value
+							</th>
+						</tr>
+						</thead>
+						<tbody class="projection-table__body">
+													<tr>
+								<td class="left-aligned">
+									10/7/18								</td>
+								<td>
+									5								</td>
+								<td>
+									31								</td>
+								<td>
+									2								</td>
+								<td>
+									0								</td>
+								<td>
+									$4,700								</td>
+								<td>
+									1								</td>
+								<td class="value">
+									0.21								</td>
+							</tr>
+												</tbody>
+					</table>
+									</div>
 			</div>
 	
 	
@@ -2821,25 +2876,25 @@
 							<td>
 								20.34							</td>
 							<td>
-								2.15							</td>
+								2.14							</td>
 							<td>
 								0.04							</td>
 							<td>
-								1.27							</td>
+								1.26							</td>
 							<td>
 								0.71							</td>
 							<td class="border-right">
 								0.22							</td>
 							<td>
-								2.55-13.99							</td>
+								2.54-13.94							</td>
 							<td class="border-right">
-								8.27							</td>
+								8.24							</td>
 							<td class="cost">
 								$4,700							</td>
 							<td>
-								8.2682							</td>
+								8.2382							</td>
 							<td>
-								1.76							</td>
+								1.75							</td>
 						</tr>
 											<tr data-row-index="6">
 							<td class="">
@@ -3177,21 +3232,21 @@
 							<td>
 								265.00							</td>
 							<td>
-								28.28							</td>
+								28.27							</td>
 							<td>
 								0.24							</td>
 							<td>
-								14.69							</td>
+								14.68							</td>
 							<td>
 								6.95							</td>
 							<td class="border-right">
 								3.08							</td>
 							<td>
-								77.70-115.50							</td>
+								77.68-115.46							</td>
 							<td class="border-right">
-								96.60							</td>
+								96.57							</td>
 							<td>
-								96.5606							</td>
+								96.5306							</td>
 						</tr>
 										</tbody>
 				</table>
@@ -3594,5 +3649,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":95,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":65,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

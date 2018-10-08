@@ -2427,7 +2427,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 					<span class="stat">
-													2.0											</span>
+													0.0											</span>
 					<span title="Receptions" class="cat">
 						Rec
 					</span>
@@ -2435,7 +2435,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 					<span class="stat">
-													22.9											</span>
+													0.0											</span>
 					<span title="Receiving Yards" class="cat">
 						Rec Yd
 					</span>
@@ -2443,7 +2443,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 					<span class="stat">
-													0.1											</span>
+													0.0											</span>
 					<span title="Receiving Touchdowns" class="cat">
 						Rec TD
 					</span>
@@ -2451,7 +2451,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv  medium-down-hide">
 					<span class="stat">
-													0.1											</span>
+													0.0											</span>
 					<span title="Fumbles" class="cat">
 						Fum
 					</span>
@@ -2459,7 +2459,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 				<span class="stat">
-											3.5									</span>
+											0.0									</span>
 				<span title = "FanDuel Fantasy Points" class="cat">
 					FP
 				</span>
@@ -2788,25 +2788,25 @@
 							<td class="">
 								#20							</td>
 							<td>
-								3.12							</td>
+								0.00							</td>
 							<td>
-								2.01							</td>
+								0.00							</td>
 							<td>
-								22.87							</td>
+								0.00							</td>
 							<td>
-								0.05							</td>
+								0.00							</td>
 							<td class="border-right">
-								0.05							</td>
+								0.00							</td>
 							<td>
-								-0.16-5.24							</td>
+								0.00-0.00							</td>
 							<td class="border-right">
-								2.54							</td>
+								0.00							</td>
 							<td class="cost">
 								$4,600							</td>
 							<td>
-								3.52							</td>
+								0							</td>
 							<td>
-								0.77							</td>
+								0							</td>
 						</tr>
 											<tr data-row-index="6">
 							<td class="">
@@ -3117,21 +3117,21 @@
 					<tbody class="projection-table__body">
 											<tr>
 							<td>
-								36.59							</td>
+								33.47							</td>
 							<td>
-								22.24							</td>
+								20.23							</td>
 							<td>
-								266.62							</td>
+								243.75							</td>
 							<td>
-								0.72							</td>
+								0.67							</td>
 							<td class="border-right">
-								0.53							</td>
+								0.48							</td>
 							<td>
-								21.57-39.35							</td>
+								19.45-36.39							</td>
 							<td class="border-right">
-								30.46							</td>
+								27.92							</td>
 							<td>
-								41.55							</td>
+								38.03							</td>
 						</tr>
 										</tbody>
 				</table>

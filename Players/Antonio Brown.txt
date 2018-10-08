@@ -2139,25 +2139,25 @@
 							</span>
 															        </div>
 								        <div class="player-info--basic__status">
-			        	<a href="/nfl/player-news/100924/steelers-antonio-brown-finds-the-end-zone-for-the-third-time-this-season">Steelers' Antonio Brown finds the end zone for the third time this season</a>
-						<span class="timestamp timeago older-timestamp"
-							  title="1538365704">&nbsp;</span>
+			        	<a href="/nfl/player-news/101274/antonio-brown-dominates-with-101-yards-and-2-scores-in-steelers-win">Antonio Brown dominates with 101 yards and 2 scores in Steelers' win</a>
+						<span class="timestamp timeago recent-timestamp"
+							  title="1538970207">&nbsp;</span>
 			        </div>
 								        <div class="player-info--basic__dfp">
-						FPPG: <span class="amt">14.9</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$9,000</span>					</div>
+						FPPG: <span class="amt">17.0</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$9,000</span>					</div>
 	            </div>
             </div>
 
 	        <div class="player-header__info__stats player-header__info__stats--mobile">
 		        <div class="player-info--basic">
 											<div class="player-info--basic__status">
-							<a href="/nfl/player-news/100924/steelers-antonio-brown-finds-the-end-zone-for-the-third-time-this-season">Steelers' Antonio Brown finds the end zone for the third time this season</a>
-							<span class="timestamp timeago older-timestamp"
-								  title="1538365704">&nbsp;</span>
+							<a href="/nfl/player-news/101274/antonio-brown-dominates-with-101-yards-and-2-scores-in-steelers-win">Antonio Brown dominates with 101 yards and 2 scores in Steelers' win</a>
+							<span class="timestamp timeago recent-timestamp"
+								  title="1538970207">&nbsp;</span>
 						</div>
 					
 			        <div class="player-info--basic__dfp">
-						FPPG: <span class="amt">14.9</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$9,000</span>			        </div>
+						FPPG: <span class="amt">17.0</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$9,000</span>			        </div>
 		     	</div>
 	     	</div>
         </div>
@@ -2178,7 +2178,7 @@
 					id="dfs-chart"
 					class="dfs-chart"
 					data-dfs-chart
-					data-dfs-chart-data="[{&quot;cost&quot;:&quot;9000.00&quot;,&quot;fp&quot;:19.8,&quot;opp&quot;:&quot;CLE&quot;,&quot;round&quot;:&quot;Week 1&quot;,&quot;roundAbbrev&quot;:&quot;Wk1&quot;,&quot;value&quot;:2.2},{&quot;cost&quot;:&quot;8900.00&quot;,&quot;fp&quot;:11.2,&quot;opp&quot;:&quot;KC&quot;,&quot;round&quot;:&quot;Week 2&quot;,&quot;roundAbbrev&quot;:&quot;Wk2&quot;,&quot;value&quot;:1.26},{&quot;cost&quot;:&quot;8800.00&quot;,&quot;fp&quot;:14,&quot;opp&quot;:&quot;TB&quot;,&quot;round&quot;:&quot;Week 3&quot;,&quot;roundAbbrev&quot;:&quot;Wk3&quot;,&quot;value&quot;:1.59},{&quot;cost&quot;:&quot;8800.00&quot;,&quot;fp&quot;:14.7,&quot;opp&quot;:&quot;BAL&quot;,&quot;round&quot;:&quot;Week 4&quot;,&quot;roundAbbrev&quot;:&quot;Wk4&quot;,&quot;value&quot;:1.67}]"
+					data-dfs-chart-data="[{&quot;cost&quot;:&quot;9000.00&quot;,&quot;fp&quot;:19.8,&quot;opp&quot;:&quot;CLE&quot;,&quot;round&quot;:&quot;Week 1&quot;,&quot;roundAbbrev&quot;:&quot;Wk1&quot;,&quot;value&quot;:2.2},{&quot;cost&quot;:&quot;8900.00&quot;,&quot;fp&quot;:11.2,&quot;opp&quot;:&quot;KC&quot;,&quot;round&quot;:&quot;Week 2&quot;,&quot;roundAbbrev&quot;:&quot;Wk2&quot;,&quot;value&quot;:1.26},{&quot;cost&quot;:&quot;8800.00&quot;,&quot;fp&quot;:14,&quot;opp&quot;:&quot;TB&quot;,&quot;round&quot;:&quot;Week 3&quot;,&quot;roundAbbrev&quot;:&quot;Wk3&quot;,&quot;value&quot;:1.59},{&quot;cost&quot;:&quot;8800.00&quot;,&quot;fp&quot;:14.7,&quot;opp&quot;:&quot;BAL&quot;,&quot;round&quot;:&quot;Week 4&quot;,&quot;roundAbbrev&quot;:&quot;Wk4&quot;,&quot;value&quot;:1.67},{&quot;cost&quot;:&quot;9000.00&quot;,&quot;fp&quot;:25.1,&quot;opp&quot;:&quot;ATL&quot;,&quot;round&quot;:&quot;Week 5&quot;,&quot;roundAbbrev&quot;:&quot;Wk5&quot;,&quot;value&quot;:2.79}]"
 					height="135"
 					width="499">
 				</canvas>
@@ -2245,6 +2245,7 @@
                                                     <option  value="/nfl/players/projections/james-washington">James Washington</option>
                                                     <option  value="/nfl/players/projections/terrell-edmunds">Terrell Edmunds</option>
                                                     <option  value="/nfl/players/projections/matthew-thomas">Matthew Thomas</option>
+                                                    <option  value="/nfl/players/projections/joshua-dobbs">Joshua Dobbs</option>
                                             </select>
                 </form>
                 <form class="team-player-sub-nav__list__drop team-player-sub-nav__list__drop--abbr" action="">
@@ -2333,6 +2334,8 @@
                                 T. Edmunds                            </option>
                                                     <option  value="/nfl/players/projections/matthew-thomas">
                                 M. Thomas                            </option>
+                                                    <option  value="/nfl/players/projections/joshua-dobbs">
+                                J. Dobbs                            </option>
                                             </select>
                 </form>
                             <ul class="team-player-sub-nav__list__links">
@@ -2420,7 +2423,7 @@
 						win probability
 					</h4>
 					<span class="next-game--live__percentage">
-					58.2<span class="symbol">%</span>
+					60.6<span class="symbol">%</span>
 				</span>
 					<span class="next-game--live__winning-team">
 					PIT				</span>
@@ -2488,6 +2491,66 @@
 				</div>
 			</div>
 		
+				<div class="player-schedule__indiv-projections__table-wrap player-projection-table">
+						<span class="player-projection-table__title">
+				Last Game against Atlanta 			</span>
+			
+												<table class="projection-table grid--1-1 no-fix-height" cellspacing="0" cellpadding="0">
+						<thead class="projection-table__head">
+							<tr>
+								<th title = "Date" class="left-aligned">
+									Date
+								</th>
+								<th title = "Week">
+									Wk
+								</th>
+								<th title = "Receptions">
+									Rec
+								</th>
+								<th title = "Receiving Yards">
+									Rec Yd
+								</th>
+								<th title = "Receiving Touchdowns">
+									Rec TD
+								</th>
+								<th title = "Targets">
+									Trgt
+								</th>
+								<th title="FanDuel Cost">
+									Cost
+								</th>
+								<th title = "FanDuel Fantasy Points">
+									FP
+								</th>
+								<th title = "FanDuel Value" class="value">
+									Value
+								</th>
+							</tr>
+						</thead>
+						<tbody class="projection-table__body">
+													<tr>
+								<td class="left-aligned">
+									10/7/18								</td>
+								<td>
+									5								</td>
+								<td>
+									6								</td>
+								<td>
+									101								</td>
+								<td>
+									2								</td>
+								<td>
+									13								</td>
+								<td>
+									$9,000								</td>
+								<td>
+									25.1								</td>
+								<td class="value">
+									2.79								</td>
+							</tr>
+												</tbody>
+					</table>
+									</div>
 			</div>
 	
 	
@@ -3556,5 +3619,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":155,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":83,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

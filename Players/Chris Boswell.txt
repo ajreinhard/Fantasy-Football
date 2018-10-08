@@ -2144,7 +2144,7 @@
 							  title="1515731173">&nbsp;</span>
 			        </div>
 								        <div class="player-info--basic__dfp">
-						FPPG: <span class="amt">4.5</span>																	</div>
+						FPPG: <span class="amt">4.6</span>																	</div>
 	            </div>
             </div>
 
@@ -2157,7 +2157,7 @@
 						</div>
 					
 			        <div class="player-info--basic__dfp">
-						FPPG: <span class="amt">4.5</span>															        </div>
+						FPPG: <span class="amt">4.6</span>															        </div>
 		     	</div>
 	     	</div>
         </div>
@@ -2223,6 +2223,7 @@
                                                     <option  value="/nfl/players/projections/james-washington">James Washington</option>
                                                     <option  value="/nfl/players/projections/terrell-edmunds">Terrell Edmunds</option>
                                                     <option  value="/nfl/players/projections/matthew-thomas">Matthew Thomas</option>
+                                                    <option  value="/nfl/players/projections/joshua-dobbs">Joshua Dobbs</option>
                                             </select>
                 </form>
                 <form class="team-player-sub-nav__list__drop team-player-sub-nav__list__drop--abbr" action="">
@@ -2311,6 +2312,8 @@
                                 T. Edmunds                            </option>
                                                     <option  value="/nfl/players/projections/matthew-thomas">
                                 M. Thomas                            </option>
+                                                    <option  value="/nfl/players/projections/joshua-dobbs">
+                                J. Dobbs                            </option>
                                             </select>
                 </form>
                             <ul class="team-player-sub-nav__list__links">
@@ -2398,7 +2401,7 @@
 						win probability
 					</h4>
 					<span class="next-game--live__percentage">
-					58.2<span class="symbol">%</span>
+					60.6<span class="symbol">%</span>
 				</span>
 					<span class="next-game--live__winning-team">
 					PIT				</span>
@@ -2466,6 +2469,61 @@
 				</div>
 			</div>
 		
+				<div class="player-schedule__indiv-projections__table-wrap player-projection-table">
+						<span class="player-projection-table__title">
+				Last Game against Atlanta 			</span>
+			
+												<table class="projection-table grid--1-1 no-fix-height" cellspacing="0" cellpadding="0">
+						<thead class="projection-table__head">
+							<tr>
+								<th title = "Date" class="left-aligned">
+									Date
+								</th>
+								<th title = "Week">
+									Wk
+								</th>
+								<th title = "Field Goals Made">
+									FGM
+								</th>
+								<th title = "Field Goals Attempted">
+									FGA
+								</th>
+								<th title = "Extra Points Made">
+									XPM
+								</th>
+								<th title="FanDuel Cost">
+									Cost
+								</th>
+								<th title = "FanDuel Fantasy Points">
+									FP
+								</th>
+								<th title = "FanDuel Value" class="value">
+									Value
+								</th>
+							</tr>
+						</thead>
+						<tbody class="projection-table__body">
+													<tr>
+								<td class="left-aligned">
+									10/7/18								</td>
+								<td>
+									5								</td>
+								<td>
+									0								</td>
+								<td>
+									0								</td>
+								<td>
+									5								</td>
+								<td>
+									N/A								</td>
+								<td>
+									5								</td>
+								<td class="value">
+									N/A								</td>
+							</tr>
+												</tbody>
+					</table>
+									</div>
 			</div>
 	
 	
@@ -2779,21 +2837,21 @@
 							<td class="">
 								#29							</td>
 							<td>
-								1.92							</td>
+								1.93							</td>
 							<td>
-								2.41							</td>
+								2.42							</td>
 							<td>
-								3.27							</td>
+								3.28							</td>
 							<td class="border-right">
-								3.41							</td>
+								3.42							</td>
 							<td>
-								5.03-13.89							</td>
+								5.04-13.92							</td>
 							<td class="border-right">
-								9.46							</td>
+								9.48							</td>
 							<td class="cost">
 								N/A							</td>
 							<td>
-								9.46							</td>
+								9.47							</td>
 							<td>
 								N/A							</td>
 						</tr>
@@ -3081,19 +3139,19 @@
 					<tbody class="projection-table__body">
 											<tr>
 							<td>
-								17.72							</td>
+								17.73							</td>
 							<td>
-								22.13							</td>
+								22.14							</td>
 							<td>
-								33.62							</td>
+								33.63							</td>
 							<td class="border-right">
-								34.21							</td>
+								34.22							</td>
 							<td>
-								80.73-104.97							</td>
+								80.75-104.99							</td>
 							<td class="border-right">
-								92.85							</td>
+								92.87							</td>
 							<td>
-								92.86							</td>
+								92.87							</td>
 						</tr>
 										</tbody>
 				</table>
@@ -3496,5 +3554,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":67,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":70,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

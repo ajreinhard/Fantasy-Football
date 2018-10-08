@@ -2200,9 +2200,9 @@
                                                     <option  value="/nfl/players/projections/jaquiski-tartt">Jaquiski Tartt</option>
                                                     <option  value="/nfl/players/projections/raheem-mostert">Raheem Mostert</option>
                                                     <option  value="/nfl/players/projections/arik-armstead">Arik Armstead</option>
+                                                    <option  value="/nfl/players/projections/ryan-delaire">Ryan Delaire</option>
                                                     <option  value="/nfl/players/projections/deforest-buckner">DeForest Buckner</option>
                                                     <option  value="/nfl/players/projections/cole-wick">Cole Wick</option>
-                                                    <option  value="/nfl/players/projections/tyvis-powell">Tyvis Powell</option>
                                                     <option  value="/nfl/players/projections/sheldon-day">Sheldon Day</option>
                                                     <option  value="/nfl/players/projections/ronald-blair">Ronald Blair</option>
                                                     <option  value="/nfl/players/projections/mark-nzeocha">Mark Nzeocha</option>
@@ -2223,6 +2223,7 @@
                                                     <option  value="/nfl/players/projections/fred-warner">Fred Warner</option>
                                                     <option  value="/nfl/players/projections/d-j-reed">D.J. Reed</option>
                                                     <option  value="/nfl/players/projections/tarvarius-moore">Tarvarius Moore</option>
+                                                    <option  value="/nfl/players/projections/richie-james">Richie James</option>
                                             </select>
                 </form>
                 <form class="team-player-sub-nav__list__drop team-player-sub-nav__list__drop--abbr" action="">
@@ -2265,12 +2266,12 @@
                                 R. Mostert                            </option>
                                                     <option  value="/nfl/players/projections/arik-armstead">
                                 A. Armstead                            </option>
+                                                    <option  value="/nfl/players/projections/ryan-delaire">
+                                R. Delaire                            </option>
                                                     <option  value="/nfl/players/projections/deforest-buckner">
                                 D. Buckner                            </option>
                                                     <option  value="/nfl/players/projections/cole-wick">
                                 C. Wick                            </option>
-                                                    <option  value="/nfl/players/projections/tyvis-powell">
-                                T. Powell                            </option>
                                                     <option  value="/nfl/players/projections/sheldon-day">
                                 S. Day                            </option>
                                                     <option  value="/nfl/players/projections/ronald-blair">
@@ -2311,6 +2312,8 @@
                                 D. Reed                            </option>
                                                     <option  value="/nfl/players/projections/tarvarius-moore">
                                 T. Moore                            </option>
+                                                    <option  value="/nfl/players/projections/richie-james">
+                                R. James                            </option>
                                             </select>
                 </form>
                             <ul class="team-player-sub-nav__list__links">
@@ -2784,5 +2787,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":44,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":61,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

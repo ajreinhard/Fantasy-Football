@@ -2247,6 +2247,7 @@
                                                     <option  value="/nfl/players/projections/isaac-yiadom">Isaac Yiadom</option>
                                                     <option  value="/nfl/players/projections/daesean-hamilton">DaeSean Hamilton</option>
                                                     <option  value="/nfl/players/projections/colby-wadman">Colby Wadman</option>
+                                                    <option  value="/nfl/players/projections/keishawn-bierria">Keishawn Bierria</option>
                                             </select>
                 </form>
                 <form class="team-player-sub-nav__list__drop team-player-sub-nav__list__drop--abbr" action="">
@@ -2337,6 +2338,8 @@
                                 D. Hamilton                            </option>
                                                     <option  value="/nfl/players/projections/colby-wadman">
                                 C. Wadman                            </option>
+                                                    <option  value="/nfl/players/projections/keishawn-bierria">
+                                K. Bierria                            </option>
                                             </select>
                 </form>
                             <ul class="team-player-sub-nav__list__links">
@@ -3099,5 +3102,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":70,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":55,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

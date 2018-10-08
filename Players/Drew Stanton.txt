@@ -2220,6 +2220,9 @@
                                                     <option  value="/nfl/players/projections/antonio-callaway">Antonio Callaway</option>
                                                     <option  value="/nfl/players/projections/genard-avery">Genard Avery</option>
                                                     <option  value="/nfl/players/projections/greg-joseph">Greg Joseph</option>
+                                                    <option  value="/nfl/players/projections/d-juan-hines">D'Juan Hines</option>
+                                                    <option  value="/nfl/players/projections/jeremiah-mckinnon">Jeremiah McKinnon</option>
+                                                    <option  value="/nfl/players/projections/derrick-willies">Derrick Willies</option>
                                             </select>
                 </form>
                 <form class="team-player-sub-nav__list__drop team-player-sub-nav__list__drop--abbr" action="">
@@ -2302,6 +2305,12 @@
                                 G. Avery                            </option>
                                                     <option  value="/nfl/players/projections/greg-joseph">
                                 G. Joseph                            </option>
+                                                    <option  value="/nfl/players/projections/d-juan-hines">
+                                D. Hines                            </option>
+                                                    <option  value="/nfl/players/projections/jeremiah-mckinnon">
+                                J. McKinnon                            </option>
+                                                    <option  value="/nfl/players/projections/derrick-willies">
+                                D. Willies                            </option>
                                             </select>
                 </form>
                             <ul class="team-player-sub-nav__list__links">
@@ -3584,5 +3593,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":110,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":81,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

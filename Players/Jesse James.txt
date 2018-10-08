@@ -2144,7 +2144,7 @@
 							  title="1536856710">&nbsp;</span>
 			        </div>
 								        <div class="player-info--basic__dfp">
-						FPPG: <span class="amt">8.5</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$5,200</span>					</div>
+						FPPG: <span class="amt">7.4</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$5,200</span>					</div>
 	            </div>
             </div>
 
@@ -2157,7 +2157,7 @@
 						</div>
 					
 			        <div class="player-info--basic__dfp">
-						FPPG: <span class="amt">8.5</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$5,200</span>			        </div>
+						FPPG: <span class="amt">7.4</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$5,200</span>			        </div>
 		     	</div>
 	     	</div>
         </div>
@@ -2178,7 +2178,7 @@
 					id="dfs-chart"
 					class="dfs-chart"
 					data-dfs-chart
-					data-dfs-chart-data="[{&quot;cost&quot;:&quot;4600.00&quot;,&quot;fp&quot;:7.5,&quot;opp&quot;:&quot;CLE&quot;,&quot;round&quot;:&quot;Week 1&quot;,&quot;roundAbbrev&quot;:&quot;Wk1&quot;,&quot;value&quot;:1.63},{&quot;cost&quot;:&quot;4600.00&quot;,&quot;fp&quot;:22.3,&quot;opp&quot;:&quot;KC&quot;,&quot;round&quot;:&quot;Week 2&quot;,&quot;roundAbbrev&quot;:&quot;Wk2&quot;,&quot;value&quot;:4.85},{&quot;cost&quot;:&quot;6200.00&quot;,&quot;fp&quot;:1.2,&quot;opp&quot;:&quot;TB&quot;,&quot;round&quot;:&quot;Week 3&quot;,&quot;roundAbbrev&quot;:&quot;Wk3&quot;,&quot;value&quot;:0.19},{&quot;cost&quot;:&quot;5200.00&quot;,&quot;fp&quot;:2.8,&quot;opp&quot;:&quot;BAL&quot;,&quot;round&quot;:&quot;Week 4&quot;,&quot;roundAbbrev&quot;:&quot;Wk4&quot;,&quot;value&quot;:0.54}]"
+					data-dfs-chart-data="[{&quot;cost&quot;:&quot;4600.00&quot;,&quot;fp&quot;:7.5,&quot;opp&quot;:&quot;CLE&quot;,&quot;round&quot;:&quot;Week 1&quot;,&quot;roundAbbrev&quot;:&quot;Wk1&quot;,&quot;value&quot;:1.63},{&quot;cost&quot;:&quot;4600.00&quot;,&quot;fp&quot;:22.3,&quot;opp&quot;:&quot;KC&quot;,&quot;round&quot;:&quot;Week 2&quot;,&quot;roundAbbrev&quot;:&quot;Wk2&quot;,&quot;value&quot;:4.85},{&quot;cost&quot;:&quot;6200.00&quot;,&quot;fp&quot;:1.2,&quot;opp&quot;:&quot;TB&quot;,&quot;round&quot;:&quot;Week 3&quot;,&quot;roundAbbrev&quot;:&quot;Wk3&quot;,&quot;value&quot;:0.19},{&quot;cost&quot;:&quot;5200.00&quot;,&quot;fp&quot;:2.8,&quot;opp&quot;:&quot;BAL&quot;,&quot;round&quot;:&quot;Week 4&quot;,&quot;roundAbbrev&quot;:&quot;Wk4&quot;,&quot;value&quot;:0.54},{&quot;cost&quot;:&quot;5200.00&quot;,&quot;fp&quot;:3,&quot;opp&quot;:&quot;ATL&quot;,&quot;round&quot;:&quot;Week 5&quot;,&quot;roundAbbrev&quot;:&quot;Wk5&quot;,&quot;value&quot;:0.58}]"
 					height="135"
 					width="499">
 				</canvas>
@@ -2245,6 +2245,7 @@
                                                     <option  value="/nfl/players/projections/james-washington">James Washington</option>
                                                     <option  value="/nfl/players/projections/terrell-edmunds">Terrell Edmunds</option>
                                                     <option  value="/nfl/players/projections/matthew-thomas">Matthew Thomas</option>
+                                                    <option  value="/nfl/players/projections/joshua-dobbs">Joshua Dobbs</option>
                                             </select>
                 </form>
                 <form class="team-player-sub-nav__list__drop team-player-sub-nav__list__drop--abbr" action="">
@@ -2333,6 +2334,8 @@
                                 T. Edmunds                            </option>
                                                     <option  value="/nfl/players/projections/matthew-thomas">
                                 M. Thomas                            </option>
+                                                    <option  value="/nfl/players/projections/joshua-dobbs">
+                                J. Dobbs                            </option>
                                             </select>
                 </form>
                             <ul class="team-player-sub-nav__list__links">
@@ -2420,7 +2423,7 @@
 						win probability
 					</h4>
 					<span class="next-game--live__percentage">
-					58.2<span class="symbol">%</span>
+					60.6<span class="symbol">%</span>
 				</span>
 					<span class="next-game--live__winning-team">
 					PIT				</span>
@@ -2488,6 +2491,66 @@
 				</div>
 			</div>
 		
+				<div class="player-schedule__indiv-projections__table-wrap player-projection-table">
+						<span class="player-projection-table__title">
+				Last Game against Atlanta 			</span>
+			
+												<table class="projection-table grid--1-1 no-fix-height" cellspacing="0" cellpadding="0">
+						<thead class="projection-table__head">
+							<tr>
+								<th title = "Date" class="left-aligned">
+									Date
+								</th>
+								<th title = "Week">
+									Wk
+								</th>
+								<th title = "Receptions">
+									Rec
+								</th>
+								<th title = "Receiving Yards">
+									Rec Yd
+								</th>
+								<th title = "Receiving Touchdowns">
+									Rec TD
+								</th>
+								<th title = "Targets">
+									Trgt
+								</th>
+								<th title="FanDuel Cost">
+									Cost
+								</th>
+								<th title = "FanDuel Fantasy Points">
+									FP
+								</th>
+								<th title = "FanDuel Value" class="value">
+									Value
+								</th>
+							</tr>
+						</thead>
+						<tbody class="projection-table__body">
+													<tr>
+								<td class="left-aligned">
+									10/7/18								</td>
+								<td>
+									5								</td>
+								<td>
+									2								</td>
+								<td>
+									20								</td>
+								<td>
+									0								</td>
+								<td>
+									2								</td>
+								<td>
+									$5,200								</td>
+								<td>
+									3								</td>
+								<td class="value">
+									0.58								</td>
+							</tr>
+												</tbody>
+					</table>
+									</div>
 			</div>
 	
 	
@@ -3556,5 +3619,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":100,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":88,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

@@ -2140,11 +2140,11 @@
 															        </div>
 								        <div class="player-info--basic__status">
 			        	<a href="/nfl/player-news/101215/redskins-jordan-reed-projected-as-top-5-tight-end-in-week-5">Redskins' Jordan Reed projected as top 5 tight end in Week 5</a>
-						<span class="timestamp timeago recent-timestamp"
+						<span class="timestamp timeago older-timestamp"
 							  title="1538849672">&nbsp;</span>
 			        </div>
 								        <div class="player-info--basic__dfp">
-						FPPG: <span class="amt">9.3</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$6,200</span>					</div>
+						FPPG: <span class="amt">9.3</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$6,700</span>					</div>
 	            </div>
             </div>
 
@@ -2152,12 +2152,12 @@
 		        <div class="player-info--basic">
 											<div class="player-info--basic__status">
 							<a href="/nfl/player-news/101215/redskins-jordan-reed-projected-as-top-5-tight-end-in-week-5">Redskins' Jordan Reed projected as top 5 tight end in Week 5</a>
-							<span class="timestamp timeago recent-timestamp"
+							<span class="timestamp timeago older-timestamp"
 								  title="1538849672">&nbsp;</span>
 						</div>
 					
 			        <div class="player-info--basic__dfp">
-						FPPG: <span class="amt">9.3</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$6,200</span>			        </div>
+						FPPG: <span class="amt">9.3</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$6,700</span>			        </div>
 		     	</div>
 	     	</div>
         </div>
@@ -2426,7 +2426,7 @@
 						win probability
 					</h4>
 					<span class="next-game--live__percentage">
-					73.7<span class="symbol">%</span>
+					74.1<span class="symbol">%</span>
 				</span>
 					<span class="next-game--live__winning-team">
 					NO				</span>
@@ -2830,11 +2830,11 @@
 							<td class="border-right">
 								7.57							</td>
 							<td class="cost">
-								$6,200							</td>
+								$6,700							</td>
 							<td>
 								10.04							</td>
 							<td>
-								1.62							</td>
+								1.5							</td>
 						</tr>
 											<tr data-row-index="6">
 							<td class="">
@@ -3562,5 +3562,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":77,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":94,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

@@ -2219,6 +2219,8 @@
                                                     <option  value="/nfl/players/projections/marquez-valdes-scantling">Marquez Valdes-Scantling</option>
                                                     <option  value="/nfl/players/projections/oren-burks">Oren Burks</option>
                                                     <option  value="/nfl/players/projections/james-crawford">James Crawford</option>
+                                                    <option  value="/nfl/players/projections/equanimeous-st-brown">Equanimeous St. Brown</option>
+                                                    <option  value="/nfl/players/projections/tony-brown-1">Tony Brown</option>
                                             </select>
                 </form>
                 <form class="team-player-sub-nav__list__drop team-player-sub-nav__list__drop--abbr" action="">
@@ -2299,6 +2301,10 @@
                                 O. Burks                            </option>
                                                     <option  value="/nfl/players/projections/james-crawford">
                                 J. Crawford                            </option>
+                                                    <option  value="/nfl/players/projections/equanimeous-st-brown">
+                                E. St. Brown                            </option>
+                                                    <option  value="/nfl/players/projections/tony-brown-1">
+                                T. Brown                            </option>
                                             </select>
                 </form>
                             <ul class="team-player-sub-nav__list__links">
@@ -2415,7 +2421,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 					<span class="stat">
-													2.4											</span>
+													2.9											</span>
 					<span title="Receptions" class="cat">
 						Rec
 					</span>
@@ -2423,7 +2429,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 					<span class="stat">
-													31.8											</span>
+													37.6											</span>
 					<span title="Receiving Yards" class="cat">
 						Rec Yd
 					</span>
@@ -2447,7 +2453,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 				<span class="stat">
-											5.3									</span>
+											6.3									</span>
 				<span title = "FanDuel Fantasy Points" class="cat">
 					FP
 				</span>
@@ -2776,25 +2782,25 @@
 							<td class="">
 								#28							</td>
 							<td>
-								3.97							</td>
+								4.72							</td>
 							<td>
-								2.41							</td>
+								2.86							</td>
 							<td>
-								31.75							</td>
+								37.64							</td>
 							<td>
-								0.16							</td>
+								0.19							</td>
 							<td class="border-right">
 								0.00							</td>
 							<td>
-								-0.31-8.53							</td>
+								-0.32-10.16							</td>
 							<td class="border-right">
-								4.11							</td>
+								4.92							</td>
 							<td class="cost">
 								$4,500							</td>
 							<td>
-								5.34							</td>
+								6.33							</td>
 							<td>
-								1.19							</td>
+								1.41							</td>
 						</tr>
 											<tr data-row-index="6">
 							<td class="">
@@ -3105,21 +3111,21 @@
 					<tbody class="projection-table__body">
 											<tr>
 							<td>
-								11.53							</td>
+								12.28							</td>
 							<td>
-								6.87							</td>
+								7.32							</td>
 							<td>
-								90.47							</td>
+								96.36							</td>
 							<td>
-								0.56							</td>
+								0.59							</td>
 							<td class="border-right">
 								0.12							</td>
 							<td>
-								7.33-17.33							</td>
+								7.40-18.88							</td>
 							<td class="border-right">
-								12.33							</td>
+								13.14							</td>
 							<td>
-								15.8							</td>
+								16.8							</td>
 						</tr>
 										</tbody>
 				</table>
@@ -3522,5 +3528,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":88,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":74,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

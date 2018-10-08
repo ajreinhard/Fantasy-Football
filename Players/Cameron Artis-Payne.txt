@@ -2223,6 +2223,8 @@
                                                     <option  value="/nfl/players/projections/corn-elder">Corn Elder</option>
                                                     <option  value="/nfl/players/projections/efe-obada">Efe Obada</option>
                                                     <option  value="/nfl/players/projections/marquis-haynes">Marquis Haynes</option>
+                                                    <option  value="/nfl/players/projections/jermaine-carter">Jermaine Carter</option>
+                                                    <option  value="/nfl/players/projections/andre-smith-1">Andre Smith</option>
                                             </select>
                 </form>
                 <form class="team-player-sub-nav__list__drop team-player-sub-nav__list__drop--abbr" action="">
@@ -2311,6 +2313,10 @@
                                 E. Obada                            </option>
                                                     <option  value="/nfl/players/projections/marquis-haynes">
                                 M. Haynes                            </option>
+                                                    <option  value="/nfl/players/projections/jermaine-carter">
+                                J. Carter                            </option>
+                                                    <option  value="/nfl/players/projections/andre-smith-1">
+                                A. Smith                            </option>
                                             </select>
                 </form>
                             <ul class="team-player-sub-nav__list__links">
@@ -2398,7 +2404,7 @@
 						win probability
 					</h4>
 					<span class="next-game--live__percentage">
-					77.9<span class="symbol">%</span>
+					78.2<span class="symbol">%</span>
 				</span>
 					<span class="next-game--live__winning-team">
 					CAR				</span>
@@ -2427,7 +2433,7 @@
 
 			<div class="player-schedule__indiv-projections__stats--indiv">
 				<span class="stat">
-											5.3									</span>
+											0.0									</span>
 				<span title="Rushing Yards" class="cat">
 					Rush Yd
 				</span>
@@ -2443,7 +2449,7 @@
 
 			<div class="player-schedule__indiv-projections__stats--indiv">
 				<span class="stat">
-											4.7									</span>
+											0.0									</span>
 				<span title="Receiving Yards" class="cat">
 					Rec Yd
 				</span>
@@ -2459,7 +2465,7 @@
 
 			<div class="player-schedule__indiv-projections__stats--indiv">
 				<span class="stat">
-											1.6									</span>
+											0.0									</span>
 				<span title = "FanDuel Fantasy Points" class="cat">
 					FP
 				</span>
@@ -2806,29 +2812,29 @@
 							<td class="">
 								#22							</td>
 							<td>
-								1.29							</td>
+								0.00							</td>
 							<td>
-								5.33							</td>
+								0.00							</td>
 							<td>
-								0.02							</td>
+								0.00							</td>
 							<td>
-								0.70							</td>
+								0.00							</td>
 							<td>
-								4.73							</td>
+								0.00							</td>
 							<td>
-								0.03							</td>
+								0.00							</td>
 							<td class="border-right">
-								0.05							</td>
+								0.00							</td>
 							<td>
-								-0.08-2.56							</td>
+								0.00-0.00							</td>
 							<td class="border-right">
-								1.24							</td>
+								0.00							</td>
 							<td class="cost">
 								$4,500							</td>
 							<td>
-								1.64							</td>
+								0							</td>
 							<td>
-								0.36							</td>
+								0							</td>
 						</tr>
 											<tr data-row-index="6">
 							<td class="">
@@ -3189,25 +3195,25 @@
 					<tbody class="projection-table__body">
 											<tr>
 							<td>
-								14.92							</td>
+								13.63							</td>
 							<td>
-								63.94							</td>
+								58.61							</td>
 							<td>
-								0.24							</td>
+								0.22							</td>
 							<td>
-								9.69							</td>
+								8.99							</td>
 							<td>
-								58.48							</td>
+								53.75							</td>
 							<td>
-								0.45							</td>
+								0.42							</td>
 							<td class="border-right">
-								0.43							</td>
+								0.38							</td>
 							<td>
-								11.35-20.41							</td>
+								10.30-18.98							</td>
 							<td class="border-right">
-								15.88							</td>
+								14.64							</td>
 							<td>
-								20.89							</td>
+								19.25							</td>
 						</tr>
 										</tbody>
 				</table>
@@ -3610,5 +3616,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":98,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":107,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>
