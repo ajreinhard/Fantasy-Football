@@ -261,7 +261,7 @@ results <- data.frame(do.call(rbind, slots),stringsAsFactors=F)
 #results$Player[which(results$OwnerWeek=='lucas-5' & results$Pos=='WR-1' & results$Slot=='BYE')] <- 'Jamison Crowder'
 #results$Player[which(results$OwnerWeek=='comp-5' & results$Pos=='TE-1' & results$Slot=='BYE')] <- 'Austin Hooper'
 #results$Player[which(results$OwnerWeek=='devon-5' & results$Player=='Demaryius Thomas')] <- 'Devonta Freeman'
-#results$Player[which(results$OwnerWeek=='aj-5' & results$Pos=='QB-1' & results$Slot=='OPEN')] <- 'Matt Ryan'
+#results$Player[which(results$OwnerWeek=='aj-6' & results$Pos=='K' & results$Slot=='OPEN')] <- 'Adam Vinatieri'
 #######################################################
 results[which(results$Slot!=''),]
 #open_spots <- open_spots[which(sapply(open_spots$OwnerWeek, function(x) as.numeric(strsplit(x,'-')[[1]][2]))==this_week),]
@@ -592,6 +592,12 @@ text(15,12,paste0('As of ',format(file.info('Teams.txt')$mtime, "%a %m/%d %I:%M 
 
 
 dev.off()
+
+table(floor(div_dp_score))
+#div_dp_stnd[which(floor(div_dp_score)==4),]
+#div_hk_stnd[which(floor(div_dp_score)==4),]
+weekly_top <- proj_totals[,seq(this_week,170,17)]
+round(table(owners[apply(11-apply(weekly_top,1,rank),2,function(x) which(x==1))])/sim_cnt*100,1)
 
 
 #begin tweeting

@@ -2132,16 +2132,17 @@
             <div class="player-header__info__stats player-info">
 	            <div class="player-info--basic">
 		            <h2>
-		            	Mohamed Sanu								            </h2>
+		            	Mohamed Sanu								            	<span class="player-status player-status--gtd">GTD</span>
+								            </h2>
 		            <div class="player-info--basic__wrap">
 													<span class="player-info--basic__team">
 								WR, <a href="/nfl/teams/atlanta-falcons" class="team-name">Atlanta Falcons</a><a href="/nfl/teams/atlanta-falcons" class="team-abbrev">ATL</a>
 							</span>
 															        </div>
 								        <div class="player-info--basic__status">
-			        	<a href="/nfl/player-news/96538/falcons-mohamed-sanu-projected-for-a-reduced-role-in-2018">Falcons' Mohamed Sanu projected for a reduced role in 2018</a>
-						<span class="timestamp timeago older-timestamp"
-							  title="1536014016">&nbsp;</span>
+			        	<a href="/nfl/player-news/101639/falcons-mohamed-sanu-hip-will-not-return-against-buccaneers">Falcons' Mohamed Sanu (hip) will not return against Buccaneers</a>
+						<span class="timestamp timeago recent-timestamp"
+							  title="1539545991">&nbsp;</span>
 			        </div>
 								        <div class="player-info--basic__dfp">
 						FPPG: <span class="amt">9.9</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$5,800</span>					</div>
@@ -2151,9 +2152,9 @@
 	        <div class="player-header__info__stats player-header__info__stats--mobile">
 		        <div class="player-info--basic">
 											<div class="player-info--basic__status">
-							<a href="/nfl/player-news/96538/falcons-mohamed-sanu-projected-for-a-reduced-role-in-2018">Falcons' Mohamed Sanu projected for a reduced role in 2018</a>
-							<span class="timestamp timeago older-timestamp"
-								  title="1536014016">&nbsp;</span>
+							<a href="/nfl/player-news/101639/falcons-mohamed-sanu-hip-will-not-return-against-buccaneers">Falcons' Mohamed Sanu (hip) will not return against Buccaneers</a>
+							<span class="timestamp timeago recent-timestamp"
+								  title="1539545991">&nbsp;</span>
 						</div>
 					
 			        <div class="player-info--basic__dfp">
@@ -2417,7 +2418,7 @@
 						win probability
 					</h4>
 					<span class="next-game--live__percentage">
-					70.4<span class="symbol">%</span>
+					70.6<span class="symbol">%</span>
 				</span>
 					<span class="next-game--live__winning-team">
 					ATL				</span>
@@ -2446,7 +2447,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 					<span class="stat">
-													2.7											</span>
+													3.1											</span>
 					<span title="Receptions" class="cat">
 						Rec
 					</span>
@@ -2454,7 +2455,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 					<span class="stat">
-													36.6											</span>
+													42.3											</span>
 					<span title="Receiving Yards" class="cat">
 						Rec Yd
 					</span>
@@ -2462,7 +2463,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 					<span class="stat">
-													0.2											</span>
+													0.3											</span>
 					<span title="Receiving Touchdowns" class="cat">
 						Rec TD
 					</span>
@@ -2478,7 +2479,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 				<span class="stat">
-											6.4									</span>
+											7.3									</span>
 				<span title = "FanDuel Fantasy Points" class="cat">
 					FP
 				</span>
@@ -2831,25 +2832,25 @@
 							<td class="positive">
 								#29							</td>
 							<td>
-								4.01							</td>
+								4.63							</td>
 							<td>
-								2.69							</td>
+								3.11							</td>
 							<td>
-								36.63							</td>
+								42.30							</td>
 							<td>
-								0.22							</td>
+								0.25							</td>
 							<td class="border-right">
-								0.10							</td>
+								0.12							</td>
 							<td>
-								1.07-9.07							</td>
+								1.18-10.42							</td>
 							<td class="border-right">
-								5.07							</td>
+								5.80							</td>
 							<td class="cost">
 								$5,800							</td>
 							<td>
-								6.38							</td>
+								7.34							</td>
 							<td>
-								1.1							</td>
+								1.27							</td>
 						</tr>
 											<tr data-row-index="7">
 							<td class="">
@@ -3136,21 +3137,21 @@
 					<tbody class="projection-table__body">
 											<tr>
 							<td>
-								44.19							</td>
+								44.81							</td>
 							<td>
-								27.67							</td>
+								28.09							</td>
 							<td>
-								370.25							</td>
+								375.92							</td>
 							<td>
-								2.36							</td>
+								2.39							</td>
 							<td class="border-right">
-								0.77							</td>
+								0.79							</td>
 							<td>
-								39.78-64.90							</td>
+								40.30-65.84							</td>
 							<td class="border-right">
-								52.34							</td>
+								53.07							</td>
 							<td>
-								66.06							</td>
+								67.02							</td>
 						</tr>
 										</tbody>
 				</table>
@@ -3184,155 +3185,155 @@
 	</div>
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
-		<a href="/nfl/news/22527/nfl-week-5-fanduel-ownership-percentages-popular-running-backs-pay-off">
+		<a href="/nfl/news/22592/6-wide-receivers-with-great-cornerback-matchups-in-week-6">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22527_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22527_a3.jpg">
-			</picture>
-		</a>
-			</div>
-	<div class="listing__info">
-		<div class="listing__hed">
-			<span class="listing--premium"><i class="nf-icon icon-premium"></i>premium</span>			<h4>
-				<a href="/nfl/news/22527/nfl-week-5-fanduel-ownership-percentages-popular-running-backs-pay-off">
-					NFL Week 5 FanDuel Ownership Percentages: Popular Running Backs Pay Off				</a>
-			</h4>
-		</div>
-
-		<div class="listing__byline">
-			<a href="/author/brandon-gdula" class="listing__byline--author">
-				Brandon Gdula			</a>
-			<span>&mdash; <span class="timeago" title="1539019572"></span></span>
-		</div>
-	</div>
-
-</article>
-
-			<article class="listing  w-thumb-left  ">
-	<div class="listing__thumb  ">
-		<a href="/nfl/lists/22523/fantasy-football-5-things-we-learned-in-week-5">
-			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22523_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22523_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22592_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22592_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 						<h4>
-				<a href="/nfl/lists/22523/fantasy-football-5-things-we-learned-in-week-5">
-					Fantasy Football: 5 Things We Learned in Week 5				</a>
+				<a href="/nfl/news/22592/6-wide-receivers-with-great-cornerback-matchups-in-week-6">
+					6 Wide Receivers With Great Cornerback Matchups in Week 6				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
-			<a href="/author/aidan-mcgrath" class="listing__byline--author">
-				Aidan Mcgrath			</a>
-			<span>&mdash; <span class="timeago" title="1539011093"></span></span>
+			<a href="/author/joseph-redemann" class="listing__byline--author">
+				Joe Redemann			</a>
+			<span>&mdash; <span class="timeago" title="1539462219"></span></span>
 		</div>
 	</div>
 
 </article>
 
 			<article class="listing  w-thumb-left  ">
-	<div class="listing__thumb  ">
-		<a href="/nfl/news/22529/week-5-s-perfect-nfl-dfs-lineups">
+	<div class="listing__thumb  video-article">
+		<a href="/nfl/news/22591/3-player-prop-bets-to-target-in-week-6">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22529_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22529_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22591_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22591_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 						<h4>
-				<a href="/nfl/news/22529/week-5-s-perfect-nfl-dfs-lineups">
-					Week 5's Perfect NFL DFS Lineups				</a>
-			</h4>
-		</div>
-
-		<div class="listing__byline">
-			<a href="/author/jim-sannes" class="listing__byline--author">
-				Jim Sannes			</a>
-			<span>&mdash; <span class="timeago" title="1539010023"></span></span>
-		</div>
-	</div>
-
-</article>
-
-			<article class="listing  w-thumb-left  ">
-	<div class="listing__thumb  ">
-		<a href="/nfl/news/22522/daily-fantasy-football-podcast-the-heat-check-week-5-recap">
-			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22522_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22522_a3.jpg">
-			</picture>
-		</a>
-			</div>
-	<div class="listing__info">
-		<div class="listing__hed">
-						<h4>
-				<a href="/nfl/news/22522/daily-fantasy-football-podcast-the-heat-check-week-5-recap">
-					Daily Fantasy Football Podcast: The Heat Check, Week 5 Recap				</a>
-			</h4>
-		</div>
-
-		<div class="listing__byline">
-			<a href="/author/jim-sannes" class="listing__byline--author">
-				Jim Sannes			</a>
-			<span>&mdash; <span class="timeago" title="1539009858"></span></span>
-		</div>
-	</div>
-
-</article>
-
-			<article class="listing  w-thumb-left  ">
-	<div class="listing__thumb  ">
-		<a href="/nfl/lists/22515/10-fantasy-football-waiver-wire-targets-heading-into-week-6">
-			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22515_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22515_a3.jpg">
-			</picture>
-		</a>
-			</div>
-	<div class="listing__info">
-		<div class="listing__hed">
-						<h4>
-				<a href="/nfl/lists/22515/10-fantasy-football-waiver-wire-targets-heading-into-week-6">
-					10 Fantasy Football Waiver Wire Targets Heading Into Week 6				</a>
-			</h4>
-		</div>
-
-		<div class="listing__byline">
-			<a href="/author/ian-goldsmith" class="listing__byline--author">
-				Ian Goldsmith			</a>
-			<span>&mdash; <span class="timeago" title="1539005340"></span></span>
-		</div>
-	</div>
-
-</article>
-
-			<article class="listing  w-thumb-left  ">
-	<div class="listing__thumb  ">
-		<a href="/nfl/news/22514/monday-night-preview-can-the-redskins-knock-off-the-white-hot-saints-in-the-big-easy">
-			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22514_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22514_a3.jpg">
-			</picture>
-		</a>
-			</div>
-	<div class="listing__info">
-		<div class="listing__hed">
-			<span class="listing--premium"><i class="nf-icon icon-premium"></i>premium</span>			<h4>
-				<a href="/nfl/news/22514/monday-night-preview-can-the-redskins-knock-off-the-white-hot-saints-in-the-big-easy">
-					Monday Night Preview: Can the Redskins Knock Off the White-Hot Saints in the Big Easy?				</a>
+				<a href="/nfl/news/22591/3-player-prop-bets-to-target-in-week-6">
+					3 Player Prop Bets to Target in Week 6				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
 			<a href="/author/matthew-gajewski" class="listing__byline--author">
 				Matthew Gajewski			</a>
-			<span>&mdash; <span class="timeago" title="1539005132"></span></span>
+			<span>&mdash; <span class="timeago" title="1539438266"></span></span>
+		</div>
+	</div>
+
+</article>
+
+			<article class="listing  w-thumb-left  ">
+	<div class="listing__thumb  ">
+		<a href="/nfl/news/22590/nfl-betting-guide-week-6">
+			<picture>
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22590_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22590_a3.jpg">
+			</picture>
+		</a>
+			</div>
+	<div class="listing__info">
+		<div class="listing__hed">
+			<span class="listing--premium"><i class="nf-icon icon-premium"></i>premium</span>			<h4>
+				<a href="/nfl/news/22590/nfl-betting-guide-week-6">
+					NFL Betting Guide: Week 6				</a>
+			</h4>
+		</div>
+
+		<div class="listing__byline">
+			<a href="/author/matt-blair-2" class="listing__byline--author">
+				Matt Blair			</a>
+			<span>&mdash; <span class="timeago" title="1539377944"></span></span>
+		</div>
+	</div>
+
+</article>
+
+			<article class="listing  w-thumb-left  ">
+	<div class="listing__thumb  ">
+		<a href="/nfl/lists/22582/4-nfl-fanduel-tournament-pivots-for-week-6">
+			<picture>
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22582_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22582_a3.jpg">
+			</picture>
+		</a>
+			</div>
+	<div class="listing__info">
+		<div class="listing__hed">
+						<h4>
+				<a href="/nfl/lists/22582/4-nfl-fanduel-tournament-pivots-for-week-6">
+					4 NFL FanDuel Tournament Pivots for Week 6				</a>
+			</h4>
+		</div>
+
+		<div class="listing__byline">
+			<a href="/author/ian-goldsmith" class="listing__byline--author">
+				Ian Goldsmith			</a>
+			<span>&mdash; <span class="timeago" title="1539374389"></span></span>
+		</div>
+	</div>
+
+</article>
+
+			<article class="listing  w-thumb-left  ">
+	<div class="listing__thumb  ">
+		<a href="/nfl/news/22589/4-nfl-fanduel-stacks-for-week-6">
+			<picture>
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22589_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22589_a3.jpg">
+			</picture>
+		</a>
+			</div>
+	<div class="listing__info">
+		<div class="listing__hed">
+						<h4>
+				<a href="/nfl/news/22589/4-nfl-fanduel-stacks-for-week-6">
+					4 NFL FanDuel Stacks for Week 6				</a>
+			</h4>
+		</div>
+
+		<div class="listing__byline">
+			<a href="/author/ben-hossler" class="listing__byline--author">
+				Ben Hossler			</a>
+			<span>&mdash; <span class="timeago" title="1539373387"></span></span>
+		</div>
+	</div>
+
+</article>
+
+			<article class="listing  w-thumb-left  ">
+	<div class="listing__thumb  video-article">
+		<a href="/nfl/news/22587/fantasy-football-week-6-injury-report">
+			<picture>
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22587_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22587_a3.jpg">
+			</picture>
+		</a>
+			</div>
+	<div class="listing__info">
+		<div class="listing__hed">
+						<h4>
+				<a href="/nfl/news/22587/fantasy-football-week-6-injury-report">
+					Fantasy Football: Week 6 Injury Report				</a>
+			</h4>
+		</div>
+
+		<div class="listing__byline">
+			<a href="/author/gabriel-garrido" class="listing__byline--author">
+				Gabe Garrido			</a>
+			<span>&mdash; <span class="timeago" title="1539369652"></span></span>
 		</div>
 	</div>
 
@@ -3553,5 +3554,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":92,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":72,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>
