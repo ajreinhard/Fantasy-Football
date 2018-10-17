@@ -2212,7 +2212,6 @@
                                                     <option  value="/nfl/players/projections/blidi-wreh-wilson-1">Blidi Wreh-Wilson</option>
                                                     <option  value="/nfl/players/projections/steven-means">Steven Means</option>
                                                     <option  value="/nfl/players/projections/kemal-ishmael">Kemal Ishmael</option>
-                                                    <option  value="/nfl/players/projections/devonta-freeman">Devonta Freeman</option>
                                                     <option  value="/nfl/players/projections/vic-beasley">Vic Beasley</option>
                                                     <option  value="/nfl/players/projections/tevin-coleman">Tevin Coleman</option>
                                                     <option  value="/nfl/players/projections/justin-hardy">Justin Hardy</option>
@@ -2222,6 +2221,7 @@
                                                     <option  value="/nfl/players/projections/austin-hooper">Austin Hooper</option>
                                                     <option  value="/nfl/players/projections/de-vondre-campbell">De'Vondre Campbell</option>
                                                     <option  value="/nfl/players/projections/brian-poole">Brian Poole</option>
+                                                    <option  value="/nfl/players/projections/giorgio-tavecchio">Giorgio Tavecchio</option>
                                                     <option  value="/nfl/players/projections/duke-riley">Duke Riley</option>
                                                     <option  selected="selected"  value="/nfl/players/projections/eric-saubert">Eric Saubert</option>
                                                     <option  value="/nfl/players/projections/takkarist-mckinley">Takkarist McKinley</option>
@@ -2277,8 +2277,6 @@
                                 S. Means                            </option>
                                                     <option  value="/nfl/players/projections/kemal-ishmael">
                                 K. Ishmael                            </option>
-                                                    <option  value="/nfl/players/projections/devonta-freeman">
-                                D. Freeman                            </option>
                                                     <option  value="/nfl/players/projections/vic-beasley">
                                 V. Beasley                            </option>
                                                     <option  value="/nfl/players/projections/tevin-coleman">
@@ -2297,6 +2295,8 @@
                                 D. Campbell                            </option>
                                                     <option  value="/nfl/players/projections/brian-poole">
                                 B. Poole                            </option>
+                                                    <option  value="/nfl/players/projections/giorgio-tavecchio">
+                                G. Tavecchio                            </option>
                                                     <option  value="/nfl/players/projections/duke-riley">
                                 D. Riley                            </option>
                                                     <option  selected="selected"  value="/nfl/players/projections/eric-saubert">
@@ -2403,7 +2403,7 @@
 					NYG				</a>
 			</div>
 							<span class="next-game__rank">
-					#21				</span>
+					#26				</span>
 					</div>
 								<div class="next-game next-game--live odds-right team-nfl-ATL">
 									<h4>
@@ -2726,7 +2726,7 @@
 						</tr>
 											<tr data-row-index="2">
 							<td class="">
-								#14							</td>
+								#13							</td>
 							<td>
 								1.06							</td>
 							<td>
@@ -2774,7 +2774,7 @@
 						</tr>
 											<tr data-row-index="4">
 							<td class="">
-								#11							</td>
+								#17							</td>
 							<td>
 								1.88							</td>
 							<td>
@@ -2846,7 +2846,7 @@
 						</tr>
 											<tr data-row-index="7">
 							<td class="">
-								#15							</td>
+								#24							</td>
 							<td>
 								1.55							</td>
 							<td>
@@ -2894,7 +2894,7 @@
 						</tr>
 											<tr data-row-index="9">
 							<td class="">
-								#12							</td>
+								#15							</td>
 							<td>
 								1.76							</td>
 							<td>
@@ -2918,7 +2918,7 @@
 						</tr>
 											<tr data-row-index="10">
 							<td class="negative">
-								#1							</td>
+								#2							</td>
 							<td>
 								2.05							</td>
 							<td>
@@ -2942,7 +2942,7 @@
 						</tr>
 											<tr data-row-index="11">
 							<td class="">
-								#16							</td>
+								#11							</td>
 							<td>
 								1.55							</td>
 							<td>
@@ -2990,7 +2990,7 @@
 						</tr>
 											<tr data-row-index="13">
 							<td class="negative">
-								#2							</td>
+								#1							</td>
 							<td>
 								2.09							</td>
 							<td>
@@ -3014,7 +3014,7 @@
 						</tr>
 											<tr data-row-index="14">
 							<td class="">
-								#21							</td>
+								#23							</td>
 							<td>
 								1.62							</td>
 							<td>
@@ -3038,7 +3038,7 @@
 						</tr>
 											<tr data-row-index="15">
 							<td class="">
-								#6							</td>
+								#4							</td>
 							<td>
 								2.10							</td>
 							<td>
@@ -3062,7 +3062,7 @@
 						</tr>
 											<tr data-row-index="16">
 							<td class="">
-								#14							</td>
+								#13							</td>
 							<td>
 								1.78							</td>
 							<td>
@@ -3176,26 +3176,104 @@
 			NFL News		</h2>
 	</div>
 			<article class="listing  w-thumb-left  ">
+	<div class="listing__thumb  ">
+		<a href="/nfl/lists/22639/week-6-fantasy-football-market-share-report-robert-woods-is-on-the-rise">
+			<picture>
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22639_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22639_a3.jpg">
+			</picture>
+		</a>
+			</div>
+	<div class="listing__info">
+		<div class="listing__hed">
+						<h4>
+				<a href="/nfl/lists/22639/week-6-fantasy-football-market-share-report-robert-woods-is-on-the-rise">
+					Week 6 Fantasy Football Market Share Report: Robert Woods Is on the Rise				</a>
+			</h4>
+		</div>
+
+		<div class="listing__byline">
+			<a href="/author/robby-gal" class="listing__byline--author">
+				Robby Gal			</a>
+			<span>&mdash; <span class="timeago" title="1539723868"></span></span>
+		</div>
+	</div>
+
+</article>
+
+			<article class="listing  w-thumb-left  ">
+	<div class="listing__thumb  ">
+		<a href="/nfl/lists/22600/between-the-lines-week-6-snap-count-analysis">
+			<picture>
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22600_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22600_a3.jpg">
+			</picture>
+		</a>
+			</div>
+	<div class="listing__info">
+		<div class="listing__hed">
+						<h4>
+				<a href="/nfl/lists/22600/between-the-lines-week-6-snap-count-analysis">
+					Between the Lines: Week 6 Snap Count Analysis				</a>
+			</h4>
+		</div>
+
+		<div class="listing__byline">
+			<a href="/author/ian-goldsmith" class="listing__byline--author">
+				Ian Goldsmith			</a>
+			<span>&mdash; <span class="timeago" title="1539721468"></span></span>
+		</div>
+	</div>
+
+</article>
+
+			<article class="listing  w-thumb-left  ">
+	<div class="listing__thumb  ">
+		<a href="/nfl/lists/22614/5-nfl-red-zone-trends-to-monitor-for-week-7">
+			<picture>
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22614_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22614_a3.jpg">
+			</picture>
+		</a>
+			</div>
+	<div class="listing__info">
+		<div class="listing__hed">
+						<h4>
+				<a href="/nfl/lists/22614/5-nfl-red-zone-trends-to-monitor-for-week-7">
+					5 NFL Red Zone Trends to Monitor for Week 7				</a>
+			</h4>
+		</div>
+
+		<div class="listing__byline">
+			<a href="/author/jason-schandl" class="listing__byline--author">
+				Jason Schandl			</a>
+			<span>&mdash; <span class="timeago" title="1539718880"></span></span>
+		</div>
+	</div>
+
+</article>
+
+			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  video-article">
-		<a href="/nfl/lists/22631/3-fantasy-football-quarterback-streaming-options-for-week-7">
+		<a href="/nfl/lists/22610/5-nfl-stats-to-know-through-week-6">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22631_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22631_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22610_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22610_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 						<h4>
-				<a href="/nfl/lists/22631/3-fantasy-football-quarterback-streaming-options-for-week-7">
-					3 Fantasy Football Quarterback Streaming Options for Week 7				</a>
+				<a href="/nfl/lists/22610/5-nfl-stats-to-know-through-week-6">
+					5 NFL Stats to Know Through Week 6				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
-			<a href="/author/austan-kas" class="listing__byline--author">
-				Austan Kas			</a>
-			<span>&mdash; <span class="timeago" title="1539704797"></span></span>
+			<a href="/author/neil-dutton" class="listing__byline--author">
+				Neil Dutton			</a>
+			<span>&mdash; <span class="timeago" title="1539711297"></span></span>
 		</div>
 	</div>
 
@@ -3203,51 +3281,25 @@
 
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
-		<a href="/nfl/lists/22621/3-fantasy-football-defensive-streaming-options-for-week-7">
+		<a href="/nfl/lists/22632/3-fantasy-football-tight-end-streaming-options-for-week-7">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22621_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22621_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22632_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22632_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 						<h4>
-				<a href="/nfl/lists/22621/3-fantasy-football-defensive-streaming-options-for-week-7">
-					3 Fantasy Football Defensive Streaming Options for Week 7				</a>
+				<a href="/nfl/lists/22632/3-fantasy-football-tight-end-streaming-options-for-week-7">
+					3 Fantasy Football Tight End Streaming Options for Week 7				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
-			<a href="/author/blair-ames" class="listing__byline--author">
-				Blair Ames			</a>
-			<span>&mdash; <span class="timeago" title="1539697760"></span></span>
-		</div>
-	</div>
-
-</article>
-
-			<article class="listing  w-thumb-left  ">
-	<div class="listing__thumb  video-article">
-		<a href="/nfl/news/22608/15-fantasy-football-transactions-for-week-7">
-			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22608_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22608_a3.jpg">
-			</picture>
-		</a>
-			</div>
-	<div class="listing__info">
-		<div class="listing__hed">
-						<h4>
-				<a href="/nfl/news/22608/15-fantasy-football-transactions-for-week-7">
-					15 Fantasy Football Transactions for Week 7				</a>
-			</h4>
-		</div>
-
-		<div class="listing__byline">
-			<a href="/author/jj-zachariason-1" class="listing__byline--author">
-				JJ Zachariason			</a>
-			<span>&mdash; <span class="timeago" title="1539696127"></span></span>
+			<a href="/author/dale-redman-1" class="listing__byline--author">
+				Dale Redman			</a>
+			<span>&mdash; <span class="timeago" title="1539711100"></span></span>
 		</div>
 	</div>
 
@@ -3255,77 +3307,25 @@
 
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
-		<a href="/nfl/news/22625/fantasy-football-the-late-round-podcast-15-transactions-for-week-7">
+		<a href="/nfl/news/22634/fantasy-football-trade-value-chart-week-7">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22625_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22625_a3.jpg">
-			</picture>
-		</a>
-			</div>
-	<div class="listing__info">
-		<div class="listing__hed">
-						<h4>
-				<a href="/nfl/news/22625/fantasy-football-the-late-round-podcast-15-transactions-for-week-7">
-					Fantasy Football: The Late-Round Podcast, 15 Transactions for Week 7				</a>
-			</h4>
-		</div>
-
-		<div class="listing__byline">
-			<a href="/author/jj-zachariason-1" class="listing__byline--author">
-				JJ Zachariason			</a>
-			<span>&mdash; <span class="timeago" title="1539695770"></span></span>
-		</div>
-	</div>
-
-</article>
-
-			<article class="listing  w-thumb-left  ">
-	<div class="listing__thumb  ">
-		<a href="/nfl/news/22605/nfl-week-6-fanduel-ownership-percentages-todd-gurley-anchored-lineups">
-			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22605_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22605_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22634_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22634_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 			<span class="listing--premium"><i class="nf-icon icon-premium"></i>premium</span>			<h4>
-				<a href="/nfl/news/22605/nfl-week-6-fanduel-ownership-percentages-todd-gurley-anchored-lineups">
-					NFL Week 6 FanDuel Ownership Percentages: Todd Gurley Anchored Lineups				</a>
+				<a href="/nfl/news/22634/fantasy-football-trade-value-chart-week-7">
+					Fantasy Football Trade Value Chart: Week 7				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
 			<a href="/author/brandon-gdula" class="listing__byline--author">
 				Brandon Gdula			</a>
-			<span>&mdash; <span class="timeago" title="1539634631"></span></span>
-		</div>
-	</div>
-
-</article>
-
-			<article class="listing  w-thumb-left  ">
-	<div class="listing__thumb  ">
-		<a href="/nfl/news/22609/fantasy-football-what-to-expect-from-the-pittsburgh-steelers-backfield">
-			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22609_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22609_a3.jpg">
-			</picture>
-		</a>
-			</div>
-	<div class="listing__info">
-		<div class="listing__hed">
-						<h4>
-				<a href="/nfl/news/22609/fantasy-football-what-to-expect-from-the-pittsburgh-steelers-backfield">
-					Fantasy Football: What to Expect from the Pittsburgh Steelers' Backfield				</a>
-			</h4>
-		</div>
-
-		<div class="listing__byline">
-			<a href="/author/matt-blair-2" class="listing__byline--author">
-				Matt Blair			</a>
-			<span>&mdash; <span class="timeago" title="1539632045"></span></span>
+			<span>&mdash; <span class="timeago" title="1539706542"></span></span>
 		</div>
 	</div>
 
@@ -3546,5 +3546,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":113,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":112,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>
