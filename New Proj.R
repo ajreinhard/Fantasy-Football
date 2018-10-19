@@ -262,10 +262,9 @@ results <- data.frame(do.call(rbind, slots),stringsAsFactors=F)
 #results$Player[which(results$OwnerWeek=='comp-5' & results$Pos=='TE-1' & results$Slot=='BYE')] <- 'Austin Hooper'
 #results$Player[which(results$OwnerWeek=='devon-5' & results$Player=='Demaryius Thomas')] <- 'Devonta Freeman'
 #results$Player[which(results$OwnerWeek=='aj-6' & results$Pos=='K' & results$Slot=='OPEN')] <- 'Adam Vinatieri'
-results$Player[which(results$OwnerWeek=='lucas-7' & results$Pos=='RB-2' & results$Slot=='BYE')] <- 'Chris Thompson'
-results$Player[which(results$OwnerWeek=='lucas-7' & results$Pos=='WR-3' & results$Slot=='BYE')] <- 'Josh Gordon'
-results$Player[which(results$OwnerWeek=='lucas-7' & results$Player=='Cooper Kupp')] <- 'Cole Beasley'
+results$Player[which(results$OwnerWeek=='lucas-7' & results$Pos=='WR-3' & results$Slot=='OPEN')] <- 'Robby Anderson'
 results$Player[which(results$OwnerWeek=='lucas-7' & results$Player=='Matt Bryant')] <- 'Jason Myers'
+results$Player[which(results$OwnerWeek=='cory-7' & results$Player=='Mark Ingram II')] <- 'James White'
 results$Player[which(results$OwnerWeek=='aj-7' & results$Pos=='D/ST' & results$Slot=='OPEN')] <- 'Colts D/ST'
 #######################################################
 results[which(results$Slot!=''),]
