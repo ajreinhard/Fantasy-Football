@@ -2246,6 +2246,7 @@
                                                     <option  value="/nfl/players/projections/keionta-davis">Keionta Davis</option>
                                                     <option  value="/nfl/players/projections/j-c-jackson">J.C. Jackson</option>
                                                     <option  value="/nfl/players/projections/keion-crossen">Keion Crossen</option>
+                                                    <option  value="/nfl/players/projections/derek-rivers">Derek Rivers</option>
                                             </select>
                 </form>
                 <form class="team-player-sub-nav__list__drop team-player-sub-nav__list__drop--abbr" action="">
@@ -2336,6 +2337,8 @@
                                 J. Jackson                            </option>
                                                     <option  value="/nfl/players/projections/keion-crossen">
                                 K. Crossen                            </option>
+                                                    <option  value="/nfl/players/projections/derek-rivers">
+                                D. Rivers                            </option>
                                             </select>
                 </form>
                             <ul class="team-player-sub-nav__list__links">
@@ -2423,7 +2426,7 @@
 						win probability
 					</h4>
 					<span class="next-game--live__percentage">
-					52.4<span class="symbol">%</span>
+					50.6<span class="symbol">%</span>
 				</span>
 					<span class="next-game--live__winning-team">
 					NE				</span>
@@ -2452,7 +2455,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 					<span class="stat">
-													0.6											</span>
+													1.0											</span>
 					<span title="Receptions" class="cat">
 						Rec
 					</span>
@@ -2460,7 +2463,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 					<span class="stat">
-													3.6											</span>
+													6.3											</span>
 					<span title="Receiving Yards" class="cat">
 						Rec Yd
 					</span>
@@ -2484,7 +2487,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 				<span class="stat">
-											0.8									</span>
+											1.3									</span>
 				<span title = "FanDuel Fantasy Points" class="cat">
 					FP
 				</span>
@@ -2861,25 +2864,25 @@
 							<td class="">
 								#7							</td>
 							<td>
-								1.27							</td>
+								2.23							</td>
 							<td>
-								0.59							</td>
+								1.04							</td>
 							<td>
-								3.60							</td>
+								6.34							</td>
 							<td>
-								0.02							</td>
+								0.03							</td>
 							<td class="border-right">
 								0.00							</td>
 							<td>
-								-0.28-1.18							</td>
+								-0.46-2.12							</td>
 							<td class="border-right">
-								0.45							</td>
+								0.83							</td>
 							<td class="cost">
 								$4,200							</td>
 							<td>
-								0.78							</td>
+								1.33							</td>
 							<td>
-								0.19							</td>
+								0.32							</td>
 						</tr>
 											<tr data-row-index="8">
 							<td class="negative">
@@ -3142,21 +3145,21 @@
 					<tbody class="projection-table__body">
 											<tr>
 							<td>
-								13.05							</td>
+								14.01							</td>
 							<td>
-								6.32							</td>
+								6.77							</td>
 							<td>
-								40.97							</td>
+								43.71							</td>
 							<td>
-								0.27							</td>
+								0.28							</td>
 							<td class="border-right">
 								0.08							</td>
 							<td>
-								2.82-8.28							</td>
+								3.00-8.86							</td>
 							<td class="border-right">
-								5.55							</td>
+								5.93							</td>
 							<td>
-								8.8							</td>
+								9.36							</td>
 						</tr>
 										</tbody>
 				</table>
@@ -3188,6 +3191,58 @@
 		<h2 class="sidebar__article-listing__hed--title">
 			NFL News		</h2>
 	</div>
+			<article class="listing  w-thumb-left  ">
+	<div class="listing__thumb  ">
+		<a href="/nfl/news/22734/week-7-s-perfect-nfl-dfs-lineups">
+			<picture>
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22734_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22734_a3.jpg">
+			</picture>
+		</a>
+			</div>
+	<div class="listing__info">
+		<div class="listing__hed">
+						<h4>
+				<a href="/nfl/news/22734/week-7-s-perfect-nfl-dfs-lineups">
+					Week 7's Perfect NFL DFS Lineups				</a>
+			</h4>
+		</div>
+
+		<div class="listing__byline">
+			<a href="/author/jim-sannes" class="listing__byline--author">
+				Jim Sannes			</a>
+			<span>&mdash; <span class="timeago" title="1540212784"></span></span>
+		</div>
+	</div>
+
+</article>
+
+			<article class="listing  w-thumb-left  ">
+	<div class="listing__thumb  ">
+		<a href="/nfl/news/22712/3-player-prop-bets-to-target-in-week-7">
+			<picture>
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22712_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22712_a3.jpg">
+			</picture>
+		</a>
+			</div>
+	<div class="listing__info">
+		<div class="listing__hed">
+						<h4>
+				<a href="/nfl/news/22712/3-player-prop-bets-to-target-in-week-7">
+					3 Player Prop Bets to Target in Week 7				</a>
+			</h4>
+		</div>
+
+		<div class="listing__byline">
+			<a href="/author/matthew-gajewski" class="listing__byline--author">
+				Matthew Gajewski			</a>
+			<span>&mdash; <span class="timeago" title="1540044695"></span></span>
+		</div>
+	</div>
+
+</article>
+
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
 		<a href="/nfl/news/22688/4-nfl-fanduel-stacks-for-week-7">
@@ -3287,58 +3342,6 @@
 			<a href="/author/matt-kupferle-1" class="listing__byline--author">
 				Matt Kupferle			</a>
 			<span>&mdash; <span class="timeago" title="1539970858"></span></span>
-		</div>
-	</div>
-
-</article>
-
-			<article class="listing  w-thumb-left  ">
-	<div class="listing__thumb  video-article">
-		<a href="/nfl/lists/22693/7-deep-fantasy-football-sleepers-for-week-7">
-			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22693_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22693_a3.jpg">
-			</picture>
-		</a>
-			</div>
-	<div class="listing__info">
-		<div class="listing__hed">
-						<h4>
-				<a href="/nfl/lists/22693/7-deep-fantasy-football-sleepers-for-week-7">
-					7 Deep Fantasy Football Sleepers for Week 7				</a>
-			</h4>
-		</div>
-
-		<div class="listing__byline">
-			<a href="/author/dale-redman-1" class="listing__byline--author">
-				Dale Redman			</a>
-			<span>&mdash; <span class="timeago" title="1539969741"></span></span>
-		</div>
-	</div>
-
-</article>
-
-			<article class="listing  w-thumb-left  ">
-	<div class="listing__thumb  ">
-		<a href="/nfl/news/22698/draftkings-daily-fantasy-football-helper-week-7">
-			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22698_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22698_a3.jpg">
-			</picture>
-		</a>
-			</div>
-	<div class="listing__info">
-		<div class="listing__hed">
-						<h4>
-				<a href="/nfl/news/22698/draftkings-daily-fantasy-football-helper-week-7">
-					DraftKings Daily Fantasy Football Helper: Week 7				</a>
-			</h4>
-		</div>
-
-		<div class="listing__byline">
-			<a href="/author/eric-mcclung" class="listing__byline--author">
-				Eric McClung			</a>
-			<span>&mdash; <span class="timeago" title="1539966181"></span></span>
 		</div>
 	</div>
 
@@ -3559,5 +3562,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":180,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":102,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

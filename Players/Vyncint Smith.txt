@@ -2218,6 +2218,7 @@
                                                     <option  value="/nfl/players/projections/ryan-griffin">Ryan Griffin</option>
                                                     <option  value="/nfl/players/projections/jadeveon-clowney">Jadeveon Clowney</option>
                                                     <option  value="/nfl/players/projections/bruce-ellington">Bruce Ellington</option>
+                                                    <option  value="/nfl/players/projections/andre-hal">Andre Hal</option>
                                                     <option  value="/nfl/players/projections/alfred-blue">Alfred Blue</option>
                                                     <option  value="/nfl/players/projections/aaron-colvin">Aaron Colvin</option>
                                                     <option  value="/nfl/players/projections/brandon-dunn">Brandon Dunn</option>
@@ -2281,6 +2282,8 @@
                                 J. Clowney                            </option>
                                                     <option  value="/nfl/players/projections/bruce-ellington">
                                 B. Ellington                            </option>
+                                                    <option  value="/nfl/players/projections/andre-hal">
+                                A. Hal                            </option>
                                                     <option  value="/nfl/players/projections/alfred-blue">
                                 A. Blue                            </option>
                                                     <option  value="/nfl/players/projections/aaron-colvin">
@@ -2426,7 +2429,7 @@
 						win probability
 					</h4>
 					<span class="next-game--live__percentage">
-					66.4<span class="symbol">%</span>
+					64.3<span class="symbol">%</span>
 				</span>
 					<span class="next-game--live__winning-team">
 					JAC				</span>
@@ -2455,7 +2458,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 					<span class="stat">
-													1.0											</span>
+													0.0											</span>
 					<span title="Receptions" class="cat">
 						Rec
 					</span>
@@ -2463,7 +2466,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 					<span class="stat">
-													12.4											</span>
+													0.0											</span>
 					<span title="Receiving Yards" class="cat">
 						Rec Yd
 					</span>
@@ -2471,7 +2474,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 					<span class="stat">
-													0.1											</span>
+													0.0											</span>
 					<span title="Receiving Touchdowns" class="cat">
 						Rec TD
 					</span>
@@ -2487,7 +2490,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 				<span class="stat">
-											2.3									</span>
+											0.0									</span>
 				<span title = "FanDuel Fantasy Points" class="cat">
 					FP
 				</span>
@@ -2830,25 +2833,25 @@
 							<td class="">
 								#6							</td>
 							<td>
-								2.05							</td>
+								0.00							</td>
 							<td>
-								0.98							</td>
+								0.00							</td>
 							<td>
-								12.38							</td>
+								0.00							</td>
 							<td>
-								0.09							</td>
+								0.00							</td>
 							<td class="border-right">
 								0.00							</td>
 							<td>
-								-0.56-4.16							</td>
+								0.00-0.00							</td>
 							<td class="border-right">
-								1.80							</td>
+								0.00							</td>
 							<td class="cost">
 								$4,500							</td>
 							<td>
-								2.27							</td>
+								0							</td>
 							<td>
-								0.5							</td>
+								0							</td>
 						</tr>
 											<tr data-row-index="7">
 							<td class="">
@@ -3111,21 +3114,21 @@
 					<tbody class="projection-table__body">
 											<tr>
 							<td>
-								11.61							</td>
+								9.56							</td>
 							<td>
-								5.23							</td>
+								4.25							</td>
 							<td>
-								71.07							</td>
+								58.69							</td>
 							<td>
-								0.39							</td>
+								0.30							</td>
 							<td class="border-right">
 								0.00							</td>
 							<td>
-								5.06-13.98							</td>
+								3.94-11.50							</td>
 							<td class="border-right">
-								9.52							</td>
+								7.72							</td>
 							<td>
-								12.06							</td>
+								9.79							</td>
 						</tr>
 										</tbody>
 				</table>
@@ -3157,6 +3160,58 @@
 		<h2 class="sidebar__article-listing__hed--title">
 			NFL News		</h2>
 	</div>
+			<article class="listing  w-thumb-left  ">
+	<div class="listing__thumb  ">
+		<a href="/nfl/news/22734/week-7-s-perfect-nfl-dfs-lineups">
+			<picture>
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22734_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22734_a3.jpg">
+			</picture>
+		</a>
+			</div>
+	<div class="listing__info">
+		<div class="listing__hed">
+						<h4>
+				<a href="/nfl/news/22734/week-7-s-perfect-nfl-dfs-lineups">
+					Week 7's Perfect NFL DFS Lineups				</a>
+			</h4>
+		</div>
+
+		<div class="listing__byline">
+			<a href="/author/jim-sannes" class="listing__byline--author">
+				Jim Sannes			</a>
+			<span>&mdash; <span class="timeago" title="1540212784"></span></span>
+		</div>
+	</div>
+
+</article>
+
+			<article class="listing  w-thumb-left  ">
+	<div class="listing__thumb  ">
+		<a href="/nfl/news/22712/3-player-prop-bets-to-target-in-week-7">
+			<picture>
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22712_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22712_a3.jpg">
+			</picture>
+		</a>
+			</div>
+	<div class="listing__info">
+		<div class="listing__hed">
+						<h4>
+				<a href="/nfl/news/22712/3-player-prop-bets-to-target-in-week-7">
+					3 Player Prop Bets to Target in Week 7				</a>
+			</h4>
+		</div>
+
+		<div class="listing__byline">
+			<a href="/author/matthew-gajewski" class="listing__byline--author">
+				Matthew Gajewski			</a>
+			<span>&mdash; <span class="timeago" title="1540044695"></span></span>
+		</div>
+	</div>
+
+</article>
+
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
 		<a href="/nfl/news/22688/4-nfl-fanduel-stacks-for-week-7">
@@ -3256,58 +3311,6 @@
 			<a href="/author/matt-kupferle-1" class="listing__byline--author">
 				Matt Kupferle			</a>
 			<span>&mdash; <span class="timeago" title="1539970858"></span></span>
-		</div>
-	</div>
-
-</article>
-
-			<article class="listing  w-thumb-left  ">
-	<div class="listing__thumb  video-article">
-		<a href="/nfl/lists/22693/7-deep-fantasy-football-sleepers-for-week-7">
-			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22693_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22693_a3.jpg">
-			</picture>
-		</a>
-			</div>
-	<div class="listing__info">
-		<div class="listing__hed">
-						<h4>
-				<a href="/nfl/lists/22693/7-deep-fantasy-football-sleepers-for-week-7">
-					7 Deep Fantasy Football Sleepers for Week 7				</a>
-			</h4>
-		</div>
-
-		<div class="listing__byline">
-			<a href="/author/dale-redman-1" class="listing__byline--author">
-				Dale Redman			</a>
-			<span>&mdash; <span class="timeago" title="1539969741"></span></span>
-		</div>
-	</div>
-
-</article>
-
-			<article class="listing  w-thumb-left  ">
-	<div class="listing__thumb  ">
-		<a href="/nfl/news/22698/draftkings-daily-fantasy-football-helper-week-7">
-			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22698_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22698_a3.jpg">
-			</picture>
-		</a>
-			</div>
-	<div class="listing__info">
-		<div class="listing__hed">
-						<h4>
-				<a href="/nfl/news/22698/draftkings-daily-fantasy-football-helper-week-7">
-					DraftKings Daily Fantasy Football Helper: Week 7				</a>
-			</h4>
-		</div>
-
-		<div class="listing__byline">
-			<a href="/author/eric-mcclung" class="listing__byline--author">
-				Eric McClung			</a>
-			<span>&mdash; <span class="timeago" title="1539966181"></span></span>
 		</div>
 	</div>
 
@@ -3528,5 +3531,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":74,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":69,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

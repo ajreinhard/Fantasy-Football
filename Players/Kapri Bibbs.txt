@@ -2144,7 +2144,7 @@
 							  title="1514152342">&nbsp;</span>
 			        </div>
 								        <div class="player-info--basic__dfp">
-						FPPG: <span class="amt">3.1</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$4,500</span>					</div>
+						FPPG: <span class="amt">5.8</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$4,500</span>					</div>
 	            </div>
             </div>
 
@@ -2157,7 +2157,7 @@
 						</div>
 					
 			        <div class="player-info--basic__dfp">
-						FPPG: <span class="amt">3.1</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$4,500</span>			        </div>
+						FPPG: <span class="amt">5.8</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$4,500</span>			        </div>
 		     	</div>
 	     	</div>
         </div>
@@ -2178,7 +2178,7 @@
 					id="dfs-chart"
 					class="dfs-chart"
 					data-dfs-chart
-					data-dfs-chart-data="[{&quot;cost&quot;:&quot;4500.00&quot;,&quot;fp&quot;:6.9,&quot;opp&quot;:&quot;NO&quot;,&quot;round&quot;:&quot;Week 5&quot;,&quot;roundAbbrev&quot;:&quot;Wk5&quot;,&quot;value&quot;:1.53},{&quot;cost&quot;:&quot;4500.00&quot;,&quot;fp&quot;:2.2,&quot;opp&quot;:&quot;CAR&quot;,&quot;round&quot;:&quot;Week 6&quot;,&quot;roundAbbrev&quot;:&quot;Wk6&quot;,&quot;value&quot;:0.49}]"
+					data-dfs-chart-data="[{&quot;cost&quot;:&quot;4500.00&quot;,&quot;fp&quot;:6.9,&quot;opp&quot;:&quot;NO&quot;,&quot;round&quot;:&quot;Week 5&quot;,&quot;roundAbbrev&quot;:&quot;Wk5&quot;,&quot;value&quot;:1.53},{&quot;cost&quot;:&quot;4500.00&quot;,&quot;fp&quot;:2.2,&quot;opp&quot;:&quot;CAR&quot;,&quot;round&quot;:&quot;Week 6&quot;,&quot;roundAbbrev&quot;:&quot;Wk6&quot;,&quot;value&quot;:0.49},{&quot;cost&quot;:&quot;4500.00&quot;,&quot;fp&quot;:13.6,&quot;opp&quot;:&quot;DAL&quot;,&quot;round&quot;:&quot;Week 7&quot;,&quot;roundAbbrev&quot;:&quot;Wk7&quot;,&quot;value&quot;:3.02}]"
 					height="135"
 					width="499">
 				</canvas>
@@ -2420,7 +2420,7 @@
 						win probability
 					</h4>
 					<span class="next-game--live__percentage">
-					54.2<span class="symbol">%</span>
+					54.8<span class="symbol">%</span>
 				</span>
 					<span class="next-game--live__winning-team">
 					DAL				</span>
@@ -2449,7 +2449,7 @@
 
 			<div class="player-schedule__indiv-projections__stats--indiv">
 				<span class="stat">
-											7.4									</span>
+											23.1									</span>
 				<span title="Rushing Yards" class="cat">
 					Rush Yd
 				</span>
@@ -2457,7 +2457,7 @@
 
 			<div class="player-schedule__indiv-projections__stats--indiv">
 				<span class="stat">
-											0.0									</span>
+											0.1									</span>
 				<span title="Rushing Touchdowns" class="cat">
 					Rush TD
 				</span>
@@ -2465,7 +2465,7 @@
 
 			<div class="player-schedule__indiv-projections__stats--indiv">
 				<span class="stat">
-											2.6									</span>
+											16.2									</span>
 				<span title="Receiving Yards" class="cat">
 					Rec Yd
 				</span>
@@ -2481,13 +2481,68 @@
 
 			<div class="player-schedule__indiv-projections__stats--indiv">
 				<span class="stat">
-											1.3									</span>
+											5.4									</span>
 				<span title = "FanDuel Fantasy Points" class="cat">
 					FP
 				</span>
 			</div>
 		</div>
 		
+				<div class="player-schedule__indiv-projections__table-wrap player-projection-table">
+						<span class="player-projection-table__title">
+				Last Game against Dallas 			</span>
+			
+												<table class="projection-table grid--1-1 no-fix-height" cellspacing="0" cellpadding="0">
+						<thead class="projection-table__head">
+							<tr>
+								<th title = "Date" class="left-aligned">
+									Date
+								</th>
+								<th title = "Week">
+									Wk
+								</th>
+								<th title = "Rushing Yards">
+									Rush Yd
+								</th>
+								<th title = "Rushing Touchdowns">
+									Rush TD
+								</th>
+								<th title = "Receiving Yards">
+									Rec Yd
+								</th>
+								<th title="FanDuel Cost">
+									Cost
+								</th>
+								<th title = "FanDuel Fantasy Points">
+									FP
+								</th>
+								<th title = "FanDuel Value" class="value">
+									Value
+								</th>
+							</tr>
+						</thead>
+						<tbody class="projection-table__body">
+													<tr>
+								<td class="left-aligned">
+									10/21/18								</td>
+								<td>
+									7								</td>
+								<td>
+									13								</td>
+								<td>
+									0								</td>
+								<td>
+									43								</td>
+								<td>
+									$4,500								</td>
+								<td>
+									13.6								</td>
+								<td class="value">
+									3.02								</td>
+							</tr>
+												</tbody>
+					</table>
+									</div>
 			</div>
 	
 	
@@ -2770,29 +2825,29 @@
 							<td class="">
 								#11							</td>
 							<td>
-								1.77							</td>
+								5.49							</td>
 							<td>
-								7.44							</td>
+								23.06							</td>
 							<td>
-								0.02							</td>
+								0.06							</td>
 							<td>
-								0.38							</td>
+								2.36							</td>
 							<td>
-								2.61							</td>
+								16.18							</td>
 							<td>
 								0.00							</td>
 							<td class="border-right">
-								0.04							</td>
+								0.12							</td>
 							<td>
-								0.20-1.94							</td>
+								1.52-6.92							</td>
 							<td class="border-right">
-								1.07							</td>
+								4.22							</td>
 							<td class="cost">
 								$4,500							</td>
 							<td>
-								1.3							</td>
+								5.4							</td>
 							<td>
-								0.29							</td>
+								1.2							</td>
 						</tr>
 											<tr data-row-index="5">
 							<td class="">
@@ -3097,25 +3152,25 @@
 					<tbody class="projection-table__body">
 											<tr>
 							<td>
-								19.43							</td>
+								23.15							</td>
 							<td>
-								79.79							</td>
+								95.41							</td>
 							<td>
-								0.51							</td>
+								0.55							</td>
 							<td>
-								3.78							</td>
+								5.76							</td>
 							<td>
-								25.67							</td>
+								39.24							</td>
 							<td>
 								0.14							</td>
 							<td class="border-right">
-								0.37							</td>
+								0.45							</td>
 							<td>
-								9.60-18.52							</td>
+								12.07-22.35							</td>
 							<td class="border-right">
-								14.06							</td>
+								17.21							</td>
 							<td>
-								16.12							</td>
+								20.23							</td>
 						</tr>
 										</tbody>
 				</table>
@@ -3147,6 +3202,58 @@
 		<h2 class="sidebar__article-listing__hed--title">
 			NFL News		</h2>
 	</div>
+			<article class="listing  w-thumb-left  ">
+	<div class="listing__thumb  ">
+		<a href="/nfl/news/22734/week-7-s-perfect-nfl-dfs-lineups">
+			<picture>
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22734_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22734_a3.jpg">
+			</picture>
+		</a>
+			</div>
+	<div class="listing__info">
+		<div class="listing__hed">
+						<h4>
+				<a href="/nfl/news/22734/week-7-s-perfect-nfl-dfs-lineups">
+					Week 7's Perfect NFL DFS Lineups				</a>
+			</h4>
+		</div>
+
+		<div class="listing__byline">
+			<a href="/author/jim-sannes" class="listing__byline--author">
+				Jim Sannes			</a>
+			<span>&mdash; <span class="timeago" title="1540212784"></span></span>
+		</div>
+	</div>
+
+</article>
+
+			<article class="listing  w-thumb-left  ">
+	<div class="listing__thumb  ">
+		<a href="/nfl/news/22712/3-player-prop-bets-to-target-in-week-7">
+			<picture>
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22712_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22712_a3.jpg">
+			</picture>
+		</a>
+			</div>
+	<div class="listing__info">
+		<div class="listing__hed">
+						<h4>
+				<a href="/nfl/news/22712/3-player-prop-bets-to-target-in-week-7">
+					3 Player Prop Bets to Target in Week 7				</a>
+			</h4>
+		</div>
+
+		<div class="listing__byline">
+			<a href="/author/matthew-gajewski" class="listing__byline--author">
+				Matthew Gajewski			</a>
+			<span>&mdash; <span class="timeago" title="1540044695"></span></span>
+		</div>
+	</div>
+
+</article>
+
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
 		<a href="/nfl/news/22688/4-nfl-fanduel-stacks-for-week-7">
@@ -3246,58 +3353,6 @@
 			<a href="/author/matt-kupferle-1" class="listing__byline--author">
 				Matt Kupferle			</a>
 			<span>&mdash; <span class="timeago" title="1539970858"></span></span>
-		</div>
-	</div>
-
-</article>
-
-			<article class="listing  w-thumb-left  ">
-	<div class="listing__thumb  video-article">
-		<a href="/nfl/lists/22693/7-deep-fantasy-football-sleepers-for-week-7">
-			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22693_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22693_a3.jpg">
-			</picture>
-		</a>
-			</div>
-	<div class="listing__info">
-		<div class="listing__hed">
-						<h4>
-				<a href="/nfl/lists/22693/7-deep-fantasy-football-sleepers-for-week-7">
-					7 Deep Fantasy Football Sleepers for Week 7				</a>
-			</h4>
-		</div>
-
-		<div class="listing__byline">
-			<a href="/author/dale-redman-1" class="listing__byline--author">
-				Dale Redman			</a>
-			<span>&mdash; <span class="timeago" title="1539969741"></span></span>
-		</div>
-	</div>
-
-</article>
-
-			<article class="listing  w-thumb-left  ">
-	<div class="listing__thumb  ">
-		<a href="/nfl/news/22698/draftkings-daily-fantasy-football-helper-week-7">
-			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22698_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22698_a3.jpg">
-			</picture>
-		</a>
-			</div>
-	<div class="listing__info">
-		<div class="listing__hed">
-						<h4>
-				<a href="/nfl/news/22698/draftkings-daily-fantasy-football-helper-week-7">
-					DraftKings Daily Fantasy Football Helper: Week 7				</a>
-			</h4>
-		</div>
-
-		<div class="listing__byline">
-			<a href="/author/eric-mcclung" class="listing__byline--author">
-				Eric McClung			</a>
-			<span>&mdash; <span class="timeago" title="1539966181"></span></span>
 		</div>
 	</div>
 
@@ -3518,5 +3573,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":123,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":91,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

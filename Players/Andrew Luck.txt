@@ -2139,9 +2139,9 @@
 							</span>
 															        </div>
 								        <div class="player-info--basic__status">
-			        	<a href="/nfl/player-news/101652/colts-andrew-luck-throws-4-touchdown-passes-in-week-6">Colts' Andrew Luck throws 4 touchdown passes in Week 6</a>
-						<span class="timestamp timeago older-timestamp"
-							  title="1539558541">&nbsp;</span>
+			        	<a href="/nfl/player-news/102203/andrew-luck-tosses-4-touchdowns-in-colts-rout-of-bills">Andrew Luck tosses 4 touchdowns in Colts' rout of Bills</a>
+						<span class="timestamp timeago recent-timestamp"
+							  title="1540167252">&nbsp;</span>
 			        </div>
 								        <div class="player-info--basic__dfp">
 						FPPG: <span class="amt">22.3</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$8,200</span>					</div>
@@ -2151,9 +2151,9 @@
 	        <div class="player-header__info__stats player-header__info__stats--mobile">
 		        <div class="player-info--basic">
 											<div class="player-info--basic__status">
-							<a href="/nfl/player-news/101652/colts-andrew-luck-throws-4-touchdown-passes-in-week-6">Colts' Andrew Luck throws 4 touchdown passes in Week 6</a>
-							<span class="timestamp timeago older-timestamp"
-								  title="1539558541">&nbsp;</span>
+							<a href="/nfl/player-news/102203/andrew-luck-tosses-4-touchdowns-in-colts-rout-of-bills">Andrew Luck tosses 4 touchdowns in Colts' rout of Bills</a>
+							<span class="timestamp timeago recent-timestamp"
+								  title="1540167252">&nbsp;</span>
 						</div>
 					
 			        <div class="player-info--basic__dfp">
@@ -2178,7 +2178,7 @@
 					id="dfs-chart"
 					class="dfs-chart"
 					data-dfs-chart
-					data-dfs-chart-data="[{&quot;cost&quot;:&quot;7300.00&quot;,&quot;fp&quot;:20.46,&quot;opp&quot;:&quot;CIN&quot;,&quot;round&quot;:&quot;Week 1&quot;,&quot;roundAbbrev&quot;:&quot;Wk1&quot;,&quot;value&quot;:2.8},{&quot;cost&quot;:&quot;7500.00&quot;,&quot;fp&quot;:13.36,&quot;opp&quot;:&quot;WSH&quot;,&quot;round&quot;:&quot;Week 2&quot;,&quot;roundAbbrev&quot;:&quot;Wk2&quot;,&quot;value&quot;:1.78},{&quot;cost&quot;:&quot;7400.00&quot;,&quot;fp&quot;:13.86,&quot;opp&quot;:&quot;PHI&quot;,&quot;round&quot;:&quot;Week 3&quot;,&quot;roundAbbrev&quot;:&quot;Wk3&quot;,&quot;value&quot;:1.87},{&quot;cost&quot;:&quot;7300.00&quot;,&quot;fp&quot;:35.66,&quot;opp&quot;:&quot;HOU&quot;,&quot;round&quot;:&quot;Week 4&quot;,&quot;roundAbbrev&quot;:&quot;Wk4&quot;,&quot;value&quot;:4.88},{&quot;cost&quot;:&quot;7500.00&quot;,&quot;fp&quot;:24.6,&quot;opp&quot;:&quot;NE&quot;,&quot;round&quot;:&quot;Week 5&quot;,&quot;roundAbbrev&quot;:&quot;Wk5&quot;,&quot;value&quot;:3.28},{&quot;cost&quot;:&quot;7800.00&quot;,&quot;fp&quot;:25.74,&quot;opp&quot;:&quot;NYJ&quot;,&quot;round&quot;:&quot;Week 6&quot;,&quot;roundAbbrev&quot;:&quot;Wk6&quot;,&quot;value&quot;:3.3}]"
+					data-dfs-chart-data="[{&quot;cost&quot;:&quot;7300.00&quot;,&quot;fp&quot;:20.46,&quot;opp&quot;:&quot;CIN&quot;,&quot;round&quot;:&quot;Week 1&quot;,&quot;roundAbbrev&quot;:&quot;Wk1&quot;,&quot;value&quot;:2.8},{&quot;cost&quot;:&quot;7500.00&quot;,&quot;fp&quot;:13.36,&quot;opp&quot;:&quot;WSH&quot;,&quot;round&quot;:&quot;Week 2&quot;,&quot;roundAbbrev&quot;:&quot;Wk2&quot;,&quot;value&quot;:1.78},{&quot;cost&quot;:&quot;7400.00&quot;,&quot;fp&quot;:13.86,&quot;opp&quot;:&quot;PHI&quot;,&quot;round&quot;:&quot;Week 3&quot;,&quot;roundAbbrev&quot;:&quot;Wk3&quot;,&quot;value&quot;:1.87},{&quot;cost&quot;:&quot;7300.00&quot;,&quot;fp&quot;:35.66,&quot;opp&quot;:&quot;HOU&quot;,&quot;round&quot;:&quot;Week 4&quot;,&quot;roundAbbrev&quot;:&quot;Wk4&quot;,&quot;value&quot;:4.88},{&quot;cost&quot;:&quot;7500.00&quot;,&quot;fp&quot;:24.6,&quot;opp&quot;:&quot;NE&quot;,&quot;round&quot;:&quot;Week 5&quot;,&quot;roundAbbrev&quot;:&quot;Wk5&quot;,&quot;value&quot;:3.28},{&quot;cost&quot;:&quot;7800.00&quot;,&quot;fp&quot;:25.74,&quot;opp&quot;:&quot;NYJ&quot;,&quot;round&quot;:&quot;Week 6&quot;,&quot;roundAbbrev&quot;:&quot;Wk6&quot;,&quot;value&quot;:3.3},{&quot;cost&quot;:&quot;8200.00&quot;,&quot;fp&quot;:22.74,&quot;opp&quot;:&quot;BUF&quot;,&quot;round&quot;:&quot;Week 7&quot;,&quot;roundAbbrev&quot;:&quot;Wk7&quot;,&quot;value&quot;:2.77}]"
 					height="135"
 					width="499">
 				</canvas>
@@ -2488,6 +2488,61 @@
 			</div>
 		</div>
 		
+				<div class="player-schedule__indiv-projections__table-wrap player-projection-table">
+						<span class="player-projection-table__title">
+				Last Game against Buffalo 			</span>
+			
+												<table class="projection-table grid--1-1 no-fix-height" cellspacing="0" cellpadding="0">
+						<thead class="projection-table__head">
+							<tr>
+								<th title = "Date" class="left-aligned">
+									Date
+								</th>
+								<th title = "Week">
+									Wk
+								</th>
+								<th title = "Passing Yards">
+									Pass Yd
+								</th>
+								<th title = "Passing Touchdowns">
+									Pass TD
+								</th>
+								<th title = "Interceptions Thrown">
+									Int
+								</th>
+								<th title="FanDuel Cost">
+									Cost
+								</th>
+								<th title = "FanDuel Fantasy Points">
+									FP
+								</th>
+								<th title = "FanDuel Value" class="value">
+									Value
+								</th>
+							</tr>
+						</thead>
+						<tbody class="projection-table__body">
+													<tr>
+								<td class="left-aligned">
+									10/21/18								</td>
+								<td>
+									7								</td>
+								<td>
+									156								</td>
+								<td>
+									4								</td>
+								<td>
+									0								</td>
+								<td>
+									$8,200								</td>
+								<td>
+									22.74								</td>
+								<td class="value">
+									2.77								</td>
+							</tr>
+												</tbody>
+					</table>
+									</div>
 			</div>
 	
 	
@@ -3246,6 +3301,58 @@
 	</div>
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
+		<a href="/nfl/news/22734/week-7-s-perfect-nfl-dfs-lineups">
+			<picture>
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22734_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22734_a3.jpg">
+			</picture>
+		</a>
+			</div>
+	<div class="listing__info">
+		<div class="listing__hed">
+						<h4>
+				<a href="/nfl/news/22734/week-7-s-perfect-nfl-dfs-lineups">
+					Week 7's Perfect NFL DFS Lineups				</a>
+			</h4>
+		</div>
+
+		<div class="listing__byline">
+			<a href="/author/jim-sannes" class="listing__byline--author">
+				Jim Sannes			</a>
+			<span>&mdash; <span class="timeago" title="1540212784"></span></span>
+		</div>
+	</div>
+
+</article>
+
+			<article class="listing  w-thumb-left  ">
+	<div class="listing__thumb  ">
+		<a href="/nfl/news/22712/3-player-prop-bets-to-target-in-week-7">
+			<picture>
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22712_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22712_a3.jpg">
+			</picture>
+		</a>
+			</div>
+	<div class="listing__info">
+		<div class="listing__hed">
+						<h4>
+				<a href="/nfl/news/22712/3-player-prop-bets-to-target-in-week-7">
+					3 Player Prop Bets to Target in Week 7				</a>
+			</h4>
+		</div>
+
+		<div class="listing__byline">
+			<a href="/author/matthew-gajewski" class="listing__byline--author">
+				Matthew Gajewski			</a>
+			<span>&mdash; <span class="timeago" title="1540044695"></span></span>
+		</div>
+	</div>
+
+</article>
+
+			<article class="listing  w-thumb-left  ">
+	<div class="listing__thumb  ">
 		<a href="/nfl/news/22688/4-nfl-fanduel-stacks-for-week-7">
 			<picture>
 				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22688_a13.jpg"
@@ -3343,58 +3450,6 @@
 			<a href="/author/matt-kupferle-1" class="listing__byline--author">
 				Matt Kupferle			</a>
 			<span>&mdash; <span class="timeago" title="1539970858"></span></span>
-		</div>
-	</div>
-
-</article>
-
-			<article class="listing  w-thumb-left  ">
-	<div class="listing__thumb  video-article">
-		<a href="/nfl/lists/22693/7-deep-fantasy-football-sleepers-for-week-7">
-			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22693_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22693_a3.jpg">
-			</picture>
-		</a>
-			</div>
-	<div class="listing__info">
-		<div class="listing__hed">
-						<h4>
-				<a href="/nfl/lists/22693/7-deep-fantasy-football-sleepers-for-week-7">
-					7 Deep Fantasy Football Sleepers for Week 7				</a>
-			</h4>
-		</div>
-
-		<div class="listing__byline">
-			<a href="/author/dale-redman-1" class="listing__byline--author">
-				Dale Redman			</a>
-			<span>&mdash; <span class="timeago" title="1539969741"></span></span>
-		</div>
-	</div>
-
-</article>
-
-			<article class="listing  w-thumb-left  ">
-	<div class="listing__thumb  ">
-		<a href="/nfl/news/22698/draftkings-daily-fantasy-football-helper-week-7">
-			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22698_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22698_a3.jpg">
-			</picture>
-		</a>
-			</div>
-	<div class="listing__info">
-		<div class="listing__hed">
-						<h4>
-				<a href="/nfl/news/22698/draftkings-daily-fantasy-football-helper-week-7">
-					DraftKings Daily Fantasy Football Helper: Week 7				</a>
-			</h4>
-		</div>
-
-		<div class="listing__byline">
-			<a href="/author/eric-mcclung" class="listing__byline--author">
-				Eric McClung			</a>
-			<span>&mdash; <span class="timeago" title="1539966181"></span></span>
 		</div>
 	</div>
 
@@ -3615,5 +3670,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":101,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":106,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>
