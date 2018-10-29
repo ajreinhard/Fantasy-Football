@@ -2132,8 +2132,7 @@
             <div class="player-header__info__stats player-info">
 	            <div class="player-info--basic">
 		            <h2>
-		            	Darrius Heyward-Bey								            	<span class="player-status player-status--gtd">GTD</span>
-								            </h2>
+		            	Darrius Heyward-Bey								            </h2>
 		            <div class="player-info--basic__wrap">
 													<span class="player-info--basic__team">
 								WR, <a href="/nfl/teams/pittsburgh-steelers" class="team-name">Pittsburgh Steelers</a><a href="/nfl/teams/pittsburgh-steelers" class="team-abbrev">PIT</a>
@@ -2225,6 +2224,7 @@
                                                     <option  value="/nfl/players/projections/terrell-edmunds">Terrell Edmunds</option>
                                                     <option  value="/nfl/players/projections/matthew-thomas">Matthew Thomas</option>
                                                     <option  value="/nfl/players/projections/joshua-dobbs">Joshua Dobbs</option>
+                                                    <option  value="/nfl/players/projections/jaylen-samuels">Jaylen Samuels</option>
                                             </select>
                 </form>
                 <form class="team-player-sub-nav__list__drop team-player-sub-nav__list__drop--abbr" action="">
@@ -2315,6 +2315,8 @@
                                 M. Thomas                            </option>
                                                     <option  value="/nfl/players/projections/joshua-dobbs">
                                 J. Dobbs                            </option>
+                                                    <option  value="/nfl/players/projections/jaylen-samuels">
+                                J. Samuels                            </option>
                                             </select>
                 </form>
                             <ul class="team-player-sub-nav__list__links">
@@ -2395,14 +2397,14 @@
 					CLE				</a>
 			</div>
 							<span class="next-game__rank">
-					#14				</span>
+					#16				</span>
 					</div>
 								<div class="next-game next-game--live odds-right team-nfl-PIT">
 									<h4>
 						win probability
 					</h4>
 					<span class="next-game--live__percentage">
-					74.2<span class="symbol">%</span>
+					74.3<span class="symbol">%</span>
 				</span>
 					<span class="next-game--live__winning-team">
 					PIT				</span>
@@ -2410,7 +2412,7 @@
 			</div>
 				<div class="next-game next-game--right">
 						<span class="next-game__rank small-hide">
-				#4			</span>
+				#7			</span>
 						<div class="next-game--right--logo-wrap">
 				<a class="next-game__team small-hide" href="/nfl/teams/pittsburgh-steelers">
 					PIT				</a>
@@ -2419,7 +2421,7 @@
 					PIT				</a>
 			</div>
 						<span class="next-game__rank small-show">
-				#4			</span>
+				#7			</span>
 					</div>
 	</div>
 
@@ -2694,7 +2696,7 @@
 					<tbody class="projection-table__body">
 																<tr data-row-index="1">
 							<td class="negative">
-								#2							</td>
+								#1							</td>
 							<td>
 								0.96							</td>
 							<td>
@@ -2718,7 +2720,7 @@
 						</tr>
 											<tr data-row-index="2">
 							<td class="positive">
-								#32							</td>
+								#30							</td>
 							<td>
 								1.04							</td>
 							<td>
@@ -2742,7 +2744,7 @@
 						</tr>
 											<tr data-row-index="3">
 							<td class="positive">
-								#29							</td>
+								#28							</td>
 							<td>
 								0.48							</td>
 							<td>
@@ -2766,7 +2768,7 @@
 						</tr>
 											<tr data-row-index="4">
 							<td class="negative">
-								#1							</td>
+								#2							</td>
 							<td>
 								1.89							</td>
 							<td>
@@ -2790,7 +2792,7 @@
 						</tr>
 											<tr data-row-index="5">
 							<td class="positive">
-								#31							</td>
+								#32							</td>
 							<td>
 								0.00							</td>
 							<td>
@@ -2814,7 +2816,7 @@
 						</tr>
 											<tr data-row-index="6">
 							<td class="">
-								#17							</td>
+								#20							</td>
 							<td>
 								0.00							</td>
 							<td>
@@ -2862,7 +2864,7 @@
 						</tr>
 											<tr data-row-index="8">
 							<td class="negative">
-								#2							</td>
+								#1							</td>
 							<td>
 								0.40							</td>
 							<td>
@@ -2886,7 +2888,7 @@
 						</tr>
 											<tr data-row-index="9">
 							<td class="negative">
-								#1							</td>
+								#2							</td>
 							<td>
 								0.71							</td>
 							<td>
@@ -2910,7 +2912,7 @@
 						</tr>
 											<tr data-row-index="10">
 							<td class="">
-								#13							</td>
+								#17							</td>
 							<td>
 								0.71							</td>
 							<td>
@@ -2934,7 +2936,7 @@
 						</tr>
 											<tr data-row-index="11">
 							<td class="">
-								#6							</td>
+								#5							</td>
 							<td>
 								0.71							</td>
 							<td>
@@ -2958,7 +2960,7 @@
 						</tr>
 											<tr data-row-index="12">
 							<td class="">
-								#19							</td>
+								#11							</td>
 							<td>
 								0.74							</td>
 							<td>
@@ -2982,7 +2984,7 @@
 						</tr>
 											<tr data-row-index="13">
 							<td class="">
-								#12							</td>
+								#22							</td>
 							<td>
 								0.71							</td>
 							<td>
@@ -3006,7 +3008,7 @@
 						</tr>
 											<tr data-row-index="14">
 							<td class="positive">
-								#30							</td>
+								#27							</td>
 							<td>
 								0.76							</td>
 							<td>
@@ -3030,7 +3032,7 @@
 						</tr>
 											<tr data-row-index="15">
 							<td class="">
-								#18							</td>
+								#16							</td>
 							<td>
 								0.76							</td>
 							<td>
@@ -3053,8 +3055,8 @@
 								N/A							</td>
 						</tr>
 											<tr data-row-index="16">
-							<td class="">
-								#27							</td>
+							<td class="positive">
+								#29							</td>
 							<td>
 								0.75							</td>
 							<td>
@@ -3078,7 +3080,7 @@
 						</tr>
 											<tr data-row-index="17">
 							<td class="">
-								#17							</td>
+								#20							</td>
 							<td>
 								0.73							</td>
 							<td>
@@ -3169,77 +3171,25 @@
 	</div>
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
-		<a href="/nfl/news/22724/nfl-week-7-fanduel-ownership-percentages-everybody-loved-cleveland">
+		<a href="/nfl/lists/22863/10-fantasy-football-waiver-wire-targets-heading-into-week-9">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22724_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22724_a3.jpg">
-			</picture>
-		</a>
-			</div>
-	<div class="listing__info">
-		<div class="listing__hed">
-			<span class="listing--premium"><i class="nf-icon icon-premium"></i>premium</span>			<h4>
-				<a href="/nfl/news/22724/nfl-week-7-fanduel-ownership-percentages-everybody-loved-cleveland">
-					NFL Week 7 FanDuel Ownership Percentages: Everybody Loved Cleveland				</a>
-			</h4>
-		</div>
-
-		<div class="listing__byline">
-			<a href="/author/brandon-gdula" class="listing__byline--author">
-				Brandon Gdula			</a>
-			<span>&mdash; <span class="timeago" title="1540239217"></span></span>
-		</div>
-	</div>
-
-</article>
-
-			<article class="listing  w-thumb-left  ">
-	<div class="listing__thumb  ">
-		<a href="/nfl/news/22737/fanduel-single-game-daily-fantasy-football-helper-week-7-monday-night">
-			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22737_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22737_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22863_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22863_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 						<h4>
-				<a href="/nfl/news/22737/fanduel-single-game-daily-fantasy-football-helper-week-7-monday-night">
-					FanDuel Single-Game Daily Fantasy Football Helper: Week 7 Monday Night				</a>
-			</h4>
-		</div>
-
-		<div class="listing__byline">
-			<a href="/author/kenyatta-storin" class="listing__byline--author">
-				Kenyatta Storin			</a>
-			<span>&mdash; <span class="timeago" title="1540237383"></span></span>
-		</div>
-	</div>
-
-</article>
-
-			<article class="listing  w-thumb-left  ">
-	<div class="listing__thumb  ">
-		<a href="/nfl/lists/22736/fantasy-football-5-things-we-learned-in-week-7">
-			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22736_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22736_a3.jpg">
-			</picture>
-		</a>
-			</div>
-	<div class="listing__info">
-		<div class="listing__hed">
-						<h4>
-				<a href="/nfl/lists/22736/fantasy-football-5-things-we-learned-in-week-7">
-					Fantasy Football: 5 Things We Learned In Week 7				</a>
+				<a href="/nfl/lists/22863/10-fantasy-football-waiver-wire-targets-heading-into-week-9">
+					10 Fantasy Football Waiver Wire Targets Heading Into Week 9				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
 			<a href="/author/aidan-mcgrath" class="listing__byline--author">
 				Aidan Mcgrath			</a>
-			<span>&mdash; <span class="timeago" title="1540224699"></span></span>
+			<span>&mdash; <span class="timeago" title="1540820430"></span></span>
 		</div>
 	</div>
 
@@ -3247,51 +3197,51 @@
 
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
-		<a href="/nfl/news/22726/the-20-best-offensive-players-from-week-7">
+		<a href="/nfl/news/22868/week-8-s-perfect-nfl-dfs-lineups">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22726_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22726_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22868_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22868_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 						<h4>
-				<a href="/nfl/news/22726/the-20-best-offensive-players-from-week-7">
-					The 20 Best Offensive Players From Week 7				</a>
-			</h4>
-		</div>
-
-		<div class="listing__byline">
-			<a href="/author/brandon-gdula" class="listing__byline--author">
-				Brandon Gdula			</a>
-			<span>&mdash; <span class="timeago" title="1540222478"></span></span>
-		</div>
-	</div>
-
-</article>
-
-			<article class="listing  w-thumb-left  ">
-	<div class="listing__thumb  ">
-		<a href="/nfl/news/22733/daily-fantasy-football-podcast-the-heat-check-week-7-recap">
-			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22733_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22733_a3.jpg">
-			</picture>
-		</a>
-			</div>
-	<div class="listing__info">
-		<div class="listing__hed">
-						<h4>
-				<a href="/nfl/news/22733/daily-fantasy-football-podcast-the-heat-check-week-7-recap">
-					Daily Fantasy Football Podcast: The Heat Check, Week 7 Recap				</a>
+				<a href="/nfl/news/22868/week-8-s-perfect-nfl-dfs-lineups">
+					Week 8's Perfect NFL DFS Lineups				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
 			<a href="/author/jim-sannes" class="listing__byline--author">
 				Jim Sannes			</a>
-			<span>&mdash; <span class="timeago" title="1540219272"></span></span>
+			<span>&mdash; <span class="timeago" title="1540813864"></span></span>
+		</div>
+	</div>
+
+</article>
+
+			<article class="listing  w-thumb-left  ">
+	<div class="listing__thumb  video-article">
+		<a href="/nfl/news/22852/fanduel-single-game-daily-fantasy-football-helper-week-8-sunday-night">
+			<picture>
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22852_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22852_a3.jpg">
+			</picture>
+		</a>
+			</div>
+	<div class="listing__info">
+		<div class="listing__hed">
+						<h4>
+				<a href="/nfl/news/22852/fanduel-single-game-daily-fantasy-football-helper-week-8-sunday-night">
+					FanDuel Single-Game Daily Fantasy Football Helper: Week 8 Sunday Night				</a>
+			</h4>
+		</div>
+
+		<div class="listing__byline">
+			<a href="/author/matthew-gajewski" class="listing__byline--author">
+				Matthew Gajewski			</a>
+			<span>&mdash; <span class="timeago" title="1540735660"></span></span>
 		</div>
 	</div>
 
@@ -3299,25 +3249,77 @@
 
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
-		<a href="/nfl/lists/22721/10-fantasy-football-waiver-wire-targets-heading-into-week-8">
+		<a href="/nfl/news/22846/3-player-prop-bets-to-target-in-week-8">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22721_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22721_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22846_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22846_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 						<h4>
-				<a href="/nfl/lists/22721/10-fantasy-football-waiver-wire-targets-heading-into-week-8">
-					10 Fantasy Football Waiver Wire Targets Heading Into Week 8				</a>
+				<a href="/nfl/news/22846/3-player-prop-bets-to-target-in-week-8">
+					3 Player Prop Bets to Target in Week 8				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
-			<a href="/author/matt-kupferle-1" class="listing__byline--author">
-				Matt Kupferle			</a>
-			<span>&mdash; <span class="timeago" title="1540216350"></span></span>
+			<a href="/author/matthew-gajewski" class="listing__byline--author">
+				Matthew Gajewski			</a>
+			<span>&mdash; <span class="timeago" title="1540642457"></span></span>
+		</div>
+	</div>
+
+</article>
+
+			<article class="listing  w-thumb-left  ">
+	<div class="listing__thumb  video-article">
+		<a href="/nfl/news/22843/4-nfl-fanduel-stacks-for-week-8">
+			<picture>
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22843_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22843_a3.jpg">
+			</picture>
+		</a>
+			</div>
+	<div class="listing__info">
+		<div class="listing__hed">
+						<h4>
+				<a href="/nfl/news/22843/4-nfl-fanduel-stacks-for-week-8">
+					4 NFL FanDuel Stacks for Week 8				</a>
+			</h4>
+		</div>
+
+		<div class="listing__byline">
+			<a href="/author/ben-hossler" class="listing__byline--author">
+				Ben Hossler			</a>
+			<span>&mdash; <span class="timeago" title="1540640979"></span></span>
+		</div>
+	</div>
+
+</article>
+
+			<article class="listing  w-thumb-left  ">
+	<div class="listing__thumb  video-article">
+		<a href="/nfl/news/22841/draftkings-daily-fantasy-football-helper-week-8">
+			<picture>
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22841_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/22841_a3.jpg">
+			</picture>
+		</a>
+			</div>
+	<div class="listing__info">
+		<div class="listing__hed">
+						<h4>
+				<a href="/nfl/news/22841/draftkings-daily-fantasy-football-helper-week-8">
+					DraftKings Daily Fantasy Football Helper: Week 8				</a>
+			</h4>
+		</div>
+
+		<div class="listing__byline">
+			<a href="/author/eric-mcclung" class="listing__byline--author">
+				Eric McClung			</a>
+			<span>&mdash; <span class="timeago" title="1540580077"></span></span>
 		</div>
 	</div>
 
@@ -3538,5 +3540,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":207,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":77,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

@@ -265,7 +265,9 @@ results <- data.frame(do.call(rbind, slots),stringsAsFactors=F)
 #results$Player[which(results$OwnerWeek=='lucas-7' & results$Pos=='WR-3' & results$Slot=='OPEN')] <- 'Robby Anderson'
 #results$Player[which(results$OwnerWeek=='lucas-7' & results$Player=='Matt Bryant')] <- 'Jason Myers'
 #results$Player[which(results$OwnerWeek=='cory-7' & results$Player=='Mark Ingram II')] <- 'James White'
-#results$Player[which(results$OwnerWeek=='aj-7' & results$Pos=='D/ST' & results$Slot=='OPEN')] <- 'Colts D/ST'
+results$Player[which(results$OwnerWeek=='lucas-8' & results$Pos=='WR/RB' & results$Slot=='BYE')] <- 'Chris Carson'
+results$Player[which(results$OwnerWeek=='lucas-8' & results$Pos=='WR-1' & results$Player=='Allen Robinson')] <- 'Doug Baldwin'
+results$Player[which(results$OwnerWeek=='matty-8' & results$Pos=='D/ST' & results$Slot=='OPEN')] <- 'Colts D/ST'
 #######################################################
 results[which(results$Slot!=''),]
 #open_spots <- open_spots[which(sapply(open_spots$OwnerWeek, function(x) as.numeric(strsplit(x,'-')[[1]][2]))==this_week),]
@@ -295,7 +297,7 @@ results_Final$OwnerWeekPos <- paste0(results_Final$OwnerWeek,results_Final$Pos)
 ######SPOTS LEFT EMPTY#################################
 #######################################################
 results_Final[which(results_Final$OwnerWeekPos=='perry-2D/ST'),c('Final','proj','std','Var')] <- 0
-
+results_Final[which(results_Final$OwnerWeekPos=='aj-8D/ST'),c('Final','proj','std','Var')] <- 0
 
 ######create proj by week
 proj_sq <- function(x) {
