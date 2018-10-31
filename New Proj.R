@@ -265,9 +265,9 @@ results <- data.frame(do.call(rbind, slots),stringsAsFactors=F)
 #results$Player[which(results$OwnerWeek=='lucas-7' & results$Pos=='WR-3' & results$Slot=='OPEN')] <- 'Robby Anderson'
 #results$Player[which(results$OwnerWeek=='lucas-7' & results$Player=='Matt Bryant')] <- 'Jason Myers'
 #results$Player[which(results$OwnerWeek=='cory-7' & results$Player=='Mark Ingram II')] <- 'James White'
-results$Player[which(results$OwnerWeek=='lucas-8' & results$Pos=='WR/RB' & results$Slot=='BYE')] <- 'Chris Carson'
-results$Player[which(results$OwnerWeek=='lucas-8' & results$Pos=='WR-1' & results$Player=='Allen Robinson')] <- 'Doug Baldwin'
-results$Player[which(results$OwnerWeek=='matty-8' & results$Pos=='D/ST' & results$Slot=='OPEN')] <- 'Colts D/ST'
+#results$Player[which(results$OwnerWeek=='lucas-8' & results$Pos=='WR/RB' & results$Slot=='BYE')] <- 'Chris Carson'
+#results$Player[which(results$OwnerWeek=='lucas-8' & results$Pos=='WR-1' & results$Player=='Allen Robinson')] <- 'Doug Baldwin'
+#results$Player[which(results$OwnerWeek=='matty-8' & results$Pos=='D/ST' & results$Slot=='OPEN')] <- 'Colts D/ST'
 #######################################################
 results[which(results$Slot!=''),]
 #open_spots <- open_spots[which(sapply(open_spots$OwnerWeek, function(x) as.numeric(strsplit(x,'-')[[1]][2]))==this_week),]
@@ -534,7 +534,27 @@ proj_PA <- round(sapply(1:length(owners), function(o) sum(sched$PA[which(sched$t
 hk_order <- hk_tm[order(q_standings[hk_tm])]
 dp_order <- dp_tm[order(q_standings[dp_tm])]
 
+#############################
+####playoff scenerio#########
+#############################
+#all_po_tms <- cbind(seed_1,seed_2,seed_3,seed_4)
+#po_wins_needed <- sapply(1:10, function(i) table(factor(win_totals[c(which(seed_1==i),which(seed_2==i),which(seed_3==i),which(seed_4==i)),i],1:13)))
 
+#tm_playoff_grid <- sapply(1:10, function(i) {
+#all_sims <- rep(0,sim_cnt)
+#all_sims[c(which(seed_1==i),which(seed_2==i),which(seed_3==i),which(seed_4==i))] <- 1
+#all_sims
+#})
+
+#aggregate(wins[,126:130]~tm_playoff_grid[,10],FUN=mean)
+#aggregate(tm_playoff_grid[,10]~wins[,127],FUN=mean)
+
+
+
+
+##############################
+#########Begin Saving#########
+##############################
 ####save the most recent results
 all_hist <- read.csv('prior runs.csv',stringsAsFactors=F)
 last_run_df <- all_hist[1:10,]
