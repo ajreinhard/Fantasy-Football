@@ -538,29 +538,47 @@ proj_PA <- round(sapply(1:length(owners), function(o) sum(sched$PA[which(sched$t
 hk_order <- hk_tm[order(q_standings[hk_tm])]
 dp_order <- dp_tm[order(q_standings[dp_tm])]
 
-#############################
-####playoff scenerio#########
-#############################
+##############################
+####playoff scenerios#########
+##############################
 all_po_tms <- cbind(seed_1,seed_2,seed_3,seed_4)
 po_wins_needed <- sapply(1:10, function(i) table(factor(win_totals[c(which(seed_1==i),which(seed_2==i),which(seed_3==i),which(seed_4==i)),i],1:13)))
 wins_histo <- sapply(1:10, function(i) table(factor(win_totals[,i],1:13)))
 all_chances <- lapply(1:10, function(i) round((po_wins_needed/wins_histo)*100,1)[which(wins_histo[,i]!=0),i])
 names(all_chances) <- owners
 all_chances <- do.call(rbind,all_chances)
-colnames(all_chances) <- 0:4
+colnames(all_chances) <- 0:(14-this_week)
 all_chances
 
+now_sched <- sched[which(sched$wk==this_week & sched$team<sched$opp),]
+weekly_outcomes <- wins[,((now_sched$team-1) * 13) + now_sched$wk]
+tm_playoff_grid <- sapply(1:10, function(i) {
+all_sims <- rep(0,sim_cnt)
+all_sims[c(which(seed_1==i),which(seed_2==i),which(seed_3==i),which(seed_4==i))] <- 1
+all_sims
+})
 
-#tm_playoff_grid <- sapply(1:10, function(i) {
-#all_sims <- rep(0,sim_cnt)
-#all_sims[c(which(seed_1==i),which(seed_2==i),which(seed_3==i),which(seed_4==i))] <- 1
-#all_sims
-#})
+full_outcomes <- aggregate(tm_playoff_grid~weekly_outcomes[,1]+weekly_outcomes[,2]+weekly_outcomes[,3]+weekly_outcomes[,4]+weekly_outcomes[,5],FUN=mean)
+names(full_outcomes)[6:15] <- owners
 
-#aggregate(wins[,126:130]~tm_playoff_grid[,10],FUN=mean)
-#aggregate(tm_playoff_grid[,10]~wins[,127],FUN=mean)
+for (i in 1:5) full_outcomes[,i] <- ifelse(full_outcomes[,i]==1,owners[now_sched$team[i]],owners[now_sched$opp[i]])
+elim <- apply(full_outcomes[,6:15],2, function(x) which(x==0))
+clinch <- apply(full_outcomes[,6:15],2, function(x) which(x==1))
 
+full_outcomes
+sapply(elim,length)
+sapply(clinch,length)
 
+write.csv(full_outcomes,'cond_po.csv')
+write.csv(all_chances,'win_odds.csv')
+
+#table(unlist(full_outcomes[elim$devon,1:5]))
+#table(unlist(full_outcomes[elim$lucas,1:5]))
+
+#sapply(1:5, function(i) length(table(full_outcomes[elim$devon,i])))
+#full_outcomes[which(full_outcomes[,4]=='lucas'),]
+#full_outcomes[c(20,22,25,26),]
+#full_outcomes[elim$devon,]
 
 
 ##############################
