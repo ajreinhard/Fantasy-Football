@@ -6,7 +6,7 @@ setup_twitter_oauth('3OFet2Lrb7SM3P5xRIS4mYcYT', 'lUY751Alq4eneCod71LwCG3L4PT4L2
 owners <- c('scott','cory','aj','devon','comp','chad','lucas','perry','matty','seth')
 setwd('C:/Users/Owner/Documents/GitHub/Fantasy-Football')
 this_week <- max(sapply(dir('Teams',full=T), function(x) as.numeric(substr(strsplit(x,'-')[[1]][2],1,nchar(strsplit(x,'-')[[1]][2])-4))))
-#before thurs = 0
+#before thurs = 1!!
 thurs_check <- ifelse(as.numeric(format(Sys.time(),'%u')) >= 4 |  as.numeric(format(Sys.time(),'%u')) == 1,0,1)
 ############## Get teams
 team_tree <- htmlTreeParse('Teams.txt', useInternal=T)
@@ -298,6 +298,8 @@ results_Final$OwnerWeekPos <- paste0(results_Final$OwnerWeek,results_Final$Pos)
 #######################################################
 results_Final[which(results_Final$OwnerWeekPos=='perry-2D/ST'),c('Final','proj','std','Var')] <- 0
 results_Final[which(results_Final$OwnerWeekPos=='aj-8D/ST'),c('Final','proj','std','Var')] <- 0
+results_Final[which(results_Final$OwnerWeekPos=='aj-9D/ST'),c('Final','proj','std','Var')] <- 0
+results_Final[which(results_Final$OwnerWeekPos=='perry-9TE-1'),c('Final','proj','std','Var')] <- 0
 
 ######create proj by week
 proj_sq <- function(x) {
@@ -403,6 +405,7 @@ all_df  <- data.frame(apply(all_df,2,unlist),stringsAsFactors=F)
 all_df$proj <- as.numeric(all_df$proj)
 all_df$Var <- as.numeric(all_df$Var)
 all_df$Week <- as.numeric(all_df$Week)
+###
 
 pos_week <- paste0(all_df$Pos,'-',all_df$Week)
 free_agents <- pos_week[which(all_df$proj<FA_df$proj[match(pos_week,FA_df$WkPos)] | is.na(all_df$proj))]
@@ -419,11 +422,12 @@ full_lineup <- full_lineup[order(full_lineup$Owner),]
 full_lineup$Neg_Ind <- 0
 full_lineup$Neg_Ind[which(full_lineup$Pos=='D')] <- 1
 
+
 results_Final$Owner <- match(sapply(strsplit(results_Final$OwnerWeek,'-'),function(j) j[1]),owners)
 results_Final$Neg_Ind <- 1
-for (o in 1:length(owners)) {for (w in 1:max(results_Final$Week)-thurs_check) full_lineup[which(full_lineup$Owner==o & full_lineup$Week==w),c('Player','proj','Var','Neg_Ind')] <- results_Final[which(results_Final$Owner==o & results_Final$Week==w),c('Player','proj','Var','Neg_Ind')]}
+for (o in 1:length(owners)) {for (w in 1:(max(as.numeric(results_Final$Week))-as.numeric(thurs_check))) full_lineup[which(full_lineup$Owner==o & full_lineup$Week==w),c('Player','proj','Var','Neg_Ind')] <- results_Final[which(results_Final$Owner==o & results_Final$Week==w),c('Player','proj','Var','Neg_Ind')]}
 full_lineup$proj <- as.numeric(full_lineup$proj)
-
+tail(full_lineup,170)
 
 #all_scores <- aggregate(cbind(proj,Var)~Owner+Week,full_lineup,sum)
 #all_scores[match(sched$tm_wk, paste0(all_scores$Owner,'-',all_scores$Week)),c('proj','Var')]
@@ -537,8 +541,15 @@ dp_order <- dp_tm[order(q_standings[dp_tm])]
 #############################
 ####playoff scenerio#########
 #############################
-#all_po_tms <- cbind(seed_1,seed_2,seed_3,seed_4)
-#po_wins_needed <- sapply(1:10, function(i) table(factor(win_totals[c(which(seed_1==i),which(seed_2==i),which(seed_3==i),which(seed_4==i)),i],1:13)))
+all_po_tms <- cbind(seed_1,seed_2,seed_3,seed_4)
+po_wins_needed <- sapply(1:10, function(i) table(factor(win_totals[c(which(seed_1==i),which(seed_2==i),which(seed_3==i),which(seed_4==i)),i],1:13)))
+wins_histo <- sapply(1:10, function(i) table(factor(win_totals[,i],1:13)))
+all_chances <- lapply(1:10, function(i) round((po_wins_needed/wins_histo)*100,1)[which(wins_histo[,i]!=0),i])
+names(all_chances) <- owners
+all_chances <- do.call(rbind,all_chances)
+colnames(all_chances) <- 0:4
+all_chances
+
 
 #tm_playoff_grid <- sapply(1:10, function(i) {
 #all_sims <- rep(0,sim_cnt)
