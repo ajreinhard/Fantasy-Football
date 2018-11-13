@@ -268,6 +268,11 @@ results <- data.frame(do.call(rbind, slots),stringsAsFactors=F)
 #results$Player[which(results$OwnerWeek=='lucas-8' & results$Pos=='WR/RB' & results$Slot=='BYE')] <- 'Chris Carson'
 #results$Player[which(results$OwnerWeek=='lucas-8' & results$Pos=='WR-1' & results$Player=='Allen Robinson')] <- 'Doug Baldwin'
 #results$Player[which(results$OwnerWeek=='matty-8' & results$Pos=='D/ST' & results$Slot=='OPEN')] <- 'Colts D/ST'
+#results$Player[which(results$OwnerWeek=='chad-10' & results$Pos=='QB-1' & results$Slot=='PEN')] <- 'Andy Dalton'
+#results$Player[which(results$OwnerWeek=='chad-10' & results$Pos=='K' & results$Slot=='OPE')] <- 'Adam Vinatieri'
+#results$Player[which(results$OwnerWeek=='perry-10' & results$Pos=='K' & results$Slot=='OPEN')] <- 'Mason Crosby'
+#results$Player[which(results$OwnerWeek=='perry-10' & results$Pos=='D/ST' & results$Slot=='BYE')] <- 'Colts D/ST'
+
 #######################################################
 results[which(results$Slot!=''),]
 #open_spots <- open_spots[which(sapply(open_spots$OwnerWeek, function(x) as.numeric(strsplit(x,'-')[[1]][2]))==this_week),]
@@ -300,6 +305,7 @@ results_Final[which(results_Final$OwnerWeekPos=='perry-2D/ST'),c('Final','proj',
 results_Final[which(results_Final$OwnerWeekPos=='aj-8D/ST'),c('Final','proj','std','Var')] <- 0
 results_Final[which(results_Final$OwnerWeekPos=='aj-9D/ST'),c('Final','proj','std','Var')] <- 0
 results_Final[which(results_Final$OwnerWeekPos=='perry-9TE-1'),c('Final','proj','std','Var')] <- 0
+results_Final[which(results_Final$OwnerWeekPos=='aj-10D/ST'),c('Final','proj','std','Var')] <- 0
 
 ######create proj by week
 proj_sq <- function(x) {
@@ -427,7 +433,6 @@ results_Final$Owner <- match(sapply(strsplit(results_Final$OwnerWeek,'-'),functi
 results_Final$Neg_Ind <- 1
 for (o in 1:length(owners)) {for (w in 1:(max(as.numeric(results_Final$Week))-as.numeric(thurs_check))) full_lineup[which(full_lineup$Owner==o & full_lineup$Week==w),c('Player','proj','Var','Neg_Ind')] <- results_Final[which(results_Final$Owner==o & results_Final$Week==w),c('Player','proj','Var','Neg_Ind')]}
 full_lineup$proj <- as.numeric(full_lineup$proj)
-tail(full_lineup,170)
 
 #all_scores <- aggregate(cbind(proj,Var)~Owner+Week,full_lineup,sum)
 #all_scores[match(sched$tm_wk, paste0(all_scores$Owner,'-',all_scores$Week)),c('proj','Var')]
@@ -698,6 +703,8 @@ szn_avg <- apply(proj_by_wk[,(this_week+3):19],1,mean,na.rm=T)
 week_plyr_ratio <- proj_by_wk[,(this_week+2)]/szn_avg
 adj_up <- proj_by_wk$Player[which(week_plyr_ratio>=1.8)]
 adj_down <- proj_by_wk$Player[which(week_plyr_ratio<=.6 & week_plyr_ratio!=0)]
+adj_up <- adj_up[which(regexpr('D/ST',adj_up)==-1)]
+adj_down <- adj_down[which(regexpr('D/ST',adj_down)==-1)]
 return_week <- 19-apply(proj_by_wk[,19:(this_week+2)],1,function(x) match(0,x))
 players_out <- proj_by_wk$Player[which(!is.na(return_week))]
 players_return <- return_week[which(!is.na(return_week))]
