@@ -255,9 +255,7 @@ results <- data.frame(do.call(rbind, slots),stringsAsFactors=F)
 #######################################################
 ######FILL IN MISSING STARTER SPOTS ON THURSDAY########
 #######################################################
-#results$Player[which(results$OwnerWeek=='matty-5' & results$Pos=='TE-1' & results$Player=='Tyler Eifert')] <- 'Jordan Reed'
 #results$Player[which(results$OwnerWeek=='scott-5' & results$Pos=='TE-1' & results$Slot=='OPEN')] <- 'George Kittle'
-#results$Player[which(results$OwnerWeek=='lucas-5' & results$Pos=='D/ST' & results$Slot=='BYE')] <- 'Ravens D/ST'
 #results$Player[which(results$OwnerWeek=='lucas-5' & results$Pos=='WR-1' & results$Slot=='BYE')] <- 'Jamison Crowder'
 #results$Player[which(results$OwnerWeek=='comp-5' & results$Pos=='TE-1' & results$Slot=='BYE')] <- 'Austin Hooper'
 #results$Player[which(results$OwnerWeek=='devon-5' & results$Player=='Demaryius Thomas')] <- 'Devonta Freeman'
@@ -272,6 +270,13 @@ results <- data.frame(do.call(rbind, slots),stringsAsFactors=F)
 #results$Player[which(results$OwnerWeek=='chad-10' & results$Pos=='K' & results$Slot=='OPE')] <- 'Adam Vinatieri'
 #results$Player[which(results$OwnerWeek=='perry-10' & results$Pos=='K' & results$Slot=='OPEN')] <- 'Mason Crosby'
 #results$Player[which(results$OwnerWeek=='perry-10' & results$Pos=='D/ST' & results$Slot=='BYE')] <- 'Colts D/ST'
+results$Player[which(results$OwnerWeek=='seth-11' & results$Pos=='D/ST' & results$Slot=='OPEN')] <- 'Ravens D/ST'
+results$Player[which(results$OwnerWeek=='seth-11' & results$Pos=='WR-3' & results$Slot=='OPEN')] <- 'Jordy Nelson'
+results$Player[which(results$OwnerWeek=='lucas-11' & results$Pos=='WR-3' & results$Slot=='BYE')] <- 'Chester Rogers'
+results$Player[which(results$OwnerWeek=='lucas-11' & results$Player=='Cooper Kupp')] <- 'Allen Robinson'
+results$Player[which(results$OwnerWeek=='lucas-11' & results$Pos=='QB-1' & results$Slot=='BYE')] <- 'Ben Roethlisberger'
+results$Player[which(results$OwnerWeek=='lucas-11' & results$Pos=='K' & results$Slot=='BYE')] <- 'Matt Bryant'
+results$Player[which(results$OwnerWeek=='lucas-11' & results$Pos=='TE-1' & results$Slot=='BYE')] <- 'Kyle Rudolph'
 
 #######################################################
 results[which(results$Slot!=''),]
@@ -306,6 +311,7 @@ results_Final[which(results_Final$OwnerWeekPos=='aj-8D/ST'),c('Final','proj','st
 results_Final[which(results_Final$OwnerWeekPos=='aj-9D/ST'),c('Final','proj','std','Var')] <- 0
 results_Final[which(results_Final$OwnerWeekPos=='perry-9TE-1'),c('Final','proj','std','Var')] <- 0
 results_Final[which(results_Final$OwnerWeekPos=='aj-10D/ST'),c('Final','proj','std','Var')] <- 0
+results_Final[which(results_Final$OwnerWeekPos=='aj-11D/ST'),c('Final','proj','std','Var')] <- 0
 
 ######create proj by week
 proj_sq <- function(x) {
