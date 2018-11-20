@@ -270,13 +270,13 @@ results <- data.frame(do.call(rbind, slots),stringsAsFactors=F)
 #results$Player[which(results$OwnerWeek=='chad-10' & results$Pos=='K' & results$Slot=='OPE')] <- 'Adam Vinatieri'
 #results$Player[which(results$OwnerWeek=='perry-10' & results$Pos=='K' & results$Slot=='OPEN')] <- 'Mason Crosby'
 #results$Player[which(results$OwnerWeek=='perry-10' & results$Pos=='D/ST' & results$Slot=='BYE')] <- 'Colts D/ST'
-results$Player[which(results$OwnerWeek=='seth-11' & results$Pos=='D/ST' & results$Slot=='OPEN')] <- 'Ravens D/ST'
-results$Player[which(results$OwnerWeek=='seth-11' & results$Pos=='WR-3' & results$Slot=='OPEN')] <- 'Jordy Nelson'
-results$Player[which(results$OwnerWeek=='lucas-11' & results$Pos=='WR-3' & results$Slot=='BYE')] <- 'Chester Rogers'
-results$Player[which(results$OwnerWeek=='lucas-11' & results$Player=='Cooper Kupp')] <- 'Allen Robinson'
-results$Player[which(results$OwnerWeek=='lucas-11' & results$Pos=='QB-1' & results$Slot=='BYE')] <- 'Ben Roethlisberger'
-results$Player[which(results$OwnerWeek=='lucas-11' & results$Pos=='K' & results$Slot=='BYE')] <- 'Matt Bryant'
-results$Player[which(results$OwnerWeek=='lucas-11' & results$Pos=='TE-1' & results$Slot=='BYE')] <- 'Kyle Rudolph'
+#results$Player[which(results$OwnerWeek=='seth-11' & results$Pos=='D/ST' & results$Slot=='OPEN')] <- 'Ravens D/ST'
+#results$Player[which(results$OwnerWeek=='seth-11' & results$Pos=='WR-3' & results$Slot=='OPEN')] <- 'Jordy Nelson'
+#results$Player[which(results$OwnerWeek=='lucas-11' & results$Pos=='WR-3' & results$Slot=='BYE')] <- 'Chester Rogers'
+#results$Player[which(results$OwnerWeek=='lucas-11' & results$Player=='Cooper Kupp')] <- 'Allen Robinson'
+#results$Player[which(results$OwnerWeek=='lucas-11' & results$Pos=='QB-1' & results$Slot=='BYE')] <- 'Ben Roethlisberger'
+#results$Player[which(results$OwnerWeek=='lucas-11' & results$Pos=='K' & results$Slot=='BYE')] <- 'Matt Bryant'
+#results$Player[which(results$OwnerWeek=='lucas-11' & results$Pos=='TE-1' & results$Slot=='BYE')] <- 'Kyle Rudolph'
 
 #######################################################
 results[which(results$Slot!=''),]
