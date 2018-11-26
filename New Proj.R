@@ -312,6 +312,9 @@ results_Final[which(results_Final$OwnerWeekPos=='aj-9D/ST'),c('Final','proj','st
 results_Final[which(results_Final$OwnerWeekPos=='perry-9TE-1'),c('Final','proj','std','Var')] <- 0
 results_Final[which(results_Final$OwnerWeekPos=='aj-10D/ST'),c('Final','proj','std','Var')] <- 0
 results_Final[which(results_Final$OwnerWeekPos=='aj-11D/ST'),c('Final','proj','std','Var')] <- 0
+results_Final[which(results_Final$OwnerWeekPos=='aj-12D/ST'),c('Final','proj','std','Var')] <- 0
+results_Final[which(results_Final$OwnerWeekPos=='aj-12TE-1'),c('Final','proj','std','Var')] <- 0
+results_Final[which(results_Final$OwnerWeekPos=='aj-12K'),c('Final','proj','std','Var')] <- 0
 
 ######create proj by week
 proj_sq <- function(x) {
