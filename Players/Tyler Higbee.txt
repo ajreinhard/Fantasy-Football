@@ -1,0 +1,3557 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>Tyler Higbee Projections</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwIBVVNSGwUGUFJRBwc="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(16),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(17),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,v="fn"+h,w="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(v,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(19)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(19)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(19)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(19)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(19)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,w="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(w,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===w||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(16),s=t(17),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){if(!o)return!1;if(t!==o)return!1;if(!n)return!0;if(!i)return!1;for(var e=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==e[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}n.exports={agent:o,version:i,match:r}},{}],16:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],17:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],18:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],19:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(17),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=m(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[g[e]];return d&&d.push([b,e,r,a]),a}}function p(t,n){y[t]=m(t).concat(n)}function h(t,n){var e=y[t];if(e)for(var r=0;r<e.length;r++)e[r]===n&&e.splice(r,1)}function m(t){return y[t]||[]}function v(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",g[e]=n,n in u||(u[n]=[])})}var y={},g={},b={on:p,addEventListener:p,removeEventListener:h,emit:e,get:v,listeners:m,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(16),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!E++){var t=x.info=NREUM.info,n=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(g,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+x.offset],null,"api");var e=p.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===p.readyState&&i()}function i(){c("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-x.offset}var s=(new Date).getTime(),c=t("handle"),f=t(16),u=t("ee"),d=t(15),l=window,p=l.document,h="addEventListener",m="attachEvent",v=l.XMLHttpRequest,w=v&&v.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:v,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var y=""+location,g={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1099.min.js"},b=v&&w&&w[h]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:s,now:a,origin:y,features:{},xhrWrappable:b,userAgent:d};t(12),p[h]?(p[h]("DOMContentLoaded",i,!1),l[h]("load",r,!1)):(p[m]("onreadystatechange",o),l[m]("onload",r)),c("mark",["firstbyte",s],null,"api");var E=0,O=t(18)},{}]},{},["loader",2,10,4,3]);</script>
+
+    <meta name="apple-itunes-app" content="app-id=907642513">
+
+    <link rel="stylesheet" type="text/css" href="/css/main.min.css?v=324">
+
+    
+    <script src="//use.typekit.net/hvg3qyl.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <script type="text/javascript">
+        var NF_DATA = {"is_logged_in":false,"FACEBOOK_APP_NAMESPACE":"numberfire","FACEBOOK_APP_ID":"103292676390270"};
+        var GAQ_PUSH = [];
+        var KMQ_PUSH = [];
+        var FBQ_PUSH = [];
+    </script>
+
+    <meta name="google-site-verification" content="msBGELE8fxr0wulpL7zwPetSi3Njb1mvPSZpodL_iyM" />
+    <meta name="tinfoil-site-verification" content="8686b5104c26e5458c1486868a468e4e85b5f97f" />
+
+
+<!--TODO - MKS - Add https://cdnjs.cloudflare.com/ajax/libs/jquery-timeago/1.5.2/jquery.timeago.min.js  here and remove the timeago js file once we start using the cdn for jquery-->
+<!--     <script>var isBlocked=true;</script>
+    <script type="text/javascript" src="/js/ads.js"></script> -->
+
+            <script>
+	// Load GPT asynchronously
+	var googletag = googletag || {};
+	googletag.cmd = googletag.cmd || [];
+	(function() {
+		var gads = document.createElement('script');
+		gads.async = true;
+		var useSSL = 'https:' == document.location.protocol;
+		gads.src = (useSSL ? 'https:' : 'http:') +
+			'//www.googletagservices.com/tag/js/gpt.js';
+		var node = document.getElementsByTagName('script')[0];
+		node.parentNode.insertBefore(gads, node);
+	})();
+</script>
+
+	<script type='text/javascript'>
+		var google_ad_slots = [];
+		googletag.cmd.push(function() {
+
+					var mapping = googletag.sizeMapping().
+
+							addSize([0,0], [320,50]).
+							addSize([768,0], [728,90]).
+							addSize([1024,0], [970,90]).
+							build();
+
+			google_ad_slots['div-gpt-ad-1474923449995-0'] = googletag.defineSlot('/133200912/R_NFL_PlayerPage_970x90_728x90_320x50_Top', [[320,50],[728,90],[970,90]], 'div-gpt-ad-1474923449995-0').defineSizeMapping(mapping).addService(googletag.pubads());
+					var mapping = googletag.sizeMapping().
+
+							addSize([0,0], [336,280]).
+							build();
+
+			google_ad_slots['div-gpt-ad-1470252852981-0'] = googletag.defineSlot('/133200912/R_NFL_PlayerPage_336x280_Top', [[336,280]], 'div-gpt-ad-1470252852981-0').defineSizeMapping(mapping).addService(googletag.pubads());
+					var mapping = googletag.sizeMapping().
+
+							addSize([0,0], [336,280]).
+							build();
+
+			google_ad_slots['div-gpt-ad-1470252927369-0'] = googletag.defineSlot('/133200912/R_NFL_PlayerPage_336x280_Bottom', [[336,280]], 'div-gpt-ad-1470252927369-0').defineSizeMapping(mapping).addService(googletag.pubads());
+					var mapping = googletag.sizeMapping().
+
+							addSize([0,0], [336,280]).
+							addSize([768,0], [728,90]).
+							addSize([1024,0], [970,90]).
+							build();
+
+			google_ad_slots['div-gpt-ad-1470252990156-0'] = googletag.defineSlot('/133200912/R_NFL_PlayerPage_970x90_728x90_336x280_Bottom', [[336,280],[728,90],[970,90]], 'div-gpt-ad-1470252990156-0').defineSizeMapping(mapping).addService(googletag.pubads());
+		
+		
+					googletag.pubads().enableSingleRequest();
+					googletag.pubads().collapseEmptyDivs();
+					googletag.enableServices();
+		
+		});
+	</script>
+
+    
+    	<script src="//cdn.optimizely.com/js/3748342478.js"></script>
+
+<script type="text/javascript">var _kmq = _kmq || [];
+	var _kmk = _kmk || '378de5e4330ef0c64763e35eb74c07dccffe032b';
+	function _kms(u){
+		setTimeout(function(){
+			var d = document, f = d.getElementsByTagName('script')[0],
+				s = d.createElement('script');
+			s.type = 'text/javascript'; s.async = true; s.src = u;
+			f.parentNode.insertBefore(s, f);
+		}, 1);
+	}
+	_kms('//i.kissmetrics.com/i.js');
+	_kms('//scripts.kissmetrics.com/' + _kmk + '.2.js');
+</script>
+
+
+
+<meta name="description" content="numberFire uses the powers of quantitative analysis to be the world's most accurate predictor of sports performance."/>
+
+	<!-- Hotjar Tracking Code for https://www.numberfire.com/ -->
+	<script>
+		(function(h,o,t,j,a,r){
+			h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+			h._hjSettings={hjid:257013,hjsv:5};
+			a=o.getElementsByTagName('head')[0];
+			r=o.createElement('script');r.async=1;
+			r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+			a.appendChild(r);
+		})(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+	</script>
+
+<script type="text/javascript">
+	window.heap=window.heap||[],heap.load=function(t,e){window.heap.appid=t,window.heap.config=e;var a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=("https:"===document.location.protocol?"https:":"http:")+"//cdn.heapanalytics.com/js/heap.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(t){return function(){heap.push([t].concat(Array.prototype.slice.call(arguments,0)))}},p=["identify","track"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
+	heap.load("2584406338");
+</script>
+
+<!-- Start Alexa Certify Javascript -->
+<script type="text/javascript">
+	_atrk_opts = { atrk_acct:"AbDqk1aklw00W7", domain:"numberfire.com",dynamic: true};
+	(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script>
+<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=AbDqk1aklw00W7" style="display:none" height="1" width="1" alt="" /></noscript>
+<!-- End Alexa Certify Javascript -->
+
+	<script src="//cdn.taboola.com/libtrc/numberfire14-sc/tfa.js"></script>
+
+	<!-- Facebook Pixel Code -->
+	<script>
+		!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+			n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+			n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+			t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+			document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+		fbq('init', '1140053056006960');
+		fbq('track', "PageView");</script>
+	<noscript><img height="1" width="1" style="display:none"
+	               src="https://www.facebook.com/tr?id=1140053056006960&ev=PageView&noscript=1"
+		/></noscript>
+	<!-- End Facebook Pixel Code -->
+</head>
+    <body class="persistent  ignore--padding-top  ">
+    	<!-- Begin comScore Tag -->
+	<script>
+		var _comscore = _comscore || [];
+		_comscore.push({ c1: "2", c2: "17442977" });
+		(function() {
+			var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+			s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+			el.parentNode.insertBefore(s, el);
+		})();
+	</script>
+	<noscript>
+		<img src="//b.scorecardresearch.com/p?c1=2&c2=17442977&cv=2.0&cj=1" />
+	</noscript>
+	<!-- End comScore Tag -->
+
+<!-- Qualaroo for numberfire.com -->
+<!-- Paste this code right after the <body> tag on every page of your site. -->
+<script type="text/javascript">
+	var _kiq = _kiq || [];
+	(function(){
+		setTimeout(function(){
+			var d = document, f = d.getElementsByTagName('script')[0], s = d.createElement('script'); s.type = 'text/javascript';
+			s.async = true; s.src = '//s3.amazonaws.com/ki.js/63563/eD2.js'; f.parentNode.insertBefore(s, f);
+		}, 1);
+	})();
+</script>
+
+
+<div id="fb-root"></div>
+<script>
+	window.fbAsyncInit = function() {
+		// init the FB JS SDK
+		FB.init({
+			appId      : '103292676390270', // App ID from the App Dashboard
+			status     : true, // check the login status upon init?
+			cookie     : true, // set sessions cookies to allow your server to access the session?
+			xfbml		 : true,
+			version    : 'v2.8'
+		});
+	};
+
+	// Load the SDK's source Asynchronously
+	// Note that the debug version is being actively developed and might
+	// contain some type checks that are overly strict.
+	// Please report such bugs using the bugs tool.
+	(function(d, s, id){
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) {return;}
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+
+	function postToFeed(title, desc, url, image){
+		var obj = {method: 'feed',link: url, picture: image,name: title,description: desc};
+		function callback(response){}
+		FB.ui(obj, callback);
+	}
+</script>
+<script type="text/javascript">var hasoffers_domain = "https://numberfire.go2cloud.org";</script><script type="text/javascript" src="https://media.go2speed.org/assets/js/dl.js"></script>
+
+    <div id="react-scoreboard" class="scoreboard-wrap  " data-live-scoreboard></div>
+
+    <div class="full-overlay" data-overlay></div>
+
+
+    <div class="modal numberFire-login">
+	<span class="nf-icon icon-close"></span>
+	<div class="modal-container">
+	    <h2>Log in to numberFire</h2>
+		<p>To get the full benefits of numberFire, please log in.</p>
+		<p>You'll get the best projections in the business!</p>
+		<ul>
+	        <li>
+		        <a href="/account/login-facebook?ref=modal" class="button button--facebook lg">
+		        	<span class="nf-icon icon-facebook"></span> Log In with Facebook
+		        </a>
+	        </li>
+	        <li>
+	        	<a href="/account/login-yahoo?ref=modal" class="button button--yahoo lg">
+	        		<span class="nf-icon icon-yahoo-y"></span> Log In With Yahoo
+	        	</a>
+	        </li>
+	        <li>
+	        	<a href="/account/login-google-plus?ref=modal" class="button button--google lg">
+	        		<span class="nf-icon icon-google"></span> Log In with Google
+	        	</a>
+	        </li>
+	    </ul>
+
+		<span class="not-member-already">
+			Don't have an account? <a data-signup-modal-open><strong>Click here to sign up!</strong></a>
+		</span>
+	</div>
+</div>
+
+    <div class="modal numberFire-signup">
+	<span class="nf-icon icon-close"></span>
+	<div class="modal-container">
+		<img src="https://d1tjohjvimcqgl.cloudfront.net/webile/images/numberfire-logo-black.png" alt="" class="modal-logo">
+		<h2>Start Winning In Seconds</h2>
+		<p>To get the full benefits of numberFire, please sign up.</p>
+		<p>You'll get the best projections in the business!</p>
+		<ul>
+			<li><a href="/account/login-facebook?ref=page" class="button lg button--facebook"><span class="nf-icon icon-facebook"></span> Sign Up with Facebook</a></li>
+			<li><a href="/account/login-yahoo?ref=page" class="button lg button--yahoo"><span class="nf-icon icon-yahoo-y"></span> Sign Up With Yahoo</a></li>
+			<li><a href="/account/login-google-plus?ref=page" class="button lg button--google"><span class="nf-icon icon-google"></span> Sign Up with Google</a></li>
+		</ul>
+		<p class="sm terms">By registering, you indicate that you agree to the <a href="/info/terms-of-service">Terms Of Service</a>.</p>
+		<span class="member-already">
+			Already have an account? <a data-login-modal-open><strong>Click here to log in!</strong></a>
+		</span>
+	</div>
+</div>
+    
+<!-- class of 'banner-active' when there is a banner spotlight active above -->
+
+<nav class="main-nav" data-main-nav>
+    <div class="main-nav__wrap">
+
+        <div class="main-nav__wrap__item mobile-nav small-show--inline" data-mobile-nav-icon>
+            <span class="mobile-menu"></span>
+        </div>
+
+        <div class="main-nav__wrap__item logo tablet-show--inline">
+            <a href="/">numberfire<i class="nf-icon icon-numberfire-nf"></i></a>
+        </div>
+        <ul class="main-nav__wrap--content">
+
+            <!-- Premium Mobile Fly Drop -->
+
+            <li class="main-nav__wrap__item premium large-hide">
+                <a href="/premium"><i class="nf-icon icon-premium"></i>Premium</a><i class="nf-icon icon-caret-down"></i>
+
+                <div class="main-nav__sub-nav">
+                    <ul class="premium--sub-nav">
+                        <li class="hed">Game Projections</li>
+
+                        <li><a href="/nba/games">NBA Game Projections</a></li>
+                        <li><a href="/nfl/games">NFL Game Projections</a></li>
+                        <li><a href="/mlb/games">MLB Game Projections</a></li>
+                        <li><a href="/ncaab/games">NCAAB Game Projections</a></li>
+                        <li><a href="/ncaaf/games">NCAAF Game Projections</a></li>
+                        <li><a href="/nhl/games">NHL Game Projections</a></li>
+                        <li><a href="/nfl/survivor-pool">NFL Survivor Pool Analysis</a></li>
+                        <li><a href="/nfl/survivor-pool-matrix">NFL Survivor Pool Matrix</a></li>
+
+                        <li class="hed">Analytics</li>
+                        <li><a href="/nfl/players/analytics">NFL Player Analytics</a></li>
+						<li><a href="/nfl/fantasy/snap-count">NFL Snap Counts</a></li>
+                        <li><a href="/golf/daily-fantasy/player-stats">Golf Player Analytics</a></li>
+                    </ul>
+
+                    <ul class="premium--sub-nav">
+                        <li class="hed">Daily Fantasy</li>
+                        <li><a href="/nfl/daily-fantasy/matchup-heat-map">NFL Matchup Heat Map</a></li>
+                        <li><a href="/nfl/daily-fantasy/lineup-generator">NFL Custom Optimal Lineups</a></li>
+                        <li><a href="/nfl/daily-fantasy/lineup-generator/multiple">NFL Custom Lineup Combinations</a></li>
+                        <li><a href="/nba/daily-fantasy/matchup-heat-map">NBA Matchup Heat Map</a></li>
+                        <li><a href="/nba/daily-fantasy/lineup-generator">NBA Custom Optimal Lineups</a></li>
+                        <li><a href="/nba/daily-fantasy/lineup-generator/multiple">NBA Custom Lineup Combinations</a></li>
+                        <li><a href="/mlb/daily-fantasy/matchup-heat-map">MLB Matchup Heat Map</a></li>
+                        <li><a href="/mlb/daily-fantasy/lineup-generator">MLB Custom Optimal Lineups</a></li>
+                        <li><a href="/mlb/daily-fantasy/lineup-generator/multiple">MLB Custom Lineup Combinations</a></li>
+                        <li><a href="/nhl/daily-fantasy/matchup-heat-map">NHL Matchup Heat Map</a></li>
+                        <li><a href="/nhl/daily-fantasy/lineup-generator">NHL Custom Optimal Lineups</a></li>
+                        <li><a href="/nhl/daily-fantasy/lineup-generator/multiple">NHL Custom Lineup Combinations</a></li>
+                    </ul>
+
+                    <ul class="premium--sub-nav">
+                        <li class="hed">More Info</li>
+                        <li><a href="/premium/features">Features</a></li>
+                        <li><a href="/premium/pricing">Pricing</a></li>
+                        <li><a href="/premium/faq">FAQ</a></li>
+                    </ul>
+                </div>
+            </li>
+            <!-- <li class="main-nav__wrap__item march-madness-nav tablet-down-hide">
+                <a href="/nfl/fantasy/fantasy-football-cheat-sheet/overall" data-navtitle="WORLD CUP"><i class="nf-icon icon-nfl large-hide"></i>DRAFT KIT</a><span class="sport--arrow"></span>
+                <ul class="main-nav__sub-nav">
+					<li>
+                        <a href="/nfl/fantasy/fantasy-football-cheat-sheet/overall">Draft Rankings</a>
+                    </li>
+                    <li>
+                        <a href="/nfl/fantasy/fantasy-football-cheat-sheet/auction-values"><i class="nf-icon icon-premium"></i> Auction Values</a>
+                    </li>
+                    <li>
+                        <a href="/nfl/fantasy/fantasy-football-cheat-sheet/risk-profiles"><i class="nf-icon icon-premium"></i> Risk Profiles</a>
+                    </li>
+                    <li>
+                        <a href="/nfl/fantasy/fantasy-football-cheat-sheet/player-matchups/qb"><i class="nf-icon icon-premium"></i> Matchups</a>
+                    </li>
+					<li>
+						<a href="/nfl/fantasy/fantasy-football-cheat-sheet/depth-charts"><i class="nf-icon icon-premium"></i> Depth Charts</a>
+					</li>
+					<li>
+						<a href="/nfl/fantasy/fantasy-football-cheat-sheet/tier-sheets"><i class="nf-icon icon-premium"></i> Tier Sheets</a>
+					</li>
+					<li>
+						<a href="/nfl/fantasy/fantasy-football-cheat-sheet/game-by-game/qb"><i class="nf-icon icon-premium"></i> 2017 Game By Game</a>
+					</li>
+					<li>
+						<a href="/nfl/fantasy/fantasy-football-cheat-sheet/last-season/overall"><i class="nf-icon icon-premium"></i> 2017 Season Rankings</a>
+					</li>
+					<li>
+						<a href="/nfl/fantasy/who-do-i-draft">Who Do I Draft?</a>
+					</li>
+                </ul>
+            </li> -->
+
+            <li class="main-nav__wrap__item active">
+                <a href="/nfl" data-navtitle="NFL"><i class="nf-icon icon-nfl large-hide"></i>NFL</a><span class="sport--arrow"></span>
+                 <ul>
+                    <li class="large-hide">
+                        <a href="/nfl">NFL Home</a>
+                        <span class="main-nav__new-callout">NEW</span>
+                    </li>
+                    <li><a href="/nfl/fantasy/fantasy-football-cheat-sheet/overall">2018 Draft Kit</a></li>
+                    <li><a href="/nfl/front-row">Front Row</a><span class="main-nav__new-callout">NEW</span></li>
+                    <li><a href="/nfl/news">Articles &amp; Analysis</a></li>
+                    <li><a href="/nfl/player-news">Player News</a></li>
+                    <li class="has-sub-nav">
+                        <a href="/nfl/fantasy/fantasy-football-projections">Projections <i class="nf-icon icon-arrow-right"></i></a>
+                        <ul class="sub-nav-tier-two">
+                            <li>
+                                <a href="/nfl/fantasy/fantasy-football-projections">Week 13 Fantasy Projections</a>
+                            </li>
+                            <li>
+                                <a href="/nfl/fantasy/fantasy-football-ppr-projections">Week 13 Fantasy PPR Projections</a>
+                            </li>
+                            <li>
+                                <a href="/nfl/daily-fantasy/daily-football-projections">Week 13 Daily Football Projections</a>
+                            </li>
+                            <li>
+                                <a href="/nfl/games">Week 13 Game Projections</a>
+                            </li>
+                            <li>
+                                <a href="/nfl/survivor-pool">Week 13 Survivor Pool Analysis</a>
+                            </li>
+                            <li>
+                                <a href="/nfl/survivor-pool-matrix">Week 13 Survivor Pool Matrix</a>
+                            </li>
+                            <li>
+                                <a href="/nfl/daily-fantasy/who-do-i-start">Who Do I Start? Tool</a>
+                            </li>
+                            <li>
+                                <a href="/nfl/fantasy/remaining-projections">Rest Of Season Projections</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-sub-nav"><a href="/nfl/daily-fantasy">Daily Fantasy <i class="nf-icon icon-arrow-right"></i></a>
+                        <ul class="sub-nav-tier-two">
+                            <li>
+                                <a href="/nfl/daily-fantasy/">DFS Home</a>
+                                <span class="main-nav__new-callout">NEW</span>
+                            </li>
+                            <li>
+                                <a href="/nfl/daily-fantasy/daily-football-projections">DFS Projections</a>
+                            </li>
+                            <li>
+                                <a href="/nfl/daily-fantasy/lineup-generator">DFS Lineup Generator</a>
+                            </li>
+                            <li>
+                                <a href="/nfl/daily-fantasy/games">DFS Starting Lineups &amp; Game Info</a>
+                            </li>
+                            <li>
+                                <a href="/nfl/daily-fantasy/advanced-stats">DFS Advanced Stats</a>
+                            </li>
+                            <li>
+                                <a href="/nfl/daily-fantasy/trends">DFS Trends</a>
+                            </li>
+                            <li>
+                                <a href="/nfl/daily-fantasy/lineups/all/most-liked">DFS Top Submitted Lineups</a>
+                            </li>
+                            <li>
+                                <a href="/nfl/daily-fantasy/matchup-heat-map">DFS Matchup Heat Map</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-sub-nav"><a href="/nfl/teams/power-rankings">Rankings <i class="nf-icon icon-arrow-right"></i></a>
+                        <ul class="sub-nav-tier-two">
+                            <li>
+                               <a href="/nfl/fantasy/fantasy-football-rankings">Week 13 Fantasy Football Rankings</a>
+                            </li>
+                            <li>
+                               <a href="/nfl/teams/power-rankings">Team Power Rankings</a>
+                            </li>
+                            <li>
+                               <a href="/nfl/players/analytics">Player Analytics</a>
+                            </li>
+                        </ul>
+                    </li>
+				 	<li><a href="/nfl/fantasy/snap-count">Snap Counts</a></li>
+                    <li><a href="/nfl/fantasy/my-teams">My Teams</a></li>
+                    <li><a href="/nfl/questions">Questions</a></li>
+                    <li><a href="/nfl/players">Players</a></li>
+                    <li><a href="/nfl/teams">Teams</a></li>
+                </ul>
+            </li>
+			<li class="main-nav__wrap__item ">
+				<a href="/nba" data-navtitle="NBA"><i class="nf-icon icon-nba large-hide"></i>NBA</a><span class="sport--arrow"></span>
+				<ul>
+					<li class="large-hide"><a href="/nba">NBA Home</a></li>
+					<li><a href="/nba/news">Articles &amp; Analysis</a></li>
+					<li><a href="/nba/player-news">Player News</a></li>
+					<li class="has-sub-nav"><a href="/nba/daily-fantasy/daily-basketball-projections">Projections <i class="nf-icon icon-arrow-right"></i></a>
+						<ul class="sub-nav-tier-two">
+							<li>
+								<a href="/nba/daily-fantasy/daily-basketball-projections">Daily Basketball Projections</a>
+							</li>
+							<li>
+								<a href="/nba/games">Game Projections</a>
+							</li>
+							<li>
+								<a href="/nba/daily-fantasy/who-do-i-start">Who Do I Start? Tool</a>
+							</li>
+							<li>
+								<a href="/nba/fantasy/weekly-projections">Weekly Projections</a>
+							</li>
+							<li>
+								<a href="/nba/fantasy/remaining-projections">Remaining Year Projections</a>
+							</li>
+							<li>
+								<a href="/nba/fantasy/yearly-projections">Yearly Projections</a>
+							</li>
+							<li>
+								<a href="/nba/fantasy/season-stats">Season Stats</a>
+							</li>
+						</ul>
+					</li>
+					<li class="has-sub-nav"><a href="/nba/daily-fantasy">Daily Fantasy <i class="nf-icon icon-arrow-right"></i></a>
+						<ul class="sub-nav-tier-two">
+							<li>
+								<a href="/nba/daily-fantasy/">DFS Home</a>
+                                <span class="main-nav__new-callout">NEW</span>
+							</li>
+							<li>
+								<a href="/nba/daily-fantasy/daily-basketball-projections">DFS Projections</a>
+							</li>
+							<li>
+								<a href="/nba/daily-fantasy/lineup-generator">DFS Lineup Generator</a>
+							</li>
+							<li>
+								<a href="/nba/daily-fantasy/advanced-stats">DFS Advanced Stats</a>
+							</li>
+							<li>
+								<a href="/nba/daily-fantasy/trends">DFS Trends</a>
+							</li>
+							<li>
+								<a href="/nba/daily-fantasy/games">DFS Starting Lineups &amp; Game Info</a>
+							</li>
+							<li>
+								<a href="/nba/daily-fantasy/lineups/all/most-liked">DFS Top Submitted Lineups</a>
+							</li>
+							<li>
+								<a href="/nba/daily-fantasy/matchup-heat-map">DFS Matchup Heat Map</a>
+							</li>
+						</ul>
+					</li>
+					<li class="has-sub-nav"><a href="/nba/teams/power-rankings">Rankings <i class="nf-icon icon-arrow-right"></i></a>
+						<ul class="sub-nav-tier-two">
+							<li>
+								<a href="/nba/fantasy/fantasy-basketball-rankings">Fantasy Basketball Rankings</a>
+							</li>
+							<li>
+								<a href="/nba/teams/power-rankings">Team Power Rankings</a>
+							</li>
+							<li>
+								<a href="/nba/players/power-rankings">Player Power Rankings</a>
+							</li>
+						</ul>
+					</li>
+					<li><a href="/nba/questions">Questions</a></li>
+					<li><a href="/nba/players">Players</a></li>
+					<li><a href="/nba/teams">Teams</a></li>
+				</ul>
+			</li>
+
+			<li class="main-nav__wrap__item ">
+				<a href="/mlb" data-navtitle="MLB"><i class="nf-icon icon-mlb large-hide"></i>MLB</a><span class="sport--arrow"></span>
+				<ul class="main-nav__sub-nav">
+					<li class="large-hide"><a href="/mlb">MLB Home</a></li>
+					<li><a href="/mlb/news">Articles &amp; Analysis</a></li>
+					<li><a href="/mlb/player-news">Player News</a></li>
+					<li class="has-sub-nav"><a href="/mlb/daily-fantasy/daily-baseball-projections">Projections <i class="nf-icon icon-arrow-right"></i></a>
+						<ul class="sub-nav-tier-two">
+							<li>
+								<a href="/mlb/daily-fantasy/daily-baseball-projections">Daily Baseball Projections</a>
+							</li>
+							<li>
+								<a href="/mlb/games">Game Projections</a>
+							</li>
+							<li>
+								<a href="/mlb/daily-fantasy/who-do-i-start">Who Do I Start? Tool</a>
+							</li>
+							<li>
+								<a href="/mlb/fantasy/weekly-projections">Weekly Projections</a>
+							</li>
+							<li>
+								<a href="/mlb/fantasy/remaining-projections">Remaining Year Projections</a>
+							</li>
+							<li>
+								<a href="/mlb/fantasy/yearly-projections">Yearly Projections</a>
+							</li>
+							<li>
+								<a href="/mlb/fantasy/season-stats">Season Stats</a>
+							</li>
+						</ul>
+					</li>
+					<li class="has-sub-nav"><a href="/mlb/daily-fantasy">Daily Fantasy <i class="nf-icon icon-arrow-right"></i></a>
+						<ul class="sub-nav-tier-two">
+							<li>
+								<a href="/mlb/daily-fantasy/">DFS Home</a>
+                                <span class="main-nav__new-callout">NEW</span>
+							</li>
+							<li>
+								<a href="/mlb/daily-fantasy/daily-baseball-projections">DFS Projections</a>
+							</li>
+							<li>
+								<a href="/mlb/daily-fantasy/lineup-generator">DFS Lineup Generator</a>
+							</li>
+							<li>
+								<a href="/mlb/daily-fantasy/games">DFS Starting Lineups &amp; Game Info</a>
+							</li>
+							<li>
+								<a href="/mlb/daily-fantasy/lineups/all/most-liked">DFS Top Submitted Lineups</a>
+							</li>
+							<li>
+								<a href="/mlb/daily-fantasy/matchup-heat-map">DFS Matchup Heat Map</a>
+							</li>
+						</ul>
+					</li>
+					<li class="has-sub-nav"><a href="/mlb/teams/power-rankings">Rankings <i class="nf-icon icon-arrow-right"></i></a>
+						<ul class="sub-nav-tier-two">
+							<li>
+								<a href="/mlb/fantasy/fantasy-baseball-rankings">Fantasy Baseball Rankings</a>
+							</li>
+							<li>
+								<a href="/mlb/teams/power-rankings">Team Power Rankings</a>
+							</li>
+							<li>
+								<a href="/mlb/players/power-rankings">Player Power Rankings</a>
+							</li>
+						</ul>
+					</li>
+					<li><a href="/mlb/questions">Questions</a></li>
+					<li><a href="/mlb/players">Players</a></li>
+					<li><a href="/mlb/teams">Teams</a></li>
+				</ul>
+			</li>
+
+
+
+            <li class="main-nav__wrap__item ">
+                <a href="/nhl" data-navtitle="NHL"><i class="nf-icon icon-nhl large-hide"></i>NHL</a><span class="sport--arrow"></span>
+                <ul>
+                    <li class="large-hide"><a href="/nhl">NHL Home</a></li>
+                    <li><a href="/nhl/news">Articles &amp; Analysis</a></li>
+                    <li><a href="/nhl/player-news">Player News</a></li>
+                    <li class="has-sub-nav"><a href="/nhl/daily-fantasy/daily-hockey-projections">Projections <i class="nf-icon icon-arrow-right"></i></a>
+                        <ul class="sub-nav-tier-two">
+                            <li>
+                                <a href="/nhl/daily-fantasy/daily-hockey-projections">Daily Hockey Projections</a>
+                            </li>
+                            <li>
+                                <a href="/nhl/games">Game Projections</a>
+                            </li>
+                            <li>
+                                <a href="/nhl/fantasy/remaining-projections">Remaining Year Projections</a>
+                            </li>
+                            <li>
+                                <a href="/nhl/fantasy/yearly-projections">Yearly Projections</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-sub-nav"><a href="/nhl/daily-fantasy">Daily Fantasy <i class="nf-icon icon-arrow-right"></i></a>
+                        <ul class="sub-nav-tier-two">
+                            <li>
+                                <a href="/nhl/daily-fantasy">DFS Home</a>
+                                <span class="main-nav__new-callout">NEW</span>
+                            </li>
+                            <li>
+                                <a href="/nhl/daily-fantasy/daily-hockey-projections">DFS Projections</a>
+                            </li>
+                            <li>
+                                <a href="/nhl/daily-fantasy/lineup-generator">DFS Lineup Generator</a>
+                            </li>
+                            <li>
+                                <a href="/nhl/daily-fantasy/games">DFS Starting Lineups &amp; Game Info</a>
+                            </li>
+                            <li>
+                                <a href="/nhl/daily-fantasy/lineups">DFS Top Submitted Lineups</a>
+                            </li>
+                            <li>
+                                <a href="/nhl/daily-fantasy/matchup-heat-map">DFS Matchup Heat Map</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-sub-nav"><a href="/nhl/teams/power-rankings">Rankings <i class="nf-icon icon-arrow-right"></i></a>
+                        <ul class="sub-nav-tier-two">
+                            <li>
+                                <a href="/nhl/teams/power-rankings">Team Power Rankings</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="/nhl/questions">Questions</a></li>
+                    <li><a href="/nhl/players">Players</a></li>
+                    <li><a href="/nhl/teams">Teams</a></li>
+                </ul>
+            </li>
+            <!-- <li class="main-nav__wrap__item active">
+                <a href="/golf" data-navtitle="Golf"><i class="nf-icon icon-nhl large-hide"></i>Golf</a><span class="sport--arrow"></span>
+                <ul>
+                    <li class="large-hide"><a href="/golf">Golf Home</a></li>
+                    <li><a href="/golf/news">News</a></li>
+                </ul>
+            </li> -->
+            <!-- NCAAF MAIN NAV - noted off until back in season -->
+            <!-- <li class="main-nav__wrap__item tablet-down-hide active">
+                <a href="/ncaaf" data-navtitle="NCAAF"><i class="nf-icon icon-ncaaf large-hide"></i>NCAAF</a><span class="sport--arrow"></span>
+                <ul class="main-nav__sub-nav">
+                    <li class="large-hide"><a href="/ncaaf">NCAAF Home</a></li>
+                    <li><a href="/ncaaf/news">News</a></li>
+                    <li><a href="/ncaaf/player-news">Player News</a></li>
+                    <li class="has-sub-nav"><a href="/ncaaf/games">Projections <i class="nf-icon icon-arrow-right"></i></a>
+                        <ul class="sub-nav-tier-two">
+                            <li>
+                                <a href="/ncaaf/games">Game Projections</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-sub-nav"><a href="/ncaaf/power-rankings/">Rankings <i class="nf-icon icon-arrow-right"></i></a>
+                        <ul class="sub-nav-tier-two">
+                            <li>
+                               <a href="/ncaaf/teams/power-rankings">Team Power Rankings</a>
+                           </li>
+                        </ul>
+                    </li>
+                    <li><a href="/ncaaf/questions">Questions</a></li>
+                    <li><a href="/ncaaf/teams">Teams</a></li>
+                </ul>
+            </li> -->
+            <!-- NCAAB MAIN NAV - noted off until back in season -->
+            <!-- <li class="main-nav__wrap__item tablet-down-hide active">
+                <a href="/ncaab" data-navtitle="NCAAB"><i class="nf-icon icon-ncaaf large-hide"></i>NCAAB</a><span class="sport--arrow"></span>
+                <ul class="main-nav__sub-nav">
+                    <li class="large-hide"><a href="/ncaaf">NCAAB Home</a></li>
+                    <li>
+                        <a href="/ncaab/news">News</a>
+                    </li>
+                    <li>
+                        <a href="/ncaab/player-news">Player News</a>
+                    </li>
+                    <li class="has-sub-nav">
+                        <a href="/ncaab/march-madness">March Madness <i class="nf-icon icon-arrow-right"></i></a>
+                        <ul class="sub-nav-tier-two">
+                            <li>
+                               <a href="/ncaab/march-madness">Home</a>
+                           </li>
+                           <li>
+                              <a href="/ncaab/march-madness/bracket-generator">Bracket Generator</a>
+                          </li>
+                          <li>
+                             <a href="/ncaab/march-madness/game-simulator">Game Simulator</a>
+                         </li>
+                         <li>
+                            <a href="/ncaab/march-madness/stage-odds">Stage Odds</a>
+                        </li>
+                        <li>
+                           <a href="/ncaab/march-madness/power-rankings">Power Rankings</a>
+                       </li>
+                        </ul>
+                    </li>
+                    <li class="has-sub-nav">
+                        <a href="/ncaab/games/">Projections <i class="nf-icon icon-arrow-right"></i></a>
+                        <ul class="sub-nav-tier-two">
+                            <li>
+                               <a href="/ncaab/games">Game Projections</a>
+                           </li>
+                        </ul>
+                    </li>
+                    <li class="has-sub-nav">
+                        <a href="/ncaab/teams/power-rankings">Rankings <i class="nf-icon icon-arrow-right"></i></a>
+
+                        <ul class="sub-nav-tier-two">
+                            <li>
+                               <a href="/ncaab/teams/power-rankings">Team Power Rankings</a>
+                           </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/ncaab/questions">Questions</a>
+                    </li>
+                    <li>
+                        <a href="/ncaab/teams">Teams</a>
+                    </li>
+                    <li>
+                        <a href="/ncaab/bracketology">Bracketology</a>
+                    </li>
+                </ul>
+            </li> -->
+
+<!--            <li class="main-nav__wrap__item tablet-down-hide --><!--active--><!--">-->
+<!--                <a href="/ncaab" data-navtitle="NCAAB"><i class="nf-icon icon-ncaab large-hide"></i>NCAAB</a><span class="sport--arrow"></span>-->
+<!--                <ul class="main-nav__sub-nav tablet-down-hide">-->
+<!--                    <li class="large-hide"><a href="/ncaab">NCAAB Home</a></li>-->
+<!--                    <li><a href="/ncaab/news">News</a></li>-->
+<!--                    <li><a href="/ncaab/player-news">Player News</a></li>-->
+<!--                    <li><a href="/ncaab/games/">Projections</a></li>-->
+<!--                    <li><a href="/ncaab/power-rankings/">Rankings</a></li>-->
+<!--                    <li><a href="/ncaab/questions">Questions</a></li>-->
+<!--                    <li><a href="/ncaab/teams">Teams</a></li>-->
+<!--                </ul>-->
+<!--            </li>-->
+
+<!--            <li class="main-nav__wrap__item ">-->
+<!--                <a href="/soccer"><i class="nf-icon icon-soccer large-hide"></i>Soccer</a><span class="sport--arrow"></span>-->
+<!--                <ul class="main-nav__sub-nav">-->
+<!--                    <li class="large-hide"><a href="/soccer">Soccer Home</a></li>-->
+<!--                    <li><a href="/soccer/news">News</a></li>-->
+<!--                    <li><a href="/soccer/games">Projections</a></li>-->
+<!--                    <li><a href="/soccer/world-cup/team-rankings">Rankings</a></li>-->
+<!--                    <li><a href="/questions">Questions</a></li>-->
+<!--                    <li><a href="/soccer/teams">Teams</a></li>-->
+<!--                </ul>-->
+<!--            </li>-->
+
+            <!-- 'More' Drop -->
+            <li class="main-nav__wrap__item more ">
+                <a data-navtitle="More"><i class="nf-icon icon-more large-hide"></i>More</a><span class="sport--arrow"></span>
+                <ul class="main-nav__sub-nav">
+                    <li class="has-sub-nav"><a href="/golf">Golf <i class="nf-icon icon-arrow-right"></i></a>
+                        <ul class="sub-nav-tier-two first">
+                            <li>
+                                <a href="/golf/news">Articles &amp; Analysis</a>
+                            </li>
+							<li class="has-sub-nav"><a href="/golf/daily-fantasy">Daily Fantasy <i class="nf-icon icon-arrow-right"></i></a>
+								<ul class="sub-nav-tier-two">
+									<li>
+										<a href="/golf/daily-fantasy">DFS Home</a>
+									</li>
+									<li>
+										<a href="/golf/daily-fantasy/daily-golf-projections">DFS Projections</a>
+									</li>
+									<li>
+										<a href="/golf/daily-fantasy/lineup-generator">DFS Lineup Generator</a>
+									</li>
+									<li>
+										<a href="/golf/daily-fantasy/player-stats">DFS Player Analytics</a>
+									</li>
+								</ul>
+							</li>
+							<li><a href="/golf/players">Players</a></li>
+                        </ul>
+                    </li>
+					<li class="has-sub-nav"><a href="/nascar">NASCAR <i class="nf-icon icon-arrow-right"></i></a>
+						<ul class="sub-nav-tier-two first">
+							<li>
+								<a href="/nascar/news">Articles &amp; Analysis</a>
+							</li>
+						</ul>
+					</li>
+                    <li class="has-sub-nav"><a href="/soccer">Soccer <i class="nf-icon icon-arrow-right"></i></a>
+                        <ul class="sub-nav-tier-two first">
+							<li>
+								<a href="/soccer/world-cup/">2018 World Cup</a>
+							</li>
+							<li>
+								<a href="/soccer/news">Articles &amp; Analysis</a>
+							</li>
+							<li>
+								<a href="/soccer/games/">Game Projections</a>
+							</li>
+							<li>
+								<a href="/soccer/world-cup/power-rankings">Rankings</a>
+							</li>
+							<li>
+								<a href="/soccer/teams">Teams</a>
+							</li>
+                        </ul>
+                    </li>
+                    <li class="has-sub-nav"><a href="/ncaaf">NCAAF <i class="nf-icon icon-arrow-right"></i></a>
+                        <ul class="sub-nav-tier-two first">
+                            <li>
+                                <a href="/ncaaf/news">Articles &amp; Analysis</a>
+                            </li>
+                            <li>
+                                <a href="/ncaaf/player-news">Player News</a>
+                            </li>
+                            <li>
+                                <a href="/ncaaf/games/">Game Projections</a>
+                            </li>
+							<li>
+								<a href="/ncaaf/daily-fantasy/matchup-heat-map">Matchup Heat Map</a>
+							</li>
+                            <li>
+                                <a href="/ncaaf/teams/power-rankings">Rankings</a>
+                            </li>
+                            <li>
+                                <a href="/ncaaf/teams">Teams</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-sub-nav"><a href="/ncaab">NCAAB <i class="nf-icon icon-arrow-right"></i></a>
+                        <ul class="sub-nav-tier-two first">
+                            <li>
+                                <a href="/ncaab/news">Articles &amp; Analysis</a>
+                            </li>
+							<li>
+								<a href="/ncaab/march-madness">March Madness</a>
+							</li>
+                            <li>
+                                <a href="/ncaab/player-news">Player News</a>
+                            </li>
+                            <li>
+                                <a href="/ncaab/games/">Game Projections</a>
+                            </li>
+                            <li>
+                                <a href="/ncaab/daily-fantasy/matchup-heat-map">Matchup Heat Map</a>
+                            </li>
+                            <li>
+                                <a href="/ncaab/teams/power-rankings">Rankings</a>
+                            </li>
+                            <li>
+                                <a href="/ncaab/teams">Teams</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!--                    TODO: MKS renable when supported-->
+                    <!--                    <li><a href="/soccer">Soccer</a></li>-->
+
+                    <!--                    <li class="large-hide list-separator"><a href="/ncaab">NCAAB Home</a></li>-->
+                    <!--                    <li class="large-hide"><a href="/ncaab/news">News</a></li>-->
+                    <!--                    <li class="large-hide"><a href="/ncaab/player-news">Player News</a></li>-->
+                    <!--                    <li class="large-hide"><a href="/ncaab/games/">Projections</a></li>-->
+                    <!--                    <li class="large-hide"><a href="/ncaab/power-rankings/">Rankings</a></li>-->
+                    <!--                    <li class="large-hide"><a href="/ncaab/questions">Questions</a></li>-->
+                    <!--                    <li class="large-hide"><a href="/ncaab/teams">Teams</a></li>-->
+
+                        <!-- <li class="large-hide"><a href="/ncaaf">NCAAF</a></li> -->
+                        <!-- <li class="large-hide"><a href="/ncaaf/news">News</a></li>
+                        <li class="large-hide"><a href="/ncaaf/player-news">Player News</a></li>
+                        <li class="large-hide"><a href="/ncaaf/games">Projections</a></li>
+                        <li class="large-hide"><a href="/ncaaf/power-rankings/">Rankings</a></li>
+                        <li class="large-hide"><a href="/ncaaf/questions">Questions</a></li>
+                        <li class="large-hide"><a href="/ncaaf/teams">Teams</a></li> -->
+
+                </ul>
+            </li>
+
+            <!-- Questions -->
+            <li class="main-nav__wrap__item questions tablet-down-hide ">
+                <!-- <span class="alert--dot alert--nav"></span> -->
+                <a href="/questions" data-navtitle="Questions">Questions</a><span class="sport--arrow"></span>
+                <div class="alert alert--white alert--tooltip">
+                    <span class="alert--caret"></span>
+                    Check out our revamped questions section! Get all the best advice from our fantasy community and help other people with their tough decisions.
+                </div>
+            </li>
+            <!-- Premium Drop -->
+            <li class="main-nav__wrap__item premium tablet-down-hide">
+                <a href="/premium" data-navtitle="Premium" class="premium--title"><i class="nf-icon icon-premium"></i> PREMIUM</a><span class="sport--arrow"></span>
+                <ul class="main-nav__sub-nav">
+                    <li><a href="/premium/pricing"><b>Sign Up Now!</b></a></li>
+                    <li class="has-sub-nav"><a>Game Projections <i class="nf-icon icon-arrow-right"></i></a>
+                        <ul class="sub-nav-tier-two">
+                            <li><a href="/nba/games">NBA Game Projections</a></li>
+                            <li><a href="/nfl/games">NFL Game Projections</a></li>
+                            <li><a href="/mlb/games">MLB Game Projections</a></li>
+                            <li><a href="/ncaab/games">NCAAB Game Projections</a></li>
+                            <li><a href="/ncaaf/games">NCAAF Game Projections</a></li>
+                            <li><a href="/nhl/games">NHL Game Projections</a></li>
+                            <li><a href="/nfl/survivor-pool">NFL Survivor Pool Analysis</a></li>
+                            <li><a href="/nfl/survivor-pool-matrix">NFL Survivor Pool Matrix</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-sub-nav"><a>Analytics <i class="nf-icon icon-arrow-right"></i></a>
+                        <ul class="sub-nav-tier-two">
+                            <li><a href="/nfl/players/analytics">NFL Player Analytics</a></li>
+							<li><a href="/nfl/fantasy/snap-count">NFL Snap Counts</a></li>
+                            <li><a href="/golf/daily-fantasy/player-stats">Golf Player Analytics</a></li>
+                        </ul>
+                    </li>
+                    <!-- MARCH MADNESS PREMIUM  -->
+					<!-- <li class="has-sub-nav"><a><i class="nf-icon icon-ncaab"></i> March Madness Tools <i class="nf-icon icon-arrow-right"></i></a>
+						<ul class="sub-nav-tier-two">
+							<li>
+								<a href="/ncaab/march-madness/bracket-generator">Bracket Generator</a>
+							</li>
+							<li>
+								<a href="/ncaab/march-madness/game-simulator">Game Simulator</a>
+							</li>
+							<li>
+								<a href="/ncaab/march-madness/stage-odds">Stage Odds</a>
+							</li>
+							<li>
+								<a href="/ncaab/march-madness/power-rankings">Power Rankings</a>
+							</li>
+						</ul>
+					</li> -->
+
+                    <!-- <li class="has-sub-nav"><a>NFL 2018 Draft Kit <i class="nf-icon icon-arrow-right"></i></a>
+                        <ul class="sub-nav-tier-two">
+                            <li>
+                                <a href="/nfl/fantasy/fantasy-football-cheat-sheet/overall">Draft Rankings</a>
+                            </li>
+                            <li>
+                                <a href="/nfl/fantasy/fantasy-football-cheat-sheet/auction-values">Auction Values</a>
+                            </li>
+                            <li>
+                                <a href="/nfl/fantasy/fantasy-football-cheat-sheet/risk-profiles">Risk Profiles</a>
+                            </li>
+                            <li>
+                                <a href="/nfl/fantasy/fantasy-football-cheat-sheet/player-matchups/qb">Defensive Matchups</a>
+                            </li>
+                            <li>
+                                <a href="/nfl/fantasy/fantasy-football-cheat-sheet/depth-charts">Depth Charts</a>
+                            </li>
+                            <li>
+                                <a href="/nfl/fantasy/fantasy-football-cheat-sheet/tier-sheets">Tier Sheets</a>
+                            </li>
+                            <li>
+                                <a href="/nfl/fantasy/fantasy-football-cheat-sheet/game-by-game">2017 Game By Game</a>
+                            </li>
+                            <li>
+                                <a href="/nfl/fantasy/fantasy-football-cheat-sheet/last-season/overall">2017 Season Rankings</a>
+                            </li>
+                            <li>
+                                <a href="/nfl/fantasy/who-do-i-draft">Who Do I Draft?</a>
+                            </li>
+                        </ul>
+                    </li> -->
+
+                    <li class="has-sub-nav"><a><i class="nf-icon icon-nfl"></i> NFL DFS Tools <i class="nf-icon icon-arrow-right"></i></a>
+                        <ul class="sub-nav-tier-two">
+                            <li>
+                                <a href="/nfl/daily-fantasy/daily-football-projections">DFS Projections</a>
+                            </li>
+                            <li>
+                                <a href="/nfl/daily-fantasy/lineup-generator">DFS Lineup Generator</a>
+                            </li>
+                            <li>
+                                <a href="/nfl/daily-fantasy/games">DFS Starting Lineups &amp; Game Info</a>
+                            </li>
+                            <li>
+                                <a href="/nfl/daily-fantasy/matchup-heat-map">DFS Matchup Heat Map</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-sub-nav"><a><i class="nf-icon icon-mlb"></i> MLB DFS Tools <i class="nf-icon icon-arrow-right"></i></a>
+                        <ul class="sub-nav-tier-two">
+                            <li>
+                                <a href="/mlb/daily-fantasy/daily-baseball-projections">DFS Projections</a>
+                            </li>
+                            <li>
+                                <a href="/mlb/daily-fantasy/lineup-generator">DFS Lineup Generator</a>
+                            </li>
+                            <li>
+                                <a href="/mlb/daily-fantasy/games">DFS Starting Lineups &amp; Game Info</a>
+                            </li>
+                            <li>
+                                <a href="/mlb/daily-fantasy/matchup-heat-map">DFS Matchup Heat Map</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-sub-nav"><a><i class="nf-icon icon-nba"></i> NBA DFS Tools <i class="nf-icon icon-arrow-right"></i></a>
+                        <ul class="sub-nav-tier-two">
+                            <li>
+                                <a href="/nba/daily-fantasy/daily-basketball-projections">DFS Projections</a>
+                            </li>
+                            <li>
+                                <a href="/nba/daily-fantasy/lineup-generator">DFS Lineup Generator</a>
+                            </li>
+                            <li>
+                                <a href="/nba/daily-fantasy/games">DFS Starting Lineups &amp; Game Info</a>
+                            </li>
+                            <li>
+                                <a href="/nba/daily-fantasy/matchup-heat-map">DFS Matchup Heat Map</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-sub-nav"><a><i class="nf-icon icon-nhl"></i> NHL DFS Tools <i class="nf-icon icon-arrow-right"></i></a>
+                        <ul class="sub-nav-tier-two">
+                            <li>
+                                <a href="/nhl/daily-fantasy/daily-hockey-projections">DFS Projections</a>
+                            </li>
+                            <li>
+                                <a href="/nhl/daily-fantasy/lineup-generator">DFS Lineup Generator</a>
+                            </li>
+                            <li>
+                                <a href="/nhl/daily-fantasy/games">DFS Starting Lineups &amp; Game Info</a>
+                            </li>
+                            <li>
+                                <a href="/nhl/daily-fantasy/matchup-heat-map">DFS Matchup Heat Map</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-sub-nav"><a><i class="nf-icon icon-golf"></i> Golf DFS Tools <i class="nf-icon icon-arrow-right"></i></a>
+                        <ul class="sub-nav-tier-two">
+                            <li>
+                                <a href="/golf/daily-fantasy/daily-golf-projections">DFS Projections</a>
+                            </li>
+                            <li>
+                                <a href="/golf/daily-fantasy/lineup-generator">DFS Lineup Generator</a>
+                            </li>
+                            <li>
+                                <a href="/golf/daily-fantasy/player-stats">DFS Player Analytics</a>
+                            </li>
+                        </ul>
+					<li class="has-sub-nav"><a><i class="nf-icon icon-ncaaf"></i> NCAAF DFS Tools <i class="nf-icon icon-arrow-right"></i></a>
+						<ul class="sub-nav-tier-two">
+							<li>
+								<a href="/ncaaf/daily-fantasy/matchup-heat-map">DFS Matchup Heat Map</a>
+							</li>
+						</ul>
+					</li>
+                    <li class="has-sub-nav"><a><i class="nf-icon icon-ncaab"></i> NCAAB DFS Tools <i class="nf-icon icon-arrow-right"></i></a>
+                        <ul class="sub-nav-tier-two">
+                            <li>
+                                <a href="/ncaab/daily-fantasy/matchup-heat-map">DFS Matchup Heat Map</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-sub-nav"><a>More Info <i class="nf-icon icon-arrow-right"></i></a>
+                        <ul class="sub-nav-tier-two">
+                            <li><a href="/premium/pricing">Pricing</a></li>
+                            <li><a href="/premium/faq">FAQ</a></li>
+                            <li><a href="/premium/features">Features</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="main-nav__wrap--right">
+            <li class="main-nav__wrap__item scores" data-mobile-scoreboard-show>
+                <a>
+                    Scores
+                </a>
+            </li>
+            <li id="main-nav--search" class="main-nav__wrap__item search tablet-show--inline">
+                <a data-search-open><i class="nf-icon icon-search"></i></a>
+                <span class="nf-icon icon-close close" data-search-close></span>
+                <form action="#">
+                    <div class="group">
+                        <input type="search" class="full-site-search" placeholder="Search..." data-search-input>
+                        <button type="submit"><span class="nf-icon icon-search"></span></button>
+                    </div>
+                </form>
+            </li>
+
+            <li class="main-nav__wrap__item login tablet-show--inline logged-out">
+                                    <a data-navtitle="Log In" data-login-modal-open>Log In</a>
+                            </li>
+                            <li class="main-nav__wrap__item signup tablet-show--inline">
+                                            <a data-navtitle="Sign Up" data-signup-modal-open>Sign Up</a>
+                                    </li>
+            
+        </ul>
+    </div>
+</nav>
+
+<nav class="main-nav--mobile " data-mobile-nav-fly >
+    <div class="main-nav--mobile__wrap">
+        <ul>
+            <li class="search" data-nav-value="search">
+                <i class="nf-icon icon-search"></i>Search
+                <span class="active-arrow"></span>
+            </li>
+			<!-- <li data-nav-value="premium" class="active march-madness-nav ">
+                <a href="/nfl/fantasy/fantasy-football-cheat-sheet/overall">
+					<i class="nf-icon icon-nfl"></i>DRAFT KIT
+				</a>
+			</li> -->
+            <li data-nav-value="premium" >
+                <i class="nf-icon icon-premium"></i>PREMIUM
+                <span class="active-arrow"></span>
+            </li>
+			<li data-nav-value="nfl" class="active">
+				<i class="nf-icon icon-nfl"></i>NFL
+				<span class="active-arrow"></span>
+			</li>
+			<li data-nav-value="nba" >
+				<i class="nf-icon icon-nba"></i>NBA
+				<span class="active-arrow"></span>
+			</li>
+			<li data-nav-value="mlb" >
+				<i class="nf-icon icon-mlb"></i>MLB
+				<span class="active-arrow"></span>
+			</li>
+            <li data-nav-value="nhl" >
+                <i class="nf-icon icon-nhl"></i>NHL
+                <span class="active-arrow"></span>
+            </li>
+            <!-- <li data-nav-value="golf" class="active">
+                <i class="nf-icon icon-golf"></i>Golf
+                <span class="active-arrow"></span>
+            </li> -->
+            <!-- <li class="" data-nav-value="ncaab" class="active">
+                <i class="nf-icon icon-ncaab"></i>NCAAB
+                <span class="active-arrow"></span>
+            </li> -->
+            <!-- <li data-nav-value="ncaaf" class="active">
+                <i class="nf-icon icon-ncaaf"></i>NCAAF
+                <span class="active-arrow"></span>
+            </li> -->
+            <li data-nav-value="more" >
+                <i class="nf-icon icon-more"></i>More Sports
+                <span class="active-arrow"></span>
+            </li>
+            <li data-nav-value="questions" >
+                Questions
+                <span class="active-arrow"></span>
+            </li>
+            <li data-nav-value="about" class="about">
+                About
+                <span class="active-arrow"></span>
+            </li>
+        </ul>
+
+        <div class="copyright">
+            <p>
+                &copy; 2009-2018 numberFire, Inc. Certain headlines thanks to Rotoworld.
+            </p>
+            <p>
+                All rights reserved. Stop stealing our stuff and ripping off our features, please.
+            </p>
+        </div>
+    </div>
+    <div class="main-nav--mobile__nav-lists">
+        <div class="main-nav--mobile__nav-lists__indiv search" data-nav-value="search">
+            <form action="#">
+                <input type="search" class="full-site-search" placeholder="Search...">
+                <button type="submit"><span class="nf-icon icon-search"></span></button>
+            </form>
+        </div>
+
+
+        <!-- PREMIUM MOBILE NAV -->
+        <div class="main-nav--mobile__nav-lists__indiv " data-nav-value="premium">
+            <ul>
+                <li class="has-sub-nav" data-sub-nav-value="projections">
+                    Game Projections <i class="nf-icon icon-arrow-right"></i>
+                </li>
+                <li class="has-sub-nav" data-sub-nav-value="analytics">
+                    Analytics <i class="nf-icon icon-arrow-right"></i>
+                </li>
+                <!-- MARCH MADNESS -->
+				<!-- <li class="has-sub-nav" data-sub-nav-value="ncaab-mm-tools">
+					<i class="nf-icon icon-ncaab"></i> March Madness Tools <i class="nf-icon icon-arrow-right"></i>
+				</li> -->
+                <!-- NFL DRAFT KIT -->
+                <!-- <li class="has-sub-nav" data-sub-nav-value="nfl-draft-kit">
+					NFL 2018 Draft Kit <i class="nf-icon icon-arrow-right"></i>
+				</li> -->
+                <li class="has-sub-nav" data-sub-nav-value="nfl-dfs-tools">
+                    <i class="nf-icon icon-nfl"></i> NFL DFS Tools <i class="nf-icon icon-arrow-right"></i>
+                </li>
+                <li class="has-sub-nav" data-sub-nav-value="mlb-dfs-tools">
+                    <i class="nf-icon icon-mlb"></i> MLB DFS Tools <i class="nf-icon icon-arrow-right"></i>
+                </li>
+                <li class="has-sub-nav" data-sub-nav-value="nba-dfs-tools">
+                    <i class="nf-icon icon-nba"></i> NBA DFS Tools <i class="nf-icon icon-arrow-right"></i>
+                </li>
+                <li class="has-sub-nav" data-sub-nav-value="nhl-dfs-tools">
+                    <i class="nf-icon icon-nhl"></i> NHL DFS Tools <i class="nf-icon icon-arrow-right"></i>
+                </li>
+                <li class="has-sub-nav" data-sub-nav-value="golf-dfs-tools">
+                    <i class="nf-icon icon-golf"></i> Golf DFS Tools <i class="nf-icon icon-arrow-right"></i>
+                </li>
+				<li class="has-sub-nav" data-sub-nav-value="ncaaf-dfs-tools">
+					<i class="nf-icon icon-ncaaf"></i> NCAAF DFS Tools <i class="nf-icon icon-arrow-right"></i>
+				</li>
+                <li class="has-sub-nav" data-sub-nav-value="ncaab-dfs-tools">
+                    <i class="nf-icon icon-ncaab"></i> NCAAB DFS Tools <i class="nf-icon icon-arrow-right"></i>
+                </li>
+                <li class="has-sub-nav" data-sub-nav-value="more">
+                    More Info <i class="nf-icon icon-arrow-right"></i>
+                </li>
+            </ul>
+
+            <ul class="secondary-nav" data-sub-nav-value="projections">
+                <li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>
+                <li><a href="/nba/games">NBA Game Projections</a></li>
+                <li><a href="/nfl/games">NFL Game Projections</a></li>
+                <li><a href="/mlb/games">MLB Game Projections</a></li>
+                <li><a href="/ncaab/games">NCAAB Game Projections</a></li>
+                <li><a href="/ncaaf/games">NCAAF Game Projections</a></li>
+                <li><a href="/nhl/games">NHL Game Projections</a></li>
+                <li><a href="/nfl/survivor-pool">NFL Survivor Pool Analysis</a></li>
+                <li><a href="/nfl/survivor-pool-matrix">NFL Survivor Pool Matrix</a></li>
+            </ul>
+
+            <ul class="secondary-nav" data-sub-nav-value="analytics">
+                <li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>
+                <li><a href="/nfl/players/analytics">NFL Player Analytics</a></li>
+				<li><a href="/nfl/fantasy/snap-count">NFL Snap Counts</a></li>
+            </ul>
+
+            <!-- MARCH MADNESS -->
+<!--			<ul class="secondary-nav" data-sub-nav-value="ncaab-mm-tools">-->
+<!--				<li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>-->
+<!--				<li>-->
+<!--					<a href="/ncaab/march-madness/bracket-generator">Bracket Generator</a>-->
+<!--				</li>-->
+<!--				<li>-->
+<!--					<a href="/ncaab/march-madness/game-simulator">Game Simulator</a>-->
+<!--				</li>-->
+<!--				<li>-->
+<!--					<a href="/ncaab/march-madness/stage-odds">Stage Odds</a>-->
+<!--				</li>-->
+<!--				<li>-->
+<!--					<a href="/ncaab/march-madness/power-rankings">Power Rankings</a>-->
+<!--				</li>-->
+<!--			</ul>-->
+
+            <!-- DRAFT KIT -->
+            <!-- <ul class="secondary-nav" data-sub-nav-value="nfl-draft-kit">
+				<li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>
+				<li>
+					<a href="/nfl/fantasy/fantasy-football-cheat-sheet/overall">Draft Rankings</a>
+				</li>
+				<li>
+					<a href="/nfl/fantasy/fantasy-football-cheat-sheet/auction-values">Auction Values</a>
+				</li>
+				<li>
+					<a href="/nfl/fantasy/fantasy-football-cheat-sheet/risk-profiles">Risk Profiles</a>
+				</li>
+                <li>
+                    <a href="/nfl/fantasy/fantasy-football-cheat-sheet/player-matchups/qb">Defensive Matchups</a>
+                </li>
+                <li>
+                    <a href="/nfl/fantasy/fantasy-football-cheat-sheet/depth-charts">Depth Charts</a>
+                </li>
+                <li>
+                    <a href="/nfl/fantasy/fantasy-football-cheat-sheet/tier-sheets">Tier Sheets</a>
+                </li>
+				<li>
+					<a href="/nfl/fantasy/fantasy-football-cheat-sheet/game-by-game">2017 Game By Game</a>
+				</li>
+                <li>
+                    <a href="/nfl/fantasy/fantasy-football-cheat-sheet/last-season/overall">2017 Season Rankings</a>
+                </li>
+                <li>
+                    <a href="/nfl/fantasy/who-do-i-draft">Who Do I Draft?</a>
+                </li>
+			</ul> -->
+
+            <ul class="secondary-nav" data-sub-nav-value="nfl-dfs-tools">
+                <li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>
+                <li>
+                    <a href="/nfl/daily-fantasy">DFS Home</a>
+                    <span class="main-nav__new-callout">NEW</span>
+                </li>
+                <li>
+                    <a href="/nfl/daily-fantasy/daily-football-projections">DFS Projections</a>
+                </li>
+                <li>
+                    <a href="/nfl/daily-fantasy/lineup-generator">DFS Lineup Generator</a>
+                </li>
+                <li>
+                    <a href="/nfl/daily-fantasy/games">DFS Starting Lineups &amp; Game Info</a>
+                </li>
+                <li>
+                    <a href="/nfl/daily-fantasy/matchup-heat-map">DFS Matchup Heat Map</a>
+                </li>
+            </ul>
+
+            <ul class="secondary-nav" data-sub-nav-value="mlb-dfs-tools">
+                <li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>
+                <li>
+                    <a href="/mlb/daily-fantasy">DFS Home</a>
+                    <span class="main-nav__new-callout">NEW</span>
+                </li>
+                <li>
+                    <a href="/mlb/daily-fantasy/daily-baseball-projections">DFS Projections</a>
+                </li>
+                <li>
+                    <a href="/mlb/daily-fantasy/lineup-generator">DFS Lineup Generator</a>
+                </li>
+                <li>
+                    <a href="/mlb/daily-fantasy/games">DFS Starting Lineups &amp; Game Info</a>
+                </li>
+                <li>
+                    <a href="/mlb/daily-fantasy/matchup-heat-map">DFS Matchup Heat Map</a>
+                </li>
+            </ul>
+
+            <ul class="secondary-nav" data-sub-nav-value="nba-dfs-tools">
+                <li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>
+                <li>
+                    <a href="/nba/daily-fantasy">DFS Home</a>
+                    <span class="main-nav__new-callout">NEW</span>
+                </li>
+                <li>
+                    <a href="/nba/daily-fantasy/daily-basketball-projections">DFS Projections</a>
+                </li>
+                <li>
+                    <a href="/nba/daily-fantasy/lineup-generator">DFS Lineup Generator</a>
+                </li>
+                <li>
+                    <a href="/nba/daily-fantasy/games">DFS Starting Lineups &amp; Game Info</a>
+                </li>
+                <li>
+                    <a href="/nba/daily-fantasy/matchup-heat-map">DFS Matchup Heat Map</a>
+                </li>
+            </ul>
+
+            <ul class="secondary-nav" data-sub-nav-value="nhl-dfs-tools">
+                <li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>
+                <li>
+                    <a href="/nhl/daily-fantasy">DFS Home</a>
+                    <span class="main-nav__new-callout">NEW</span>
+                </li>
+                <li>
+                    <a href="/nhl/daily-fantasy/daily-hockey-projections">DFS Projections</a>
+                </li>
+                <li>
+                    <a href="/nhl/daily-fantasy/lineup-generator">DFS Lineup Generator</a>
+                </li>
+                <li>
+                    <a href="/nhl/daily-fantasy/games">DFS Starting Lineups &amp; Game Info</a>
+                </li>
+                <li>
+                    <a href="/nhl/daily-fantasy/matchup-heat-map">DFS Matchup Heat Map</a>
+                </li>
+            </ul>
+
+            <ul class="secondary-nav" data-sub-nav-value="golf-dfs-tools">
+                <li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>
+                <li>
+                    <a href="/golf/daily-fantasy">DFS Home</a>
+                </li>
+                <li>
+                    <a href="/golf/daily-fantasy/daily-golf-projections">DFS Projections</a>
+                </li>
+                <li>
+                    <a href="/golf/daily-fantasy/lineup-generator">DFS Lineup Generator</a>
+                </li>
+                <li>
+                    <a href="/golf/daily-fantasy/player-stats">DFS Player Analytics</a>
+                </li>
+            </ul>
+
+			<ul class="secondary-nav" data-sub-nav-value="ncaaf-dfs-tools">
+				<li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>
+				<li>
+					<a href="/ncaaf/daily-fantasy/matchup-heat-map">DFS Matchup Heat Map</a>
+				</li>
+			</ul>
+
+            <ul class="secondary-nav" data-sub-nav-value="ncaab-dfs-tools">
+                <li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>
+                <li>
+                    <a href="/ncaab/daily-fantasy/matchup-heat-map">DFS Matchup Heat Map</a>
+                </li>
+            </ul>
+
+            <ul class="secondary-nav" data-sub-nav-value="more">
+                <li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>
+                <li><a href="/premium/pricing">Sign Up Now!</a></li>
+                <li><a href="/premium">What is Premium?</a></li>
+                <li><a href="/premium/faq">Premium FAQ</a></li>
+            </ul>
+        </div>
+
+        <!-- NFL DRAFT KIT MOBILE NAV -->
+
+        <!-- <div class="main-nav--mobile__nav-lists__indiv active" data-nav-value="nfl-draft-kit">
+            <ul>
+                <li>
+                    <a href="/nfl/fantasy/fantasy-football-cheat-sheet/overall">Draft Rankings</a>
+                </li>
+                <li>
+                    <a href="/nfl/fantasy/fantasy-football-cheat-sheet/auction-values">Auction Values</a>
+                </li>
+                <li>
+                    <a href="/nfl/fantasy/fantasy-football-cheat-sheet/risk-profiles">Risk Profiles</a>
+                </li>
+                <li>
+                    <a href="/nfl/fantasy/fantasy-football-cheat-sheet/player-matchups/qb">Defensive Matchups</a>
+                </li>
+                <li>
+                    <a href="/nfl/fantasy/fantasy-football-cheat-sheet/depth-charts">Depth Charts</a>
+                </li>
+                <li>
+                    <a href="/nfl/fantasy/fantasy-football-cheat-sheet/tier-sheets">Tier Sheets</a>
+                </li>
+                <li>
+                    <a href="/nfl/fantasy/fantasy-football-cheat-sheet/game-by-game">2017 Game By Game</a>
+                </li>
+                <li>
+                    <a href="/nfl/fantasy/fantasy-football-cheat-sheet/last-season/overall">2017 Season Rankings</a>
+                </li>
+                <li>
+                    <a href="/nfl/fantasy/who-do-i-draft">Who Do I Draft?</a>
+                </li>
+           </ul>
+       </div> -->
+
+        <!-- NFL MOBILE NAV -->
+        <div class="main-nav--mobile__nav-lists__indiv active" data-nav-value="nfl">
+            <ul>
+				<li>
+					<a href="/nfl/fantasy/fantasy-football-cheat-sheet/overall">2018 Draft Kit</a>
+				</li>
+				<li>
+					<a href="/nfl/front-row">Front Row</a>
+					<span class="main-nav__new-callout">NEW</span>
+				</li>
+				<li>
+					<a href="/nfl">NFL Home</a>
+				</li>
+				<li>
+				   <a href="/nfl/news">Articles &amp; Analysis</a>
+				</li>
+				<li>
+				   <a href="/nfl/player-news">Player News</a>
+				</li>
+				<li class="has-sub-nav" data-sub-nav-value="projections">
+				   Projections <i class="nf-icon icon-arrow-right"></i>
+				</li>
+				<li class="has-sub-nav" data-sub-nav-value="daily-fantasy">
+				  Daily Fantasy <i class="nf-icon icon-arrow-right"></i>
+				</li>
+				<li class="has-sub-nav" data-sub-nav-value="rankings">
+				   Rankings <i class="nf-icon icon-arrow-right"></i>
+				</li>
+				<li><a href="/nfl/fantasy/snap-count">Snap Counts</a></li>
+				<li><a href="/nfl/fantasy/my-teams">My Teams</a></li>
+				<li><a href="/nfl/questions">Questions</a></li>
+				<li>
+				   <a href="/nfl/players">Players</a>
+				</li>
+				<li>
+				   <a href="/nfl/teams">Teams</a>
+				</li>
+           </ul>
+
+           <ul class="secondary-nav" data-sub-nav-value="projections">
+               <li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>
+               <li>
+                   <a href="/nfl/fantasy/fantasy-football-projections">Week 13 Fantasy Projections</a>
+               </li>
+               <li>
+                   <a href="/nfl/fantasy/fantasy-football-ppr-projections">Week 13 Fantasy PPR Projections</a>
+               </li>
+               <li>
+                   <a href="/nfl/daily-fantasy/daily-football-projections">Week 13 Daily Football Projections</a>
+               </li>
+               <li>
+                   <a href="/nfl/games">Week 13 Game Projections</a>
+               </li>
+               <li>
+                   <a href="/nfl/survivor-pool">Week 13 Survivor Pool Analysis</a>
+               </li>
+               <li>
+                   <a href="/nfl/survivor-pool-matrix">Week 13 Survivor Pool Matrix</a>
+               </li>
+               <li>
+                   <a href="/nfl/daily-fantasy/who-do-i-start">Who Do I Start? Tool</a>
+               </li>
+               <li>
+                   <a href="/nfl/fantasy/remaining-projections">Remaining Year Projections</a>
+               </li>
+           </ul>
+
+           <ul class="secondary-nav" data-sub-nav-value="daily-fantasy">
+               <li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>
+               <li>
+                   <a href="/nfl/daily-fantasy/">DFS Home</a>
+                   <span class="main-nav__new-callout">NEW</span>
+               </li>
+               <li>
+                   <a href="/nfl/daily-fantasy/daily-football-projections">DFS Projections</a>
+               </li>
+               <li>
+                   <a href="/nfl/daily-fantasy/lineup-generator">DFS Lineup Generator</a>
+               </li>
+               <li>
+                   <a href="/nfl/daily-fantasy/games">DFS Starting Lineups &amp; Game Info</a>
+               </li>
+               <li>
+                   <a href="/nfl/daily-fantasy/advanced-stats">DFS Advanced Stats</a>
+               </li>
+               <li>
+                   <a href="/nfl/daily-fantasy/trends">DFS Trends</a>
+               </li>
+               <li>
+                   <a href="/nfl/daily-fantasy/lineups/all/most-liked">DFS Top Submitted Lineups</a>
+               </li>
+               <li>
+                   <a href="/nfl/daily-fantasy/matchup-heat-map">DFS Matchup Heat Map</a>
+               </li>
+           </ul>
+
+           <ul class="secondary-nav" data-sub-nav-value="rankings">
+               <li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>
+               <li>
+                   <a href="/nfl/fantasy/fantasy-football-rankings">Week 13 Fantasy Football Rankings</a>
+                </li>
+                <li>
+                   <a href="/nfl/teams/power-rankings">Team Power Rankings</a>
+                </li>
+                <li>
+                   <a href="/nfl/players/analytics">Player Analytics</a>
+                </li>
+           </ul>
+        </div>
+
+        <div class="main-nav--mobile__nav-lists__indiv " data-nav-value="mlb">
+            <ul>
+                <li>
+                    <a href="/mlb">MLB Home</a>
+                </li>
+                <li>
+                    <a href="/mlb/news">Articles &amp; Analysis</a>
+                </li>
+                <li>
+                    <a href="/mlb/player-news">Player News</a>
+                </li>
+                <li class="has-sub-nav" data-sub-nav-value="projections">
+                    Projections <i class="nf-icon icon-arrow-right"></i>
+                </li>
+                <li class="has-sub-nav" data-sub-nav-value="daily-fantasy">
+                    Daily Fantasy <i class="nf-icon icon-arrow-right"></i>
+                </li>
+                <li class="has-sub-nav" data-sub-nav-value="rankings">
+                    Rankings <i class="nf-icon icon-arrow-right"></i>
+                </li>
+                <li><a href="/mlb/questions">Questions</a></li>
+                <li><a href="/mlb/players">Players</a></li>
+                <li><a href="/mlb/teams">Teams</a></li>
+            </ul>
+
+            <ul class="secondary-nav" data-sub-nav-value="projections">
+                <li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>
+                <li>
+                    <a href="/mlb/daily-fantasy/daily-baseball-projections">Daily Baseball Projections</a>
+                </li>
+                <li>
+                    <a href="/mlb/games">Game Projections</a>
+                </li>
+                <li>
+                    <a href="/mlb/daily-fantasy/who-do-i-start">Who Do I Start? Tool</a>
+                </li>
+                <li>
+                    <a href="/mlb/fantasy/weekly-projections">Weekly Projections</a>
+                </li>
+                <li>
+                   <a href="/mlb/fantasy/remaining-projections">Remaining Year Projections</a>
+                </li>
+                <li>
+                   <a href="/mlb/fantasy/yearly-projections">Yearly Projections</a>
+                </li>
+                <li>
+                   <a href="/mlb/fantasy/season-stats">Season Stats</a>
+                </li>
+            </ul>
+
+            <ul class="secondary-nav" data-sub-nav-value="daily-fantasy">
+                <li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>
+				<li>
+					<a href="/mlb/daily-fantasy/">DFS Home</a>
+                    <span class="main-nav__new-callout">NEW</span>
+				</li>
+                <li>
+                    <a href="/mlb/daily-fantasy/daily-baseball-projections">DFS Projections</a>
+                </li>
+                <li>
+                    <a href="/mlb/daily-fantasy/lineup-generator">DFS Lineup Generator</a>
+                </li>
+                <li>
+                    <a href="/mlb/daily-fantasy/games">DFS Starting Lineups &amp; Game Info</a>
+                </li>
+                <li>
+                    <a href="/mlb/daily-fantasy/lineups/all/most-liked">DFS Top Submitted Lineups</a>
+                </li>
+                <li>
+                    <a href="/mlb/daily-fantasy/matchup-heat-map">DFS Matchup Heat Map</a>
+                </li>
+            </ul>
+
+            <ul class="secondary-nav" data-sub-nav-value="rankings">
+                <li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>
+                <li>
+                   <a href="/mlb/fantasy/fantasy-baseball-rankings">Fantasy Baseball Rankings</a>
+               </li>
+               <li>
+                   <a href="/mlb/teams/power-rankings">Team Power Rankings</a>
+               </li>
+               <li>
+                   <a href="/mlb/players/power-rankings">Player Power Rankings</a>
+               </li>
+            </ul>
+        </div>
+
+        <div class="main-nav--mobile__nav-lists__indiv " data-nav-value="nba">
+            <ul>
+                <li>
+                    <a href="/nba">NBA Home</a>
+                </li>
+                <li>
+                    <a href="/nba/news">Articles &amp; Analysis</a>
+                </li>
+                <li>
+                    <a href="/nba/player-news">Player News</a>
+                </li>
+                <li class="has-sub-nav" data-sub-nav-value="projections">
+                    Projections <i class="nf-icon icon-arrow-right"></i>
+                </li>
+                <li class="has-sub-nav" data-sub-nav-value="daily-fantasy">
+                    Daily Fantasy <i class="nf-icon icon-arrow-right"></i>
+                </li>
+                <li class="has-sub-nav" data-sub-nav-value="rankings">
+                    Rankings <i class="nf-icon icon-arrow-right"></i>
+                </li>
+                <li><a href="/nba/questions">Questions</a></li>
+                <li><a href="/nba/players">Players</a></li>
+                <li><a href="/nba/teams">Teams</a></li>
+            </ul>
+
+            <ul class="secondary-nav" data-sub-nav-value="projections">
+                <li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>
+                <li>
+                   <a href="/nba/daily-fantasy/daily-basketball-projections">Daily Basketball Projections</a>
+               </li>
+               <li>
+                   <a href="/nba/games">Game Projections</a>
+               </li>
+               <li>
+                   <a href="/nba/daily-fantasy/who-do-i-start">Who Do I Start? Tool</a>
+               </li>
+               <li>
+                   <a href="/nba/fantasy/weekly-projections">Weekly Projections</a>
+               </li>
+               <li>
+                   <a href="/nba/fantasy/remaining-projections">Remaining Year Projections</a>
+               </li>
+               <li>
+                   <a href="/nba/fantasy/yearly-projections">Yearly Projections</a>
+               </li>
+               <li>
+                   <a href="/nba/fantasy/season-stats">Season Stats</a>
+               </li>
+            </ul>
+
+            <ul class="secondary-nav" data-sub-nav-value="daily-fantasy">
+                <li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>
+                <li>
+                    <a href="/nba/daily-fantasy/">DFS Home</a>
+                    <span class="main-nav__new-callout">NEW</span>
+                </li>
+                <li>
+                    <a href="/nba/daily-fantasy/daily-basketball-projections">DFS Projections</a>
+                </li>
+                <li>
+                    <a href="/nba/daily-fantasy/lineup-generator">DFS Lineup Generator</a>
+                </li>
+                <li>
+                    <a href="/nba/daily-fantasy/advanced-stats">DFS Advanced Stats</a>
+                </li>
+                <li>
+                    <a href="/nba/daily-fantasy/trends">DFS Trends</a>
+                </li>
+                <li>
+                    <a href="/nba/daily-fantasy/games">DFS Starting Lineups &amp; Game Info</a>
+                </li>
+                <li>
+                    <a href="/nba/daily-fantasy/lineups/all/most-liked">DFS Top Submitted Lineups</a>
+                </li>
+                <li>
+                    <a href="/nba/daily-fantasy/matchup-heat-map">DFS Matchup Heat Map</a>
+                </li>
+            </ul>
+
+            <ul class="secondary-nav" data-sub-nav-value="rankings">
+                <li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>
+                <li>
+                    <a href="/nba/fantasy/fantasy-basketball-rankings">Fantasy Basketball Rankings</a>
+                </li>
+                <li>
+                    <a href="/nba/teams/power-rankings">Team Power Rankings</a>
+                </li>
+                <li>
+                    <a href="/nba/players/power-rankings">Player Power Rankings</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="main-nav--mobile__nav-lists__indiv " data-nav-value="nhl">
+            <ul>
+                <li><a href="/nhl">NHL Home</a></li>
+                <li>
+                    <a href="/nhl/news">Articles &amp; Analysis</a>
+                </li>
+                <li>
+                    <a href="/nhl/player-news">Player News</a>
+                </li>
+                <li class="has-sub-nav" data-sub-nav-value="projections">
+                    Projections <i class="nf-icon icon-arrow-right"></i>
+                </li>
+                <li class="has-sub-nav" data-sub-nav-value="daily-fantasy">
+                    Daily Fantasy <i class="nf-icon icon-arrow-right"></i>
+                </li>
+                <li class="has-sub-nav" data-sub-nav-value="rankings">
+                    Rankings <i class="nf-icon icon-arrow-right"></i>
+                </li>
+                <li><a href="/nhl/questions">Questions</a></li>
+                <li><a href="/nhl/players">Players</a></li>
+                <li><a href="/nhl/teams">Teams</a></li>
+            </ul>
+
+            <ul class="secondary-nav" data-sub-nav-value="projections">
+                <li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>
+                <li>
+                    <a href="/nhl/daily-fantasy/daily-hockey-projections">Daily Hockey Projections</a>
+                </li>
+                <li>
+                    <a href="/nhl/games">Game Projections</a>
+                </li>
+                <li>
+                    <a href="/nhl/fantasy/remaining-projections">Remaining Year Projections</a>
+                </li>
+                <li>
+                    <a href="/nhl/fantasy/yearly-projections">Yearly Projections</a>
+                </li>
+            </ul>
+
+            <ul class="secondary-nav" data-sub-nav-value="daily-fantasy">
+                <li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>
+                <li>
+                    <a href="/nhl/daily-fantasy">DFS Home</a>
+                    <span class="main-nav__new-callout">NEW</span>
+                </li>
+                <li>
+                    <a href="/nhl/daily-fantasy/daily-hockey-projections">DFS Projections</a>
+                </li>
+                <li>
+                    <a href="/nhl/daily-fantasy/lineup-generator">DFS Lineup Generator</a>
+                </li>
+                <li>
+                    <a href="/nhl/daily-fantasy/games">DFS Starting Lineups &amp; Game Info</a>
+                </li>
+                <li>
+                    <a href="/nhl/daily-fantasy/lineups">DFS Top Submitted Lineups</a>
+                </li>
+                <li>
+                    <a href="/nhl/daily-fantasy/matchup-heat-map">DFS Matchup Heat Map</a>
+                </li>
+            </ul>
+
+            <ul class="secondary-nav" data-sub-nav-value="rankings">
+                <li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>
+                <li>
+                   <a href="/nhl/teams/power-rankings">Team Power Rankings</a>
+               </li>
+            </ul>
+        </div>
+
+        <!-- <div class="main-nav--mobile__nav-lists__indiv active" data-nav-value="golf">
+            <ul>
+
+            </ul>
+        </div> -->
+
+        <div class="main-nav--mobile__nav-lists__indiv " data-nav-value="more">
+            <ul>
+                <li class="has-sub-nav" data-sub-nav-value="golf-more">
+                    Golf <i class="nf-icon icon-arrow-right"></i>
+                </li>
+				<li class="has-sub-nav" data-sub-nav-value="nascar-more">
+					NASCAR <i class="nf-icon icon-arrow-right"></i>
+				</li>
+                <li class="has-sub-nav" data-sub-nav-value="soccer-more">
+                    Soccer <i class="nf-icon icon-arrow-right"></i>
+                </li>
+                <li class="has-sub-nav" data-sub-nav-value="ncaaf-more">
+                    NCAAF <i class="nf-icon icon-arrow-right"></i>
+                </li>
+                <li class="has-sub-nav" data-sub-nav-value="ncaab-more">
+                    NCAAB <i class="nf-icon icon-arrow-right"></i>
+                </li>
+            </ul>
+            <ul class="secondary-nav" data-sub-nav-value="golf-more">
+                <li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>
+                <li>
+                    <a href="/golf">
+                        Golf Home
+                    </a>
+                </li>
+                <li>
+                    <a href="/golf/news">
+                        Articles &amp; Analysis
+                    </a>
+                </li>
+				<li class="has-sub-nav" data-sub-nav-value="daily-fantasy">
+					Daily Fantasy <i class="nf-icon icon-arrow-right"></i>
+				</li>
+			</ul>
+
+			<ul class="secondary-nav" data-sub-nav-value="daily-fantasy">
+				<li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>
+				<li>
+					<a href="/golf/daily-fantasy">DFS Home</a>
+				</li>
+				<li>
+					<a href="/golf/daily-fantasy/daily-golf-projections">DFS Projections</a>
+				</li>
+				<li>
+					<a href="/golf/daily-fantasy/lineup-generator">DFS Lineup Generator</a>
+				</li>
+				<li>
+					<a href="/golf/daily-fantasy/player-stats">DFS Player Analytics</a>
+				</li>
+			</ul>
+
+			<ul class="secondary-nav" data-sub-nav-value="nascar-more">
+				<li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>
+				<li>
+					<a href="/nascar">
+						NASCAR Home
+					</a>
+				</li>
+				<li>
+					<a href="/nascar/news">
+						Articles &amp; Analysis
+					</a>
+				</li>
+			</ul>
+
+            <ul class="secondary-nav" data-sub-nav-value="soccer-more">
+                <li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>
+                <li>
+                    <a href="/soccer">
+                        Soccer Home
+                    </a>
+                </li>
+				<li>
+					<a href="/soccer/world-cup/">2018 World Cup</a>
+				</li>
+                <li>
+                    <a href="/soccer/news">Articles &amp; Analysis</a>
+                </li>
+                <li>
+                    <a href="/soccer/games/">Game Projections</a>
+                </li>
+                <li>
+                    <a href="/soccer/world-cup/power-rankings">Rankings</a>
+                </li>
+                <li>
+                    <a href="/soccer/teams">Teams</a>
+                </li>
+            </ul>
+
+            <ul class="secondary-nav" data-sub-nav-value="ncaaf-more">
+                <li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>
+                <li>
+                    <a href="/ncaaf">
+                        NCAAF Home
+                    </a>
+                </li>
+                <li>
+                    <a href="/ncaaf/news">Articles &amp; Analysis</a>
+                </li>
+                <li>
+                    <a href="/ncaaf/player-news">Player News</a>
+                </li>
+                <li>
+                    <a href="/ncaaf/games/">Game Projections</a>
+                </li>
+				<li>
+					<a href="/ncaaf/daily-fantasy/matchup-heat-map">Matchup Heat Map</a>
+				</li>
+                <li>
+                    <a href="/ncaaf/teams/power-rankings">Rankings</a>
+                </li>
+                <li>
+                    <a href="/ncaaf/teams">Teams</a>
+                </li>
+            </ul>
+
+            <ul class="secondary-nav" data-sub-nav-value="ncaab-more">
+                <li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>
+                <li>
+                    <a href="/ncaab">
+                        NCAAB Home
+                    </a>
+                </li>
+				<li>
+                    <a href="/ncaab/news">Articles &amp; Analysis</a>
+                </li>
+                <li>
+                    <a href="/ncaab/player-news">Player News</a>
+                </li>
+                <li>
+                    <a href="/ncaab/games/">Game Projections</a>
+                </li>
+                <li>
+                    <a href="/ncaab/daily-fantasy/matchup-heat-map">Matchup Heat Map</a>
+                </li>
+                <li>
+                    <a href="/ncaab/teams/power-rankings">Rankings</a>
+                </li>
+				<li>
+					<a href="/ncaab/march-madness/">March Madness</a>
+				</li>
+                <li>
+                    <a href="/ncaab/teams">Teams</a>
+                </li>
+            </ul>
+
+		</div>
+
+
+        <div class="main-nav--mobile__nav-lists__indiv " data-nav-value="questions">
+            <ul>
+                <li>
+                    <a href="/questions">
+                        Most Recent
+                    </a>
+                </li>
+                <li>
+                    <a href="/questions/ending-soon">
+                        Ending Soon
+                    </a>
+                </li>
+                <li>
+                    <a href="/questions/most-popular">
+                        Most Popular
+                    </a>
+                </li>
+                <li>
+                    <a href="/questions/closed">
+                        Closed
+                    </a>
+                </li>
+                <li>
+                    <a href="/questions/ask">
+                        Ask A Question
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="main-nav--mobile__nav-lists__indiv" data-nav-value="about" class="about">
+            <ul>
+                <li class="section-hed">
+                    Connect
+                </li>
+                <li>
+                    <a href="http://www.twitter.com/numberfire" target="_blank">
+                        <i class="nf-icon icon-twitter"></i> Follow us on Twitter
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.facebook.com/numberfire" target="_blank">
+                        <i class="nf-icon icon-facebook"></i> Like Us on Facebook
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.instagram.com/numberfire" target="_blank">
+                        <i class="nf-icon icon-instagram"></i> Follow us on Instagram
+                    </a>
+                </li>
+                <li>
+                    <a href="/info/contact-us">
+                        Contact Us
+                    </a>
+                </li>
+                <li class="section-hed">
+                    Product
+                </li>
+                <li>
+                    <a href="/info/howitworks">
+                        How It Works
+                    </a>
+                </li>
+                <li>
+                    <a href="/info/premiumproducts">
+                        Premium Products
+                    </a>
+                </li>
+                <li>
+                    <a href="/info/widgets">
+                        Widgets
+                    </a>
+                </li>
+                <li class="section-hed">
+                    Company
+                </li>
+                <li>
+                    <a href="/info/aboutus">
+                        About Us
+                    </a>
+                </li>
+                <li>
+                    <a href="/info/advertise">
+                        Advertise With Us
+                    </a>
+                </li>
+                <li>
+                    <a href="/info/jobs">
+                        Jobs
+                    </a>
+                </li>
+                <li>
+                    <a href="/info/press">
+                        Press
+                    </a>
+                </li>
+                <li>
+                    <a href="/info/theteam">
+                        The Team
+                    </a>
+                </li>
+                <li>
+                    <a href="/author">
+                        Contributors
+                    </a>
+                </li>
+                <li class="section-hed">
+                    Legal
+                </li>
+                <li>
+                    <a href="/info/fairuse">
+                        Fair Use Rationale
+                    </a>
+                </li>
+                <li>
+                    <a href="/info/privacypolicy">
+                        Privacy Policy
+                    </a>
+                </li>
+                <li>
+                    <a href="/info/termsofservice">
+                        Terms of Service
+                    </a>
+                </li>
+                <li class="section-hed">
+                    Help
+                </li>
+                <li>
+                    <a href="/info/faq">
+                        FAQ
+                    </a>
+                </li>
+                <li>
+                    <a href="/info/glossary">
+                        Glossary
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:connect@numberfire.com">
+                        Suggestions/Bug Fixes
+                    </a>
+                </li>
+                <li>
+                    <div class="copyright">
+                        <p>
+                            &copy; 2009-2018 numberFire, Inc. Certain headlines thanks to Rotoworld. Weather info <a href="https://darksky.net/poweredby/" target="_blank" style="color: #bbb">Powered by Dark Sky</a>
+                        </p>
+            			<p>
+                            All rights reserved. Stop stealing our stuff and ripping off our features, please.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    
+    <!--<div class="template-main-scoreboard"></div>-->
+
+            <div class="grid--1-1 player-header team-player-header team-player-header--nba" data-team-player-header>
+    <div class="team-player-header--wrap">
+        
+        <div class="player-header__info">
+            <div class="player-header__info__headshot">
+            	<img class="player-image" src="https://d1tjohjvimcqgl.cloudfront.net/category/558454_n.jpg">
+            </div>
+
+            <div class="player-header__info__stats player-info">
+	            <div class="player-info--basic">
+		            <h2>
+		            	Tyler Higbee								            </h2>
+		            <div class="player-info--basic__wrap">
+													<span class="player-info--basic__team">
+								TE, <a href="/nfl/teams/los-angeles-rams" class="team-name">Los Angeles Rams</a><a href="/nfl/teams/los-angeles-rams" class="team-abbrev">LA</a>
+							</span>
+															        </div>
+								        <div class="player-info--basic__status">
+			        	<a href="/nfl/player-news/70017/rams-tyler-higbee-doesn-t-carry-much-upside-in-the-wild-card-round">Rams' Tyler Higbee doesn't carry much upside in the Wild Card Round</a>
+						<span class="timestamp timeago older-timestamp"
+							  title="1515121249">&nbsp;</span>
+			        </div>
+								        <div class="player-info--basic__dfp">
+						FPPG: <span class="amt">4.5</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$4,200</span>					</div>
+	            </div>
+            </div>
+
+	        <div class="player-header__info__stats player-header__info__stats--mobile">
+		        <div class="player-info--basic">
+											<div class="player-info--basic__status">
+							<a href="/nfl/player-news/70017/rams-tyler-higbee-doesn-t-carry-much-upside-in-the-wild-card-round">Rams' Tyler Higbee doesn't carry much upside in the Wild Card Round</a>
+							<span class="timestamp timeago older-timestamp"
+								  title="1515121249">&nbsp;</span>
+						</div>
+					
+			        <div class="player-info--basic__dfp">
+						FPPG: <span class="amt">4.5</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$4,200</span>			        </div>
+		     	</div>
+	     	</div>
+        </div>
+
+		        		<div class="player-header__chart">
+        	<div class="player-header__chart__head">
+        		<span class="player-header__chart__head--title">
+        			FanDuel Fantasy Points Per Game
+        		</span>
+        		<span class="player-header__chart__head--more">
+        			<a href="/nfl/players/daily-fantasy/tyler-higbee">
+        				More DFS
+        			</a>
+        		</span>
+        	</div>
+	        <div class="player-header__chart--wrap">
+	        	<canvas
+					id="dfs-chart"
+					class="dfs-chart"
+					data-dfs-chart
+					data-dfs-chart-data="[{&quot;cost&quot;:&quot;4200.00&quot;,&quot;fp&quot;:6.8,&quot;opp&quot;:&quot;ARI&quot;,&quot;round&quot;:&quot;Week 2&quot;,&quot;roundAbbrev&quot;:&quot;Wk2&quot;,&quot;value&quot;:1.62},{&quot;cost&quot;:&quot;4200.00&quot;,&quot;fp&quot;:4.5,&quot;opp&quot;:&quot;LAC&quot;,&quot;round&quot;:&quot;Week 3&quot;,&quot;roundAbbrev&quot;:&quot;Wk3&quot;,&quot;value&quot;:1.07},{&quot;cost&quot;:&quot;4200.00&quot;,&quot;fp&quot;:0,&quot;opp&quot;:&quot;MIN&quot;,&quot;round&quot;:&quot;Week 4&quot;,&quot;roundAbbrev&quot;:&quot;Wk4&quot;,&quot;value&quot;:0},{&quot;cost&quot;:&quot;4200.00&quot;,&quot;fp&quot;:3.6,&quot;opp&quot;:&quot;SEA&quot;,&quot;round&quot;:&quot;Week 5&quot;,&quot;roundAbbrev&quot;:&quot;Wk5&quot;,&quot;value&quot;:0.86},{&quot;cost&quot;:&quot;4200.00&quot;,&quot;fp&quot;:0,&quot;opp&quot;:&quot;SF&quot;,&quot;round&quot;:&quot;Week 7&quot;,&quot;roundAbbrev&quot;:&quot;Wk7&quot;,&quot;value&quot;:0},{&quot;cost&quot;:&quot;4200.00&quot;,&quot;fp&quot;:1.1,&quot;opp&quot;:&quot;GB&quot;,&quot;round&quot;:&quot;Week 8&quot;,&quot;roundAbbrev&quot;:&quot;Wk8&quot;,&quot;value&quot;:0.26},{&quot;cost&quot;:&quot;4200.00&quot;,&quot;fp&quot;:5,&quot;opp&quot;:&quot;NO&quot;,&quot;round&quot;:&quot;Week 9&quot;,&quot;roundAbbrev&quot;:&quot;Wk9&quot;,&quot;value&quot;:1.19},{&quot;cost&quot;:&quot;4200.00&quot;,&quot;fp&quot;:10,&quot;opp&quot;:&quot;SEA&quot;,&quot;round&quot;:&quot;Week 10&quot;,&quot;roundAbbrev&quot;:&quot;Wk10&quot;,&quot;value&quot;:2.38},{&quot;cost&quot;:&quot;4200.00&quot;,&quot;fp&quot;:9.3,&quot;opp&quot;:&quot;KC&quot;,&quot;round&quot;:&quot;Week 11&quot;,&quot;roundAbbrev&quot;:&quot;Wk11&quot;,&quot;value&quot;:2.21}]"
+					height="135"
+					width="499">
+				</canvas>
+	        </div>
+        </div>
+		    </div>
+</div>
+
+<div class="grid--1-1 team-player-sub-nav" data-team-player-sub-nav>
+    <div class="team-player-sub-nav__wrap">
+        <nav class="team-player-sub-nav__list">
+                            <span class="team-player-sub-nav__list__back-link">
+                    <a href="/nfl/teams/los-angeles-rams" class="back-link-name">
+                        <i class="nf-icon icon-arrow-left"></i>
+                        Los Angeles Rams                    </a>
+                    <a href="/nfl/teams/los-angeles-rams" class="back-link-short">
+                        <i class="nf-icon icon-arrow-left"></i>
+                        Rams                    </a>
+                    <a href="/nfl/teams/los-angeles-rams" class="back-link-abbrev">
+                        <i class="nf-icon icon-arrow-left"></i>
+                        LA                    </a>
+                </span>
+                                        <form class="team-player-sub-nav__list__drop team-player-sub-nav__list__drop--full" action="">
+                    <select class="dropdown-custom dropdown-navigation" tabindex="-1">
+                                                                            <option  value="/nfl/players/projections/greg-zuerlein">Greg Zuerlein</option>
+                                                    <option  value="/nfl/players/projections/ndamukong-suh">Ndamukong Suh</option>
+                                                    <option  value="/nfl/players/projections/sam-shields">Sam Shields</option>
+                                                    <option  value="/nfl/players/projections/michael-brockers">Michael Brockers</option>
+                                                    <option  value="/nfl/players/projections/mark-barron">Mark Barron</option>
+                                                    <option  value="/nfl/players/projections/johnny-hekker">Johnny Hekker</option>
+                                                    <option  value="/nfl/players/projections/robert-woods-1">Robert Woods</option>
+                                                    <option  value="/nfl/players/projections/nickell-robey">Nickell Robey</option>
+                                                    <option  value="/nfl/players/projections/nick-williams-1">Nick Williams</option>
+                                                    <option  value="/nfl/players/projections/brandin-cooks">Brandin Cooks</option>
+                                                    <option  value="/nfl/players/projections/lamarcus-joyner">Lamarcus Joyner</option>
+                                                    <option  value="/nfl/players/projections/aaron-donald">Aaron Donald</option>
+                                                    <option  value="/nfl/players/projections/ethan-westbrooks">Ethan Westbrooks</option>
+                                                    <option  value="/nfl/players/projections/marcus-peters">Marcus Peters</option>
+                                                    <option  value="/nfl/players/projections/todd-gurley">Todd Gurley</option>
+                                                    <option  value="/nfl/players/projections/ramik-wilson">Ramik Wilson</option>
+                                                    <option  value="/nfl/players/projections/matt-longacre">Matt Longacre</option>
+                                                    <option  value="/nfl/players/projections/sean-mannion">Sean Mannion</option>
+                                                    <option  value="/nfl/players/projections/troy-hill">Troy Hill</option>
+                                                    <option  value="/nfl/players/projections/malcolm-brown">Malcolm Brown</option>
+                                                    <option  value="/nfl/players/projections/jared-goff">Jared Goff</option>
+                                                    <option  value="/nfl/players/projections/pharoh-cooper">Pharoh Cooper</option>
+                                                    <option  value="/nfl/players/projections/mike-thomas-1">Mike Thomas</option>
+                                                    <option  selected="selected"  value="/nfl/players/projections/tyler-higbee">Tyler Higbee</option>
+                                                    <option  value="/nfl/players/projections/cory-littleton">Cory Littleton</option>
+                                                    <option  value="/nfl/players/projections/bryce-hager">Bryce Hager</option>
+                                                    <option  value="/nfl/players/projections/marqui-christian">Marqui Christian</option>
+                                                    <option  value="/nfl/players/projections/blake-countess">Blake Countess</option>
+                                                    <option  value="/nfl/players/projections/los-angeles-rams-d-st">Los Angeles Rams D/ST</option>
+                                                    <option  value="/nfl/players/projections/samson-ebukam">Samson Ebukam</option>
+                                                    <option  value="/nfl/players/projections/tanzel-smart">Tanzel Smart</option>
+                                                    <option  value="/nfl/players/projections/dominique-hatfield">Dominique Hatfield</option>
+                                                    <option  value="/nfl/players/projections/josh-reynolds">Josh Reynolds</option>
+                                                    <option  value="/nfl/players/projections/john-johnson">John Johnson</option>
+                                                    <option  value="/nfl/players/projections/justin-davis">Justin Davis</option>
+                                                    <option  value="/nfl/players/projections/gerald-everett">Gerald Everett</option>
+                                                    <option  value="/nfl/players/projections/jojo-natson">JoJo Natson</option>
+                                                    <option  value="/nfl/players/projections/justin-lawler">Justin Lawler</option>
+                                                    <option  value="/nfl/players/projections/john-franklin-myers">John Franklin-Myers</option>
+                                                    <option  value="/nfl/players/projections/micah-kiser">Micah Kiser</option>
+                                                    <option  value="/nfl/players/projections/khadarel-hodge">Khadarel Hodge</option>
+                                            </select>
+                </form>
+                <form class="team-player-sub-nav__list__drop team-player-sub-nav__list__drop--abbr" action="">
+                    <select class="dropdown-custom dropdown-navigation" tabindex="-1">
+                                                                            <option  value="/nfl/players/projections/greg-zuerlein">
+                                G. Zuerlein                            </option>
+                                                    <option  value="/nfl/players/projections/ndamukong-suh">
+                                N. Suh                            </option>
+                                                    <option  value="/nfl/players/projections/sam-shields">
+                                S. Shields                            </option>
+                                                    <option  value="/nfl/players/projections/michael-brockers">
+                                M. Brockers                            </option>
+                                                    <option  value="/nfl/players/projections/mark-barron">
+                                M. Barron                            </option>
+                                                    <option  value="/nfl/players/projections/johnny-hekker">
+                                J. Hekker                            </option>
+                                                    <option  value="/nfl/players/projections/robert-woods-1">
+                                R. Woods                            </option>
+                                                    <option  value="/nfl/players/projections/nickell-robey">
+                                N. Robey                            </option>
+                                                    <option  value="/nfl/players/projections/nick-williams-1">
+                                N. Williams                            </option>
+                                                    <option  value="/nfl/players/projections/brandin-cooks">
+                                B. Cooks                            </option>
+                                                    <option  value="/nfl/players/projections/lamarcus-joyner">
+                                L. Joyner                            </option>
+                                                    <option  value="/nfl/players/projections/aaron-donald">
+                                A. Donald                            </option>
+                                                    <option  value="/nfl/players/projections/ethan-westbrooks">
+                                E. Westbrooks                            </option>
+                                                    <option  value="/nfl/players/projections/marcus-peters">
+                                M. Peters                            </option>
+                                                    <option  value="/nfl/players/projections/todd-gurley">
+                                T. Gurley                            </option>
+                                                    <option  value="/nfl/players/projections/ramik-wilson">
+                                R. Wilson                            </option>
+                                                    <option  value="/nfl/players/projections/matt-longacre">
+                                M. Longacre                            </option>
+                                                    <option  value="/nfl/players/projections/sean-mannion">
+                                S. Mannion                            </option>
+                                                    <option  value="/nfl/players/projections/troy-hill">
+                                T. Hill                            </option>
+                                                    <option  value="/nfl/players/projections/malcolm-brown">
+                                M. Brown                            </option>
+                                                    <option  value="/nfl/players/projections/jared-goff">
+                                J. Goff                            </option>
+                                                    <option  value="/nfl/players/projections/pharoh-cooper">
+                                P. Cooper                            </option>
+                                                    <option  value="/nfl/players/projections/mike-thomas-1">
+                                M. Thomas                            </option>
+                                                    <option  selected="selected"  value="/nfl/players/projections/tyler-higbee">
+                                T. Higbee                            </option>
+                                                    <option  value="/nfl/players/projections/cory-littleton">
+                                C. Littleton                            </option>
+                                                    <option  value="/nfl/players/projections/bryce-hager">
+                                B. Hager                            </option>
+                                                    <option  value="/nfl/players/projections/marqui-christian">
+                                M. Christian                            </option>
+                                                    <option  value="/nfl/players/projections/blake-countess">
+                                B. Countess                            </option>
+                                                    <option  value="/nfl/players/projections/los-angeles-rams-d-st">
+                                L. D/ST                            </option>
+                                                    <option  value="/nfl/players/projections/samson-ebukam">
+                                S. Ebukam                            </option>
+                                                    <option  value="/nfl/players/projections/tanzel-smart">
+                                T. Smart                            </option>
+                                                    <option  value="/nfl/players/projections/dominique-hatfield">
+                                D. Hatfield                            </option>
+                                                    <option  value="/nfl/players/projections/josh-reynolds">
+                                J. Reynolds                            </option>
+                                                    <option  value="/nfl/players/projections/john-johnson">
+                                J. Johnson                            </option>
+                                                    <option  value="/nfl/players/projections/justin-davis">
+                                J. Davis                            </option>
+                                                    <option  value="/nfl/players/projections/gerald-everett">
+                                G. Everett                            </option>
+                                                    <option  value="/nfl/players/projections/jojo-natson">
+                                J. Natson                            </option>
+                                                    <option  value="/nfl/players/projections/justin-lawler">
+                                J. Lawler                            </option>
+                                                    <option  value="/nfl/players/projections/john-franklin-myers">
+                                J. Franklin-Myers                            </option>
+                                                    <option  value="/nfl/players/projections/micah-kiser">
+                                M. Kiser                            </option>
+                                                    <option  value="/nfl/players/projections/khadarel-hodge">
+                                K. Hodge                            </option>
+                                            </select>
+                </form>
+                            <ul class="team-player-sub-nav__list__links">
+                    <li>
+                        <a                            title="Home"
+                           href="/nfl/players/tyler-higbee">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a                            title="News"
+                           href="/nfl/players/news/tyler-higbee">
+                            News
+                        </a>
+                    </li>
+                    <li>
+                        <a                            title="Stats"
+                           href="/nfl/players/stats/tyler-higbee">
+                            Stats
+                        </a>
+                    </li>
+                    <li>
+                        <a class="active"                           title="Projections"
+                           href="/nfl/players/projections/tyler-higbee">
+                            Projections
+                        </a>
+                    </li>
+                    <li>
+                        <a                            title="Daily Fantasy"
+                           href="/nfl/players/daily-fantasy/tyler-higbee">
+                            Daily Fantasy
+                        </a>
+                    </li>
+
+                </ul>
+                <form class="team-player-sub-nav__list__links--drop" action="">
+                    <select class="dropdown-custom dropdown-navigation" tabindex="-1">
+                        <option                                 value="/nfl/players/tyler-higbee">
+                            Home
+                        </option>
+                        <option                                 value="/nfl/players/news/tyler-higbee">
+                            News
+                        </option>
+                        <option                                 value="/nfl/players/stats/tyler-higbee">
+                            Stats
+                        </option>
+                        <option selected="selected"                                value="/nfl/players/projections/tyler-higbee">
+                            Proj
+                        </option>
+                        <option                                 value="/nfl/players/daily-fantasy/tyler-higbee">
+                            Daily Fantasy
+                        </option>
+                    </select>
+                </form>
+        </nav>
+    </div>
+</div>
+
+<main class="grid">
+	<!-- Top Page Ad -->
+	<div class="grid--1-1 leaderboard ad-unit" id="div-gpt-ad-1474923449995-0"></div>
+	<div class="grid__two-col">
+		<!-- Main Column Start -->
+		<section class="grid__two-col--main grid--1-2">
+			<!-- Player Specific Schedule -->
+<div class=" grid--1-1 player-schedule--interior player-schedule">
+	<div class="player-schedule__hed">
+		Next Game -
+			<strong>
+			Sun, 12/2/18, 1:00 PM ET			</strong>
+	</div>
+
+	<div class="player-schedule__next__probability">
+		<div class="next-game next-game--left">
+			<div class="next-game--left--logo-wrap">
+				<img class="next-game__logo next-game--left__logo" src="https://d1tjohjvimcqgl.cloudfront.net/teams/logos/nfl/LA.png">
+				<a class="next-game__team" href="/nfl/teams/los-angeles-rams">
+					LA				</a>
+			</div>
+							<span class="next-game__rank">
+					#2				</span>
+					</div>
+								<div class="next-game next-game--live odds-left team-nfl-LA">
+									<h4>
+						win probability
+					</h4>
+					<span class="next-game--live__percentage">
+					69.2<span class="symbol">%</span>
+				</span>
+					<span class="next-game--live__winning-team">
+					LA				</span>
+								<span class="next-game--live__arrow team-nfl-LA-border"></span>
+			</div>
+				<div class="next-game next-game--right">
+						<span class="next-game__rank small-hide">
+				#27			</span>
+						<div class="next-game--right--logo-wrap">
+				<a class="next-game__team small-hide" href="/nfl/teams/detroit-lions">
+					DET				</a>
+				<img class="next-game__logo next-game--right__logo" src="https://d1tjohjvimcqgl.cloudfront.net/teams/logos/nfl/DET.png">
+				<a class="next-game__team small-show" href="/nfl/teams/detroit-lions">
+					DET				</a>
+			</div>
+						<span class="next-game__rank small-show">
+				#27			</span>
+					</div>
+	</div>
+
+		<div class="player-schedule__indiv-projections">
+
+					<div class="player-schedule__indiv-projections__stats">
+				<h4>
+					projections for Tyler Higbee				</h4>
+
+				<div class="player-schedule__indiv-projections__stats--indiv">
+					<span class="stat">
+													1.1											</span>
+					<span title="Receptions" class="cat">
+						Rec
+					</span>
+				</div>
+
+				<div class="player-schedule__indiv-projections__stats--indiv">
+					<span class="stat">
+													13.3											</span>
+					<span title="Receiving Yards" class="cat">
+						Rec Yd
+					</span>
+				</div>
+
+				<div class="player-schedule__indiv-projections__stats--indiv">
+					<span class="stat">
+													0.1											</span>
+					<span title="Receiving Touchdowns" class="cat">
+						Rec TD
+					</span>
+				</div>
+
+				<div class="player-schedule__indiv-projections__stats--indiv  medium-down-hide">
+					<span class="stat">
+													0.0											</span>
+					<span title="Fumbles" class="cat">
+						Fum
+					</span>
+				</div>
+
+				<div class="player-schedule__indiv-projections__stats--indiv">
+				<span class="stat">
+											2.6									</span>
+				<span title = "FanDuel Fantasy Points" class="cat">
+					FP
+				</span>
+				</div>
+			</div>
+		
+			</div>
+	
+	
+</div>
+
+	<!-- Player Specific Schedule -->
+	<div class="grid--1-1 player-projections">
+	<div class="player-projections__hed">
+		<span class="player-projections__hed--title">2018-19 Projections</span>
+
+		<div class="player-projections__hed--option-wrap">
+			<a class="player-projections__hed--option filter-option active" data-filter-key="game_by_game" data-filter-group="projection_type">
+				Weekly
+			</a>
+
+			<a class="player-projections__hed--option filter-option" data-filter-key="remaining" data-filter-group="projection_type">
+				Rest of Year
+			</a>
+		</div>
+	</div>
+	<div class="player-projections__wrap">
+		<div class="projection-wrap filter-item" data-filter-key="game_by_game" data-filter-group="projection_type">
+			<!-- THIS TABLE EXCLUSIVELY FOR WHATEVER STAT COLUMNS WE WANT TO BE STICKY, IT CAN BE AS MANY COLUMNS AS WE WANT, THE DIFFERENCE IS CALCULATED BY GETTING WHATEVER THE WIDTH OF THIS TABLE IS -->
+			<table class="projection-table--fixed projection-table">
+				<thead class="projection-table__head">
+					<tr>
+						<th class="left-aligned">
+							Date
+						</th>
+						<th class="left-aligned">
+							Wk
+						</th>
+						<th class="left-aligned border-right">
+							OPP
+						</th>
+					</tr>
+				</thead>
+				<tbody class="projection-table__body">
+																		<tr data-row-index="1">
+													<td class="left-aligned">
+								9/10/18							</td>
+							<td>
+								1							</td>
+							<td class="left-aligned border-right">
+								<i class="team-nfl-OAK icon"></i>
+								<a href="/nfl/teams/oakland-raiders">@ OAK</a>
+							</td>
+											</tr>
+														<tr data-row-index="2">
+													<td class="left-aligned">
+								9/16/18							</td>
+							<td>
+								2							</td>
+							<td class="left-aligned border-right">
+								<i class="team-nfl-ARI icon"></i>
+								<a href="/nfl/teams/arizona-cardinals">ARI</a>
+							</td>
+											</tr>
+														<tr data-row-index="3">
+													<td class="left-aligned">
+								9/23/18							</td>
+							<td>
+								3							</td>
+							<td class="left-aligned border-right">
+								<i class="team-nfl-LAC icon"></i>
+								<a href="/nfl/teams/los-angeles-chargers">LAC</a>
+							</td>
+											</tr>
+														<tr data-row-index="4">
+													<td class="left-aligned">
+								9/27/18							</td>
+							<td>
+								4							</td>
+							<td class="left-aligned border-right">
+								<i class="team-nfl-MIN icon"></i>
+								<a href="/nfl/teams/minnesota-vikings">MIN</a>
+							</td>
+											</tr>
+														<tr data-row-index="5">
+													<td class="left-aligned">
+								10/7/18							</td>
+							<td>
+								5							</td>
+							<td class="left-aligned border-right">
+								<i class="team-nfl-SEA icon"></i>
+								<a href="/nfl/teams/seattle-seahawks">@ SEA</a>
+							</td>
+											</tr>
+														<tr data-row-index="6">
+													<td class="left-aligned">
+								10/14/18							</td>
+							<td>
+								6							</td>
+							<td class="left-aligned border-right">
+								<i class="team-nfl-DEN icon"></i>
+								<a href="/nfl/teams/denver-broncos">@ DEN</a>
+							</td>
+											</tr>
+														<tr data-row-index="7">
+													<td class="left-aligned">
+								10/21/18							</td>
+							<td>
+								7							</td>
+							<td class="left-aligned border-right">
+								<i class="team-nfl-SF icon"></i>
+								<a href="/nfl/teams/san-francisco-49ers">@ SF</a>
+							</td>
+											</tr>
+														<tr data-row-index="8">
+													<td class="left-aligned">
+								10/28/18							</td>
+							<td>
+								8							</td>
+							<td class="left-aligned border-right">
+								<i class="team-nfl-GB icon"></i>
+								<a href="/nfl/teams/green-bay-packers">GB</a>
+							</td>
+											</tr>
+														<tr data-row-index="9">
+													<td class="left-aligned">
+								11/4/18							</td>
+							<td>
+								9							</td>
+							<td class="left-aligned border-right">
+								<i class="team-nfl-NO icon"></i>
+								<a href="/nfl/teams/new-orleans-saints">@ NO</a>
+							</td>
+											</tr>
+														<tr data-row-index="10">
+													<td class="left-aligned">
+								11/11/18							</td>
+							<td>
+								10							</td>
+							<td class="left-aligned border-right">
+								<i class="team-nfl-SEA icon"></i>
+								<a href="/nfl/teams/seattle-seahawks">SEA</a>
+							</td>
+											</tr>
+														<tr data-row-index="11">
+													<td class="left-aligned">
+								11/19/18							</td>
+							<td>
+								11							</td>
+							<td class="left-aligned border-right">
+								<i class="team-nfl-KC icon"></i>
+								<a href="/nfl/teams/kansas-city-chiefs">KC</a>
+							</td>
+											</tr>
+														<tr data-row-index="12">
+													<td class="left-aligned" colspan="2">Week 12</td>
+							<td class="border-right">BYE</td>
+											</tr>
+														<tr data-row-index="13">
+													<td class="left-aligned">
+								12/2/18							</td>
+							<td>
+								13							</td>
+							<td class="left-aligned border-right">
+								<i class="team-nfl-DET icon"></i>
+								<a href="/nfl/teams/detroit-lions">@ DET</a>
+							</td>
+											</tr>
+														<tr data-row-index="14">
+													<td class="left-aligned">
+								12/9/18							</td>
+							<td>
+								14							</td>
+							<td class="left-aligned border-right">
+								<i class="team-nfl-CHI icon"></i>
+								<a href="/nfl/teams/chicago-bears">@ CHI</a>
+							</td>
+											</tr>
+														<tr data-row-index="15">
+													<td class="left-aligned">
+								12/16/18							</td>
+							<td>
+								15							</td>
+							<td class="left-aligned border-right">
+								<i class="team-nfl-PHI icon"></i>
+								<a href="/nfl/teams/philadelphia-eagles">PHI</a>
+							</td>
+											</tr>
+														<tr data-row-index="16">
+													<td class="left-aligned">
+								12/23/18							</td>
+							<td>
+								16							</td>
+							<td class="left-aligned border-right">
+								<i class="team-nfl-ARI icon"></i>
+								<a href="/nfl/teams/arizona-cardinals">@ ARI</a>
+							</td>
+											</tr>
+														<tr data-row-index="17">
+													<td class="left-aligned">
+								12/30/18							</td>
+							<td>
+								17							</td>
+							<td class="left-aligned border-right">
+								<i class="team-nfl-SF icon"></i>
+								<a href="/nfl/teams/san-francisco-49ers">SF</a>
+							</td>
+											</tr>
+												</tbody>
+			</table>
+
+							<table class="projection-table grid--1-1 no-fix player-upcoming" cellspacing="" cellpadding="0">
+					<thead class="projection-table__head">
+					<tr>
+						<th title="Opponent Defensive Ranking">Opp Def Rk</th>
+						<th title="Targets">Trgt</th>
+						<th title="Receptions">Recs</th>
+						<th title="Receiving Yards">Rec Yds</th>
+						<th title="Receiving Touchdowns">Rec TD</th>
+						<th title="Fumbles" class="border-right">Fum</th>
+						<th title="68% Confidence Interval">Floor/Ceiling</th>
+						<th title="Standard Fantasy Scoring" class="border-right">nF FP</th>
+						<th title="FanDuel Cost">Cost</th>
+						<th title="FanDuel Fantasy Points">FP</th>
+						<th title="FanDuel Value">Value</th>
+					</tr>
+					</thead>
+					<tbody class="projection-table__body">
+																<tr data-row-index="1">
+							<td class="positive">
+								#31							</td>
+							<td>
+								2.93							</td>
+							<td>
+								1.66							</td>
+							<td>
+								14.93							</td>
+							<td>
+								0.12							</td>
+							<td class="border-right">
+								0.00							</td>
+							<td>
+								-0.41-4.87							</td>
+							<td class="border-right">
+								2.23							</td>
+							<td class="cost">
+								$5,300							</td>
+							<td>
+								3.04							</td>
+							<td>
+								0.57							</td>
+						</tr>
+											<tr data-row-index="2">
+							<td class="">
+								#11							</td>
+							<td>
+								2.92							</td>
+							<td>
+								1.60							</td>
+							<td>
+								14.62							</td>
+							<td>
+								0.05							</td>
+							<td class="border-right">
+								0.04							</td>
+							<td>
+								-0.50-4.02							</td>
+							<td class="border-right">
+								1.76							</td>
+							<td class="cost">
+								$4,200							</td>
+							<td>
+								2.56							</td>
+							<td>
+								0.61							</td>
+						</tr>
+											<tr data-row-index="3">
+							<td class="">
+								#12							</td>
+							<td>
+								2.50							</td>
+							<td>
+								1.52							</td>
+							<td>
+								18.91							</td>
+							<td>
+								0.12							</td>
+							<td class="border-right">
+								0.01							</td>
+							<td>
+								0.24-5.04							</td>
+							<td class="border-right">
+								2.64							</td>
+							<td class="cost">
+								$4,200							</td>
+							<td>
+								3.37							</td>
+							<td>
+								0.8							</td>
+						</tr>
+											<tr data-row-index="4">
+							<td class="">
+								#3							</td>
+							<td>
+								2.27							</td>
+							<td>
+								1.49							</td>
+							<td>
+								15.00							</td>
+							<td>
+								0.24							</td>
+							<td class="border-right">
+								0.01							</td>
+							<td>
+								0.46-5.32							</td>
+							<td class="border-right">
+								2.89							</td>
+							<td class="cost">
+								$4,200							</td>
+							<td>
+								3.67							</td>
+							<td>
+								0.87							</td>
+						</tr>
+											<tr data-row-index="5">
+							<td class="positive">
+								#15							</td>
+							<td>
+								2.25							</td>
+							<td>
+								1.31							</td>
+							<td>
+								15.25							</td>
+							<td>
+								0.09							</td>
+							<td class="border-right">
+								0.01							</td>
+							<td>
+								0.08-4.10							</td>
+							<td class="border-right">
+								2.09							</td>
+							<td class="cost">
+								$4,200							</td>
+							<td>
+								2.74							</td>
+							<td>
+								0.65							</td>
+						</tr>
+											<tr data-row-index="6">
+							<td class="">
+								#6							</td>
+							<td>
+								2.71							</td>
+							<td>
+								1.53							</td>
+							<td>
+								18.07							</td>
+							<td>
+								0.15							</td>
+							<td class="border-right">
+								0.01							</td>
+							<td>
+								-0.08-5.50							</td>
+							<td class="border-right">
+								2.71							</td>
+							<td class="cost">
+								$4,200							</td>
+							<td>
+								3.49							</td>
+							<td>
+								0.83							</td>
+						</tr>
+											<tr data-row-index="7">
+							<td class="positive">
+								#23							</td>
+							<td>
+								2.28							</td>
+							<td>
+								1.34							</td>
+							<td>
+								15.49							</td>
+							<td>
+								0.14							</td>
+							<td class="border-right">
+								0.00							</td>
+							<td>
+								-0.11-4.93							</td>
+							<td class="border-right">
+								2.41							</td>
+							<td class="cost">
+								$4,200							</td>
+							<td>
+								3.08							</td>
+							<td>
+								0.73							</td>
+						</tr>
+											<tr data-row-index="8">
+							<td class="positive">
+								#21							</td>
+							<td>
+								1.53							</td>
+							<td>
+								0.92							</td>
+							<td>
+								10.02							</td>
+							<td>
+								0.18							</td>
+							<td class="border-right">
+								0.01							</td>
+							<td>
+								-0.76-4.90							</td>
+							<td class="border-right">
+								2.07							</td>
+							<td class="cost">
+								$4,200							</td>
+							<td>
+								2.54							</td>
+							<td>
+								0.6							</td>
+						</tr>
+											<tr data-row-index="9">
+							<td class="positive">
+								#14							</td>
+							<td>
+								1.69							</td>
+							<td>
+								0.94							</td>
+							<td>
+								11.75							</td>
+							<td>
+								0.14							</td>
+							<td class="border-right">
+								0.01							</td>
+							<td>
+								-0.16-4.08							</td>
+							<td class="border-right">
+								1.96							</td>
+							<td class="cost">
+								$4,200							</td>
+							<td>
+								2.47							</td>
+							<td>
+								0.59							</td>
+						</tr>
+											<tr data-row-index="10">
+							<td class="positive">
+								#15							</td>
+							<td>
+								1.83							</td>
+							<td>
+								0.90							</td>
+							<td>
+								11.70							</td>
+							<td>
+								0.15							</td>
+							<td class="border-right">
+								0.00							</td>
+							<td>
+								-0.65-4.77							</td>
+							<td class="border-right">
+								2.06							</td>
+							<td class="cost">
+								$4,200							</td>
+							<td>
+								2.52							</td>
+							<td>
+								0.6							</td>
+						</tr>
+											<tr data-row-index="11">
+							<td class="positive">
+								#26							</td>
+							<td>
+								1.99							</td>
+							<td>
+								1.15							</td>
+							<td>
+								12.93							</td>
+							<td>
+								0.13							</td>
+							<td class="border-right">
+								0.01							</td>
+							<td>
+								-0.63-4.79							</td>
+							<td class="border-right">
+								2.08							</td>
+							<td class="cost">
+								$4,200							</td>
+							<td>
+								2.65							</td>
+							<td>
+								0.63							</td>
+						</tr>
+											<tr data-row-index="12">
+							<td class="">
+								N/A							</td>
+							<td>
+								0.00							</td>
+							<td>
+								0.00							</td>
+							<td>
+								0.00							</td>
+							<td>
+								0.00							</td>
+							<td class="border-right">
+								0.00							</td>
+							<td>
+								0.00-0.00							</td>
+							<td class="border-right">
+								0.00							</td>
+							<td class="cost">
+								N/A							</td>
+							<td>
+								0							</td>
+							<td>
+								N/A							</td>
+						</tr>
+											<tr data-row-index="13">
+							<td class="positive">
+								#30							</td>
+							<td>
+								1.47							</td>
+							<td>
+								1.10							</td>
+							<td>
+								13.28							</td>
+							<td>
+								0.12							</td>
+							<td class="border-right">
+								0.00							</td>
+							<td>
+								0.35-3.75							</td>
+							<td class="border-right">
+								2.05							</td>
+							<td class="cost">
+								$4,200							</td>
+							<td>
+								2.6							</td>
+							<td>
+								0.62							</td>
+						</tr>
+											<tr data-row-index="14">
+							<td class="">
+								#4							</td>
+							<td>
+								1.46							</td>
+							<td>
+								0.91							</td>
+							<td>
+								10.22							</td>
+							<td>
+								0.06							</td>
+							<td class="border-right">
+								0.01							</td>
+							<td>
+								-0.23-2.99							</td>
+							<td class="border-right">
+								1.38							</td>
+							<td class="cost">
+								N/A							</td>
+							<td>
+								1.84							</td>
+							<td>
+								N/A							</td>
+						</tr>
+											<tr data-row-index="15">
+							<td class="positive">
+								#19							</td>
+							<td>
+								1.46							</td>
+							<td>
+								1.03							</td>
+							<td>
+								12.53							</td>
+							<td>
+								0.10							</td>
+							<td class="border-right">
+								0.01							</td>
+							<td>
+								-0.05-3.77							</td>
+							<td class="border-right">
+								1.86							</td>
+							<td class="cost">
+								N/A							</td>
+							<td>
+								2.37							</td>
+							<td>
+								N/A							</td>
+						</tr>
+											<tr data-row-index="16">
+							<td class="">
+								#11							</td>
+							<td>
+								1.52							</td>
+							<td>
+								1.06							</td>
+							<td>
+								12.51							</td>
+							<td>
+								0.10							</td>
+							<td class="border-right">
+								0.01							</td>
+							<td>
+								-0.30-4.00							</td>
+							<td class="border-right">
+								1.85							</td>
+							<td class="cost">
+								N/A							</td>
+							<td>
+								2.38							</td>
+							<td>
+								N/A							</td>
+						</tr>
+											<tr data-row-index="17">
+							<td class="positive">
+								#23							</td>
+							<td>
+								1.40							</td>
+							<td>
+								1.02							</td>
+							<td>
+								12.27							</td>
+							<td>
+								0.12							</td>
+							<td class="border-right">
+								0.00							</td>
+							<td>
+								0.27-3.61							</td>
+							<td class="border-right">
+								1.94							</td>
+							<td class="cost">
+								N/A							</td>
+							<td>
+								2.46							</td>
+							<td>
+								N/A							</td>
+						</tr>
+															</tbody>
+				</table>
+					</div>
+
+		<div class="projection-wrap filter-item" data-filter-key="remaining" data-filter-group="projection_type" style="display:none;">
+							<table class="projection-table grid--1-1 no-fix player-upcoming" cellspacing="" cellpadding="0">
+					<thead class="projection-table__head">
+						<tr>
+							<th title="Targets">Trgt</th>
+							<th title="Receptions">Recs</th>
+							<th title="Receiving Yards">Rec Yds</th>
+							<th title="Receiving Touchdowns">Rec TD</th>
+							<th title="Fumbles" class="border-right">Fum</th>
+							<th title="68% Confidence Interval">Floor/Ceiling</th>
+							<th title="Standard Fantasy Scoring" class="border-right">nF FP</th>
+							<th title="FanDuel Fantasy Points">FP</th>
+						</tr>
+					</thead>
+					<tbody class="projection-table__body">
+											<tr>
+							<td>
+								7.31							</td>
+							<td>
+								5.12							</td>
+							<td>
+								60.81							</td>
+							<td>
+								0.50							</td>
+							<td class="border-right">
+								0.03							</td>
+							<td>
+								5.01-13.15							</td>
+							<td class="border-right">
+								9.08							</td>
+							<td>
+								11.64							</td>
+						</tr>
+										</tbody>
+				</table>
+					</div>
+	</div>
+</div>
+
+<div class="player-schedule--more-projections">
+	<span class="player-schedule--more-projections__title">
+		More Projections
+	</span>
+	<a href="/nfl/daily-fantasy/projections" class="btn btn--thick">
+		NFL Player Projections
+	</a>
+	<a href="/nfl/games" class="btn btn--thick">
+		NFL Game Projections
+	</a>
+</div>
+		</section>
+
+		<!-- Sidebar Start -->
+		<section class="grid__two-col--sidebar sidebar grid--1-2">
+
+			<!-- Sidebar Questions -->
+			
+			<!-- Sidebar News -->
+			<div class="sidebar__article-listing">
+					<div class="sidebar__article-listing__hed">
+		<h2 class="sidebar__article-listing__hed--title">
+			NFL News		</h2>
+	</div>
+			<article class="listing  w-thumb-left  ">
+	<div class="listing__thumb  ">
+		<a href="/nfl/news/23385/the-20-best-offensive-players-from-week-12">
+			<picture>
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23385_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23385_a3.jpg">
+			</picture>
+		</a>
+			</div>
+	<div class="listing__info">
+		<div class="listing__hed">
+						<h4>
+				<a href="/nfl/news/23385/the-20-best-offensive-players-from-week-12">
+					The 20 Best Offensive Players From Week 12				</a>
+			</h4>
+		</div>
+
+		<div class="listing__byline">
+			<a href="/author/brandon-gdula" class="listing__byline--author">
+				Brandon Gdula			</a>
+			<span>&mdash; <span class="timeago" title="1543255975"></span></span>
+		</div>
+	</div>
+
+</article>
+
+			<article class="listing  w-thumb-left  ">
+	<div class="listing__thumb  ">
+		<a href="/nfl/news/23377/fanduel-single-game-daily-fantasy-football-helper-week-12-monday-night">
+			<picture>
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23377_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23377_a3.jpg">
+			</picture>
+		</a>
+			</div>
+	<div class="listing__info">
+		<div class="listing__hed">
+						<h4>
+				<a href="/nfl/news/23377/fanduel-single-game-daily-fantasy-football-helper-week-12-monday-night">
+					FanDuel Single-Game Daily Fantasy Football Helper: Week 12 Monday Night				</a>
+			</h4>
+		</div>
+
+		<div class="listing__byline">
+			<a href="/author/kenyatta-storin" class="listing__byline--author">
+				Kenyatta Storin			</a>
+			<span>&mdash; <span class="timeago" title="1543254702"></span></span>
+		</div>
+	</div>
+
+</article>
+
+			<article class="listing  w-thumb-left  ">
+	<div class="listing__thumb  ">
+		<a href="/nfl/lists/23376/fantasy-football-5-things-we-learned-from-week-12">
+			<picture>
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23376_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23376_a3.jpg">
+			</picture>
+		</a>
+			</div>
+	<div class="listing__info">
+		<div class="listing__hed">
+						<h4>
+				<a href="/nfl/lists/23376/fantasy-football-5-things-we-learned-from-week-12">
+					Fantasy Football: 5 Things We Learned From Week 12				</a>
+			</h4>
+		</div>
+
+		<div class="listing__byline">
+			<a href="/author/aidan-mcgrath" class="listing__byline--author">
+				Aidan Mcgrath			</a>
+			<span>&mdash; <span class="timeago" title="1543251647"></span></span>
+		</div>
+	</div>
+
+</article>
+
+			<article class="listing  w-thumb-left  ">
+	<div class="listing__thumb  ">
+		<a href="/nfl/news/23382/nfl-week-12-fanduel-ownership-percentages-everybody-played-odell-beckham">
+			<picture>
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23382_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23382_a3.jpg">
+			</picture>
+		</a>
+			</div>
+	<div class="listing__info">
+		<div class="listing__hed">
+			<span class="listing--premium"><i class="nf-icon icon-premium"></i>premium</span>			<h4>
+				<a href="/nfl/news/23382/nfl-week-12-fanduel-ownership-percentages-everybody-played-odell-beckham">
+					NFL Week 12 FanDuel Ownership Percentages: Everybody Played Odell Beckham				</a>
+			</h4>
+		</div>
+
+		<div class="listing__byline">
+			<a href="/author/brandon-gdula" class="listing__byline--author">
+				Brandon Gdula			</a>
+			<span>&mdash; <span class="timeago" title="1543248841"></span></span>
+		</div>
+	</div>
+
+</article>
+
+			<article class="listing  w-thumb-left  ">
+	<div class="listing__thumb  ">
+		<a href="/nfl/news/23379/daily-fantasy-football-podcast-the-heat-check-week-12-recap">
+			<picture>
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23379_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23379_a3.jpg">
+			</picture>
+		</a>
+			</div>
+	<div class="listing__info">
+		<div class="listing__hed">
+						<h4>
+				<a href="/nfl/news/23379/daily-fantasy-football-podcast-the-heat-check-week-12-recap">
+					Daily Fantasy Football Podcast: The Heat Check, Week 12 Recap				</a>
+			</h4>
+		</div>
+
+		<div class="listing__byline">
+			<a href="/author/jim-sannes" class="listing__byline--author">
+				Jim Sannes			</a>
+			<span>&mdash; <span class="timeago" title="1543247951"></span></span>
+		</div>
+	</div>
+
+</article>
+
+			<article class="listing  w-thumb-left  ">
+	<div class="listing__thumb  ">
+		<a href="/nfl/news/23380/week-12-s-perfect-nfl-dfs-lineups">
+			<picture>
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23380_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23380_a3.jpg">
+			</picture>
+		</a>
+			</div>
+	<div class="listing__info">
+		<div class="listing__hed">
+						<h4>
+				<a href="/nfl/news/23380/week-12-s-perfect-nfl-dfs-lineups">
+					Week 12's Perfect NFL DFS Lineups				</a>
+			</h4>
+		</div>
+
+		<div class="listing__byline">
+			<a href="/author/jim-sannes" class="listing__byline--author">
+				Jim Sannes			</a>
+			<span>&mdash; <span class="timeago" title="1543247395"></span></span>
+		</div>
+	</div>
+
+</article>
+
+	
+			<div class="sidebar__article-listing__all">
+			<a href="/nfl/news" class="btn btn--thick">
+				All News
+			</a>
+		</div>
+				</div>
+
+			<!-- Sidebar Block Ad -->
+			<section class="sidebar__block-ad ad-unit " id="div-gpt-ad-1470252852981-0"></section>
+
+
+			<!-- Sidebar Comparable Seasons -->
+			<div class="sidebar__comparable-seasons">
+	<div class="sidebar__comparable-seasons__hed">
+		<div class="sidebar__comparable-seasons__hed--title">
+			Comparable Seasons
+		</div>
+	</div>
+
+						<div class="sidebar__comparable-seasons__wrap compare-indiv">
+				<img src="https://d1tjohjvimcqgl.cloudfront.net/category/41399_n.jpg" class="player-image compare-indiv__logo">
+				<div class="compare-indiv__name">
+					<a href="/nfl/players/troy-bienemann">
+						Troy Bienemann					</a>
+					<span>
+						2007-08 Season
+					</span>
+				</div>
+				<div class="compare-indiv__percentage">
+					<span>98.65%</span> match
+				</div>
+			</div>
+								<div class="sidebar__comparable-seasons__wrap compare-indiv">
+				<img src="https://d1tjohjvimcqgl.cloudfront.net/category/41723_n.jpg" class="player-image compare-indiv__logo">
+				<div class="compare-indiv__name">
+					<a href="/nfl/players/bobby-collins">
+						Bobby Collins					</a>
+					<span>
+						2000-01 Season
+					</span>
+				</div>
+				<div class="compare-indiv__percentage">
+					<span>98.33%</span> match
+				</div>
+			</div>
+								<div class="sidebar__comparable-seasons__wrap compare-indiv">
+				<img src="https://d1tjohjvimcqgl.cloudfront.net/category/41249_n.jpg" class="player-image compare-indiv__logo">
+				<div class="compare-indiv__name">
+					<a href="/nfl/players/marcellus-rivers">
+						Marcellus Rivers					</a>
+					<span>
+						2001-02 Season
+					</span>
+				</div>
+				<div class="compare-indiv__percentage">
+					<span>97.16%</span> match
+				</div>
+			</div>
+								<div class="sidebar__comparable-seasons__wrap compare-indiv">
+				<img src="https://d1tjohjvimcqgl.cloudfront.net/category/41494_n.jpg" class="player-image compare-indiv__logo">
+				<div class="compare-indiv__name">
+					<a href="/nfl/players/eric-edwards">
+						Eric Edwards					</a>
+					<span>
+						2004-05 Season
+					</span>
+				</div>
+				<div class="compare-indiv__percentage">
+					<span>97.03%</span> match
+				</div>
+			</div>
+								<div class="sidebar__comparable-seasons__wrap compare-indiv">
+				<img src="https://d1tjohjvimcqgl.cloudfront.net/category/239_n.jpg" class="player-image compare-indiv__logo">
+				<div class="compare-indiv__name">
+					<a href="/nfl/players/joel-dreessen">
+						Joel Dreessen					</a>
+					<span>
+						2009-10 Season
+					</span>
+				</div>
+				<div class="compare-indiv__percentage">
+					<span>96.76%</span> match
+				</div>
+			</div>
+			</div>
+
+			<!-- Sidebar Block Ad -->
+			<section class="sidebar__block-ad ad-unit " id="div-gpt-ad-1470252927369-0"></section>
+		</section>
+	</div>
+</main>    
+
+    <footer class="site-footer ">
+	<div class="site-footer__wrap">
+		<div class="site-footer__logo">
+			<a href="/">
+				<img src="https://d1tjohjvimcqgl.cloudfront.net/webile/images/numberfire-logo-white.png">
+			</a>
+		</div>
+
+		<div class="site-footer__links">
+			<ul class="site-footer__links__list">
+				<li>
+					<a href="/info/about-us">
+						About
+					</a>
+				</li>
+				<li>
+					<a href="/info/advertise">
+						Advertise With Us
+					</a>
+				</li>
+				<li>
+					<a href="/info/privacy-policy">
+						Privacy Policy
+					</a>
+				</li>
+				<li>
+					<a href="/info/terms-of-service">
+						Terms of Service
+					</a>
+				</li>
+				<li>
+					<a href="/info/contact-us">
+						Contact Us
+					</a>
+				</li>
+			</ul>
+		</div>
+
+		<div class="site-footer__social">
+			<span>Follow Us:</span>
+			<a href="http://www.facebook.com/numberfire/" class="site-footer__social--icon nf-icon icon-facebook"></a>
+			<a href="http://twitter.com/numberfire/" class="site-footer__social--icon nf-icon icon-twitter"></a>
+			<a href="http://instagram.com/numberfire" class="site-footer__social--icon nf-icon icon-instagram"></a>
+		</div>
+
+		<div class="site-footer__copyright">
+			<p>&copy; 2009-2017 numberFire, Inc. Certain headlines thanks to Rotoworld. Weather info <a href="https://darksky.net/poweredby/" target="_blank" style="color: #bbb">Powered by Dark Sky</a></p>
+			<p>All rights reserved. Stop stealing our stuff and ripping off our features, please.</p>
+		</div>
+	</div>
+</footer>    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.0/Chart.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsrender/0.9.84/jsrender.min.js"></script>
+
+            <script type="text/javascript" src="/js/config/prod.js"></script>
+        <script type="text/javascript" src="/js/nF.js?v=461"></script>
+    <script type="text/javascript" src="/dist/fd-login.js?v=461"></script>
+    <script type="text/javascript" src="/dist/scoreboard.js?v=461"></script>
+
+        
+    	<script>
+		var _gaq=[['_setAccount','UA-16532199-1'],['_trackPageview']]; // Change UA-XXXXX-X to be your site's ID
+		(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+			g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+			s.parentNode.insertBefore(g,s)}(document,'script'));
+	</script>
+
+	<script type="text/javascript">
+		var _sf_async_config={uid:13588,domain:"numberfire.com"};
+		(function(){
+			function loadChartbeat() {
+				window._sf_endpt=(new Date()).getTime();
+				var e = document.createElement('script');
+				e.setAttribute('language', 'javascript');
+				e.setAttribute('type', 'text/javascript');
+				e.setAttribute('src',
+					(("https:" == document.location.protocol) ? "https://s3.amazonaws.com/" : "http://") +
+					"static.chartbeat.com/js/chartbeat.js");
+				document.body.appendChild(e);
+			}
+			var oldonload = window.onload;
+			window.onload = (typeof window.onload != 'function') ?
+				loadChartbeat : function() { oldonload(); loadChartbeat(); };
+		})();
+	</script>
+
+	<!-- Sailthru Horizon -->
+	<script type="text/javascript" src="https://ak.sail-horizon.com/horizon/v1.js"></script>
+	<!-- if loading for secure domain, use: https://ak.sail-horizon.com/horizon/v1.js -->
+	<script type="text/javascript">
+		$(function() {
+			// Sailthru Concierge
+			if (window.Sailthru) {
+				Sailthru.setup({
+					domain: 'horizon.numberfire.com'
+				});
+			}
+		});
+	</script>
+
+
+
+
+
+<script>window.twttr = (function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0],
+		t = window.twttr || {};
+	if (d.getElementById(id)) return t;
+	js = d.createElement(s);
+	js.id = id;
+	js.src = "https://platform.twitter.com/widgets.js";
+	fjs.parentNode.insertBefore(js, fjs);
+
+	t._e = [];
+	t.ready = function(f) {
+		t._e.push(f);
+	};
+
+	return t;
+}(document, "script", "twitter-wjs"));</script>
+
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":72,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
