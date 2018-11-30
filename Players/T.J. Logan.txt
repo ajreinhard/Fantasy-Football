@@ -2196,7 +2196,6 @@
                                                                             <option  value="/nfl/players/projections/larry-fitzgerald">Larry Fitzgerald</option>
                                                     <option  value="/nfl/players/projections/john-phillips">John Phillips</option>
                                                     <option  value="/nfl/players/projections/jermaine-gresham">Jermaine Gresham</option>
-                                                    <option  value="/nfl/players/projections/phil-dawson">Phil Dawson</option>
                                                     <option  value="/nfl/players/projections/arizona-dst">Arizona D/ST</option>
                                                     <option  value="/nfl/players/projections/andy-lee">Andy Lee</option>
                                                     <option  value="/nfl/players/projections/antoine-bethea">Antoine Bethea</option>
@@ -2204,13 +2203,12 @@
                                                     <option  value="/nfl/players/projections/patrick-peterson">Patrick Peterson</option>
                                                     <option  value="/nfl/players/projections/chandler-jones">Chandler Jones</option>
                                                     <option  value="/nfl/players/projections/leonard-johnson">Leonard Johnson</option>
-                                                    <option  value="/nfl/players/projections/josh-bynes">Josh Bynes</option>
+                                                    <option  value="/nfl/players/projections/david-amerson-1">David Amerson</option>
                                                     <option  value="/nfl/players/projections/mike-glennon-1">Mike Glennon</option>
                                                     <option  value="/nfl/players/projections/gerald-hodges">Gerald Hodges</option>
                                                     <option  value="/nfl/players/projections/derrick-coleman">Derrick Coleman</option>
                                                     <option  value="/nfl/players/projections/benson-mayowa">Benson Mayowa</option>
                                                     <option  value="/nfl/players/projections/deone-bucannon">Deone Bucannon</option>
-                                                    <option  value="/nfl/players/projections/bene-benwikere">Bene Benwikere</option>
                                                     <option  value="/nfl/players/projections/zach-moore">Zach Moore</option>
                                                     <option  value="/nfl/players/projections/tre-boston">Tre Boston</option>
                                                     <option  value="/nfl/players/projections/j-j-nelson">J.J. Nelson</option>
@@ -2219,10 +2217,12 @@
                                                     <option  value="/nfl/players/projections/rodney-gunter">Rodney Gunter</option>
                                                     <option  value="/nfl/players/projections/brandon-williams-4">Brandon Williams</option>
                                                     <option  value="/nfl/players/projections/robert-nkemdiche">Robert Nkemdiche</option>
+                                                    <option  value="/nfl/players/projections/zane-gonzalez">Zane Gonzalez</option>
                                                     <option  value="/nfl/players/projections/budda-baker">Budda Baker</option>
                                                     <option  value="/nfl/players/projections/rudy-ford">Rudy Ford</option>
                                                     <option  value="/nfl/players/projections/haason-reddick">Haason Reddick</option>
                                                     <option  value="/nfl/players/projections/olsen-pierre">Olsen Pierre</option>
+                                                    <option  value="/nfl/players/projections/chad-williams-1">Chad Williams</option>
                                                     <option  value="/nfl/players/projections/joe-walker-1">Joe Walker</option>
                                                     <option  value="/nfl/players/projections/ricky-seals-jones">Ricky Seals-Jones</option>
                                                     <option  value="/nfl/players/projections/christian-kirk">Christian Kirk</option>
@@ -2242,8 +2242,6 @@
                                 J. Phillips                            </option>
                                                     <option  value="/nfl/players/projections/jermaine-gresham">
                                 J. Gresham                            </option>
-                                                    <option  value="/nfl/players/projections/phil-dawson">
-                                P. Dawson                            </option>
                                                     <option  value="/nfl/players/projections/arizona-dst">
                                 A. D/ST                            </option>
                                                     <option  value="/nfl/players/projections/andy-lee">
@@ -2258,8 +2256,8 @@
                                 C. Jones                            </option>
                                                     <option  value="/nfl/players/projections/leonard-johnson">
                                 L. Johnson                            </option>
-                                                    <option  value="/nfl/players/projections/josh-bynes">
-                                J. Bynes                            </option>
+                                                    <option  value="/nfl/players/projections/david-amerson-1">
+                                D. Amerson                            </option>
                                                     <option  value="/nfl/players/projections/mike-glennon-1">
                                 M. Glennon                            </option>
                                                     <option  value="/nfl/players/projections/gerald-hodges">
@@ -2270,8 +2268,6 @@
                                 B. Mayowa                            </option>
                                                     <option  value="/nfl/players/projections/deone-bucannon">
                                 D. Bucannon                            </option>
-                                                    <option  value="/nfl/players/projections/bene-benwikere">
-                                B. Benwikere                            </option>
                                                     <option  value="/nfl/players/projections/zach-moore">
                                 Z. Moore                            </option>
                                                     <option  value="/nfl/players/projections/tre-boston">
@@ -2288,6 +2284,8 @@
                                 B. Williams                            </option>
                                                     <option  value="/nfl/players/projections/robert-nkemdiche">
                                 R. Nkemdiche                            </option>
+                                                    <option  value="/nfl/players/projections/zane-gonzalez">
+                                Z. Gonzalez                            </option>
                                                     <option  value="/nfl/players/projections/budda-baker">
                                 B. Baker                            </option>
                                                     <option  value="/nfl/players/projections/rudy-ford">
@@ -2296,6 +2294,8 @@
                                 H. Reddick                            </option>
                                                     <option  value="/nfl/players/projections/olsen-pierre">
                                 O. Pierre                            </option>
+                                                    <option  value="/nfl/players/projections/chad-williams-1">
+                                C. Williams                            </option>
                                                     <option  value="/nfl/players/projections/joe-walker-1">
                                 J. Walker                            </option>
                                                     <option  value="/nfl/players/projections/ricky-seals-jones">
@@ -3168,25 +3168,25 @@
 	</div>
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
-		<a href="/nfl/news/23385/the-20-best-offensive-players-from-week-12">
+		<a href="/nfl/lists/23414/7-nfl-fanduel-value-plays-for-week-13">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23385_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23385_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23414_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23414_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 						<h4>
-				<a href="/nfl/news/23385/the-20-best-offensive-players-from-week-12">
-					The 20 Best Offensive Players From Week 12				</a>
+				<a href="/nfl/lists/23414/7-nfl-fanduel-value-plays-for-week-13">
+					7 NFL FanDuel Value Plays for Week 13				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
-			<a href="/author/brandon-gdula" class="listing__byline--author">
-				Brandon Gdula			</a>
-			<span>&mdash; <span class="timeago" title="1543255975"></span></span>
+			<a href="/author/jason-schandl" class="listing__byline--author">
+				Jason Schandl			</a>
+			<span>&mdash; <span class="timeago" title="1543513847"></span></span>
 		</div>
 	</div>
 
@@ -3194,25 +3194,25 @@
 
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
-		<a href="/nfl/news/23377/fanduel-single-game-daily-fantasy-football-helper-week-12-monday-night">
+		<a href="/nfl/news/23444/daily-fantasy-football-podcast-the-heat-check-week-13-preview">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23377_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23377_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23444_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23444_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 						<h4>
-				<a href="/nfl/news/23377/fanduel-single-game-daily-fantasy-football-helper-week-12-monday-night">
-					FanDuel Single-Game Daily Fantasy Football Helper: Week 12 Monday Night				</a>
+				<a href="/nfl/news/23444/daily-fantasy-football-podcast-the-heat-check-week-13-preview">
+					Daily Fantasy Football Podcast: The Heat Check, Week 13 Preview				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
-			<a href="/author/kenyatta-storin" class="listing__byline--author">
-				Kenyatta Storin			</a>
-			<span>&mdash; <span class="timeago" title="1543254702"></span></span>
+			<a href="/author/jim-sannes" class="listing__byline--author">
+				Jim Sannes			</a>
+			<span>&mdash; <span class="timeago" title="1543512266"></span></span>
 		</div>
 	</div>
 
@@ -3220,25 +3220,25 @@
 
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
-		<a href="/nfl/lists/23376/fantasy-football-5-things-we-learned-from-week-12">
+		<a href="/nfl/lists/23423/5-historical-vegas-trends-you-should-know-for-week-13">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23376_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23376_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23423_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23423_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 						<h4>
-				<a href="/nfl/lists/23376/fantasy-football-5-things-we-learned-from-week-12">
-					Fantasy Football: 5 Things We Learned From Week 12				</a>
+				<a href="/nfl/lists/23423/5-historical-vegas-trends-you-should-know-for-week-13">
+					5 Historical Vegas Trends You Should Know for Week 13				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
-			<a href="/author/aidan-mcgrath" class="listing__byline--author">
-				Aidan Mcgrath			</a>
-			<span>&mdash; <span class="timeago" title="1543251647"></span></span>
+			<a href="/author/kyle-dvorchak" class="listing__byline--author">
+				Kyle Dvorchak			</a>
+			<span>&mdash; <span class="timeago" title="1543511661"></span></span>
 		</div>
 	</div>
 
@@ -3246,25 +3246,51 @@
 
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
-		<a href="/nfl/news/23382/nfl-week-12-fanduel-ownership-percentages-everybody-played-odell-beckham">
+		<a href="/nfl/news/23441/draft-daily-fantasy-helper-week-13">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23382_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23382_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23441_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23441_a3.jpg">
+			</picture>
+		</a>
+			</div>
+	<div class="listing__info">
+		<div class="listing__hed">
+						<h4>
+				<a href="/nfl/news/23441/draft-daily-fantasy-helper-week-13">
+					DRAFT Daily Fantasy Helper: Week 13				</a>
+			</h4>
+		</div>
+
+		<div class="listing__byline">
+			<a href="/author/matthew-gajewski" class="listing__byline--author">
+				Matthew Gajewski			</a>
+			<span>&mdash; <span class="timeago" title="1543510266"></span></span>
+		</div>
+	</div>
+
+</article>
+
+			<article class="listing  w-thumb-left  ">
+	<div class="listing__thumb  ">
+		<a href="/nfl/news/23436/thursday-night-football-will-the-cowboys-derail-the-streaking-saints">
+			<picture>
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23436_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23436_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 			<span class="listing--premium"><i class="nf-icon icon-premium"></i>premium</span>			<h4>
-				<a href="/nfl/news/23382/nfl-week-12-fanduel-ownership-percentages-everybody-played-odell-beckham">
-					NFL Week 12 FanDuel Ownership Percentages: Everybody Played Odell Beckham				</a>
+				<a href="/nfl/news/23436/thursday-night-football-will-the-cowboys-derail-the-streaking-saints">
+					Thursday Night Football: Will the Cowboys Derail the Streaking Saints?				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
-			<a href="/author/brandon-gdula" class="listing__byline--author">
-				Brandon Gdula			</a>
-			<span>&mdash; <span class="timeago" title="1543248841"></span></span>
+			<a href="/author/matt-kupferle-1" class="listing__byline--author">
+				Matt Kupferle			</a>
+			<span>&mdash; <span class="timeago" title="1543508996"></span></span>
 		</div>
 	</div>
 
@@ -3272,51 +3298,25 @@
 
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
-		<a href="/nfl/news/23379/daily-fantasy-football-podcast-the-heat-check-week-12-recap">
+		<a href="/nfl/lists/23443/5-draftkings-bargains-for-week-13">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23379_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23379_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23443_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23443_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 						<h4>
-				<a href="/nfl/news/23379/daily-fantasy-football-podcast-the-heat-check-week-12-recap">
-					Daily Fantasy Football Podcast: The Heat Check, Week 12 Recap				</a>
+				<a href="/nfl/lists/23443/5-draftkings-bargains-for-week-13">
+					5 DraftKings Bargains for Week 13				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
-			<a href="/author/jim-sannes" class="listing__byline--author">
-				Jim Sannes			</a>
-			<span>&mdash; <span class="timeago" title="1543247951"></span></span>
-		</div>
-	</div>
-
-</article>
-
-			<article class="listing  w-thumb-left  ">
-	<div class="listing__thumb  ">
-		<a href="/nfl/news/23380/week-12-s-perfect-nfl-dfs-lineups">
-			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23380_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23380_a3.jpg">
-			</picture>
-		</a>
-			</div>
-	<div class="listing__info">
-		<div class="listing__hed">
-						<h4>
-				<a href="/nfl/news/23380/week-12-s-perfect-nfl-dfs-lineups">
-					Week 12's Perfect NFL DFS Lineups				</a>
-			</h4>
-		</div>
-
-		<div class="listing__byline">
-			<a href="/author/jim-sannes" class="listing__byline--author">
-				Jim Sannes			</a>
-			<span>&mdash; <span class="timeago" title="1543247395"></span></span>
+			<a href="/author/gabriel-garrido" class="listing__byline--author">
+				Gabe Garrido			</a>
+			<span>&mdash; <span class="timeago" title="1543508331"></span></span>
 		</div>
 	</div>
 
@@ -3537,5 +3537,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":96,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":92,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

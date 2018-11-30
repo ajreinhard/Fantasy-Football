@@ -277,6 +277,7 @@ results <- data.frame(do.call(rbind, slots),stringsAsFactors=F)
 #results$Player[which(results$OwnerWeek=='lucas-11' & results$Pos=='QB-1' & results$Slot=='BYE')] <- 'Ben Roethlisberger'
 #results$Player[which(results$OwnerWeek=='lucas-11' & results$Pos=='K' & results$Slot=='BYE')] <- 'Matt Bryant'
 #results$Player[which(results$OwnerWeek=='lucas-11' & results$Pos=='TE-1' & results$Slot=='BYE')] <- 'Kyle Rudolph'
+results$Player[which(results$OwnerWeek=='aj-13' & results$Pos=='D/ST' & results$Slot=='OPEN')] <- 'Lions D/ST'
 
 #######################################################
 results[which(results$Slot!=''),]

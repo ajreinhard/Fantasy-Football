@@ -2135,12 +2135,12 @@
 		            	Tom Savage								            </h2>
 		            <div class="player-info--basic__wrap">
 													<span class="player-info--basic__team">
-								QB, <a href="/nfl/teams/san-francisco-49ers" class="team-name">San Francisco 49ers</a><a href="/nfl/teams/san-francisco-49ers" class="team-abbrev">SF</a>
+								QB, <a href="/nfl/teams/cincinnati-bengals" class="team-name">Cincinnati Bengals</a><a href="/nfl/teams/cincinnati-bengals" class="team-abbrev">CIN</a>
 							</span>
 															        </div>
 								        <div class="player-info--basic__status">
 			        	<a href="/nfl/player-news/104391/bengals-add-tom-savage-behind-jeff-driskel">Bengals add Tom Savage behind Jeff Driskel</a>
-						<span class="timestamp timeago recent-timestamp"
+						<span class="timestamp timeago older-timestamp"
 							  title="1543268869">&nbsp;</span>
 			        </div>
 								        <div class="player-info--basic__dfp">
@@ -2152,7 +2152,7 @@
 		        <div class="player-info--basic">
 											<div class="player-info--basic__status">
 							<a href="/nfl/player-news/104391/bengals-add-tom-savage-behind-jeff-driskel">Bengals add Tom Savage behind Jeff Driskel</a>
-							<span class="timestamp timeago recent-timestamp"
+							<span class="timestamp timeago older-timestamp"
 								  title="1543268869">&nbsp;</span>
 						</div>
 					
@@ -2169,154 +2169,154 @@
     <div class="team-player-sub-nav__wrap">
         <nav class="team-player-sub-nav__list">
                             <span class="team-player-sub-nav__list__back-link">
-                    <a href="/nfl/teams/san-francisco-49ers" class="back-link-name">
+                    <a href="/nfl/teams/cincinnati-bengals" class="back-link-name">
                         <i class="nf-icon icon-arrow-left"></i>
-                        San Francisco 49ers                    </a>
-                    <a href="/nfl/teams/san-francisco-49ers" class="back-link-short">
+                        Cincinnati Bengals                    </a>
+                    <a href="/nfl/teams/cincinnati-bengals" class="back-link-short">
                         <i class="nf-icon icon-arrow-left"></i>
-                        49ers                    </a>
-                    <a href="/nfl/teams/san-francisco-49ers" class="back-link-abbrev">
+                        Bengals                    </a>
+                    <a href="/nfl/teams/cincinnati-bengals" class="back-link-abbrev">
                         <i class="nf-icon icon-arrow-left"></i>
-                        SF                    </a>
+                        CIN                    </a>
                 </span>
                                         <form class="team-player-sub-nav__list__drop team-player-sub-nav__list__drop--full" action="">
                     <select class="dropdown-custom dropdown-navigation" tabindex="-1">
-                                                                            <option  value="/nfl/players/projections/pierre-garcon">Pierre Garcon</option>
-                                                    <option  value="/nfl/players/projections/robbie-gould">Robbie Gould</option>
-                                                    <option  value="/nfl/players/projections/san-francisco-dst">San Francisco D/ST</option>
-                                                    <option  value="/nfl/players/projections/alfred-morris">Alfred Morris</option>
-                                                    <option  value="/nfl/players/projections/dekoda-watson">Dekoda Watson</option>
-                                                    <option  value="/nfl/players/projections/earl-mitchell">Earl Mitchell</option>
-                                                    <option  value="/nfl/players/projections/malcolm-smith">Malcolm Smith</option>
-                                                    <option  value="/nfl/players/projections/richard-sherman">Richard Sherman</option>
-                                                    <option  value="/nfl/players/projections/garrett-celek">Garrett Celek</option>
-                                                    <option  value="/nfl/players/projections/marquise-goodwin-1">Marquise Goodwin</option>
-                                                    <option  value="/nfl/players/projections/kyle-juszczyk">Kyle Juszczyk</option>
+                                                                            <option  value="/nfl/players/projections/kevin-huber">Kevin Huber</option>
+                                                    <option  value="/nfl/players/projections/cincinnati-dst">Cincinnati D/ST</option>
+                                                    <option  value="/nfl/players/projections/a-j-green">A.J. Green</option>
+                                                    <option  value="/nfl/players/projections/randy-bullock">Randy Bullock</option>
+                                                    <option  value="/nfl/players/projections/carlos-dunlap">Carlos Dunlap</option>
+                                                    <option  value="/nfl/players/projections/geno-atkins">Geno Atkins</option>
+                                                    <option  value="/nfl/players/projections/michael-johnson">Michael Johnson</option>
+                                                    <option  value="/nfl/players/projections/dre-kirkpatrick">Dre Kirkpatrick</option>
+                                                    <option  value="/nfl/players/projections/vincent-rey">Vincent Rey</option>
+                                                    <option  value="/nfl/players/projections/vontaze-burfict">Vontaze Burfict</option>
+                                                    <option  value="/nfl/players/projections/giovani-bernard-1">Giovani Bernard</option>
+                                                    <option  value="/nfl/players/projections/shawn-williams">Shawn Williams</option>
                                                     <option  selected="selected"  value="/nfl/players/projections/tom-savage">Tom Savage</option>
-                                                    <option  value="/nfl/players/projections/jimmie-ward">Jimmie Ward</option>
-                                                    <option  value="/nfl/players/projections/k-waun-williams">K'Waun Williams</option>
-                                                    <option  value="/nfl/players/projections/cassius-marsh">Cassius Marsh</option>
-                                                    <option  value="/nfl/players/projections/antone-exum">Antone Exum</option>
-                                                    <option  value="/nfl/players/projections/bradley-pinion">Bradley Pinion</option>
-                                                    <option  value="/nfl/players/projections/jaquiski-tartt">Jaquiski Tartt</option>
-                                                    <option  value="/nfl/players/projections/arik-armstead">Arik Armstead</option>
-                                                    <option  value="/nfl/players/projections/deforest-buckner">DeForest Buckner</option>
-                                                    <option  value="/nfl/players/projections/sheldon-day">Sheldon Day</option>
-                                                    <option  value="/nfl/players/projections/ronald-blair">Ronald Blair</option>
-                                                    <option  value="/nfl/players/projections/mark-nzeocha">Mark Nzeocha</option>
-                                                    <option  value="/nfl/players/projections/matt-breida">Matt Breida</option>
-                                                    <option  value="/nfl/players/projections/george-kittle">George Kittle</option>
-                                                    <option  value="/nfl/players/projections/trent-taylor">Trent Taylor</option>
-                                                    <option  value="/nfl/players/projections/solomon-thomas">Solomon Thomas</option>
-                                                    <option  value="/nfl/players/projections/matt-dayes">Matt Dayes</option>
-                                                    <option  value="/nfl/players/projections/d-j-jones">D.J. Jones</option>
-                                                    <option  value="/nfl/players/projections/greg-mabin">Greg Mabin</option>
-                                                    <option  value="/nfl/players/projections/ahkello-witherspoon">Ahkello Witherspoon</option>
-                                                    <option  value="/nfl/players/projections/elijah-lee">Elijah Lee</option>
-                                                    <option  value="/nfl/players/projections/c-j-beathard">C.J. Beathard</option>
-                                                    <option  value="/nfl/players/projections/kendrick-bourne">Kendrick Bourne</option>
-                                                    <option  value="/nfl/players/projections/dante-pettis">Dante Pettis</option>
-                                                    <option  value="/nfl/players/projections/fred-warner">Fred Warner</option>
-                                                    <option  value="/nfl/players/projections/d-j-reed">D.J. Reed</option>
-                                                    <option  value="/nfl/players/projections/tarvarius-moore">Tarvarius Moore</option>
-                                                    <option  value="/nfl/players/projections/richie-james">Richie James</option>
-                                                    <option  value="/nfl/players/projections/nick-mullens">Nick Mullens</option>
-                                                    <option  value="/nfl/players/projections/ross-dwelley">Ross Dwelley</option>
-                                                    <option  value="/nfl/players/projections/marcell-harris">Marcell Harris</option>
-                                                    <option  value="/nfl/players/projections/jullian-taylor">Jullian Taylor</option>
-                                                    <option  value="/nfl/players/projections/jeff-wilson">Jeff Wilson</option>
+                                                    <option  value="/nfl/players/projections/darqueze-dennard">Darqueze Dennard</option>
+                                                    <option  value="/nfl/players/projections/kasim-edebali">Kasim Edebali</option>
+                                                    <option  value="/nfl/players/projections/c-j-uzomah">C.J. Uzomah</option>
+                                                    <option  value="/nfl/players/projections/tyler-boyd">Tyler Boyd</option>
+                                                    <option  value="/nfl/players/projections/christian-ringo">Christian Ringo</option>
+                                                    <option  value="/nfl/players/projections/alex-erickson">Alex Erickson</option>
+                                                    <option  value="/nfl/players/projections/nick-vigil">Nick Vigil</option>
+                                                    <option  value="/nfl/players/projections/clayton-fejedelem">Clayton Fejedelem</option>
+                                                    <option  value="/nfl/players/projections/cody-core">Cody Core</option>
+                                                    <option  value="/nfl/players/projections/keivarae-russell">KeiVarae Russell</option>
+                                                    <option  value="/nfl/players/projections/matt-lengel">Matt Lengel</option>
+                                                    <option  value="/nfl/players/projections/joe-mixon">Joe Mixon</option>
+                                                    <option  value="/nfl/players/projections/john-ross">John Ross</option>
+                                                    <option  value="/nfl/players/projections/jordan-evans">Jordan Evans</option>
+                                                    <option  value="/nfl/players/projections/andrew-billings">Andrew Billings</option>
+                                                    <option  value="/nfl/players/projections/jordan-willis">Jordan Willis</option>
+                                                    <option  value="/nfl/players/projections/william-jackson-iii">William Jackson III</option>
+                                                    <option  value="/nfl/players/projections/tony-mcrae">Tony McRae</option>
+                                                    <option  value="/nfl/players/projections/josh-malone">Josh Malone</option>
+                                                    <option  value="/nfl/players/projections/hardy-nickerson-jr">Hardy Nickerson Jr</option>
+                                                    <option  value="/nfl/players/projections/brandon-wilson">Brandon Wilson</option>
+                                                    <option  value="/nfl/players/projections/brandon-bell">Brandon Bell</option>
+                                                    <option  value="/nfl/players/projections/darius-phillips">Darius Phillips</option>
+                                                    <option  value="/nfl/players/projections/jessie-bates-iii">Jessie Bates III</option>
+                                                    <option  value="/nfl/players/projections/sam-hubbard">Sam Hubbard</option>
+                                                    <option  value="/nfl/players/projections/mark-walton">Mark Walton</option>
+                                                    <option  value="/nfl/players/projections/malik-jefferson">Malik Jefferson</option>
+                                                    <option  value="/nfl/players/projections/jeff-driskel">Jeff Driskel</option>
+                                                    <option  value="/nfl/players/projections/jordan-franks">Jordan Franks</option>
+                                                    <option  value="/nfl/players/projections/auden-tate">Auden Tate</option>
+                                                    <option  value="/nfl/players/projections/niles-scott">Niles Scott</option>
                                             </select>
                 </form>
                 <form class="team-player-sub-nav__list__drop team-player-sub-nav__list__drop--abbr" action="">
                     <select class="dropdown-custom dropdown-navigation" tabindex="-1">
-                                                                            <option  value="/nfl/players/projections/pierre-garcon">
-                                P. Garcon                            </option>
-                                                    <option  value="/nfl/players/projections/robbie-gould">
-                                R. Gould                            </option>
-                                                    <option  value="/nfl/players/projections/san-francisco-dst">
-                                S. D/ST                            </option>
-                                                    <option  value="/nfl/players/projections/alfred-morris">
-                                A. Morris                            </option>
-                                                    <option  value="/nfl/players/projections/dekoda-watson">
-                                D. Watson                            </option>
-                                                    <option  value="/nfl/players/projections/earl-mitchell">
-                                E. Mitchell                            </option>
-                                                    <option  value="/nfl/players/projections/malcolm-smith">
-                                M. Smith                            </option>
-                                                    <option  value="/nfl/players/projections/richard-sherman">
-                                R. Sherman                            </option>
-                                                    <option  value="/nfl/players/projections/garrett-celek">
-                                G. Celek                            </option>
-                                                    <option  value="/nfl/players/projections/marquise-goodwin-1">
-                                M. Goodwin                            </option>
-                                                    <option  value="/nfl/players/projections/kyle-juszczyk">
-                                K. Juszczyk                            </option>
+                                                                            <option  value="/nfl/players/projections/kevin-huber">
+                                K. Huber                            </option>
+                                                    <option  value="/nfl/players/projections/cincinnati-dst">
+                                C. D/ST                            </option>
+                                                    <option  value="/nfl/players/projections/a-j-green">
+                                A. Green                            </option>
+                                                    <option  value="/nfl/players/projections/randy-bullock">
+                                R. Bullock                            </option>
+                                                    <option  value="/nfl/players/projections/carlos-dunlap">
+                                C. Dunlap                            </option>
+                                                    <option  value="/nfl/players/projections/geno-atkins">
+                                G. Atkins                            </option>
+                                                    <option  value="/nfl/players/projections/michael-johnson">
+                                M. Johnson                            </option>
+                                                    <option  value="/nfl/players/projections/dre-kirkpatrick">
+                                D. Kirkpatrick                            </option>
+                                                    <option  value="/nfl/players/projections/vincent-rey">
+                                V. Rey                            </option>
+                                                    <option  value="/nfl/players/projections/vontaze-burfict">
+                                V. Burfict                            </option>
+                                                    <option  value="/nfl/players/projections/giovani-bernard-1">
+                                G. Bernard                            </option>
+                                                    <option  value="/nfl/players/projections/shawn-williams">
+                                S. Williams                            </option>
                                                     <option  selected="selected"  value="/nfl/players/projections/tom-savage">
                                 T. Savage                            </option>
-                                                    <option  value="/nfl/players/projections/jimmie-ward">
-                                J. Ward                            </option>
-                                                    <option  value="/nfl/players/projections/k-waun-williams">
-                                K. Williams                            </option>
-                                                    <option  value="/nfl/players/projections/cassius-marsh">
-                                C. Marsh                            </option>
-                                                    <option  value="/nfl/players/projections/antone-exum">
-                                A. Exum                            </option>
-                                                    <option  value="/nfl/players/projections/bradley-pinion">
-                                B. Pinion                            </option>
-                                                    <option  value="/nfl/players/projections/jaquiski-tartt">
-                                J. Tartt                            </option>
-                                                    <option  value="/nfl/players/projections/arik-armstead">
-                                A. Armstead                            </option>
-                                                    <option  value="/nfl/players/projections/deforest-buckner">
-                                D. Buckner                            </option>
-                                                    <option  value="/nfl/players/projections/sheldon-day">
-                                S. Day                            </option>
-                                                    <option  value="/nfl/players/projections/ronald-blair">
-                                R. Blair                            </option>
-                                                    <option  value="/nfl/players/projections/mark-nzeocha">
-                                M. Nzeocha                            </option>
-                                                    <option  value="/nfl/players/projections/matt-breida">
-                                M. Breida                            </option>
-                                                    <option  value="/nfl/players/projections/george-kittle">
-                                G. Kittle                            </option>
-                                                    <option  value="/nfl/players/projections/trent-taylor">
-                                T. Taylor                            </option>
-                                                    <option  value="/nfl/players/projections/solomon-thomas">
-                                S. Thomas                            </option>
-                                                    <option  value="/nfl/players/projections/matt-dayes">
-                                M. Dayes                            </option>
-                                                    <option  value="/nfl/players/projections/d-j-jones">
-                                D. Jones                            </option>
-                                                    <option  value="/nfl/players/projections/greg-mabin">
-                                G. Mabin                            </option>
-                                                    <option  value="/nfl/players/projections/ahkello-witherspoon">
-                                A. Witherspoon                            </option>
-                                                    <option  value="/nfl/players/projections/elijah-lee">
-                                E. Lee                            </option>
-                                                    <option  value="/nfl/players/projections/c-j-beathard">
-                                C. Beathard                            </option>
-                                                    <option  value="/nfl/players/projections/kendrick-bourne">
-                                K. Bourne                            </option>
-                                                    <option  value="/nfl/players/projections/dante-pettis">
-                                D. Pettis                            </option>
-                                                    <option  value="/nfl/players/projections/fred-warner">
-                                F. Warner                            </option>
-                                                    <option  value="/nfl/players/projections/d-j-reed">
-                                D. Reed                            </option>
-                                                    <option  value="/nfl/players/projections/tarvarius-moore">
-                                T. Moore                            </option>
-                                                    <option  value="/nfl/players/projections/richie-james">
-                                R. James                            </option>
-                                                    <option  value="/nfl/players/projections/nick-mullens">
-                                N. Mullens                            </option>
-                                                    <option  value="/nfl/players/projections/ross-dwelley">
-                                R. Dwelley                            </option>
-                                                    <option  value="/nfl/players/projections/marcell-harris">
-                                M. Harris                            </option>
-                                                    <option  value="/nfl/players/projections/jullian-taylor">
-                                J. Taylor                            </option>
-                                                    <option  value="/nfl/players/projections/jeff-wilson">
-                                J. Wilson                            </option>
+                                                    <option  value="/nfl/players/projections/darqueze-dennard">
+                                D. Dennard                            </option>
+                                                    <option  value="/nfl/players/projections/kasim-edebali">
+                                K. Edebali                            </option>
+                                                    <option  value="/nfl/players/projections/c-j-uzomah">
+                                C. Uzomah                            </option>
+                                                    <option  value="/nfl/players/projections/tyler-boyd">
+                                T. Boyd                            </option>
+                                                    <option  value="/nfl/players/projections/christian-ringo">
+                                C. Ringo                            </option>
+                                                    <option  value="/nfl/players/projections/alex-erickson">
+                                A. Erickson                            </option>
+                                                    <option  value="/nfl/players/projections/nick-vigil">
+                                N. Vigil                            </option>
+                                                    <option  value="/nfl/players/projections/clayton-fejedelem">
+                                C. Fejedelem                            </option>
+                                                    <option  value="/nfl/players/projections/cody-core">
+                                C. Core                            </option>
+                                                    <option  value="/nfl/players/projections/keivarae-russell">
+                                K. Russell                            </option>
+                                                    <option  value="/nfl/players/projections/matt-lengel">
+                                M. Lengel                            </option>
+                                                    <option  value="/nfl/players/projections/joe-mixon">
+                                J. Mixon                            </option>
+                                                    <option  value="/nfl/players/projections/john-ross">
+                                J. Ross                            </option>
+                                                    <option  value="/nfl/players/projections/jordan-evans">
+                                J. Evans                            </option>
+                                                    <option  value="/nfl/players/projections/andrew-billings">
+                                A. Billings                            </option>
+                                                    <option  value="/nfl/players/projections/jordan-willis">
+                                J. Willis                            </option>
+                                                    <option  value="/nfl/players/projections/william-jackson-iii">
+                                W. Jackson III                            </option>
+                                                    <option  value="/nfl/players/projections/tony-mcrae">
+                                T. McRae                            </option>
+                                                    <option  value="/nfl/players/projections/josh-malone">
+                                J. Malone                            </option>
+                                                    <option  value="/nfl/players/projections/hardy-nickerson-jr">
+                                H. Nickerson Jr.                            </option>
+                                                    <option  value="/nfl/players/projections/brandon-wilson">
+                                B. Wilson                            </option>
+                                                    <option  value="/nfl/players/projections/brandon-bell">
+                                B. Bell                            </option>
+                                                    <option  value="/nfl/players/projections/darius-phillips">
+                                D. Phillips                            </option>
+                                                    <option  value="/nfl/players/projections/jessie-bates-iii">
+                                J. Bates III                            </option>
+                                                    <option  value="/nfl/players/projections/sam-hubbard">
+                                S. Hubbard                            </option>
+                                                    <option  value="/nfl/players/projections/mark-walton">
+                                M. Walton                            </option>
+                                                    <option  value="/nfl/players/projections/malik-jefferson">
+                                M. Jefferson                            </option>
+                                                    <option  value="/nfl/players/projections/jeff-driskel">
+                                J. Driskel                            </option>
+                                                    <option  value="/nfl/players/projections/jordan-franks">
+                                J. Franks                            </option>
+                                                    <option  value="/nfl/players/projections/auden-tate">
+                                A. Tate                            </option>
+                                                    <option  value="/nfl/players/projections/niles-scott">
+                                N. Scott                            </option>
                                             </select>
                 </form>
                             <ul class="team-player-sub-nav__list__links">
@@ -2404,7 +2404,7 @@
 						win probability
 					</h4>
 					<span class="next-game--live__percentage">
-					67.6<span class="symbol">%</span>
+					69.4<span class="symbol">%</span>
 				</span>
 					<span class="next-game--live__winning-team">
 					DEN				</span>
@@ -2971,25 +2971,25 @@
 	</div>
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
-		<a href="/nfl/news/23385/the-20-best-offensive-players-from-week-12">
+		<a href="/nfl/lists/23414/7-nfl-fanduel-value-plays-for-week-13">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23385_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23385_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23414_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23414_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 						<h4>
-				<a href="/nfl/news/23385/the-20-best-offensive-players-from-week-12">
-					The 20 Best Offensive Players From Week 12				</a>
+				<a href="/nfl/lists/23414/7-nfl-fanduel-value-plays-for-week-13">
+					7 NFL FanDuel Value Plays for Week 13				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
-			<a href="/author/brandon-gdula" class="listing__byline--author">
-				Brandon Gdula			</a>
-			<span>&mdash; <span class="timeago" title="1543255975"></span></span>
+			<a href="/author/jason-schandl" class="listing__byline--author">
+				Jason Schandl			</a>
+			<span>&mdash; <span class="timeago" title="1543513847"></span></span>
 		</div>
 	</div>
 
@@ -2997,25 +2997,25 @@
 
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
-		<a href="/nfl/news/23377/fanduel-single-game-daily-fantasy-football-helper-week-12-monday-night">
+		<a href="/nfl/news/23444/daily-fantasy-football-podcast-the-heat-check-week-13-preview">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23377_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23377_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23444_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23444_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 						<h4>
-				<a href="/nfl/news/23377/fanduel-single-game-daily-fantasy-football-helper-week-12-monday-night">
-					FanDuel Single-Game Daily Fantasy Football Helper: Week 12 Monday Night				</a>
+				<a href="/nfl/news/23444/daily-fantasy-football-podcast-the-heat-check-week-13-preview">
+					Daily Fantasy Football Podcast: The Heat Check, Week 13 Preview				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
-			<a href="/author/kenyatta-storin" class="listing__byline--author">
-				Kenyatta Storin			</a>
-			<span>&mdash; <span class="timeago" title="1543254702"></span></span>
+			<a href="/author/jim-sannes" class="listing__byline--author">
+				Jim Sannes			</a>
+			<span>&mdash; <span class="timeago" title="1543512266"></span></span>
 		</div>
 	</div>
 
@@ -3023,25 +3023,25 @@
 
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
-		<a href="/nfl/lists/23376/fantasy-football-5-things-we-learned-from-week-12">
+		<a href="/nfl/lists/23423/5-historical-vegas-trends-you-should-know-for-week-13">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23376_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23376_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23423_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23423_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 						<h4>
-				<a href="/nfl/lists/23376/fantasy-football-5-things-we-learned-from-week-12">
-					Fantasy Football: 5 Things We Learned From Week 12				</a>
+				<a href="/nfl/lists/23423/5-historical-vegas-trends-you-should-know-for-week-13">
+					5 Historical Vegas Trends You Should Know for Week 13				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
-			<a href="/author/aidan-mcgrath" class="listing__byline--author">
-				Aidan Mcgrath			</a>
-			<span>&mdash; <span class="timeago" title="1543251647"></span></span>
+			<a href="/author/kyle-dvorchak" class="listing__byline--author">
+				Kyle Dvorchak			</a>
+			<span>&mdash; <span class="timeago" title="1543511661"></span></span>
 		</div>
 	</div>
 
@@ -3049,25 +3049,51 @@
 
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
-		<a href="/nfl/news/23382/nfl-week-12-fanduel-ownership-percentages-everybody-played-odell-beckham">
+		<a href="/nfl/news/23441/draft-daily-fantasy-helper-week-13">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23382_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23382_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23441_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23441_a3.jpg">
+			</picture>
+		</a>
+			</div>
+	<div class="listing__info">
+		<div class="listing__hed">
+						<h4>
+				<a href="/nfl/news/23441/draft-daily-fantasy-helper-week-13">
+					DRAFT Daily Fantasy Helper: Week 13				</a>
+			</h4>
+		</div>
+
+		<div class="listing__byline">
+			<a href="/author/matthew-gajewski" class="listing__byline--author">
+				Matthew Gajewski			</a>
+			<span>&mdash; <span class="timeago" title="1543510266"></span></span>
+		</div>
+	</div>
+
+</article>
+
+			<article class="listing  w-thumb-left  ">
+	<div class="listing__thumb  ">
+		<a href="/nfl/news/23436/thursday-night-football-will-the-cowboys-derail-the-streaking-saints">
+			<picture>
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23436_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23436_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 			<span class="listing--premium"><i class="nf-icon icon-premium"></i>premium</span>			<h4>
-				<a href="/nfl/news/23382/nfl-week-12-fanduel-ownership-percentages-everybody-played-odell-beckham">
-					NFL Week 12 FanDuel Ownership Percentages: Everybody Played Odell Beckham				</a>
+				<a href="/nfl/news/23436/thursday-night-football-will-the-cowboys-derail-the-streaking-saints">
+					Thursday Night Football: Will the Cowboys Derail the Streaking Saints?				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
-			<a href="/author/brandon-gdula" class="listing__byline--author">
-				Brandon Gdula			</a>
-			<span>&mdash; <span class="timeago" title="1543248841"></span></span>
+			<a href="/author/matt-kupferle-1" class="listing__byline--author">
+				Matt Kupferle			</a>
+			<span>&mdash; <span class="timeago" title="1543508996"></span></span>
 		</div>
 	</div>
 
@@ -3075,51 +3101,25 @@
 
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
-		<a href="/nfl/news/23379/daily-fantasy-football-podcast-the-heat-check-week-12-recap">
+		<a href="/nfl/lists/23443/5-draftkings-bargains-for-week-13">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23379_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23379_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23443_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23443_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 						<h4>
-				<a href="/nfl/news/23379/daily-fantasy-football-podcast-the-heat-check-week-12-recap">
-					Daily Fantasy Football Podcast: The Heat Check, Week 12 Recap				</a>
+				<a href="/nfl/lists/23443/5-draftkings-bargains-for-week-13">
+					5 DraftKings Bargains for Week 13				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
-			<a href="/author/jim-sannes" class="listing__byline--author">
-				Jim Sannes			</a>
-			<span>&mdash; <span class="timeago" title="1543247951"></span></span>
-		</div>
-	</div>
-
-</article>
-
-			<article class="listing  w-thumb-left  ">
-	<div class="listing__thumb  ">
-		<a href="/nfl/news/23380/week-12-s-perfect-nfl-dfs-lineups">
-			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23380_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23380_a3.jpg">
-			</picture>
-		</a>
-			</div>
-	<div class="listing__info">
-		<div class="listing__hed">
-						<h4>
-				<a href="/nfl/news/23380/week-12-s-perfect-nfl-dfs-lineups">
-					Week 12's Perfect NFL DFS Lineups				</a>
-			</h4>
-		</div>
-
-		<div class="listing__byline">
-			<a href="/author/jim-sannes" class="listing__byline--author">
-				Jim Sannes			</a>
-			<span>&mdash; <span class="timeago" title="1543247395"></span></span>
+			<a href="/author/gabriel-garrido" class="listing__byline--author">
+				Gabe Garrido			</a>
+			<span>&mdash; <span class="timeago" title="1543508331"></span></span>
 		</div>
 	</div>
 
@@ -3340,5 +3340,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":110,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":124,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>
