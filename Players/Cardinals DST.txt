@@ -2219,12 +2219,14 @@
                                                     <option  value="/nfl/players/projections/derrick-coleman">Derrick Coleman</option>
                                                     <option  value="/nfl/players/projections/benson-mayowa">Benson Mayowa</option>
                                                     <option  value="/nfl/players/projections/deone-bucannon">Deone Bucannon</option>
+                                                    <option  value="/nfl/players/projections/dontae-johnson">Dontae Johnson</option>
                                                     <option  value="/nfl/players/projections/zach-moore">Zach Moore</option>
                                                     <option  value="/nfl/players/projections/tre-boston">Tre Boston</option>
                                                     <option  value="/nfl/players/projections/j-j-nelson">J.J. Nelson</option>
                                                     <option  value="/nfl/players/projections/david-johnson-1">David Johnson</option>
                                                     <option  value="/nfl/players/projections/markus-golden">Markus Golden</option>
                                                     <option  value="/nfl/players/projections/rodney-gunter">Rodney Gunter</option>
+                                                    <option  value="/nfl/players/projections/quinten-rollins">Quinten Rollins</option>
                                                     <option  value="/nfl/players/projections/brandon-williams-4">Brandon Williams</option>
                                                     <option  value="/nfl/players/projections/robert-nkemdiche">Robert Nkemdiche</option>
                                                     <option  value="/nfl/players/projections/zane-gonzalez">Zane Gonzalez</option>
@@ -2278,6 +2280,8 @@
                                 B. Mayowa                            </option>
                                                     <option  value="/nfl/players/projections/deone-bucannon">
                                 D. Bucannon                            </option>
+                                                    <option  value="/nfl/players/projections/dontae-johnson">
+                                D. Johnson                            </option>
                                                     <option  value="/nfl/players/projections/zach-moore">
                                 Z. Moore                            </option>
                                                     <option  value="/nfl/players/projections/tre-boston">
@@ -2290,6 +2294,8 @@
                                 M. Golden                            </option>
                                                     <option  value="/nfl/players/projections/rodney-gunter">
                                 R. Gunter                            </option>
+                                                    <option  value="/nfl/players/projections/quinten-rollins">
+                                Q. Rollins                            </option>
                                                     <option  value="/nfl/players/projections/brandon-williams-4">
                                 B. Williams                            </option>
                                                     <option  value="/nfl/players/projections/robert-nkemdiche">
@@ -2448,7 +2454,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 					<span class="stat">
-													2.1											</span>
+													2.0											</span>
 					<span title="Sacks" class="cat">
 						Sacks
 					</span>
@@ -2456,7 +2462,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 					<span class="stat">
-													0.9											</span>
+													0.8											</span>
 					<span title="Interceptions" class="cat">
 						Int
 					</span>
@@ -2472,7 +2478,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 					<span class="stat">
-													5.7											</span>
+													5.5											</span>
 					<span title = "FanDuel Fantasy Points" class="cat">
 						FP
 					</span>
@@ -3020,25 +3026,25 @@
 							<td>
 								26.81							</td>
 							<td>
-								2.06							</td>
+								1.99							</td>
 							<td>
 								0.02							</td>
 							<td>
-								0.85							</td>
+								0.82							</td>
 							<td>
-								0.48							</td>
+								0.46							</td>
 							<td class="border-right">
 								0.19							</td>
 							<td>
-								0.50-10.84							</td>
+								0.45-10.41							</td>
 							<td class="border-right">
-								5.67							</td>
+								5.43							</td>
 							<td class="cost">
 								$2,800							</td>
 							<td>
-								5.702							</td>
+								5.532							</td>
 							<td>
-								2.04							</td>
+								1.98							</td>
 						</tr>
 											<tr data-row-index="14">
 							<td class="">
@@ -3168,21 +3174,21 @@
 							<td>
 								134.70							</td>
 							<td>
-								10.13							</td>
+								10.08							</td>
 							<td>
 								0.12							</td>
 							<td>
-								4.25							</td>
+								4.23							</td>
 							<td>
-								2.96							</td>
+								2.94							</td>
 							<td class="border-right">
 								0.95							</td>
 							<td>
-								16.97-40.23							</td>
+								16.86-40.00							</td>
 							<td class="border-right">
-								28.60							</td>
+								28.43							</td>
 							<td>
-								28.6667							</td>
+								28.5367							</td>
 						</tr>
 										</tbody>
 				</table>
@@ -3215,104 +3221,52 @@
 			NFL News		</h2>
 	</div>
 			<article class="listing  w-thumb-left  ">
-	<div class="listing__thumb  ">
-		<a href="/nfl/lists/23414/7-nfl-fanduel-value-plays-for-week-13">
+	<div class="listing__thumb  video-article">
+		<a href="/nfl/news/23481/draftkings-daily-fantasy-football-helper-week-13">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23414_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23414_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23481_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23481_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 						<h4>
-				<a href="/nfl/lists/23414/7-nfl-fanduel-value-plays-for-week-13">
-					7 NFL FanDuel Value Plays for Week 13				</a>
+				<a href="/nfl/news/23481/draftkings-daily-fantasy-football-helper-week-13">
+					DraftKings Daily Fantasy Football Helper: Week 13				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
-			<a href="/author/jason-schandl" class="listing__byline--author">
-				Jason Schandl			</a>
-			<span>&mdash; <span class="timeago" title="1543513847"></span></span>
+			<a href="/author/eric-mcclung" class="listing__byline--author">
+				Eric McClung			</a>
+			<span>&mdash; <span class="timeago" title="1543676917"></span></span>
 		</div>
 	</div>
 
 </article>
 
 			<article class="listing  w-thumb-left  ">
-	<div class="listing__thumb  ">
-		<a href="/nfl/news/23444/daily-fantasy-football-podcast-the-heat-check-week-13-preview">
+	<div class="listing__thumb  video-article">
+		<a href="/nfl/news/23482/3-nfl-prop-bets-to-target-in-week-13">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23444_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23444_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23482_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23482_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 						<h4>
-				<a href="/nfl/news/23444/daily-fantasy-football-podcast-the-heat-check-week-13-preview">
-					Daily Fantasy Football Podcast: The Heat Check, Week 13 Preview				</a>
-			</h4>
-		</div>
-
-		<div class="listing__byline">
-			<a href="/author/jim-sannes" class="listing__byline--author">
-				Jim Sannes			</a>
-			<span>&mdash; <span class="timeago" title="1543512266"></span></span>
-		</div>
-	</div>
-
-</article>
-
-			<article class="listing  w-thumb-left  ">
-	<div class="listing__thumb  ">
-		<a href="/nfl/lists/23423/5-historical-vegas-trends-you-should-know-for-week-13">
-			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23423_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23423_a3.jpg">
-			</picture>
-		</a>
-			</div>
-	<div class="listing__info">
-		<div class="listing__hed">
-						<h4>
-				<a href="/nfl/lists/23423/5-historical-vegas-trends-you-should-know-for-week-13">
-					5 Historical Vegas Trends You Should Know for Week 13				</a>
-			</h4>
-		</div>
-
-		<div class="listing__byline">
-			<a href="/author/kyle-dvorchak" class="listing__byline--author">
-				Kyle Dvorchak			</a>
-			<span>&mdash; <span class="timeago" title="1543511661"></span></span>
-		</div>
-	</div>
-
-</article>
-
-			<article class="listing  w-thumb-left  ">
-	<div class="listing__thumb  ">
-		<a href="/nfl/news/23441/draft-daily-fantasy-helper-week-13">
-			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23441_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23441_a3.jpg">
-			</picture>
-		</a>
-			</div>
-	<div class="listing__info">
-		<div class="listing__hed">
-						<h4>
-				<a href="/nfl/news/23441/draft-daily-fantasy-helper-week-13">
-					DRAFT Daily Fantasy Helper: Week 13				</a>
+				<a href="/nfl/news/23482/3-nfl-prop-bets-to-target-in-week-13">
+					3 NFL Prop Bets to Target in Week 13				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
 			<a href="/author/matthew-gajewski" class="listing__byline--author">
 				Matthew Gajewski			</a>
-			<span>&mdash; <span class="timeago" title="1543510266"></span></span>
+			<span>&mdash; <span class="timeago" title="1543671252"></span></span>
 		</div>
 	</div>
 
@@ -3320,51 +3274,103 @@
 
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
-		<a href="/nfl/news/23436/thursday-night-football-will-the-cowboys-derail-the-streaking-saints">
+		<a href="/nfl/lists/23457/7-deep-fantasy-football-sleepers-for-week-13">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23436_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23436_a3.jpg">
-			</picture>
-		</a>
-			</div>
-	<div class="listing__info">
-		<div class="listing__hed">
-			<span class="listing--premium"><i class="nf-icon icon-premium"></i>premium</span>			<h4>
-				<a href="/nfl/news/23436/thursday-night-football-will-the-cowboys-derail-the-streaking-saints">
-					Thursday Night Football: Will the Cowboys Derail the Streaking Saints?				</a>
-			</h4>
-		</div>
-
-		<div class="listing__byline">
-			<a href="/author/matt-kupferle-1" class="listing__byline--author">
-				Matt Kupferle			</a>
-			<span>&mdash; <span class="timeago" title="1543508996"></span></span>
-		</div>
-	</div>
-
-</article>
-
-			<article class="listing  w-thumb-left  ">
-	<div class="listing__thumb  ">
-		<a href="/nfl/lists/23443/5-draftkings-bargains-for-week-13">
-			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23443_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23443_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23457_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23457_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 						<h4>
-				<a href="/nfl/lists/23443/5-draftkings-bargains-for-week-13">
-					5 DraftKings Bargains for Week 13				</a>
+				<a href="/nfl/lists/23457/7-deep-fantasy-football-sleepers-for-week-13">
+					7 Deep Fantasy Football Sleepers for Week 13				</a>
+			</h4>
+		</div>
+
+		<div class="listing__byline">
+			<a href="/author/dale-redman-1" class="listing__byline--author">
+				Dale Redman			</a>
+			<span>&mdash; <span class="timeago" title="1543612319"></span></span>
+		</div>
+	</div>
+
+</article>
+
+			<article class="listing  w-thumb-left  ">
+	<div class="listing__thumb  ">
+		<a href="/nfl/lists/23475/4-nfl-fanduel-tournament-pivots-for-week-13">
+			<picture>
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23475_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23475_a3.jpg">
+			</picture>
+		</a>
+			</div>
+	<div class="listing__info">
+		<div class="listing__hed">
+						<h4>
+				<a href="/nfl/lists/23475/4-nfl-fanduel-tournament-pivots-for-week-13">
+					4 NFL FanDuel Tournament Pivots for Week 13				</a>
+			</h4>
+		</div>
+
+		<div class="listing__byline">
+			<a href="/author/matt-kupferle-1" class="listing__byline--author">
+				Matt Kupferle			</a>
+			<span>&mdash; <span class="timeago" title="1543611442"></span></span>
+		</div>
+	</div>
+
+</article>
+
+			<article class="listing  w-thumb-left  ">
+	<div class="listing__thumb  ">
+		<a href="/nfl/news/23470/4-fanduel-stacks-for-week-13">
+			<picture>
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23470_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23470_a3.jpg">
+			</picture>
+		</a>
+			</div>
+	<div class="listing__info">
+		<div class="listing__hed">
+						<h4>
+				<a href="/nfl/news/23470/4-fanduel-stacks-for-week-13">
+					4 FanDuel Stacks for Week 13				</a>
+			</h4>
+		</div>
+
+		<div class="listing__byline">
+			<a href="/author/kenyatta-storin" class="listing__byline--author">
+				Kenyatta Storin			</a>
+			<span>&mdash; <span class="timeago" title="1543610823"></span></span>
+		</div>
+	</div>
+
+</article>
+
+			<article class="listing  w-thumb-left  ">
+	<div class="listing__thumb  ">
+		<a href="/nfl/news/23462/fantasy-football-week-13-injury-report">
+			<picture>
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23462_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23462_a3.jpg">
+			</picture>
+		</a>
+			</div>
+	<div class="listing__info">
+		<div class="listing__hed">
+						<h4>
+				<a href="/nfl/news/23462/fantasy-football-week-13-injury-report">
+					Fantasy Football: Week 13 Injury Report				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
 			<a href="/author/gabriel-garrido" class="listing__byline--author">
 				Gabe Garrido			</a>
-			<span>&mdash; <span class="timeago" title="1543508331"></span></span>
+			<span>&mdash; <span class="timeago" title="1543606026"></span></span>
 		</div>
 	</div>
 
@@ -3585,5 +3591,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":99,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":60,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>
