@@ -317,6 +317,11 @@ results_Final[which(results_Final$OwnerWeekPos=='aj-12D/ST'),c('Final','proj','s
 results_Final[which(results_Final$OwnerWeekPos=='aj-12TE-1'),c('Final','proj','std','Var')] <- 0
 results_Final[which(results_Final$OwnerWeekPos=='aj-12K'),c('Final','proj','std','Var')] <- 0
 results_Final[which(results_Final$OwnerWeekPos=='aj-13D/ST'),c('Final','proj','std','Var')] <- 0
+results_Final[which(results_Final$OwnerWeekPos=='aj-13QB-1'),c('Final','proj','std','Var')] <- 0
+results_Final[which(results_Final$OwnerWeekPos=='aj-13WR-2'),c('Final','proj','std','Var')] <- 0
+results_Final[which(results_Final$OwnerWeekPos=='aj-13WR-3'),c('Final','proj','std','Var')] <- 0
+results_Final[which(results_Final$OwnerWeekPos=='aj-13K'),c('Final','proj','std','Var')] <- 0
+
 
 
 ######create proj by week
@@ -486,6 +491,7 @@ win_totals <- sapply(seq(1,130,13), function(z) {
 apply(wins[,z:(z+12)],1,sum)
 })
 
+
 #playoffs
 dp_tm <- c(1,4,6,8,10)
 hk_tm <- c(2,3,5,7,9)
@@ -510,6 +516,12 @@ wc_seeding[x,seed_2[x]] <- NA
 
 seed_3 <- apply(apply(wc_seeding,1,rank),2,function(x) which(x==8))
 seed_4 <- apply(apply(wc_seeding,1,rank),2,function(x) which(x==7))
+seed_5 <- apply(apply(wc_seeding,1,rank),2,function(x) which(x==6))
+seed_6 <- apply(apply(wc_seeding,1,rank),2,function(x) which(x==5))
+seed_7 <- apply(apply(wc_seeding,1,rank),2,function(x) which(x==4))
+seed_8 <- apply(apply(wc_seeding,1,rank),2,function(x) which(x==3))
+seed_9 <- apply(apply(wc_seeding,1,rank),2,function(x) which(x==2))
+seed_10 <- apply(apply(wc_seeding,1,rank),2,function(x) which(x==1))
 
 playoffs_1 <- sapply(seq(14,170,17), function(z) {
 apply(proj_totals[,c(z,z+1)],1,sum)
@@ -519,9 +531,32 @@ playoffs_2 <- sapply(seq(16,170,17), function(z) {
 apply(proj_totals[,c(z,z+1)],1,sum)
 })
 
+
+W_5th <- sapply(1:sim_cnt, function(y) ifelse(playoffs_1[y,seed_5[y]] > playoffs_1[y,seed_6[y]], seed_5[y], seed_6[y]))
+W_7th <- sapply(1:sim_cnt, function(y) ifelse(playoffs_1[y,seed_7[y]] > playoffs_1[y,seed_8[y]], seed_7[y], seed_8[y]))
+W_9th <- sapply(1:sim_cnt, function(y) ifelse(playoffs_1[y,seed_9[y]] > playoffs_1[y,seed_10[y]], seed_9[y], seed_10[y]))
+L_5th <- sapply(1:sim_cnt, function(y) ifelse(playoffs_1[y,seed_5[y]] <= playoffs_1[y,seed_6[y]], seed_5[y], seed_6[y]))
+L_7th <- sapply(1:sim_cnt, function(y) ifelse(playoffs_1[y,seed_7[y]] <= playoffs_1[y,seed_8[y]], seed_7[y], seed_8[y]))
+L_9th <- sapply(1:sim_cnt, function(y) ifelse(playoffs_1[y,seed_9[y]] <= playoffs_1[y,seed_10[y]], seed_9[y], seed_10[y]))
+
+place_5 <- sapply(1:sim_cnt, function(y) ifelse(playoffs_2[y,W_5th[y]] > playoffs_2[y,W_7th[y]], W_5th[y], W_7th[y]))
+place_7 <- sapply(1:sim_cnt, function(y) ifelse(playoffs_2[y,L_5th[y]] > playoffs_2[y,W_9th[y]], L_5th[y], W_9th[y]))
+place_9 <- sapply(1:sim_cnt, function(y) ifelse(playoffs_2[y,L_7th[y]] > playoffs_2[y,L_9th[y]], L_7th[y], L_9th[y]))
+place_6 <- sapply(1:sim_cnt, function(y) ifelse(playoffs_2[y,W_5th[y]] <= playoffs_2[y,W_7th[y]], W_5th[y], W_7th[y]))
+place_8 <- sapply(1:sim_cnt, function(y) ifelse(playoffs_2[y,L_5th[y]] <= playoffs_2[y,W_9th[y]], L_5th[y], W_9th[y]))
+place_10 <- sapply(1:sim_cnt, function(y) ifelse(playoffs_2[y,L_7th[y]] <= playoffs_2[y,L_9th[y]], L_7th[y], L_9th[y]))
+
+
 top_semi <- sapply(1:sim_cnt, function(y) ifelse(playoffs_1[y,seed_1[y]] > playoffs_1[y,seed_4[y]], seed_1[y], seed_4[y]))
 low_semi <- sapply(1:sim_cnt, function(y) ifelse(playoffs_1[y,seed_2[y]] > playoffs_1[y,seed_3[y]], seed_2[y], seed_3[y]))
+top_semi_L <- sapply(1:sim_cnt, function(y) ifelse(playoffs_1[y,seed_1[y]] <= playoffs_1[y,seed_4[y]], seed_1[y], seed_4[y]))
+low_semi_L <- sapply(1:sim_cnt, function(y) ifelse(playoffs_1[y,seed_2[y]] <= playoffs_1[y,seed_3[y]], seed_2[y], seed_3[y]))
+
 champ <- sapply(1:sim_cnt, function(y) ifelse(playoffs_2[y,top_semi[y]] > playoffs_2[y,low_semi[y]], top_semi[y], low_semi[y]))
+place_3 <- sapply(1:sim_cnt, function(y) ifelse(playoffs_2[y,top_semi_L[y]] > playoffs_2[y,low_semi_L[y]], top_semi_L[y], low_semi_L[y]))
+place_2 <- sapply(1:sim_cnt, function(y) ifelse(playoffs_2[y,top_semi[y]] <= playoffs_2[y,low_semi[y]], top_semi[y], low_semi[y]))
+place_4 <- sapply(1:sim_cnt, function(y) ifelse(playoffs_2[y,top_semi_L[y]] <= playoffs_2[y,low_semi_L[y]], top_semi_L[y], low_semi_L[y]))
+
 
 playoff <- table(factor(c(seed_1,seed_2,seed_3,seed_4),c(1:10)))
 semi_win <- table(factor(c(top_semi,low_semi),c(1:10)))
@@ -558,36 +593,36 @@ dp_order <- dp_tm[order(q_standings[dp_tm])]
 ##############################
 ####playoff scenerios#########
 ##############################
-all_po_tms <- cbind(seed_1,seed_2,seed_3,seed_4)
-po_wins_needed <- sapply(1:10, function(i) table(factor(win_totals[c(which(seed_1==i),which(seed_2==i),which(seed_3==i),which(seed_4==i)),i],1:13)))
-wins_histo <- sapply(1:10, function(i) table(factor(win_totals[,i],1:13)))
-all_chances <- lapply(1:10, function(i) round((po_wins_needed/wins_histo)*100,1)[which(wins_histo[,i]!=0),i])
-names(all_chances) <- owners
-all_chances <- do.call(rbind,all_chances)
-colnames(all_chances) <- 0:(14-this_week)
-all_chances
+#all_po_tms <- cbind(seed_1,seed_2,seed_3,seed_4)
+#po_wins_needed <- sapply(1:10, function(i) table(factor(win_totals[c(which(seed_1==i),which(seed_2==i),which(seed_3==i),which(seed_4==i)),i],1:13)))
+#wins_histo <- sapply(1:10, function(i) table(factor(win_totals[,i],1:13)))
+#all_chances <- lapply(1:10, function(i) round((po_wins_needed/wins_histo)*100,1)[which(wins_histo[,i]!=0),i])
+#names(all_chances) <- owners
+#all_chances <- do.call(rbind,all_chances)
+#colnames(all_chances) <- 0:(14-this_week)
+#all_chances
 
-now_sched <- sched[which(sched$wk==this_week & sched$team<sched$opp),]
-weekly_outcomes <- wins[,((now_sched$team-1) * 13) + now_sched$wk]
-tm_playoff_grid <- sapply(1:10, function(i) {
-all_sims <- rep(0,sim_cnt)
-all_sims[c(which(seed_1==i),which(seed_2==i),which(seed_3==i),which(seed_4==i))] <- 1
-all_sims
-})
+#now_sched <- sched[which(sched$wk==this_week & sched$team<sched$opp),]
+#weekly_outcomes <- wins[,((now_sched$team-1) * 13) + now_sched$wk]
+#tm_playoff_grid <- sapply(1:10, function(i) {
+#all_sims <- rep(0,sim_cnt)
+#all_sims[c(which(seed_1==i),which(seed_2==i),which(seed_3==i),which(seed_4==i))] <- 1
+#all_sims
+#})
 
-full_outcomes <- aggregate(tm_playoff_grid~weekly_outcomes[,1]+weekly_outcomes[,2]+weekly_outcomes[,3]+weekly_outcomes[,4]+weekly_outcomes[,5],FUN=mean)
-names(full_outcomes)[6:15] <- owners
+#full_outcomes <- aggregate(tm_playoff_grid~weekly_outcomes[,1]+weekly_outcomes[,2]+weekly_outcomes[,3]+weekly_outcomes[,4]+weekly_outcomes[,5],FUN=mean)
+#names(full_outcomes)[6:15] <- owners
 
-for (i in 1:5) full_outcomes[,i] <- ifelse(full_outcomes[,i]==1,owners[now_sched$team[i]],owners[now_sched$opp[i]])
-elim <- apply(full_outcomes[,6:15],2, function(x) which(x==0))
-clinch <- apply(full_outcomes[,6:15],2, function(x) which(x==1))
+#for (i in 1:5) full_outcomes[,i] <- ifelse(full_outcomes[,i]==1,owners[now_sched$team[i]],owners[now_sched$opp[i]])
+#elim <- apply(full_outcomes[,6:15],2, function(x) which(x==0))
+#clinch <- apply(full_outcomes[,6:15],2, function(x) which(x==1))
 
-full_outcomes
-sapply(elim,length)
-sapply(clinch,length)
+#full_outcomes
+#sapply(elim,length)
+#sapply(clinch,length)
 
-write.csv(full_outcomes,'cond_po.csv')
-write.csv(all_chances,'win_odds.csv')
+#write.csv(full_outcomes,'cond_po.csv')
+#write.csv(all_chances,'win_odds.csv')
 
 #table(unlist(full_outcomes[elim$devon,1:5]))
 #table(unlist(full_outcomes[elim$lucas,1:5]))
@@ -609,6 +644,28 @@ write.csv(rbind(this_run_df,all_hist),'prior runs.csv',row.names=F)
 
 #remove last run
 #write.csv(all_hist[-c(1:10),],'prior runs.csv',row.names=F)
+
+#playoff design
+final_stnd <- cbind(champ,place_2,place_3,place_4,place_5,place_6,place_7,place_8,place_9,place_10)
+final_splits <- apply(final_stnd,2,function(x) table(factor(owners[x],levels=owners))/sim_cnt)
+final_ord <- names(rev(sort(apply(1:10*t(final_splits),2,sum))))
+
+png('final.png',width=1600, height=900)
+pic_mx <- matrix(c(11,1,1,1,2,2,2,3,3,3,4,4,4,11,5,5,6,6,7,7,8,8,9,9,10,10), 2, 13, byrow = TRUE)
+layout(pic_mx)
+par(mar=c(.2,.2,1,.2))
+for (j in 1:4) {
+	barplot(final_splits[final_ord[7:10],j],horiz=T,las=1,xlim=c(0,1),axes=F,axisnames=F,main=j,cex.main=2)
+	text(rep(.5,4),seq(4.3,.5,by=-1.2),rev(paste0(round(final_splits[final_ord[7:10],j]*100),'%')),cex=2.5)
+}
+for (j in 5:10) {
+	barplot(final_splits[final_ord[1:6],j],horiz=T,las=1,xlim=c(0,1),axes=F,axisnames=F,main=j,cex.main=2)
+	text(rep(.5,4),seq(6.7,.5,by=-1.2),rev(paste0(round(final_splits[final_ord[1:6],j]*100),'%')),cex=2.5)
+}
+plot(0,type='n',axes=FALSE,ann=FALSE,xlim=c(0,1),ylim=c(0,11))
+text(rep(.5,4),seq(10.6,6,by=-1.4),rev(final_ord)[1:4],cex=2.5)
+text(rep(.5,4),seq(4.8,0,by=-.95),rev(final_ord)[5:10],cex=2.5)
+dev.off()
 
 
 #dev.new(width=900, height=1600)
@@ -677,30 +734,64 @@ time_diff <- as.POSIXct(this_run_df$time[1]) - as.POSIXct(last_run_df$time[1])
 timing_text <- paste0('Simulation has been updated from last run about ',round(as.numeric(time_diff),0),' ',units(time_diff),' ago.')
 
 last_twt <- updateStatus(paste0(timing_text,' @reinhurdler @CompTwinB @CUsher44'),mediaPath='projection.png')
+last_twt <- updateStatus('Probability of placement in final standings after the playoffs:',mediaPath='final.png',inReplyTo=last_twt$id)
 
 needed <- 6 - nchar(owners) + c(2,1,5,-1,-1,1,2,1,0,1)
 spaced <- paste0(owners,unlist(sapply(needed, function(x) paste(rep(' ',x),collapse=''))))
 
 ##games this week
-weekly_games <- sched[which(sched$wk==this_week & sched$win_prob>=.5),]
-weekly_games <- weekly_games[order(weekly_games$win_prob),]
-weekly_games$last_run <- last_run_df[weekly_games$team,paste0('X',this_week)]
-weekly_games$change <- weekly_games$win_prob - weekly_games$last_run
-weekly_games$change_txt <- ifelse(abs(weekly_games$change)<=.001,'',ifelse(weekly_games$change>0,paste0(', \u2795',abs(round(weekly_games$change*100,1)),'%'),paste0(', \u2796',abs(round(weekly_games$change*100,1)),'%')))
+#weekly_games <- sched[which(sched$wk==this_week & sched$win_prob>=.5),]
+#weekly_games <- weekly_games[order(weekly_games$win_prob),]
+#weekly_games$last_run <- last_run_df[weekly_games$team,paste0('X',this_week)]
+#weekly_games$change <- weekly_games$win_prob - weekly_games$last_run
+#weekly_games$change_txt <- ifelse(abs(weekly_games$change)<=.001,'',ifelse(weekly_games$change>0,paste0(', \u2795',abs(round(weekly_games$change*100,1)),'%'),paste0(', \u2796',abs(round(weekly_games$change*100,1)),'%')))
 
-this_wk_scores <- paste0('Week ',this_week,' @numberFire projections:\r',paste(paste0(spaced[weekly_games$team],' ', round(weekly_games$PF,1),' (',round(weekly_games$win_prob*100,1),'%',weekly_games$change_txt,')\r',spaced[weekly_games$opp],' ', round(weekly_games$PA,1)),collapse='\r\r'))
+#this_wk_scores <- paste0('Week ',this_week,' @numberFire projections:\r',paste(paste0(spaced[weekly_games$team],' ', round(weekly_games$PF,1),' (',round(weekly_games$win_prob*100,1),'%',weekly_games$change_txt,')\r',spaced[weekly_games$opp],' ', round(weekly_games$PA,1)),collapse='\r\r'))
+#last_twt <- updateStatus(this_wk_scores,bypassCharLimit=T,inReplyTo=last_twt$id)
+
+##setup for playoffs
+if (this_week==14 || this_week==15) {
+seed_exp <- cbind(seed_1,seed_2,seed_3,seed_4,seed_5,seed_6,seed_7,seed_8,seed_9,seed_10)
+seed_splits <- apply(seed_exp,2,function(x) table(factor(x,levels=1:10))/sim_cnt)
+seed_ord <- as.numeric(names(sort(apply(1:10*t(seed_splits),2,sum))))
+
+top_semi <- rev(sort(table(ifelse(playoffs_1[,seed_ord[1]]>playoffs_1[,seed_ord[4]],seed_ord[1],seed_ord[4]))/sim_cnt))
+low_semi <- rev(sort(table(ifelse(playoffs_1[,seed_ord[2]]>playoffs_1[,seed_ord[3]],seed_ord[2],seed_ord[3]))/sim_cnt))
+game_5th <- rev(sort(table(ifelse(playoffs_1[,seed_ord[5]]>playoffs_1[,seed_ord[6]],seed_ord[5],seed_ord[6]))/sim_cnt))
+game_7th <- rev(sort(table(ifelse(playoffs_1[,seed_ord[7]]>playoffs_1[,seed_ord[8]],seed_ord[7],seed_ord[8]))/sim_cnt))
+game_9th <- rev(sort(table(ifelse(playoffs_1[,seed_ord[9]]>playoffs_1[,seed_ord[10]],seed_ord[9],seed_ord[10]))/sim_cnt))
+
+game_text <- function(gm) paste0(spaced[as.numeric(names(gm)[1])],' ',round(po_1_avg[as.numeric(names(gm)[1])],1),' (',round(gm[1]*100,1),'%)\r',spaced[as.numeric(names(gm)[2])],' ',round(po_1_avg[as.numeric(names(gm)[2])],1))
+full_twt <- paste0('Playoff Round 1 @numberFire projections:\r\r',game_text(top_semi),'\r\r',game_text(low_semi),'\r\r',game_text(game_5th),'\r\r',game_text(game_7th),'\r\r',game_text(game_9th))
+
+last_twt <- updateStatus(full_twt,bypassCharLimit=T,inReplyTo=last_twt$id)
+}
+
+if (this_week==16 || this_week==17) {
+seed_exp <- cbind(top_semi,top_semi_L,W_5th,L_5th,L_9th,low_semi,low_semi_L,W_7th,W_9th,L_7th)
+seed_splits <- apply(seed_exp,2,function(x) table(factor(x,levels=1:10))/sim_cnt)
+seed_ord <- as.numeric(names(sort(apply(rep(1:5,2)*t(seed_splits),2,sum))))
+
+top_semi <- rev(sort(table(ifelse(playoffs_2[,seed_ord[1]]>playoffs_2[,seed_ord[2]],seed_ord[1],seed_ord[2]))/sim_cnt))
+low_semi <- rev(sort(table(ifelse(playoffs_2[,seed_ord[3]]>playoffs_2[,seed_ord[4]],seed_ord[3],seed_ord[4]))/sim_cnt))
+game_5th <- rev(sort(table(ifelse(playoffs_2[,seed_ord[5]]>playoffs_2[,seed_ord[6]],seed_ord[5],seed_ord[6]))/sim_cnt))
+game_7th <- rev(sort(table(ifelse(playoffs_2[,seed_ord[7]]>playoffs_2[,seed_ord[8]],seed_ord[7],seed_ord[8]))/sim_cnt))
+game_9th <- rev(sort(table(ifelse(playoffs_2[,seed_ord[9]]>playoffs_2[,seed_ord[10]],seed_ord[9],seed_ord[10]))/sim_cnt))
+
+game_text <- function(gm) paste0(spaced[as.numeric(names(gm)[1])],' ',round(po_2_avg[as.numeric(names(gm)[1])],1),' (',round(gm[1]*100,1),'%)\r',spaced[as.numeric(names(gm)[2])],' ',round(po_2_avg[as.numeric(names(gm)[2])],1))
+full_twt <- paste0('Playoff Round 2 @numberFire projections:\r\r',game_text(top_semi),'\r\r',game_text(low_semi),'\r\r',game_text(game_5th),'\r\r',game_text(game_7th),'\r\r',game_text(game_9th))
+
 last_twt <- updateStatus(this_wk_scores,bypassCharLimit=T,inReplyTo=last_twt$id)
-
-
+}
 
 keycap_count <- paste0('\u003',c(1:9,0),'\u20E3')
 ##playoffs
-po_tm_order <- order(-this_run_df$playoff)
-po_change <- this_run_df$playoff - last_run_df$playoff
+#po_tm_order <- order(-this_run_df$playoff)
+#po_change <- this_run_df$playoff - last_run_df$playoff
 
-po_change_txt <- ifelse(abs(po_change[po_tm_order])<=.001,'',ifelse(po_change[po_tm_order]>0,paste0(', \u2795',abs(round(po_change[po_tm_order]*100,1)),'%'),paste0(', \u2796',abs(round(po_change[po_tm_order]*100,1)),'%')))
-po_odds <- paste0('Playoff Odds:\r',paste(paste0(keycap_count,'',spaced[po_tm_order],' ',round(this_run_df$playoff[po_tm_order]*100,1),'%',po_change_txt),collapse='\r'))
-last_twt <- updateStatus(po_odds,bypassCharLimit=T,inReplyTo=last_twt$id)
+#po_change_txt <- ifelse(abs(po_change[po_tm_order])<=.001,'',ifelse(po_change[po_tm_order]>0,paste0(', \u2795',abs(round(po_change[po_tm_order]*100,1)),'%'),paste0(', \u2796',abs(round(po_change[po_tm_order]*100,1)),'%')))
+#po_odds <- paste0('Playoff Odds:\r',paste(paste0(keycap_count,'',spaced[po_tm_order],' ',round(this_run_df$playoff[po_tm_order]*100,1),'%',po_change_txt),collapse='\r'))
+#last_twt <- updateStatus(po_odds,bypassCharLimit=T,inReplyTo=last_twt$id)
 
 ##champion
 chmp_tm_order <- order(-this_run_df$champ_prob)
