@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <title>Josh Allen Projections</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwIBVVNSGwUGUFJRBwc="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwIBVVNSGwUGUFJRBwc="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(16),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(17),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,v="fn"+h,w="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(v,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(19)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(19)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(19)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(19)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(19)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,w="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(w,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===w||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(16),s=t(17),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){if(!o)return!1;if(t!==o)return!1;if(!n)return!0;if(!i)return!1;for(var e=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==e[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}n.exports={agent:o,version:i,match:r}},{}],16:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],17:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],18:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],19:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(17),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=m(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[g[e]];return d&&d.push([b,e,r,a]),a}}function p(t,n){y[t]=m(t).concat(n)}function h(t,n){var e=y[t];if(e)for(var r=0;r<e.length;r++)e[r]===n&&e.splice(r,1)}function m(t){return y[t]||[]}function v(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",g[e]=n,n in u||(u[n]=[])})}var y={},g={},b={on:p,addEventListener:p,removeEventListener:h,emit:e,get:v,listeners:m,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(16),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!E++){var t=x.info=NREUM.info,n=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(g,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+x.offset],null,"api");var e=p.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===p.readyState&&i()}function i(){c("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-x.offset}var s=(new Date).getTime(),c=t("handle"),f=t(16),u=t("ee"),d=t(15),l=window,p=l.document,h="addEventListener",m="attachEvent",v=l.XMLHttpRequest,w=v&&v.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:v,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var y=""+location,g={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1099.min.js"},b=v&&w&&w[h]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:s,now:a,origin:y,features:{},xhrWrappable:b,userAgent:d};t(12),p[h]?(p[h]("DOMContentLoaded",i,!1),l[h]("load",r,!1)):(p[m]("onreadystatechange",o),l[m]("onload",r)),c("mark",["firstbyte",s],null,"api");var E=0,O=t(18)},{}]},{},["loader",2,10,4,3]);</script>
 
     <meta name="apple-itunes-app" content="app-id=907642513">
 
-    <link rel="stylesheet" type="text/css" href="/css/main.min.css?v=324">
+    <link rel="stylesheet" type="text/css" href="/css/main.min.css?v=325">
 
     
     <script src="//use.typekit.net/hvg3qyl.js"></script>
@@ -373,22 +373,22 @@
                         <a href="/nfl/fantasy/fantasy-football-projections">Projections <i class="nf-icon icon-arrow-right"></i></a>
                         <ul class="sub-nav-tier-two">
                             <li>
-                                <a href="/nfl/fantasy/fantasy-football-projections">Week 14 Fantasy Projections</a>
+                                <a href="/nfl/fantasy/fantasy-football-projections">Week 16 Fantasy Projections</a>
                             </li>
                             <li>
-                                <a href="/nfl/fantasy/fantasy-football-ppr-projections">Week 14 Fantasy PPR Projections</a>
+                                <a href="/nfl/fantasy/fantasy-football-ppr-projections">Week 16 Fantasy PPR Projections</a>
                             </li>
                             <li>
-                                <a href="/nfl/daily-fantasy/daily-football-projections">Week 14 Daily Football Projections</a>
+                                <a href="/nfl/daily-fantasy/daily-football-projections">Week 16 Daily Football Projections</a>
                             </li>
                             <li>
-                                <a href="/nfl/games">Week 14 Game Projections</a>
+                                <a href="/nfl/games">Week 16 Game Projections</a>
                             </li>
                             <li>
-                                <a href="/nfl/survivor-pool">Week 14 Survivor Pool Analysis</a>
+                                <a href="/nfl/survivor-pool">Week 16 Survivor Pool Analysis</a>
                             </li>
                             <li>
-                                <a href="/nfl/survivor-pool-matrix">Week 14 Survivor Pool Matrix</a>
+                                <a href="/nfl/survivor-pool-matrix">Week 16 Survivor Pool Matrix</a>
                             </li>
                             <li>
                                 <a href="/nfl/daily-fantasy/who-do-i-start">Who Do I Start? Tool</a>
@@ -430,7 +430,7 @@
                     <li class="has-sub-nav"><a href="/nfl/teams/power-rankings">Rankings <i class="nf-icon icon-arrow-right"></i></a>
                         <ul class="sub-nav-tier-two">
                             <li>
-                               <a href="/nfl/fantasy/fantasy-football-rankings">Week 14 Fantasy Football Rankings</a>
+                               <a href="/nfl/fantasy/fantasy-football-rankings">Week 16 Fantasy Football Rankings</a>
                             </li>
                             <li>
                                <a href="/nfl/teams/power-rankings">Team Power Rankings</a>
@@ -1489,22 +1489,22 @@
            <ul class="secondary-nav" data-sub-nav-value="projections">
                <li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>
                <li>
-                   <a href="/nfl/fantasy/fantasy-football-projections">Week 14 Fantasy Projections</a>
+                   <a href="/nfl/fantasy/fantasy-football-projections">Week 16 Fantasy Projections</a>
                </li>
                <li>
-                   <a href="/nfl/fantasy/fantasy-football-ppr-projections">Week 14 Fantasy PPR Projections</a>
+                   <a href="/nfl/fantasy/fantasy-football-ppr-projections">Week 16 Fantasy PPR Projections</a>
                </li>
                <li>
-                   <a href="/nfl/daily-fantasy/daily-football-projections">Week 14 Daily Football Projections</a>
+                   <a href="/nfl/daily-fantasy/daily-football-projections">Week 16 Daily Football Projections</a>
                </li>
                <li>
-                   <a href="/nfl/games">Week 14 Game Projections</a>
+                   <a href="/nfl/games">Week 16 Game Projections</a>
                </li>
                <li>
-                   <a href="/nfl/survivor-pool">Week 14 Survivor Pool Analysis</a>
+                   <a href="/nfl/survivor-pool">Week 16 Survivor Pool Analysis</a>
                </li>
                <li>
-                   <a href="/nfl/survivor-pool-matrix">Week 14 Survivor Pool Matrix</a>
+                   <a href="/nfl/survivor-pool-matrix">Week 16 Survivor Pool Matrix</a>
                </li>
                <li>
                    <a href="/nfl/daily-fantasy/who-do-i-start">Who Do I Start? Tool</a>
@@ -1546,7 +1546,7 @@
            <ul class="secondary-nav" data-sub-nav-value="rankings">
                <li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>
                <li>
-                   <a href="/nfl/fantasy/fantasy-football-rankings">Week 14 Fantasy Football Rankings</a>
+                   <a href="/nfl/fantasy/fantasy-football-rankings">Week 16 Fantasy Football Rankings</a>
                 </li>
                 <li>
                    <a href="/nfl/teams/power-rankings">Team Power Rankings</a>
@@ -2139,25 +2139,25 @@
 							</span>
 															        </div>
 								        <div class="player-info--basic__status">
-			        	<a href="/nfl/player-news/104786/josh-allen-runs-for-135-yards-in-bills-week-13-loss-to-miami">Josh Allen runs for 135 yards in Bills' Week 13 loss to Miami</a>
+			        	<a href="/nfl/player-news/105821/josh-allen-passes-runs-for-scores-in-bills-victory">Josh Allen passes, runs for scores in Bills' victory</a>
 						<span class="timestamp timeago older-timestamp"
-							  title="1543801099">&nbsp;</span>
+							  title="1545065777">&nbsp;</span>
 			        </div>
 								        <div class="player-info--basic__dfp">
-						FPPG: <span class="amt">15.6</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$7,400</span>					</div>
+						FPPG: <span class="amt">16.5</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$7,700</span>					</div>
 	            </div>
             </div>
 
 	        <div class="player-header__info__stats player-header__info__stats--mobile">
 		        <div class="player-info--basic">
 											<div class="player-info--basic__status">
-							<a href="/nfl/player-news/104786/josh-allen-runs-for-135-yards-in-bills-week-13-loss-to-miami">Josh Allen runs for 135 yards in Bills' Week 13 loss to Miami</a>
+							<a href="/nfl/player-news/105821/josh-allen-passes-runs-for-scores-in-bills-victory">Josh Allen passes, runs for scores in Bills' victory</a>
 							<span class="timestamp timeago older-timestamp"
-								  title="1543801099">&nbsp;</span>
+								  title="1545065777">&nbsp;</span>
 						</div>
 					
 			        <div class="player-info--basic__dfp">
-						FPPG: <span class="amt">15.6</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$7,400</span>			        </div>
+						FPPG: <span class="amt">16.5</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$7,700</span>			        </div>
 		     	</div>
 	     	</div>
         </div>
@@ -2178,7 +2178,7 @@
 					id="dfs-chart"
 					class="dfs-chart"
 					data-dfs-chart
-					data-dfs-chart-data="[{&quot;cost&quot;:&quot;6000.00&quot;,&quot;fp&quot;:5.56,&quot;opp&quot;:&quot;BAL&quot;,&quot;round&quot;:&quot;Week 1&quot;,&quot;roundAbbrev&quot;:&quot;Wk1&quot;,&quot;value&quot;:0.93},{&quot;cost&quot;:&quot;6100.00&quot;,&quot;fp&quot;:15,&quot;opp&quot;:&quot;LAC&quot;,&quot;round&quot;:&quot;Week 2&quot;,&quot;roundAbbrev&quot;:&quot;Wk2&quot;,&quot;value&quot;:2.46},{&quot;cost&quot;:&quot;6100.00&quot;,&quot;fp&quot;:27.74,&quot;opp&quot;:&quot;MIN&quot;,&quot;round&quot;:&quot;Week 3&quot;,&quot;roundAbbrev&quot;:&quot;Wk3&quot;,&quot;value&quot;:4.55},{&quot;cost&quot;:&quot;6400.00&quot;,&quot;fp&quot;:3.94,&quot;opp&quot;:&quot;GB&quot;,&quot;round&quot;:&quot;Week 4&quot;,&quot;roundAbbrev&quot;:&quot;Wk4&quot;,&quot;value&quot;:0.62},{&quot;cost&quot;:&quot;6400.00&quot;,&quot;fp&quot;:10.18,&quot;opp&quot;:&quot;TEN&quot;,&quot;round&quot;:&quot;Week 5&quot;,&quot;roundAbbrev&quot;:&quot;Wk5&quot;,&quot;value&quot;:1.59},{&quot;cost&quot;:&quot;6400.00&quot;,&quot;fp&quot;:5.36,&quot;opp&quot;:&quot;HOU&quot;,&quot;round&quot;:&quot;Week 6&quot;,&quot;roundAbbrev&quot;:&quot;Wk6&quot;,&quot;value&quot;:0.84},{&quot;cost&quot;:&quot;6300.00&quot;,&quot;fp&quot;:26.3,&quot;opp&quot;:&quot;JAC&quot;,&quot;round&quot;:&quot;Week 12&quot;,&quot;roundAbbrev&quot;:&quot;Wk12&quot;,&quot;value&quot;:4.17},{&quot;cost&quot;:&quot;6800.00&quot;,&quot;fp&quot;:30.74,&quot;opp&quot;:&quot;MIA&quot;,&quot;round&quot;:&quot;Week 13&quot;,&quot;roundAbbrev&quot;:&quot;Wk13&quot;,&quot;value&quot;:4.52}]"
+					data-dfs-chart-data="[{&quot;cost&quot;:&quot;6000.00&quot;,&quot;fp&quot;:5.56,&quot;opp&quot;:&quot;BAL&quot;,&quot;round&quot;:&quot;Week 1&quot;,&quot;roundAbbrev&quot;:&quot;Wk1&quot;,&quot;value&quot;:0.93},{&quot;cost&quot;:&quot;6100.00&quot;,&quot;fp&quot;:15,&quot;opp&quot;:&quot;LAC&quot;,&quot;round&quot;:&quot;Week 2&quot;,&quot;roundAbbrev&quot;:&quot;Wk2&quot;,&quot;value&quot;:2.46},{&quot;cost&quot;:&quot;6100.00&quot;,&quot;fp&quot;:27.74,&quot;opp&quot;:&quot;MIN&quot;,&quot;round&quot;:&quot;Week 3&quot;,&quot;roundAbbrev&quot;:&quot;Wk3&quot;,&quot;value&quot;:4.55},{&quot;cost&quot;:&quot;6400.00&quot;,&quot;fp&quot;:3.94,&quot;opp&quot;:&quot;GB&quot;,&quot;round&quot;:&quot;Week 4&quot;,&quot;roundAbbrev&quot;:&quot;Wk4&quot;,&quot;value&quot;:0.62},{&quot;cost&quot;:&quot;6400.00&quot;,&quot;fp&quot;:10.18,&quot;opp&quot;:&quot;TEN&quot;,&quot;round&quot;:&quot;Week 5&quot;,&quot;roundAbbrev&quot;:&quot;Wk5&quot;,&quot;value&quot;:1.59},{&quot;cost&quot;:&quot;6400.00&quot;,&quot;fp&quot;:5.36,&quot;opp&quot;:&quot;HOU&quot;,&quot;round&quot;:&quot;Week 6&quot;,&quot;roundAbbrev&quot;:&quot;Wk6&quot;,&quot;value&quot;:0.84},{&quot;cost&quot;:&quot;6300.00&quot;,&quot;fp&quot;:26.3,&quot;opp&quot;:&quot;JAC&quot;,&quot;round&quot;:&quot;Week 12&quot;,&quot;roundAbbrev&quot;:&quot;Wk12&quot;,&quot;value&quot;:4.17},{&quot;cost&quot;:&quot;6800.00&quot;,&quot;fp&quot;:30.74,&quot;opp&quot;:&quot;MIA&quot;,&quot;round&quot;:&quot;Week 13&quot;,&quot;roundAbbrev&quot;:&quot;Wk13&quot;,&quot;value&quot;:4.52},{&quot;cost&quot;:&quot;7400.00&quot;,&quot;fp&quot;:20.34,&quot;opp&quot;:&quot;NYJ&quot;,&quot;round&quot;:&quot;Week 14&quot;,&quot;roundAbbrev&quot;:&quot;Wk14&quot;,&quot;value&quot;:2.75},{&quot;cost&quot;:&quot;7600.00&quot;,&quot;fp&quot;:19.76,&quot;opp&quot;:&quot;DET&quot;,&quot;round&quot;:&quot;Week 15&quot;,&quot;roundAbbrev&quot;:&quot;Wk15&quot;,&quot;value&quot;:2.6}]"
 					height="135"
 					width="499">
 				</canvas>
@@ -2216,30 +2216,27 @@
                                                     <option  value="/nfl/players/projections/kyle-williams-1">Kyle Williams</option>
                                                     <option  value="/nfl/players/projections/deonte-thompson">Deonte Thompson</option>
                                                     <option  value="/nfl/players/projections/julian-stanford">Julian Stanford</option>
-                                                    <option  value="/nfl/players/projections/andre-holmes">Andre Holmes</option>
                                                     <option  value="/nfl/players/projections/patrick-dimarco">Patrick DiMarco</option>
                                                     <option  value="/nfl/players/projections/star-lotulelei-1">Star Lotulelei</option>
                                                     <option  value="/nfl/players/projections/matt-barkley">Matt Barkley</option>
                                                     <option  value="/nfl/players/projections/micah-hyde">Micah Hyde</option>
                                                     <option  value="/nfl/players/projections/jordan-poyer">Jordan Poyer</option>
-                                                    <option  value="/nfl/players/projections/kelvin-benjamin">Kelvin Benjamin</option>
                                                     <option  value="/nfl/players/projections/trent-murphy">Trent Murphy</option>
                                                     <option  value="/nfl/players/projections/logan-thomas">Logan Thomas</option>
                                                     <option  value="/nfl/players/projections/matt-darr">Matt Darr</option>
-                                                    <option  value="/nfl/players/projections/marcus-murphy">Marcus Murphy</option>
                                                     <option  value="/nfl/players/projections/jordan-phillips">Jordan Phillips</option>
+                                                    <option  value="/nfl/players/projections/dean-marlowe">Dean Marlowe</option>
                                                     <option  value="/nfl/players/projections/shaq-lawson">Shaq Lawson</option>
                                                     <option  value="/nfl/players/projections/lafayette-pitts">Lafayette Pitts</option>
+                                                    <option  value="/nfl/players/projections/denzel-rice">Denzel Rice</option>
                                                     <option  value="/nfl/players/projections/zay-jones">Zay Jones</option>
                                                     <option  value="/nfl/players/projections/tre-davious-white">Tre'Davious White</option>
-                                                    <option  value="/nfl/players/projections/matt-milano">Matt Milano</option>
                                                     <option  value="/nfl/players/projections/deon-lacey">Deon Lacey</option>
                                                     <option  value="/nfl/players/projections/eddie-yarbrough">Eddie Yarbrough</option>
                                                     <option  value="/nfl/players/projections/isaiah-mckenzie-1">Isaiah McKenzie</option>
                                                     <option  selected="selected"  value="/nfl/players/projections/josh-allen">Josh Allen</option>
                                                     <option  value="/nfl/players/projections/tremaine-edmunds">Tremaine Edmunds</option>
                                                     <option  value="/nfl/players/projections/robert-foster">Robert Foster</option>
-                                                    <option  value="/nfl/players/projections/taron-johnson">Taron Johnson</option>
                                                     <option  value="/nfl/players/projections/siran-neal">Siran Neal</option>
                                                     <option  value="/nfl/players/projections/harrison-phillips">Harrison Phillips</option>
                                                     <option  value="/nfl/players/projections/jason-croom">Jason Croom</option>
@@ -2247,6 +2244,8 @@
                                                     <option  value="/nfl/players/projections/ray-ray-mccloud">Ray-Ray McCloud</option>
                                                     <option  value="/nfl/players/projections/levi-wallace">Levi Wallace</option>
                                                     <option  value="/nfl/players/projections/corey-thompson">Corey Thompson</option>
+                                                    <option  value="/nfl/players/projections/keith-ford">Keith Ford</option>
+                                                    <option  value="/nfl/players/projections/mike-love">Mike Love</option>
                                             </select>
                 </form>
                 <form class="team-player-sub-nav__list__drop team-player-sub-nav__list__drop--abbr" action="">
@@ -2277,8 +2276,6 @@
                                 D. Thompson                            </option>
                                                     <option  value="/nfl/players/projections/julian-stanford">
                                 J. Stanford                            </option>
-                                                    <option  value="/nfl/players/projections/andre-holmes">
-                                A. Holmes                            </option>
                                                     <option  value="/nfl/players/projections/patrick-dimarco">
                                 P. DiMarco                            </option>
                                                     <option  value="/nfl/players/projections/star-lotulelei-1">
@@ -2289,28 +2286,26 @@
                                 M. Hyde                            </option>
                                                     <option  value="/nfl/players/projections/jordan-poyer">
                                 J. Poyer                            </option>
-                                                    <option  value="/nfl/players/projections/kelvin-benjamin">
-                                K. Benjamin                            </option>
                                                     <option  value="/nfl/players/projections/trent-murphy">
                                 T. Murphy                            </option>
                                                     <option  value="/nfl/players/projections/logan-thomas">
                                 L. Thomas                            </option>
                                                     <option  value="/nfl/players/projections/matt-darr">
                                 M. Darr                            </option>
-                                                    <option  value="/nfl/players/projections/marcus-murphy">
-                                M. Murphy                            </option>
                                                     <option  value="/nfl/players/projections/jordan-phillips">
                                 J. Phillips                            </option>
+                                                    <option  value="/nfl/players/projections/dean-marlowe">
+                                D. Marlowe                            </option>
                                                     <option  value="/nfl/players/projections/shaq-lawson">
                                 S. Lawson                            </option>
                                                     <option  value="/nfl/players/projections/lafayette-pitts">
                                 L. Pitts                            </option>
+                                                    <option  value="/nfl/players/projections/denzel-rice">
+                                D. Rice                            </option>
                                                     <option  value="/nfl/players/projections/zay-jones">
                                 Z. Jones                            </option>
                                                     <option  value="/nfl/players/projections/tre-davious-white">
                                 T. White                            </option>
-                                                    <option  value="/nfl/players/projections/matt-milano">
-                                M. Milano                            </option>
                                                     <option  value="/nfl/players/projections/deon-lacey">
                                 D. Lacey                            </option>
                                                     <option  value="/nfl/players/projections/eddie-yarbrough">
@@ -2323,8 +2318,6 @@
                                 T. Edmunds                            </option>
                                                     <option  value="/nfl/players/projections/robert-foster">
                                 R. Foster                            </option>
-                                                    <option  value="/nfl/players/projections/taron-johnson">
-                                T. Johnson                            </option>
                                                     <option  value="/nfl/players/projections/siran-neal">
                                 S. Neal                            </option>
                                                     <option  value="/nfl/players/projections/harrison-phillips">
@@ -2339,6 +2332,10 @@
                                 L. Wallace                            </option>
                                                     <option  value="/nfl/players/projections/corey-thompson">
                                 C. Thompson                            </option>
+                                                    <option  value="/nfl/players/projections/keith-ford">
+                                K. Ford                            </option>
+                                                    <option  value="/nfl/players/projections/mike-love">
+                                M. Love                            </option>
                                             </select>
                 </form>
                             <ul class="team-player-sub-nav__list__links">
@@ -2408,42 +2405,42 @@
 	<div class="player-schedule__hed">
 		Next Game -
 			<strong>
-			Sun, 12/9/18, 1:00 PM ET			</strong>
+			Sun, 12/23/18, 1:00 PM ET			</strong>
 	</div>
 
 	<div class="player-schedule__next__probability">
 		<div class="next-game next-game--left">
 			<div class="next-game--left--logo-wrap">
-				<img class="next-game__logo next-game--left__logo" src="https://d1tjohjvimcqgl.cloudfront.net/teams/logos/nfl/NYJ.png">
-				<a class="next-game__team" href="/nfl/teams/new-york-jets">
-					NYJ				</a>
+				<img class="next-game__logo next-game--left__logo" src="https://d1tjohjvimcqgl.cloudfront.net/teams/logos/nfl/BUF.png">
+				<a class="next-game__team" href="/nfl/teams/buffalo-bills">
+					BUF				</a>
 			</div>
 							<span class="next-game__rank">
-					#30				</span>
+					#26				</span>
 					</div>
-								<div class="next-game next-game--live odds-right team-nfl-BUF">
+								<div class="next-game next-game--live odds-right team-nfl-NE">
 									<h4>
 						win probability
 					</h4>
 					<span class="next-game--live__percentage">
-					68.6<span class="symbol">%</span>
+					86.5<span class="symbol">%</span>
 				</span>
 					<span class="next-game--live__winning-team">
-					BUF				</span>
-								<span class="next-game--live__arrow team-nfl-BUF-border"></span>
+					NE				</span>
+								<span class="next-game--live__arrow team-nfl-NE-border"></span>
 			</div>
 				<div class="next-game next-game--right">
 						<span class="next-game__rank small-hide">
-				#26			</span>
+				#7			</span>
 						<div class="next-game--right--logo-wrap">
-				<a class="next-game__team small-hide" href="/nfl/teams/buffalo-bills">
-					BUF				</a>
-				<img class="next-game__logo next-game--right__logo" src="https://d1tjohjvimcqgl.cloudfront.net/teams/logos/nfl/BUF.png">
-				<a class="next-game__team small-show" href="/nfl/teams/buffalo-bills">
-					BUF				</a>
+				<a class="next-game__team small-hide" href="/nfl/teams/new-england-patriots">
+					NE				</a>
+				<img class="next-game__logo next-game--right__logo" src="https://d1tjohjvimcqgl.cloudfront.net/teams/logos/nfl/NE.png">
+				<a class="next-game__team small-show" href="/nfl/teams/new-england-patriots">
+					NE				</a>
 			</div>
 						<span class="next-game__rank small-show">
-				#26			</span>
+				#7			</span>
 					</div>
 	</div>
 
@@ -2455,7 +2452,7 @@
 
 			<div class="player-schedule__indiv-projections__stats--indiv">
 				<span class="stat">
-											201.7									</span>
+											194.8									</span>
 				<span title="Passing Yards" class="cat">
 					Pass Yd
 				</span>
@@ -2471,7 +2468,7 @@
 
 			<div class="player-schedule__indiv-projections__stats--indiv">
 				<span class="stat">
-											1.0									</span>
+											0.9									</span>
 				<span title="Interceptions Thrown" class="cat">
 					Int
 				</span>
@@ -2479,7 +2476,7 @@
 
 			<div class="player-schedule__indiv-projections__stats--indiv  medium-down-hide">
 				<span class="stat">
-											34.7									</span>
+											34.6									</span>
 				<span title="Rushing Yards" class="cat">
 					Rush Yd
 				</span>
@@ -2487,7 +2484,7 @@
 
 			<div class="player-schedule__indiv-projections__stats--indiv">
 				<span class="stat">
-											17.1									</span>
+											18.5									</span>
 				<span title = "FanDuel Fantasy Points" class="cat">
 					FP
 				</span>
@@ -2719,7 +2716,7 @@
 				</thead>
 				<tbody class="projection-table__body">
 													<tr data-row-index="1">
-						<td class="negative">#1</td>
+						<td class="negative">#2</td>
 						<td>
 							1.10-1.89						</td>
 						<td>
@@ -2746,7 +2743,7 @@
 							0.14						</td>
 					</tr>
 									<tr data-row-index="2">
-						<td class="">#10</td>
+						<td class="positive">#10</td>
 						<td>
 							18.82-32.88						</td>
 						<td>
@@ -2773,7 +2770,7 @@
 							2.26						</td>
 					</tr>
 									<tr data-row-index="3">
-						<td class="">#4</td>
+						<td class="negative">#4</td>
 						<td>
 							20.03-33.86						</td>
 						<td>
@@ -2800,7 +2797,7 @@
 							1.84						</td>
 					</tr>
 									<tr data-row-index="4">
-						<td class="positive">#26</td>
+						<td class="positive">#25</td>
 						<td>
 							20.99-33.56						</td>
 						<td>
@@ -2827,7 +2824,7 @@
 							2.68						</td>
 					</tr>
 									<tr data-row-index="5">
-						<td class="positive">#20</td>
+						<td class="positive">#15</td>
 						<td>
 							19.49-33.44						</td>
 						<td>
@@ -2854,7 +2851,7 @@
 							2.5						</td>
 					</tr>
 									<tr data-row-index="6">
-						<td class="">#9</td>
+						<td class="positive">#11</td>
 						<td>
 							19.79-33.64						</td>
 						<td>
@@ -2881,7 +2878,7 @@
 							2.59						</td>
 					</tr>
 									<tr data-row-index="7">
-						<td class="positive">#21</td>
+						<td class="positive">#20</td>
 						<td>
 							0.00-0.00						</td>
 						<td>
@@ -2908,7 +2905,7 @@
 							0						</td>
 					</tr>
 									<tr data-row-index="8">
-						<td class="positive">#14</td>
+						<td class="positive">#19</td>
 						<td>
 							0.00-0.00						</td>
 						<td>
@@ -2935,7 +2932,7 @@
 							0						</td>
 					</tr>
 									<tr data-row-index="9">
-						<td class="">#2</td>
+						<td class="negative">#1</td>
 						<td>
 							0.00-0.00						</td>
 						<td>
@@ -2962,7 +2959,7 @@
 							0						</td>
 					</tr>
 									<tr data-row-index="10">
-						<td class="positive">#18</td>
+						<td class="positive">#21</td>
 						<td>
 							0.00-0.00						</td>
 						<td>
@@ -3016,7 +3013,7 @@
 							N/A						</td>
 					</tr>
 									<tr data-row-index="12">
-						<td class="">#8</td>
+						<td class="">#9</td>
 						<td>
 							17.17-33.58						</td>
 						<td>
@@ -3070,7 +3067,7 @@
 							2.55						</td>
 					</tr>
 									<tr data-row-index="14">
-						<td class="positive">#18</td>
+						<td class="positive">#21</td>
 						<td>
 							15.90-29.69						</td>
 						<td>
@@ -3099,81 +3096,81 @@
 									<tr data-row-index="15">
 						<td class="positive">#29</td>
 						<td>
-							16.91-30.31						</td>
+							16.38-29.05						</td>
 						<td>
-							207.93						</td>
+							196.16						</td>
 						<td>
 							1.43						</td>
 						<td>
-							0.68						</td>
+							0.81						</td>
 						<td>
-							6.59						</td>
+							6.45						</td>
 						<td>
-							39.93						</td>
+							47.33						</td>
 						<td class="border-right">
-							0.55						</td>
+							0.66						</td>
 						<td>
-							11.86-27.32						</td>
+							13.32-27.42						</td>
 						<td class="border-right">
-							19.59						</td>
+							20.37						</td>
 						<td class="cost">
-							N/A						</td>
+							$7,600						</td>
 						<td>
-							20.31						</td>
+							21.18						</td>
 						<td>
-							N/A						</td>
+							2.79						</td>
 					</tr>
 									<tr data-row-index="16">
-						<td class="positive">#14</td>
+						<td class="positive">#19</td>
 						<td>
-							15.34-28.94						</td>
+							15.17-28.49						</td>
 						<td>
-							188.51						</td>
+							194.84						</td>
 						<td>
-							0.88						</td>
+							0.94						</td>
 						<td>
 							0.90						</td>
 						<td>
-							5.72						</td>
+							6.05						</td>
 						<td>
-							29.32						</td>
+							34.64						</td>
 						<td class="border-right">
-							0.48						</td>
+							0.79						</td>
 						<td>
-							5.74-23.44						</td>
+							8.28-26.92						</td>
 						<td class="border-right">
-							14.59						</td>
+							17.60						</td>
 						<td class="cost">
-							N/A						</td>
+							$7,700						</td>
 						<td>
-							15.49						</td>
+							18.49						</td>
 						<td>
-							N/A						</td>
+							2.4						</td>
 					</tr>
 									<tr data-row-index="17">
 						<td class="positive">#31</td>
 						<td>
-							16.83-30.29						</td>
+							15.85-28.77						</td>
 						<td>
-							207.11						</td>
+							197.94						</td>
 						<td>
-							1.43						</td>
+							1.11						</td>
 						<td>
-							0.68						</td>
+							0.58						</td>
 						<td>
-							6.82						</td>
+							6.92						</td>
 						<td>
-							42.76						</td>
+							43.53						</td>
 						<td class="border-right">
-							0.55						</td>
+							0.64						</td>
 						<td>
-							12.12-27.56						</td>
+							11.68-26.48						</td>
 						<td class="border-right">
-							19.84						</td>
+							19.08						</td>
 						<td class="cost">
 							N/A						</td>
 						<td>
-							20.56						</td>
+							19.67						</td>
 						<td>
 							N/A						</td>
 					</tr>
@@ -3200,25 +3197,25 @@
 					<tbody class="projection-table__body">
 											<tr>
 							<td>
-								64.98-119.23							</td>
+								31.02-57.26							</td>
 							<td>
-								805.23							</td>
+								392.78							</td>
 							<td>
-								4.66							</td>
+								2.05							</td>
 							<td>
-								3.24							</td>
+								1.48							</td>
 							<td>
-								25.63							</td>
+								12.97							</td>
 							<td>
-								146.71							</td>
+								78.17							</td>
 							<td class="border-right">
-								2.13							</td>
+								1.43							</td>
 							<td>
-								53.58-86.62							</td>
+								24.78-48.58							</td>
 							<td class="border-right">
-								70.10							</td>
+								36.68							</td>
 							<td>
-								73.45							</td>
+								38.16							</td>
 						</tr>
 										</tbody>
 				</table>
@@ -3252,25 +3249,25 @@
 	</div>
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
-		<a href="/nfl/news/23524/fantasy-football-the-late-round-podcast-15-transactions-for-week-14">
+		<a href="/nfl/lists/23777/3-fantasy-football-quarterback-streaming-options-for-week-16">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23524_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23524_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23777_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23777_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 						<h4>
-				<a href="/nfl/news/23524/fantasy-football-the-late-round-podcast-15-transactions-for-week-14">
-					Fantasy Football: The Late-Round Podcast, 15 Transactions for Week 14				</a>
+				<a href="/nfl/lists/23777/3-fantasy-football-quarterback-streaming-options-for-week-16">
+					3 Fantasy Football Quarterback Streaming Options for Week 16				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
-			<a href="/author/jj-zachariason-1" class="listing__byline--author">
-				JJ Zachariason			</a>
-			<span>&mdash; <span class="timeago" title="1543932569"></span></span>
+			<a href="/author/austan-kas" class="listing__byline--author">
+				Austan Kas			</a>
+			<span>&mdash; <span class="timeago" title="1545155930"></span></span>
 		</div>
 	</div>
 
@@ -3278,25 +3275,25 @@
 
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
-		<a href="/nfl/news/23504/15-fantasy-football-transactions-for-week-14">
+		<a href="/nfl/lists/23780/5-nfl-stats-to-know-through-week-15">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23504_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23504_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23780_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23780_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 						<h4>
-				<a href="/nfl/news/23504/15-fantasy-football-transactions-for-week-14">
-					15 Fantasy Football Transactions for Week 14				</a>
+				<a href="/nfl/lists/23780/5-nfl-stats-to-know-through-week-15">
+					5 NFL Stats to Know Through Week 15				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
-			<a href="/author/jj-zachariason-1" class="listing__byline--author">
-				JJ Zachariason			</a>
-			<span>&mdash; <span class="timeago" title="1543932300"></span></span>
+			<a href="/author/neil-dutton" class="listing__byline--author">
+				Neil Dutton			</a>
+			<span>&mdash; <span class="timeago" title="1545153620"></span></span>
 		</div>
 	</div>
 
@@ -3304,25 +3301,25 @@
 
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
-		<a href="/nfl/news/23503/fanduel-single-game-daily-fantasy-football-helper-week-13-monday-night">
+		<a href="/nfl/news/23776/week-15-fantasy-football-backfield-report">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23503_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23503_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23776_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23776_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 						<h4>
-				<a href="/nfl/news/23503/fanduel-single-game-daily-fantasy-football-helper-week-13-monday-night">
-					FanDuel Single-Game Daily Fantasy Football Helper: Week 13 Monday Night				</a>
+				<a href="/nfl/news/23776/week-15-fantasy-football-backfield-report">
+					Week 15 Fantasy Football Backfield Report				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
-			<a href="/author/kenyatta-storin" class="listing__byline--author">
-				Kenyatta Storin			</a>
-			<span>&mdash; <span class="timeago" title="1543862865"></span></span>
+			<a href="/author/adam-nessel" class="listing__byline--author">
+				Adam Nessel			</a>
+			<span>&mdash; <span class="timeago" title="1545152353"></span></span>
 		</div>
 	</div>
 
@@ -3330,25 +3327,25 @@
 
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
-		<a href="/nfl/news/23511/nfl-week-13-fanduel-ownership-percentages-spencer-ware-week">
+		<a href="/nfl/lists/23764/3-fantasy-football-defensive-streaming-options-for-week-16">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23511_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23511_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23764_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23764_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
-			<span class="listing--premium"><i class="nf-icon icon-premium"></i>premium</span>			<h4>
-				<a href="/nfl/news/23511/nfl-week-13-fanduel-ownership-percentages-spencer-ware-week">
-					NFL Week 13 FanDuel Ownership Percentages: Spencer Ware Week				</a>
+						<h4>
+				<a href="/nfl/lists/23764/3-fantasy-football-defensive-streaming-options-for-week-16">
+					3 Fantasy Football Defensive Streaming Options for Week 16				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
-			<a href="/author/brandon-gdula" class="listing__byline--author">
-				Brandon Gdula			</a>
-			<span>&mdash; <span class="timeago" title="1543860513"></span></span>
+			<a href="/author/blair-ames" class="listing__byline--author">
+				Blair Ames			</a>
+			<span>&mdash; <span class="timeago" title="1545147146"></span></span>
 		</div>
 	</div>
 
@@ -3356,25 +3353,25 @@
 
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
-		<a href="/nfl/lists/23497/fantasy-football-5-things-we-learned-in-week-13">
+		<a href="/nfl/lists/23763/fantasy-football-3-players-you-can-drop-after-week-15">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23497_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23497_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23763_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23763_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 						<h4>
-				<a href="/nfl/lists/23497/fantasy-football-5-things-we-learned-in-week-13">
-					Fantasy Football: 5 Things We Learned in Week 13				</a>
+				<a href="/nfl/lists/23763/fantasy-football-3-players-you-can-drop-after-week-15">
+					Fantasy Football: 3 Players You Can Drop After Week 15				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
 			<a href="/author/aidan-mcgrath" class="listing__byline--author">
 				Aidan Mcgrath			</a>
-			<span>&mdash; <span class="timeago" title="1543857945"></span></span>
+			<span>&mdash; <span class="timeago" title="1545146935"></span></span>
 		</div>
 	</div>
 
@@ -3382,25 +3379,25 @@
 
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
-		<a href="/nfl/news/23508/the-20-best-offensive-players-from-week-13">
+		<a href="/nfl/lists/23762/3-fantasy-football-tight-end-streaming-options-for-week-16">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23508_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23508_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23762_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23762_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 						<h4>
-				<a href="/nfl/news/23508/the-20-best-offensive-players-from-week-13">
-					The 20 Best Offensive Players From Week 13				</a>
+				<a href="/nfl/lists/23762/3-fantasy-football-tight-end-streaming-options-for-week-16">
+					3 Fantasy Football Tight End Streaming Options for Week 16				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
-			<a href="/author/brandon-gdula" class="listing__byline--author">
-				Brandon Gdula			</a>
-			<span>&mdash; <span class="timeago" title="1543857284"></span></span>
+			<a href="/author/dale-redman-1" class="listing__byline--author">
+				Dale Redman			</a>
+			<span>&mdash; <span class="timeago" title="1545144953"></span></span>
 		</div>
 	</div>
 
@@ -3436,7 +3433,7 @@
 					</span>
 				</div>
 				<div class="compare-indiv__percentage">
-					<span>96.83%</span> match
+					<span>95.33%</span> match
 				</div>
 			</div>
 								<div class="sidebar__comparable-seasons__wrap compare-indiv">
@@ -3449,20 +3446,7 @@
 					</span>
 				</div>
 				<div class="compare-indiv__percentage">
-					<span>95.89%</span> match
-				</div>
-			</div>
-								<div class="sidebar__comparable-seasons__wrap compare-indiv">
-				<img src="https://d1tjohjvimcqgl.cloudfront.net/category/3585_n.jpg" class="player-image compare-indiv__logo">
-				<div class="compare-indiv__name">
-					<a href="/nfl/players/kordell-stewart">
-						Kordell Stewart					</a>
-					<span>
-						2003-04 Season
-					</span>
-				</div>
-				<div class="compare-indiv__percentage">
-					<span>94.14%</span> match
+					<span>94.53%</span> match
 				</div>
 			</div>
 								<div class="sidebar__comparable-seasons__wrap compare-indiv">
@@ -3475,20 +3459,33 @@
 					</span>
 				</div>
 				<div class="compare-indiv__percentage">
-					<span>93.92%</span> match
+					<span>93.69%</span> match
 				</div>
 			</div>
 								<div class="sidebar__comparable-seasons__wrap compare-indiv">
-				<img src="https://d1tjohjvimcqgl.cloudfront.net/category/170779_n.jpg" class="player-image compare-indiv__logo">
+				<img src="https://d1tjohjvimcqgl.cloudfront.net/category/3585_n.jpg" class="player-image compare-indiv__logo">
 				<div class="compare-indiv__name">
-					<a href="/nfl/players/blake-bortles">
-						Blake Bortles					</a>
+					<a href="/nfl/players/kordell-stewart">
+						Kordell Stewart					</a>
 					<span>
-						2014-15 Season
+						2003-04 Season
 					</span>
 				</div>
 				<div class="compare-indiv__percentage">
-					<span>93.31%</span> match
+					<span>93.55%</span> match
+				</div>
+			</div>
+								<div class="sidebar__comparable-seasons__wrap compare-indiv">
+				<img src="https://d1tjohjvimcqgl.cloudfront.net/category/479_n.jpg" class="player-image compare-indiv__logo">
+				<div class="compare-indiv__name">
+					<a href="/nfl/players/vince-young">
+						Vince Young					</a>
+					<span>
+						2006-07 Season
+					</span>
+				</div>
+				<div class="compare-indiv__percentage">
+					<span>93.07%</span> match
 				</div>
 			</div>
 			</div>
@@ -3555,9 +3552,9 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsrender/0.9.84/jsrender.min.js"></script>
 
             <script type="text/javascript" src="/js/config/prod.js"></script>
-        <script type="text/javascript" src="/js/nF.js?v=461"></script>
-    <script type="text/javascript" src="/dist/fd-login.js?v=461"></script>
-    <script type="text/javascript" src="/dist/scoreboard.js?v=461"></script>
+        <script type="text/javascript" src="/js/nF.js?v=462"></script>
+    <script type="text/javascript" src="/dist/fd-login.js?v=462"></script>
+    <script type="text/javascript" src="/dist/scoreboard.js?v=462"></script>
 
         
     	<script>
@@ -3621,5 +3618,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":129,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":164,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>

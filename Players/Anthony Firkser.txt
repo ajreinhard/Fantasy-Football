@@ -8,7 +8,7 @@
 
     <meta name="apple-itunes-app" content="app-id=907642513">
 
-    <link rel="stylesheet" type="text/css" href="/css/main.min.css?v=324">
+    <link rel="stylesheet" type="text/css" href="/css/main.min.css?v=325">
 
     
     <script src="//use.typekit.net/hvg3qyl.js"></script>
@@ -373,22 +373,22 @@
                         <a href="/nfl/fantasy/fantasy-football-projections">Projections <i class="nf-icon icon-arrow-right"></i></a>
                         <ul class="sub-nav-tier-two">
                             <li>
-                                <a href="/nfl/fantasy/fantasy-football-projections">Week 14 Fantasy Projections</a>
+                                <a href="/nfl/fantasy/fantasy-football-projections">Week 16 Fantasy Projections</a>
                             </li>
                             <li>
-                                <a href="/nfl/fantasy/fantasy-football-ppr-projections">Week 14 Fantasy PPR Projections</a>
+                                <a href="/nfl/fantasy/fantasy-football-ppr-projections">Week 16 Fantasy PPR Projections</a>
                             </li>
                             <li>
-                                <a href="/nfl/daily-fantasy/daily-football-projections">Week 14 Daily Football Projections</a>
+                                <a href="/nfl/daily-fantasy/daily-football-projections">Week 16 Daily Football Projections</a>
                             </li>
                             <li>
-                                <a href="/nfl/games">Week 14 Game Projections</a>
+                                <a href="/nfl/games">Week 16 Game Projections</a>
                             </li>
                             <li>
-                                <a href="/nfl/survivor-pool">Week 14 Survivor Pool Analysis</a>
+                                <a href="/nfl/survivor-pool">Week 16 Survivor Pool Analysis</a>
                             </li>
                             <li>
-                                <a href="/nfl/survivor-pool-matrix">Week 14 Survivor Pool Matrix</a>
+                                <a href="/nfl/survivor-pool-matrix">Week 16 Survivor Pool Matrix</a>
                             </li>
                             <li>
                                 <a href="/nfl/daily-fantasy/who-do-i-start">Who Do I Start? Tool</a>
@@ -430,7 +430,7 @@
                     <li class="has-sub-nav"><a href="/nfl/teams/power-rankings">Rankings <i class="nf-icon icon-arrow-right"></i></a>
                         <ul class="sub-nav-tier-two">
                             <li>
-                               <a href="/nfl/fantasy/fantasy-football-rankings">Week 14 Fantasy Football Rankings</a>
+                               <a href="/nfl/fantasy/fantasy-football-rankings">Week 16 Fantasy Football Rankings</a>
                             </li>
                             <li>
                                <a href="/nfl/teams/power-rankings">Team Power Rankings</a>
@@ -1489,22 +1489,22 @@
            <ul class="secondary-nav" data-sub-nav-value="projections">
                <li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>
                <li>
-                   <a href="/nfl/fantasy/fantasy-football-projections">Week 14 Fantasy Projections</a>
+                   <a href="/nfl/fantasy/fantasy-football-projections">Week 16 Fantasy Projections</a>
                </li>
                <li>
-                   <a href="/nfl/fantasy/fantasy-football-ppr-projections">Week 14 Fantasy PPR Projections</a>
+                   <a href="/nfl/fantasy/fantasy-football-ppr-projections">Week 16 Fantasy PPR Projections</a>
                </li>
                <li>
-                   <a href="/nfl/daily-fantasy/daily-football-projections">Week 14 Daily Football Projections</a>
+                   <a href="/nfl/daily-fantasy/daily-football-projections">Week 16 Daily Football Projections</a>
                </li>
                <li>
-                   <a href="/nfl/games">Week 14 Game Projections</a>
+                   <a href="/nfl/games">Week 16 Game Projections</a>
                </li>
                <li>
-                   <a href="/nfl/survivor-pool">Week 14 Survivor Pool Analysis</a>
+                   <a href="/nfl/survivor-pool">Week 16 Survivor Pool Analysis</a>
                </li>
                <li>
-                   <a href="/nfl/survivor-pool-matrix">Week 14 Survivor Pool Matrix</a>
+                   <a href="/nfl/survivor-pool-matrix">Week 16 Survivor Pool Matrix</a>
                </li>
                <li>
                    <a href="/nfl/daily-fantasy/who-do-i-start">Who Do I Start? Tool</a>
@@ -1546,7 +1546,7 @@
            <ul class="secondary-nav" data-sub-nav-value="rankings">
                <li class="back" data-sub-nav-back-button><i class="nf-icon icon-arrow-left"></i> Back</li>
                <li>
-                   <a href="/nfl/fantasy/fantasy-football-rankings">Week 14 Fantasy Football Rankings</a>
+                   <a href="/nfl/fantasy/fantasy-football-rankings">Week 16 Fantasy Football Rankings</a>
                 </li>
                 <li>
                    <a href="/nfl/teams/power-rankings">Team Power Rankings</a>
@@ -2139,7 +2139,7 @@
 							</span>
 															        </div>
 								        <div class="player-info--basic__dfp">
-						FPPG: <span class="amt">6.0</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$5,100</span>					</div>
+						FPPG: <span class="amt">5.7</span>																	</div>
 	            </div>
             </div>
 
@@ -2147,7 +2147,7 @@
 		        <div class="player-info--basic">
 					
 			        <div class="player-info--basic__dfp">
-						FPPG: <span class="amt">6.0</span>						&nbsp;&vert;&nbsp;						FanDuel Salary: <span class="amt">$5,100</span>			        </div>
+						FPPG: <span class="amt">5.7</span>															        </div>
 		     	</div>
 	     	</div>
         </div>
@@ -2168,7 +2168,7 @@
 					id="dfs-chart"
 					class="dfs-chart"
 					data-dfs-chart
-					data-dfs-chart-data="[{&quot;cost&quot;:&quot;4000.00&quot;,&quot;fp&quot;:1.6,&quot;opp&quot;:&quot;NE&quot;,&quot;round&quot;:&quot;Week 10&quot;,&quot;roundAbbrev&quot;:&quot;Wk10&quot;,&quot;value&quot;:0.4},{&quot;cost&quot;:&quot;4000.00&quot;,&quot;fp&quot;:5.9,&quot;opp&quot;:&quot;IND&quot;,&quot;round&quot;:&quot;Week 11&quot;,&quot;roundAbbrev&quot;:&quot;Wk11&quot;,&quot;value&quot;:1.48},{&quot;cost&quot;:&quot;4400.00&quot;,&quot;fp&quot;:7.2,&quot;opp&quot;:&quot;HOU&quot;,&quot;round&quot;:&quot;Week 12&quot;,&quot;roundAbbrev&quot;:&quot;Wk12&quot;,&quot;value&quot;:1.64},{&quot;cost&quot;:&quot;4600.00&quot;,&quot;fp&quot;:11.7,&quot;opp&quot;:&quot;NYJ&quot;,&quot;round&quot;:&quot;Week 13&quot;,&quot;roundAbbrev&quot;:&quot;Wk13&quot;,&quot;value&quot;:2.54}]"
+					data-dfs-chart-data="[{&quot;cost&quot;:&quot;4000.00&quot;,&quot;fp&quot;:1.6,&quot;opp&quot;:&quot;NE&quot;,&quot;round&quot;:&quot;Week 10&quot;,&quot;roundAbbrev&quot;:&quot;Wk10&quot;,&quot;value&quot;:0.4},{&quot;cost&quot;:&quot;4000.00&quot;,&quot;fp&quot;:5.9,&quot;opp&quot;:&quot;IND&quot;,&quot;round&quot;:&quot;Week 11&quot;,&quot;roundAbbrev&quot;:&quot;Wk11&quot;,&quot;value&quot;:1.48},{&quot;cost&quot;:&quot;4400.00&quot;,&quot;fp&quot;:7.2,&quot;opp&quot;:&quot;HOU&quot;,&quot;round&quot;:&quot;Week 12&quot;,&quot;roundAbbrev&quot;:&quot;Wk12&quot;,&quot;value&quot;:1.64},{&quot;cost&quot;:&quot;4600.00&quot;,&quot;fp&quot;:11.7,&quot;opp&quot;:&quot;NYJ&quot;,&quot;round&quot;:&quot;Week 13&quot;,&quot;roundAbbrev&quot;:&quot;Wk13&quot;,&quot;value&quot;:2.54},{&quot;cost&quot;:&quot;5100.00&quot;,&quot;fp&quot;:4.2,&quot;opp&quot;:&quot;JAC&quot;,&quot;round&quot;:&quot;Week 14&quot;,&quot;roundAbbrev&quot;:&quot;Wk14&quot;,&quot;value&quot;:0.82}]"
 					height="135"
 					width="499">
 				</canvas>
@@ -2206,7 +2206,6 @@
                                                     <option  value="/nfl/players/projections/wesley-woodyard">Wesley Woodyard</option>
                                                     <option  value="/nfl/players/projections/kenny-vaccaro-1">Kenny Vaccaro</option>
                                                     <option  value="/nfl/players/projections/bennie-logan-1">Bennie Logan</option>
-                                                    <option  value="/nfl/players/projections/logan-ryan">Logan Ryan</option>
                                                     <option  value="/nfl/players/projections/malcolm-butler">Malcolm Butler</option>
                                                     <option  value="/nfl/players/projections/daren-bates">Daren Bates</option>
                                                     <option  value="/nfl/players/projections/will-compton">Will Compton</option>
@@ -2218,6 +2217,7 @@
                                                     <option  value="/nfl/players/projections/darius-jennings">Darius Jennings</option>
                                                     <option  value="/nfl/players/projections/derrick-henry">Derrick Henry</option>
                                                     <option  value="/nfl/players/projections/tajae-sharpe">Tajae Sharpe</option>
+                                                    <option  value="/nfl/players/projections/cole-wick">Cole Wick</option>
                                                     <option  value="/nfl/players/projections/kevin-byard">Kevin Byard</option>
                                                     <option  value="/nfl/players/projections/austin-johnson-1">Austin Johnson</option>
                                                     <option  value="/nfl/players/projections/kamalei-correa">Kamalei Correa</option>
@@ -2226,7 +2226,6 @@
                                                     <option  value="/nfl/players/projections/taywan-taylor">Taywan Taylor</option>
                                                     <option  value="/nfl/players/projections/jayon-brown">Jayon Brown</option>
                                                     <option  value="/nfl/players/projections/adoree-jackson">Adoree' Jackson</option>
-                                                    <option  value="/nfl/players/projections/jonnu-smith">Jonnu Smith</option>
                                                     <option  value="/nfl/players/projections/david-fluellen">David Fluellen</option>
                                                     <option  value="/nfl/players/projections/jeremy-mcnichols">Jeremy McNichols</option>
                                                     <option  value="/nfl/players/projections/rashaan-evans">Rashaan Evans</option>
@@ -2236,6 +2235,7 @@
                                                     <option  value="/nfl/players/projections/cameron-batson">Cameron Batson</option>
                                                     <option  value="/nfl/players/projections/matt-dickerson">Matt Dickerson</option>
                                                     <option  selected="selected"  value="/nfl/players/projections/anthony-firkser">Anthony Firkser</option>
+                                                    <option  value="/nfl/players/projections/joshua-kalu">Joshua Kalu</option>
                                             </select>
                 </form>
                 <form class="team-player-sub-nav__list__drop team-player-sub-nav__list__drop--abbr" action="">
@@ -2266,8 +2266,6 @@
                                 K. Vaccaro                            </option>
                                                     <option  value="/nfl/players/projections/bennie-logan-1">
                                 B. Logan                            </option>
-                                                    <option  value="/nfl/players/projections/logan-ryan">
-                                L. Ryan                            </option>
                                                     <option  value="/nfl/players/projections/malcolm-butler">
                                 M. Butler                            </option>
                                                     <option  value="/nfl/players/projections/daren-bates">
@@ -2290,6 +2288,8 @@
                                 D. Henry                            </option>
                                                     <option  value="/nfl/players/projections/tajae-sharpe">
                                 T. Sharpe                            </option>
+                                                    <option  value="/nfl/players/projections/cole-wick">
+                                C. Wick                            </option>
                                                     <option  value="/nfl/players/projections/kevin-byard">
                                 K. Byard                            </option>
                                                     <option  value="/nfl/players/projections/austin-johnson-1">
@@ -2306,8 +2306,6 @@
                                 J. Brown                            </option>
                                                     <option  value="/nfl/players/projections/adoree-jackson">
                                 A. Jackson                            </option>
-                                                    <option  value="/nfl/players/projections/jonnu-smith">
-                                J. Smith                            </option>
                                                     <option  value="/nfl/players/projections/david-fluellen">
                                 D. Fluellen                            </option>
                                                     <option  value="/nfl/players/projections/jeremy-mcnichols">
@@ -2326,6 +2324,8 @@
                                 M. Dickerson                            </option>
                                                     <option  selected="selected"  value="/nfl/players/projections/anthony-firkser">
                                 A. Firkser                            </option>
+                                                    <option  value="/nfl/players/projections/joshua-kalu">
+                                J. Kalu                            </option>
                                             </select>
                 </form>
                             <ul class="team-player-sub-nav__list__links">
@@ -2395,25 +2395,25 @@
 	<div class="player-schedule__hed">
 		Next Game -
 			<strong>
-			Thu, 12/6/18, 8:20 PM ET			</strong>
+			Sat, 12/22/18, 4:30 PM ET			</strong>
 	</div>
 
 	<div class="player-schedule__next__probability">
 		<div class="next-game next-game--left">
 			<div class="next-game--left--logo-wrap">
-				<img class="next-game__logo next-game--left__logo" src="https://d1tjohjvimcqgl.cloudfront.net/teams/logos/nfl/JAC.png">
-				<a class="next-game__team" href="/nfl/teams/jacksonville-jaguars">
-					JAC				</a>
+				<img class="next-game__logo next-game--left__logo" src="https://d1tjohjvimcqgl.cloudfront.net/teams/logos/nfl/WSH.png">
+				<a class="next-game__team" href="/nfl/teams/washington-redskins">
+					WSH				</a>
 			</div>
 							<span class="next-game__rank">
-					#20				</span>
+					#24				</span>
 					</div>
 								<div class="next-game next-game--live odds-right team-nfl-TEN">
 									<h4>
 						win probability
 					</h4>
 					<span class="next-game--live__percentage">
-					62.5<span class="symbol">%</span>
+					77.5<span class="symbol">%</span>
 				</span>
 					<span class="next-game--live__winning-team">
 					TEN				</span>
@@ -2421,7 +2421,7 @@
 			</div>
 				<div class="next-game next-game--right">
 						<span class="next-game__rank small-hide">
-				#21			</span>
+				#18			</span>
 						<div class="next-game--right--logo-wrap">
 				<a class="next-game__team small-hide" href="/nfl/teams/tennessee-titans">
 					TEN				</a>
@@ -2430,7 +2430,7 @@
 					TEN				</a>
 			</div>
 						<span class="next-game__rank small-show">
-				#21			</span>
+				#18			</span>
 					</div>
 	</div>
 
@@ -2442,7 +2442,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 					<span class="stat">
-													0.3											</span>
+													1.2											</span>
 					<span title="Receptions" class="cat">
 						Rec
 					</span>
@@ -2450,7 +2450,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 					<span class="stat">
-													3.2											</span>
+													14.5											</span>
 					<span title="Receiving Yards" class="cat">
 						Rec Yd
 					</span>
@@ -2458,7 +2458,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 					<span class="stat">
-													0.1											</span>
+													0.2											</span>
 					<span title="Receiving Touchdowns" class="cat">
 						Rec TD
 					</span>
@@ -2474,7 +2474,7 @@
 
 				<div class="player-schedule__indiv-projections__stats--indiv">
 				<span class="stat">
-											1.0									</span>
+											3.3									</span>
 				<span title = "FanDuel Fantasy Points" class="cat">
 					FP
 				</span>
@@ -2644,7 +2644,7 @@
 					</thead>
 					<tbody class="projection-table__body">
 																<tr data-row-index="1">
-							<td class="">
+							<td class="positive">
 								#10							</td>
 							<td>
 								0.50							</td>
@@ -2717,7 +2717,7 @@
 						</tr>
 											<tr data-row-index="4">
 							<td class="positive">
-								#14							</td>
+								#19							</td>
 							<td>
 								0.28							</td>
 							<td>
@@ -2741,7 +2741,7 @@
 						</tr>
 											<tr data-row-index="5">
 							<td class="positive">
-								#21							</td>
+								#20							</td>
 							<td>
 								0.28							</td>
 							<td>
@@ -2764,8 +2764,8 @@
 								0.24							</td>
 						</tr>
 											<tr data-row-index="6">
-							<td class="">
-								#9							</td>
+							<td class="positive">
+								#11							</td>
 							<td>
 								0.27							</td>
 							<td>
@@ -2789,7 +2789,7 @@
 						</tr>
 											<tr data-row-index="7">
 							<td class="positive">
-								#18							</td>
+								#21							</td>
 							<td>
 								0.45							</td>
 							<td>
@@ -2813,7 +2813,7 @@
 						</tr>
 											<tr data-row-index="8">
 							<td class="">
-								#8							</td>
+								#9							</td>
 							<td>
 								0.36							</td>
 							<td>
@@ -2839,71 +2839,71 @@
 							<td class="positive">
 								#22							</td>
 							<td>
-								0.40							</td>
+								1.51							</td>
 							<td>
-								0.34							</td>
+								1.21							</td>
 							<td>
-								3.76							</td>
+								15.57							</td>
 							<td>
-								0.09							</td>
+								0.21							</td>
 							<td class="border-right">
-								0.01							</td>
+								0.03							</td>
 							<td>
-								0.27-1.55							</td>
+								0.40-5.34							</td>
 							<td class="border-right">
-								0.91							</td>
+								2.87							</td>
 							<td class="cost">
-								N/A							</td>
+								$5,100							</td>
 							<td>
-								1.09							</td>
+								3.46							</td>
 							<td>
-								N/A							</td>
+								0.68							</td>
 						</tr>
 											<tr data-row-index="10">
 							<td class="positive">
-								#16							</td>
+								#17							</td>
 							<td>
-								0.38							</td>
+								1.58							</td>
 							<td>
-								0.31							</td>
+								1.23							</td>
 							<td>
-								3.58							</td>
+								14.46							</td>
 							<td>
-								0.09							</td>
+								0.20							</td>
 							<td class="border-right">
-								0.01							</td>
+								0.03							</td>
 							<td>
-								0.24-1.52							</td>
+								-0.07-5.43							</td>
 							<td class="border-right">
-								0.88							</td>
+								2.68							</td>
 							<td class="cost">
 								N/A							</td>
 							<td>
-								1.05							</td>
+								3.28							</td>
 							<td>
 								N/A							</td>
 						</tr>
 											<tr data-row-index="11">
 							<td class="positive">
-								#21							</td>
+								#20							</td>
 							<td>
-								0.41							</td>
+								1.54							</td>
 							<td>
-								0.35							</td>
+								1.17							</td>
 							<td>
-								3.80							</td>
+								12.88							</td>
 							<td>
-								0.10							</td>
+								0.22							</td>
 							<td class="border-right">
 								0.01							</td>
 							<td>
-								0.35-1.61							</td>
+								0.30-5.02							</td>
 							<td class="border-right">
-								0.98							</td>
+								2.66							</td>
 							<td class="cost">
 								N/A							</td>
 							<td>
-								1.16							</td>
+								3.21							</td>
 							<td>
 								N/A							</td>
 						</tr>
@@ -2928,21 +2928,21 @@
 					<tbody class="projection-table__body">
 											<tr>
 							<td>
-								1.55							</td>
+								3.12							</td>
 							<td>
-								1.29							</td>
+								2.40							</td>
 							<td>
-								14.29							</td>
+								27.34							</td>
 							<td>
-								0.37							</td>
+								0.42							</td>
 							<td class="border-right">
-								0.03							</td>
+								0.04							</td>
 							<td>
-								2.40-4.88							</td>
+								1.72-8.96							</td>
 							<td class="border-right">
-								3.64							</td>
+								5.34							</td>
 							<td>
-								4.29							</td>
+								6.49							</td>
 						</tr>
 										</tbody>
 				</table>
@@ -2976,25 +2976,25 @@
 	</div>
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
-		<a href="/nfl/news/23524/fantasy-football-the-late-round-podcast-15-transactions-for-week-14">
+		<a href="/nfl/lists/23777/3-fantasy-football-quarterback-streaming-options-for-week-16">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23524_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23524_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23777_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23777_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 						<h4>
-				<a href="/nfl/news/23524/fantasy-football-the-late-round-podcast-15-transactions-for-week-14">
-					Fantasy Football: The Late-Round Podcast, 15 Transactions for Week 14				</a>
+				<a href="/nfl/lists/23777/3-fantasy-football-quarterback-streaming-options-for-week-16">
+					3 Fantasy Football Quarterback Streaming Options for Week 16				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
-			<a href="/author/jj-zachariason-1" class="listing__byline--author">
-				JJ Zachariason			</a>
-			<span>&mdash; <span class="timeago" title="1543932569"></span></span>
+			<a href="/author/austan-kas" class="listing__byline--author">
+				Austan Kas			</a>
+			<span>&mdash; <span class="timeago" title="1545155930"></span></span>
 		</div>
 	</div>
 
@@ -3002,25 +3002,25 @@
 
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
-		<a href="/nfl/news/23504/15-fantasy-football-transactions-for-week-14">
+		<a href="/nfl/lists/23780/5-nfl-stats-to-know-through-week-15">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23504_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23504_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23780_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23780_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 						<h4>
-				<a href="/nfl/news/23504/15-fantasy-football-transactions-for-week-14">
-					15 Fantasy Football Transactions for Week 14				</a>
+				<a href="/nfl/lists/23780/5-nfl-stats-to-know-through-week-15">
+					5 NFL Stats to Know Through Week 15				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
-			<a href="/author/jj-zachariason-1" class="listing__byline--author">
-				JJ Zachariason			</a>
-			<span>&mdash; <span class="timeago" title="1543932300"></span></span>
+			<a href="/author/neil-dutton" class="listing__byline--author">
+				Neil Dutton			</a>
+			<span>&mdash; <span class="timeago" title="1545153620"></span></span>
 		</div>
 	</div>
 
@@ -3028,25 +3028,25 @@
 
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
-		<a href="/nfl/news/23503/fanduel-single-game-daily-fantasy-football-helper-week-13-monday-night">
+		<a href="/nfl/news/23776/week-15-fantasy-football-backfield-report">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23503_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23503_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23776_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23776_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 						<h4>
-				<a href="/nfl/news/23503/fanduel-single-game-daily-fantasy-football-helper-week-13-monday-night">
-					FanDuel Single-Game Daily Fantasy Football Helper: Week 13 Monday Night				</a>
+				<a href="/nfl/news/23776/week-15-fantasy-football-backfield-report">
+					Week 15 Fantasy Football Backfield Report				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
-			<a href="/author/kenyatta-storin" class="listing__byline--author">
-				Kenyatta Storin			</a>
-			<span>&mdash; <span class="timeago" title="1543862865"></span></span>
+			<a href="/author/adam-nessel" class="listing__byline--author">
+				Adam Nessel			</a>
+			<span>&mdash; <span class="timeago" title="1545152353"></span></span>
 		</div>
 	</div>
 
@@ -3054,25 +3054,25 @@
 
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
-		<a href="/nfl/news/23511/nfl-week-13-fanduel-ownership-percentages-spencer-ware-week">
+		<a href="/nfl/lists/23764/3-fantasy-football-defensive-streaming-options-for-week-16">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23511_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23511_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23764_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23764_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
-			<span class="listing--premium"><i class="nf-icon icon-premium"></i>premium</span>			<h4>
-				<a href="/nfl/news/23511/nfl-week-13-fanduel-ownership-percentages-spencer-ware-week">
-					NFL Week 13 FanDuel Ownership Percentages: Spencer Ware Week				</a>
+						<h4>
+				<a href="/nfl/lists/23764/3-fantasy-football-defensive-streaming-options-for-week-16">
+					3 Fantasy Football Defensive Streaming Options for Week 16				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
-			<a href="/author/brandon-gdula" class="listing__byline--author">
-				Brandon Gdula			</a>
-			<span>&mdash; <span class="timeago" title="1543860513"></span></span>
+			<a href="/author/blair-ames" class="listing__byline--author">
+				Blair Ames			</a>
+			<span>&mdash; <span class="timeago" title="1545147146"></span></span>
 		</div>
 	</div>
 
@@ -3080,25 +3080,25 @@
 
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
-		<a href="/nfl/lists/23497/fantasy-football-5-things-we-learned-in-week-13">
+		<a href="/nfl/lists/23763/fantasy-football-3-players-you-can-drop-after-week-15">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23497_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23497_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23763_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23763_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 						<h4>
-				<a href="/nfl/lists/23497/fantasy-football-5-things-we-learned-in-week-13">
-					Fantasy Football: 5 Things We Learned in Week 13				</a>
+				<a href="/nfl/lists/23763/fantasy-football-3-players-you-can-drop-after-week-15">
+					Fantasy Football: 3 Players You Can Drop After Week 15				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
 			<a href="/author/aidan-mcgrath" class="listing__byline--author">
 				Aidan Mcgrath			</a>
-			<span>&mdash; <span class="timeago" title="1543857945"></span></span>
+			<span>&mdash; <span class="timeago" title="1545146935"></span></span>
 		</div>
 	</div>
 
@@ -3106,25 +3106,25 @@
 
 			<article class="listing  w-thumb-left  ">
 	<div class="listing__thumb  ">
-		<a href="/nfl/news/23508/the-20-best-offensive-players-from-week-13">
+		<a href="/nfl/lists/23762/3-fantasy-football-tight-end-streaming-options-for-week-16">
 			<picture>
-				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23508_a13.jpg"
-				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23508_a3.jpg">
+				<img class="article-image" src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23762_a13.jpg"
+				     data-fallback-src="https://d1tjohjvimcqgl.cloudfront.net/website/articles/23762_a3.jpg">
 			</picture>
 		</a>
 			</div>
 	<div class="listing__info">
 		<div class="listing__hed">
 						<h4>
-				<a href="/nfl/news/23508/the-20-best-offensive-players-from-week-13">
-					The 20 Best Offensive Players From Week 13				</a>
+				<a href="/nfl/lists/23762/3-fantasy-football-tight-end-streaming-options-for-week-16">
+					3 Fantasy Football Tight End Streaming Options for Week 16				</a>
 			</h4>
 		</div>
 
 		<div class="listing__byline">
-			<a href="/author/brandon-gdula" class="listing__byline--author">
-				Brandon Gdula			</a>
-			<span>&mdash; <span class="timeago" title="1543857284"></span></span>
+			<a href="/author/dale-redman-1" class="listing__byline--author">
+				Dale Redman			</a>
+			<span>&mdash; <span class="timeago" title="1545144953"></span></span>
 		</div>
 	</div>
 
@@ -3151,6 +3151,45 @@
 	</div>
 
 						<div class="sidebar__comparable-seasons__wrap compare-indiv">
+				<img src="https://d1tjohjvimcqgl.cloudfront.net/category/578165_n.jpg" class="player-image compare-indiv__logo">
+				<div class="compare-indiv__name">
+					<a href="/nfl/players/adam-shaheen">
+						Adam Shaheen					</a>
+					<span>
+						2017-18 Season
+					</span>
+				</div>
+				<div class="compare-indiv__percentage">
+					<span>99.31%</span> match
+				</div>
+			</div>
+								<div class="sidebar__comparable-seasons__wrap compare-indiv">
+				<img src="https://d1tjohjvimcqgl.cloudfront.net/category/532_n.jpg" class="player-image compare-indiv__logo">
+				<div class="compare-indiv__name">
+					<a href="/nfl/players/jake-ballard">
+						Jake Ballard					</a>
+					<span>
+						2013-14 Season
+					</span>
+				</div>
+				<div class="compare-indiv__percentage">
+					<span>99.19%</span> match
+				</div>
+			</div>
+								<div class="sidebar__comparable-seasons__wrap compare-indiv">
+				<img src="https://d1tjohjvimcqgl.cloudfront.net/category/41372_n.jpg" class="player-image compare-indiv__logo">
+				<div class="compare-indiv__name">
+					<a href="/nfl/players/jerame-tuman">
+						Jerame Tuman					</a>
+					<span>
+						2006-07 Season
+					</span>
+				</div>
+				<div class="compare-indiv__percentage">
+					<span>98.80%</span> match
+				</div>
+			</div>
+								<div class="sidebar__comparable-seasons__wrap compare-indiv">
 				<img src="https://d1tjohjvimcqgl.cloudfront.net/category/41291_n.jpg" class="player-image compare-indiv__logo">
 				<div class="compare-indiv__name">
 					<a href="/nfl/players/troy-drayton">
@@ -3160,59 +3199,20 @@
 					</span>
 				</div>
 				<div class="compare-indiv__percentage">
-					<span>97.36%</span> match
+					<span>98.74%</span> match
 				</div>
 			</div>
 								<div class="sidebar__comparable-seasons__wrap compare-indiv">
-				<img src="https://d1tjohjvimcqgl.cloudfront.net/category/41587_n.jpg" class="player-image compare-indiv__logo">
+				<img src="https://d1tjohjvimcqgl.cloudfront.net/category/230_n.jpg" class="player-image compare-indiv__logo">
 				<div class="compare-indiv__name">
-					<a href="/nfl/players/keith-heinrich">
-						Keith Heinrich					</a>
+					<a href="/nfl/players/jermichael-finley">
+						Jermichael Finley					</a>
 					<span>
-						2003-04 Season
+						2010-11 Season
 					</span>
 				</div>
 				<div class="compare-indiv__percentage">
-					<span>97.19%</span> match
-				</div>
-			</div>
-								<div class="sidebar__comparable-seasons__wrap compare-indiv">
-				<img src="https://d1tjohjvimcqgl.cloudfront.net/category/41263_n.jpg" class="player-image compare-indiv__logo">
-				<div class="compare-indiv__name">
-					<a href="/nfl/players/tony-mcgee">
-						Tony McGee					</a>
-					<span>
-						2002-03 Season
-					</span>
-				</div>
-				<div class="compare-indiv__percentage">
-					<span>96.51%</span> match
-				</div>
-			</div>
-								<div class="sidebar__comparable-seasons__wrap compare-indiv">
-				<img src="https://d1tjohjvimcqgl.cloudfront.net/category/41310_n.jpg" class="player-image compare-indiv__logo">
-				<div class="compare-indiv__name">
-					<a href="/nfl/players/alfred-pupunu">
-						Alfred Pupunu					</a>
-					<span>
-						2000-01 Season
-					</span>
-				</div>
-				<div class="compare-indiv__percentage">
-					<span>96.45%</span> match
-				</div>
-			</div>
-								<div class="sidebar__comparable-seasons__wrap compare-indiv">
-				<img src="https://d1tjohjvimcqgl.cloudfront.net/category/41574_n.jpg" class="player-image compare-indiv__logo">
-				<div class="compare-indiv__name">
-					<a href="/nfl/players/matt-cushing">
-						Matt Cushing					</a>
-					<span>
-						2004-05 Season
-					</span>
-				</div>
-				<div class="compare-indiv__percentage">
-					<span>96.40%</span> match
+					<span>97.80%</span> match
 				</div>
 			</div>
 			</div>
@@ -3279,9 +3279,9 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jsrender/0.9.84/jsrender.min.js"></script>
 
             <script type="text/javascript" src="/js/config/prod.js"></script>
-        <script type="text/javascript" src="/js/nF.js?v=461"></script>
-    <script type="text/javascript" src="/dist/fd-login.js?v=461"></script>
-    <script type="text/javascript" src="/dist/scoreboard.js?v=461"></script>
+        <script type="text/javascript" src="/js/nF.js?v=462"></script>
+    <script type="text/javascript" src="/dist/fd-login.js?v=462"></script>
+    <script type="text/javascript" src="/dist/scoreboard.js?v=462"></script>
 
         
     	<script>
@@ -3345,5 +3345,5 @@
 	return t;
 }(document, "script", "twitter-wjs"));</script>
 
-    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":86,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"3da06e65a6","applicationID":"6643306","transactionName":"YwBSZxBTW0FWAUwLDFpKc0YRRlpfGCxeDjxkCVFKB0BGEWcQVwgGVxFZXAxB","queueTime":0,"applicationTime":90,"atts":"T0dREVhJSE8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 </html>
